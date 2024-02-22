@@ -131,13 +131,6 @@ eng_edits_sheet_ID = "1Ab8H_s26EuOiS4nZ6HGADjD4CZw55586LL66fl8tEWI"
 # Mexico specific.
 transl_edits_sheet_ID = "1BuVd7L66tJ8KNW0vZQbujyBagz_coOLQH9kEGQYsFWQ"
 
-# Data used in safeguarding script.
-SG_flow_ID = "b83315a6-b25c-413a-9aa0-953bf60f223c"
-SG_flow_name = "safeguarding_wfr_interaction"
-
-# Path to file containing translated safeguarding words.
-SG_path = "./edits/safeguarding_words.json"
-
 # Names of redirect flows to be modified as part of safeguarding process.
 redirect_flow_names = (
     '['
@@ -146,6 +139,7 @@ redirect_flow_names = (
     '    "safeguarding_redirect_to_topic_trigger"'
     ']'
 )
+
 
 def create_config():
     return {
@@ -162,9 +156,9 @@ def create_config():
         "qr_treatment": qr_treatment,
         "redirect_flow_names": redirect_flow_names,
         "select_phrases": select_phrases,
-        "sg_flow_id": SG_flow_ID,
-        "sg_flow_name": SG_flow_name,
-        "sg_path": SG_path,
+        "sg_flow_id": "b83315a6-b25c-413a-9aa0-953bf60f223c",
+        "sg_flow_name": "safeguarding_wfr_interaction",
+        "sg_sources": None,
         "sources": sources,
         "special_expiration": special_expiration,
         "special_words": special_words,
