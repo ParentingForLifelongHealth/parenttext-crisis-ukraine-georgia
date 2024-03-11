@@ -1,26 +1,22 @@
 # Data sources, IDs of Google Sheets where the core date is stored.
-# Specific for MX.
-localised_sheets = "1yUzKndclwMurTwBgDTzA5ha7xLjj214oZy10KYtjW4U"
+# Specific for PCC.
+localised_sheets = "1M3ohkdFNWzYQdMBdlnPP2_pi3RttKGXAvCUBgYLvuHA"
 
 # Shared with all deployments.
 # Multiple content index for different types of content.
-T_content_ID = "1hcH8pFdiHZN0UvZgyv3Zht9ARBTx-VXhNBI2o8L7fHU"
-T_C_onboarding_ID = "12ddvTz_ZfC-9-b0yxjVrSzczciUUE3GosLUFeOLIv9I"
-C_ltp_activities_ID = "1DVtLMR0gm3tzzgaA0A_1b9iQi8758WJFoGET3WWUCm4"
-#T_delivery_ID = "1yf6T8FsNF5SIS7ktj05Wj7ha_Hkfrf66r63kfUWhJbI"
-C_modules_teen_ID = "1B7A1Gq2yDOLj6QUXy_qMyKb9z27LflapP8dUqc-hb9w"
-C_modules_child_ID = "15Ul-vGzsiDyJ0mL-UaX6hrrmNMyyk0Ef9mXLToE1E3k"
-C_modules_all_ages_ID = "1vX2YP46VI7vGUpKotFeC50suc8R_ljIchgG4DB-GpyA"
-#T_C_menu_ID = "1lf80mIiuv_F6xAa9j5zGvXas50WxdSsLj6vrPccGNwY"
-C_goal_checkin_ID = "1THwfwrNO_sZD9QWQnvvJD3hT-ljH89eKRaljCGPOxFE"
-C_dev_asess_tool_ID = "1qOkXiNI9HdWHx-rmoyDCiMkF7eFO7HSOqtZMce0OH1M"
-safeguarding = "1PHgUhJnZdE0lK6C9teK-hwA6Tf-6Pgj1_OVdxoTgVOA"
-edited_delivery = "1q6E2c4Bg_UvqTmhxAsTIQngwAtj0aFoqu8wsPHnqmaU"
-edited_delivery_data_course = "1q-9qIiokIKImxIk9BNlJXM5PAigOCsP8FIbXmh0MZRg"
-edited_delivery_data_common = "18OWRh0YPewa2nt43JrVBqCqbfUFOHwcL1Uc2FdZEfbk"
-edited_menu = "1lIiFjZKS0eXzzo6XwDdqYv4e1A73WFCpWZg5ju-tCZE"
-edited_menu_data_course = "1lwmMa18SM7bUR-og__daYgDNlEfwnj-KtLjC7Cw-EHo"
-edited_menu_data_common = "1maT0rZGZjm1cyqyr1U6wI3HULiVVyTEV0xqjkkXki8c"
+T_content = "1hcH8pFdiHZN0UvZgyv3Zht9ARBTx-VXhNBI2o8L7fHU"
+N_onboarding_data = "1NujmHWbalM74U0Yl370MABtoYp6vfusUsrpq9a80n2Q"
+T_onboarding = "1Sl0Jl_N4cGQi2INmE_EnX_aYUMUrUB6cKbuWVPzirtY"
+C_ltp_activities ="1P8OmAMo7_KPVDGSBScRB6ml2e4psCeKS3deG75NFllw"
+C_modules_all_ages = "1kGl23QMmUHPUamKxMkNqivYi2zESE7hKX6xkL-WnEM0"
+N_safeguarding_data = "1da7Kiw8KJXc026Ydq0lp52m7nP3TjoyWTHuxa74u5Tg"
+T_safeguarding = "1bWOyM5yShTTJSaxwqRCrjUzkwbp7DF6_nSF_96YcZ2c"
+#safeguarding = "1PHgUhJnZdE0lK6C9teK-hwA6Tf-6Pgj1_OVdxoTgVOA"
+T_delivery = "1q6E2c4Bg_UvqTmhxAsTIQngwAtj0aFoqu8wsPHnqmaU"
+N_delivery_data_response = "1W5Z0usyFcxZo85nXjSbjUj0-mjf7bG646w0BCwlO1pU"
+T_menu = "1lIiFjZKS0eXzzo6XwDdqYv4e1A73WFCpWZg5ju-tCZE"
+N_menu_data_response = "1Mg1MuS3p2FNMVJl9Qu9ouU9rjzOrPiF3HWleMKHPK3Y"
+N_menu_data_common = "1maT0rZGZjm1cyqyr1U6wI3HULiVVyTEV0xqjkkXki8c"
 
 # "filename" is how it will be generally named in the pipeline.
 #
@@ -44,27 +40,26 @@ sources = [
     {
         "filename": "parenttext_all",
         "spreadsheet_ids": [
-            T_C_onboarding_ID,
-            C_ltp_activities_ID,
-            C_modules_all_ages_ID,
-            C_modules_teen_ID,
-            C_modules_child_ID,
-            C_goal_checkin_ID,
-            T_content_ID,
-            C_dev_asess_tool_ID,
-            safeguarding,
-            edited_delivery_data_common,
-            edited_delivery_data_course,
-            edited_delivery,
-            edited_menu_data_common,
-            edited_menu_data_course,
-            edited_menu,
+            N_onboarding_data,
+            T_onboarding,
+            C_ltp_activities,
+            C_modules_all_ages,
+            T_content,
+            N_safeguarding_data,
+            T_safeguarding,
+            #safeguarding, #replace with new version
+            N_delivery_data_response,
+            T_delivery,
+            N_menu_data_common,
+            N_menu_data_response,
+            T_menu,
             localised_sheets
         ],
         # "archive": "parenttext_all.zip",
         #"archive": "https://drive.usercontent.google.com/download?id=1V9fQZ9ZrzwRkQWBtlHJ1it0Fe3hdtHs2&export=download&authuser=0&confirm=t&uuid=f9d65ff1-b210-4b61-a030-cd4a231c22ca&at=APZUnTVzz2FLSi1riCmRjCFI5vCx:1696348063599",  # noqa: E501
-        "crowdin_name": "onboarding",
-        "tags": [4,"course"],
+        "crowdin_name": "ltp_activity",
+        "tags": [1, "ltp_activity",4,"response"],
+        #"tags": [1,"onboarding",1, "safeguarding",1,"delivery",4,"response"],
         "split_no": 1
     },
 ]
@@ -79,13 +74,14 @@ model = "models.parenttext_models"
 # Languages that will be looked for to localize back into the flows, "language" is the
 # 3-letter code used in RapidPro, "code" is the 2 letter code used in CrowdIn.
 languages = [
-    {"language": "spa", "code": "es"}
+    {"language": "eng", "code": "en"},
+    {"language": "fra", "code": "fr"}
 ]
 
 # Location where translations are stored, at the moment pointing to a locally cloned
 # repo, should maybe be adapted so we can provide a link to an online repo.
 translation_repo = "https://github.com/IDEMSInternational/plh-digital-content"
-folder_within_repo = "translations/parent_text_v2_mexico"
+folder_within_repo = "translations/parent_text_crisis_global"
 
 # In one of the latter stages we have the option to modify the quick replies:
 # 1 - We may want to remove the quick replies and add them to message text and give
@@ -122,14 +118,14 @@ length_threshold = "18"
 # Google Sheet ID containing AB testing data.
 # Same for all deployments.
 ab_testing_sheet_ID = "1i_oqiJYkeoMsYdeFOcKlvvjnNCEdQnZlsm17fgNvK0s"
-# Mexico specific.
-localisation_sheet_ID = "1Apht9nmImLIdLXSM2FnRWAdtwu4fraRWztHwL67QMe8"
+# Crisis specific.
+localisation_sheet_ID = "1cyPKUKEkAgaxZMQAVdLqDt9OBEjYXHV2ciIzGKdRfd0" #remove??
 
 # Google Sheet ID containing dict edits data.
 # Same for all deployments.
 eng_edits_sheet_ID = "1Ab8H_s26EuOiS4nZ6HGADjD4CZw55586LL66fl8tEWI"
-# Mexico specific.
-transl_edits_sheet_ID = "1BuVd7L66tJ8KNW0vZQbujyBagz_coOLQH9kEGQYsFWQ"
+# Crisis specific.
+transl_edits_sheet_ID = "1QxkFWdy56WDHopeHysRVDpEJdDA_b_dKFVQqaMCftrU"
 
 # Data used in safeguarding script.
 SG_flow_ID = "b83315a6-b25c-413a-9aa0-953bf60f223c"
@@ -142,7 +138,7 @@ SG_path = "./edits/safeguarding_words.json"
 redirect_flow_names = (
     '['
     '    "safeguarding_redirect_to_topic_all", '
-    '    "safeguarding_redirect_to_topic_highrisk", '
+    '    "safeguarding_redirect_to_topic_start", '
     '    "safeguarding_redirect_to_topic_trigger"'
     ']'
 )
