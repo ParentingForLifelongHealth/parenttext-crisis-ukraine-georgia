@@ -11,7 +11,6 @@ C_ltp_activities ="1P8OmAMo7_KPVDGSBScRB6ml2e4psCeKS3deG75NFllw"
 C_modules_all_ages = "1kGl23QMmUHPUamKxMkNqivYi2zESE7hKX6xkL-WnEM0"
 N_safeguarding_data = "1da7Kiw8KJXc026Ydq0lp52m7nP3TjoyWTHuxa74u5Tg"
 T_safeguarding = "1bWOyM5yShTTJSaxwqRCrjUzkwbp7DF6_nSF_96YcZ2c"
-#safeguarding = "1PHgUhJnZdE0lK6C9teK-hwA6Tf-6Pgj1_OVdxoTgVOA"
 T_delivery = "1q6E2c4Bg_UvqTmhxAsTIQngwAtj0aFoqu8wsPHnqmaU"
 N_delivery_data_response = "1W5Z0usyFcxZo85nXjSbjUj0-mjf7bG646w0BCwlO1pU"
 T_menu = "1lIiFjZKS0eXzzo6XwDdqYv4e1A73WFCpWZg5ju-tCZE"
@@ -47,7 +46,6 @@ sources = [
             T_content,
             N_safeguarding_data,
             T_safeguarding,
-            #safeguarding, #replace with new version
             N_delivery_data_response,
             T_delivery,
             N_menu_data_common,
@@ -57,11 +55,11 @@ sources = [
         ],
         # "archive": "parenttext_all.zip",
         #"archive": "https://drive.usercontent.google.com/download?id=1V9fQZ9ZrzwRkQWBtlHJ1it0Fe3hdtHs2&export=download&authuser=0&confirm=t&uuid=f9d65ff1-b210-4b61-a030-cd4a231c22ca&at=APZUnTVzz2FLSi1riCmRjCFI5vCx:1696348063599",  # noqa: E501
-        "crowdin_name": "ltp_activity",
-        "tags": [1, "ltp_activity",4,"response"],
+        "crowdin_name": "onboarding",
+        "tags": [1,"onboarding",4,"response"],
         #"tags": [1,"onboarding",1, "safeguarding",1,"delivery",4,"response"],
         "split_no": 1
-    },
+    }
 ]
 
 # Data used when modifying expiration times.
@@ -74,7 +72,6 @@ model = "models.parenttext_models"
 # Languages that will be looked for to localize back into the flows, "language" is the
 # 3-letter code used in RapidPro, "code" is the 2 letter code used in CrowdIn.
 languages = [
-    {"language": "eng", "code": "en"},
     {"language": "fra", "code": "fr"}
 ]
 
@@ -154,7 +151,12 @@ def create_config():
         "select_phrases": select_phrases,
         "sg_flow_id": "b83315a6-b25c-413a-9aa0-953bf60f223c",
         "sg_flow_name": "safeguarding_wfr_interaction",
-        "sg_sources": None,
+        "sg_sources": [
+            {
+               "key": "fra",
+               "path": "excel_files/safeguarding crisis.xlsx",
+            }
+        ],
         "sources": sources,
         "special_expiration": special_expiration,
         "special_words": special_words,
