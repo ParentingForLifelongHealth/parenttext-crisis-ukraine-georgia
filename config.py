@@ -1,6 +1,7 @@
 # Data sources, IDs of Google Sheets where the core date is stored.
 # Specific for PCC.
-localised_sheets = "1M3ohkdFNWzYQdMBdlnPP2_pi3RttKGXAvCUBgYLvuHA"
+crisis_sheets = "1M3ohkdFNWzYQdMBdlnPP2_pi3RttKGXAvCUBgYLvuHA"
+deployment_localised_sheets = "1D7MbP-T0Iq019TJ6csi3UdOwKQp-EOX2JEPPcDThj0M"
 
 # Shared with all deployments.
 # Multiple content index for different types of content.
@@ -15,7 +16,6 @@ T_delivery = "1q6E2c4Bg_UvqTmhxAsTIQngwAtj0aFoqu8wsPHnqmaU"
 N_delivery_data_response = "1W5Z0usyFcxZo85nXjSbjUj0-mjf7bG646w0BCwlO1pU"
 T_menu = "1lIiFjZKS0eXzzo6XwDdqYv4e1A73WFCpWZg5ju-tCZE"
 N_menu_data_response = "1Mg1MuS3p2FNMVJl9Qu9ouU9rjzOrPiF3HWleMKHPK3Y"
-N_menu_data_common = "1maT0rZGZjm1cyqyr1U6wI3HULiVVyTEV0xqjkkXki8c"
 
 # "filename" is how it will be generally named in the pipeline.
 #
@@ -48,16 +48,15 @@ sources = [
             T_safeguarding,
             N_delivery_data_response,
             T_delivery,
-            N_menu_data_common,
             N_menu_data_response,
             T_menu,
-            localised_sheets
+            crisis_sheets,
+            deployment_localised_sheets
         ],
         # "archive": "parenttext_all.zip",
         #"archive": "https://drive.usercontent.google.com/download?id=1V9fQZ9ZrzwRkQWBtlHJ1it0Fe3hdtHs2&export=download&authuser=0&confirm=t&uuid=f9d65ff1-b210-4b61-a030-cd4a231c22ca&at=APZUnTVzz2FLSi1riCmRjCFI5vCx:1696348063599",  # noqa: E501
         "crowdin_name": "module",
-        "tags": [4,"response"],
-        #"tags": [1,"onboarding",1, "safeguarding",1,"delivery",4,"response"],
+        "tags": [4,"response"]
         "split_no": 1
     }
 ]
@@ -116,7 +115,7 @@ length_threshold = "18"
 # Same for all deployments.
 ab_testing_sheet_ID = "1i_oqiJYkeoMsYdeFOcKlvvjnNCEdQnZlsm17fgNvK0s"
 # Crisis specific.
-localisation_sheet_ID = "1cyPKUKEkAgaxZMQAVdLqDt9OBEjYXHV2ciIzGKdRfd0" #remove??
+localisation_sheet_ID = "" #remove??
 
 # Google Sheet ID containing dict edits data.
 # Same for all deployments.
