@@ -1,0 +1,405 @@
+{
+  "meta": {
+    "version": "0.1.0"
+  },
+  "sheets": {
+    "content_index": [
+      {
+        "type": "data_sheet",
+        "sheet_name": "goal_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "GoalDataModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "module_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "ModuleDataModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "goal_topic_link",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "GoalTopicLinkModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "wa_templates",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "WhatsappTemplateModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "webhook_settings",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "WebhookSettingsModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "local_default_contact_fields_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "VariableModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "default_contact_fields_data;\nlocal_default_contact_fields_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "default_contact_fields_data",
+        "data_model": "",
+        "template_arguments": "",
+        "operation": "concat",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "create_triggers",
+        "sheet_name": "local_triggers",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "trigger",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "settings_lang_profile_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "SettingsProfileModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      }
+    ],
+    "local_default_contact_fields_data": [
+      {
+        "ID": "deployment_name",
+        "name": "deployment",
+        "value": "Crisis"
+      }
+    ],
+    "webhook_settings": [
+      {
+        "ID": "content_delivery",
+        "url": "https://rapidpro-next.idems.international/goals/crisis/",
+        "token": ""
+      },
+      {
+        "ID": "certificate",
+        "url": "NA",
+        "token": ""
+      }
+    ],
+    "wa_templates": [
+      {
+        "ID": "daily_interaction",
+        "name": "daily_interaction",
+        "uuid": "2831b64f-c9a9-47d9-9a50-f5fdf0939607"
+      },
+      {
+        "ID": "first_module_intro",
+        "name": "first_module_intro",
+        "uuid": "a05091c4-f68f-42fd-bb48-444db89694b9"
+      },
+      {
+        "ID": "start_started_mod_or_later_multiple",
+        "name": "start_started_mod_or_later_multiple",
+        "uuid": "61c277d5-a5c0-49df-8875-7f927a236a0c"
+      },
+      {
+        "ID": "start_started_mod_or_later_one",
+        "name": "start_started_mod_or_later_single",
+        "uuid": "c2c5d2d8-bc44-438b-8a28-67613a2b6757"
+      },
+      {
+        "ID": "unfinished_onboarding",
+        "name": "unfinished_onboarding",
+        "uuid": "b129e0f6-6697-444c-b1d1-652a56832d2d"
+      },
+      {
+        "ID": "no_response",
+        "name": "no_response",
+        "uuid": "41bc4999-915f-443c-854c-b17a90c82ce0"
+      },
+      {
+        "ID": "complete_start_module",
+        "name": "complete_start_module",
+        "uuid": "2a1c42a2-1469-4f8b-867c-707c9d3e4090"
+      }
+    ],
+    "local_triggers": [
+      {
+        "type": "K",
+        "keywords": "aide",
+        "match_type": "O",
+        "flow": "uncaught_message_flow",
+        "groups": ""
+      },
+      {
+        "type": "K",
+        "keywords": "arrêt",
+        "match_type": "O",
+        "flow": "uncaught_message_flow",
+        "groups": ""
+      },
+      {
+        "type": "K",
+        "keywords": "jouer",
+        "match_type": "O",
+        "flow": "uncaught_message_flow",
+        "groups": ""
+      },
+      {
+        "type": "K",
+        "keywords": "commencer",
+        "match_type": "O",
+        "flow": "uncaught_message_flow",
+        "groups": ""
+      }
+    ],
+    "settings_lang_profile_data": [
+      {
+        "ID": "language",
+        "current_info_msg": "You are currently receiving messages in",
+        "missing.msg": "You didn't provide this info.",
+        "update_inquiry": "Would you like to change your language?",
+        "update_var_flow": "onboarding_question_language - menu",
+        "update_prog_var_flow": "",
+        "variable": "@contact.language",
+        "missing.value": "",
+        "var.1.val": "eng",
+        "var.1.alias": "English",
+        "var.2.val": "fra",
+        "var.2.alias": "French",
+        "var.3.val": "",
+        "var.3.alias": "",
+        "var.4.val": "",
+        "var.4.alias": "",
+        "var.5.val": "",
+        "var.5.alias": ""
+      }
+    ],
+    "goal_data": [
+      {
+        "ID": "core",
+        "priority_c": "1",
+        "relationship": "yes|no",
+        "name_c.eng": "Tips",
+        "name_c.fra": "Tips"
+      }
+    ],
+    "module_data": [
+      {
+        "ID": "care_for_yourself",
+        "topic_ID": "care_for_yourself",
+        "priority_in_topic": "",
+        "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
+        "child_gender": "male|female",
+        "name.eng": "Care for Yourself",
+        "name.fra": "Prendre soin de Vous-même"
+      },
+      {
+        "ID": "make_a_routine",
+        "topic_ID": "make_a_routine",
+        "priority_in_topic": "",
+        "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
+        "child_gender": "male|female",
+        "name.eng": "Make a Routine for Time Together",
+        "name.fra": "Instaurer des habitudes pour passer du temps ensemble"
+      },
+      {
+        "ID": "help_children_cope",
+        "topic_ID": "help_children_cope",
+        "priority_in_topic": "",
+        "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
+        "child_gender": "male|female",
+        "name.eng": "Help Children Cope with Crisis",
+        "name.fra": "Aider les Enfants à Faire Face à une Crise"
+      },
+      {
+        "ID": "when_someone_dies",
+        "topic_ID": "when_someone_dies",
+        "priority_in_topic": "",
+        "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
+        "child_gender": "male|female",
+        "name.eng": "Help our Children when Someone Dies",
+        "name.fra": "Aider nos Enfants lors du Décès d'une Personne"
+      },
+      {
+        "ID": "protect_sexual_violence",
+        "topic_ID": "protect_sexual_violence",
+        "priority_in_topic": "",
+        "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
+        "child_gender": "male|female",
+        "name.eng": "Protect our Children from Sexual Violence",
+        "name.fra": "Protéger nos Enfants des Violences Sexuelles"
+      },
+      {
+        "ID": "keep_children_safe",
+        "topic_ID": "keep_children_safe",
+        "priority_in_topic": "",
+        "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
+        "child_gender": "male|female",
+        "name.eng": "Keep Children Safe",
+        "name.fra": "Assurer la Sécurité des Enfants"
+      },
+      {
+        "ID": "prepare_to_travel",
+        "topic_ID": "prepare_to_travel",
+        "priority_in_topic": "",
+        "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
+        "child_gender": "male|female",
+        "name.eng": "Prepare to Travel",
+        "name.fra": "Préparer son Voyage"
+      },
+      {
+        "ID": "travel_safely",
+        "topic_ID": "travel_safely",
+        "priority_in_topic": "",
+        "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
+        "child_gender": "male|female",
+        "name.eng": "Travel Safely",
+        "name.fra": "Voyager en toute Sécurité"
+      },
+      {
+        "ID": "protect_from_traffickers",
+        "topic_ID": "protect_from_traffickers",
+        "priority_in_topic": "",
+        "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
+        "child_gender": "male|female",
+        "name.eng": "Protect Your Children from Traffickers",
+        "name.fra": "Protégez Vos Enfants des Trafiquants"
+      },
+      {
+        "ID": "care_in_a_shelter",
+        "topic_ID": "care_in_a_shelter",
+        "priority_in_topic": "",
+        "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
+        "child_gender": "male|female",
+        "name.eng": "Care for your Children in a Shelter",
+        "name.fra": "S'occuper de ses Enfants dans un Centre d'Hébergement"
+      }
+    ],
+    "goal_topic_link": [
+      {
+        "ID": "care_for_yourself",
+        "goal_id_c": "core",
+        "priority_in_goal_c": "01"
+      },
+      {
+        "ID": "make_a_routine",
+        "goal_id_c": "core",
+        "priority_in_goal_c": "02"
+      },
+      {
+        "ID": "help_children_cope",
+        "goal_id_c": "core",
+        "priority_in_goal_c": "03"
+      },
+      {
+        "ID": "when_someone_dies",
+        "goal_id_c": "core",
+        "priority_in_goal_c": "04"
+      },
+      {
+        "ID": "protect_sexual_violence",
+        "goal_id_c": "core",
+        "priority_in_goal_c": "05"
+      },
+      {
+        "ID": "keep_children_safe",
+        "goal_id_c": "core",
+        "priority_in_goal_c": "06"
+      },
+      {
+        "ID": "prepare_to_travel",
+        "goal_id_c": "core",
+        "priority_in_goal_c": "07"
+      },
+      {
+        "ID": "travel_safely",
+        "goal_id_c": "core",
+        "priority_in_goal_c": "08"
+      },
+      {
+        "ID": "protect_from_traffickers",
+        "goal_id_c": "core",
+        "priority_in_goal_c": "09"
+      },
+      {
+        "ID": "care_in_a_shelter",
+        "goal_id_c": "core",
+        "priority_in_goal_c": "10"
+      }
+    ]
+  }
+}
