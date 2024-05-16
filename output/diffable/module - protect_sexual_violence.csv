@@ -1,0 +1,7 @@
+row_id,type,edges.1.from,message_text,choices.1
+msg.Todays_tip_is_a,send_message,start,"Today's tip is about protecting our children from sexual violence. 
+
+During difficult times, children are more likely to face dangers like sexual violence.
+
+Sexual violence means someone is forced into sexual activities they don't want to do.",NEXT
+switch.input_text,wait_for_response,msg.Todays_tip_is_a,,

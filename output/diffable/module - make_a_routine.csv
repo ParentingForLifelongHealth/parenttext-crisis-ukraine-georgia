@@ -1,0 +1,5 @@
+row_id,type,edges.1.from,message_text,choices.1
+msg.Todays_tip_is_a,send_message,start,"Today's tip is about making a routine for your children. 
+
+When we are in crisis, things can feel unfamiliar. Having routines helps your children feel safe and stable.",NEXT
+switch.input_text,wait_for_response,msg.Todays_tip_is_a,,

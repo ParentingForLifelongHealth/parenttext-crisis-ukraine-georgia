@@ -1,0 +1,5 @@
+row_id,type,edges.1.from,message_text,choices.1
+msg.Planning_to_lea,send_message,start,"Planning to leave your home during a crisis can be hard because you might not have much time to be ready. 
+
+There are ways to make sure you have what you need to keep your children safe while travelling.",NEXT
+switch.input_text,wait_for_response,msg.Planning_to_lea,,

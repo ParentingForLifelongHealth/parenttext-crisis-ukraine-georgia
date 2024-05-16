@@ -1,0 +1,31 @@
+row_id,type,edges.1.from,message_text,save_name
+set_contact_field.completed_langu,save_value,start,,completed language
+set_contact_language.language,set_contact_language,set_contact_field.completed_langu,eng,
+set_contact_field.consent,save_value,set_contact_language.language,,consent
+set_contact_field.completed_conse,save_value,set_contact_field.consent,,completed consent
+set_contact_field.completed_emoji,save_value,set_contact_field.completed_conse,,completed emojis
+set_contact_field.completed_media,save_value,set_contact_field.completed_emoji,,completed media
+set_contact_field.completed_orien,save_value,set_contact_field.completed_media,,completed orientation
+set_contact_field.completed_timin,save_value,set_contact_field.completed_orien,,completed timing
+set_contact_field.completed_gende,save_value,set_contact_field.completed_timin,,completed gender
+set_contact_field.completed_marit,save_value,set_contact_field.completed_gende,,completed marital status
+set_contact_field.completed_child,save_value,set_contact_field.completed_marit,,completed child age
+set_contact_field.completed_child.1,save_value,set_contact_field.completed_child,,completed child name
+remove_contact_groups.completed_progr,remove_from_group,set_contact_field.completed_child.1,completed program|,
+remove_contact_groups.enrolled,remove_from_group,remove_contact_groups.completed_progr,enrolled|,
+remove_contact_groups.left_program,remove_from_group,remove_contact_groups.enrolled,left program|,
+remove_contact_groups.in_program,remove_from_group,remove_contact_groups.left_program,in program|,
+set_contact_field.goals_to_start,save_value,remove_contact_groups.in_program,,goals to start
+set_contact_field.goals_started,save_value,set_contact_field.goals_to_start,,goals started
+set_contact_field.goals_accessed,save_value,set_contact_field.goals_started,,goals accessed
+set_contact_field.goals_compl,save_value,set_contact_field.goals_accessed,,goals compl
+set_contact_field.pre_goal_checki,save_value,set_contact_field.goals_compl,,pre goal checkin compl
+set_contact_field.n_goals_prog,save_value,set_contact_field.pre_goal_checki,,n goals prog
+set_contact_field.n_goals_to_star,save_value,set_contact_field.n_goals_prog,,n goals to start
+set_contact_field.n_goals_complet,save_value,set_contact_field.n_goals_to_star,,n goals completed
+set_contact_field.n_goals_started,save_value,set_contact_field.n_goals_complet,,n goals started
+set_contact_field.assigned_resear,save_value,set_contact_field.n_goals_started,,assigned research id
+set_contact_field.research_id,save_value,set_contact_field.assigned_resear,,research id
+set_contact_field.completion_time,save_value,set_contact_field.research_id,,completion time
+set_contact_field.curr_demo_day,save_value,set_contact_field.completion_time,,curr demo day
+msg.Variables_have_,send_message,set_contact_field.curr_demo_day,Variables have been reset,

@@ -1,0 +1,7 @@
+row_id,type,edges.1.from,message_text,choices.1
+msg.Todays_tip_is_a,send_message,start,"Today's tip is about helping your children when someone dies. 
+
+Losing a loved one is painful for everyone, including children. 
+
+Children may feel overwhelmed and upset when someone dies.",NEXT
+switch.input_text,wait_for_response,msg.Todays_tip_is_a,,

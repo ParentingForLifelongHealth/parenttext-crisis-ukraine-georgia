@@ -1,0 +1,5 @@
+row_id,type,edges.1.from,message_text,choices.1
+msg.Before_we_begin,send_message,start,"Before we begin today's lesson, let's take a pause together. 
+
+Sometimes when we are experiencing stress or feeling alone, it can be helpful to send thoughts of loving kindness to ourselves.",NEXT
+switch.input_text,wait_for_response,msg.Before_we_begin,,

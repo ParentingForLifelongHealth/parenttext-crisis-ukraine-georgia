@@ -1,0 +1,16 @@
+row_id,type,edges.1.from,edges.2.from,edges.1.condition,message_text,save_name
+set_contact_field.filter_expressi,save_value,start,,,"'@(if(fields.child_gender!=""no"",fields.child_gender,""female""))' in child_gender and @fields.child_age in age",filter expression
+switch.results_Result_,split_by_value,set_contact_field.filter_expressi,,,@results.Result.category,
+set_contact_field.goal_core_mod_t,save_value,switch.results_Result_,,value;Success|variable;@results.Result.category|type;has_only_text|name;Success,@webhook.text,goal core mod to start
+msg.fail,send_message,switch.results_Result_,,,fail,
+set_contact_field.goal_core_n_mod,save_value,set_contact_field.goal_core_mod_t,msg.fail,,@(word_count(fields.goal_core_mod_to_start)),goal core n mod
+set_contact_field.goal_core_mod_s,save_value,set_contact_field.goal_core_n_mod,,,,goal core mod started
+set_contact_field.goal_core_mod_c,save_value,set_contact_field.goal_core_mod_s,,,,goal core mod compl
+set_contact_field.goal_core_n_mod.1,save_value,set_contact_field.goal_core_mod_c,,,0,goal core n mod compl
+set_contact_field.goal_core_n_mod.2,save_value,set_contact_field.goal_core_n_mod.1,,,0,goal core n mod started
+set_contact_field.goal_core_check,save_value,set_contact_field.goal_core_n_mod.2,,,,goal core checkins to start
+switch.results_Result_.1,split_by_value,set_contact_field.goal_core_check,,,@results.Result.category,
+set_run_result.checkin,save_flow_result,switch.results_Result_.1,,value;Success|variable;@results.Result.category|type;has_only_text|name;Success,@webhook.text,checkin
+set_run_result.checkin.1,save_flow_result,switch.results_Result_.1,,,"""core""",checkin
+set_contact_field.goal_core_check.1,save_value,set_run_result.checkin,set_run_result.checkin.1,,@results.checkin,goal core checkin id
+flow.update_curr_goa,start_new_flow,set_contact_field.goal_core_check.1,,,update_curr_goal_var - core,

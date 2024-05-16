@@ -1,0 +1,35 @@
+row_id,type,edges.1.from,edges.2.from,edges.3.from,edges.1.condition,message_text,save_name
+switch.fields_marital_,split_by_value,start,,,,@fields.marital_status,
+set_contact_field.get_ipv_content,save_value,switch.fields_marital_,,,value;Married	Partnered|variable;@fields.marital_status|type;has_any_word|name;relationship,yes,get ipv content
+set_contact_field.get_ipv_content.1,save_value,switch.fields_marital_,,,,no,get ipv content
+switch.fields_child_ag,split_by_value,set_contact_field.get_ipv_content,set_contact_field.get_ipv_content.1,,,@fields.child_age,
+set_contact_field.content_group_i,save_value,switch.fields_child_ag,,,value;10|variable;@fields.child_age|type;has_number_lt|name;10,c,content group id
+set_contact_field.content_group_i.1,save_value,switch.fields_child_ag,,,value;18|variable;@fields.child_age|type;has_number_lt|name;18,t,content group id
+switch.fields_child_ag.1,split_by_value,set_contact_field.content_group_i,set_contact_field.content_group_i.1,switch.fields_child_ag,,@fields.child_age,
+set_contact_field.naming_group_id,save_value,switch.fields_child_ag.1,,,value;10|variable;@fields.child_age|type;has_number_lt|name;10,c,naming group id
+set_contact_field.naming_group_id.1,save_value,switch.fields_child_ag.1,,,value;18|variable;@fields.child_age|type;has_number_lt|name;18,t,naming group id
+set_contact_field.filter_expressi,save_value,set_contact_field.naming_group_id,set_contact_field.naming_group_id.1,switch.fields_child_ag.1,,'@fields.get_ipv_content' in relationship,filter expression
+switch.results_Result_,split_by_value,set_contact_field.filter_expressi,,,,@results.Result.category,
+set_contact_field.goals_to_start,save_value,switch.results_Result_,,,value;Success|variable;@results.Result.category|type;has_only_text|name;Success,@webhook.text,goals to start
+msg.fail,send_message,switch.results_Result_,,,,fail,
+set_contact_field.full_goal_list,save_value,set_contact_field.goals_to_start,msg.fail,,,@fields.goals_to_start,full goal list
+set_contact_field.goals_started,save_value,set_contact_field.full_goal_list,,,,,goals started
+set_contact_field.goals_accessed,save_value,set_contact_field.goals_started,,,,,goals accessed
+set_contact_field.goals_compl,save_value,set_contact_field.goals_accessed,,,,,goals compl
+set_contact_field.pre_goal_checki,save_value,set_contact_field.goals_compl,,,,,pre goal checkin compl
+set_contact_field.n_goals_prog,save_value,set_contact_field.pre_goal_checki,,,,@(word_count(fields.goals_to_start)),n goals prog
+set_contact_field.n_goals_to_star,save_value,set_contact_field.n_goals_prog,,,,@(word_count(fields.goals_to_start)),n goals to start
+set_contact_field.n_goals_complet,save_value,set_contact_field.n_goals_to_star,,,,0,n goals completed
+set_contact_field.n_goals_started,save_value,set_contact_field.n_goals_complet,,,,0,n goals started
+set_contact_field.filter_expressi.1,save_value,set_contact_field.n_goals_started,,,,'quick' in [a.lower() for a in act_type] and @fields.child_age in act_age,filter expression
+switch.results_Result_.1,split_by_value,set_contact_field.filter_expressi.1,,,,@results.Result.category,
+set_contact_field.c_quick_act,save_value,switch.results_Result_.1,,,value;Success|variable;@results.Result.category|type;has_only_text|name;Success,@webhook.text,c quick act
+msg.fail.1,send_message,switch.results_Result_.1,,,,fail,
+set_contact_field.filter_expressi.2,save_value,set_contact_field.c_quick_act,msg.fail.1,,,'active' in [a.lower() for a in act_type] and @fields.child_age in act_age,filter expression
+switch.results_Result_.2,split_by_value,set_contact_field.filter_expressi.2,,,,@results.Result.category,
+set_contact_field.c_active_act,save_value,switch.results_Result_.2,,,value;Success|variable;@results.Result.category|type;has_only_text|name;Success,@webhook.text,c active act
+msg.fail.2,send_message,switch.results_Result_.2,,,,fail,
+set_contact_field.filter_expressi.3,save_value,set_contact_field.c_active_act,msg.fail.2,,,'calm' in [a.lower() for a in act_type] and @fields.child_age in act_age,filter expression
+switch.results_Result_.3,split_by_value,set_contact_field.filter_expressi.3,,,,@results.Result.category,
+set_contact_field.c_calm_act,save_value,switch.results_Result_.3,,,value;Success|variable;@results.Result.category|type;has_only_text|name;Success,@webhook.text,c calm act
+msg.fail.3,send_message,switch.results_Result_.3,,,,fail,

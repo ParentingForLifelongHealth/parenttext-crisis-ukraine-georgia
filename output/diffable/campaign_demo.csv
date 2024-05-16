@@ -1,0 +1,5 @@
+row_id,type,edges.1.from,edges.1.condition,message_text,save_name
+switch.contact_groups,split_by_group,start,,enrolled|,
+set_contact_field.curr_demo_day,save_value,switch.contact_groups,value;enrolled|,"@(if(is_error(fields.curr_demo_day +1),2,fields.curr_demo_day +1))",curr demo day
+msg.DAY_fields_curr,send_message,set_contact_field.curr_demo_day,,*DAY @fields.curr_demo_day*,
+switch.fields_curr_dem,split_by_value,msg.DAY_fields_curr,,"@(fields.curr_demo_day - word_slice(fields.demo_day_last_goal_completed,0,1))",

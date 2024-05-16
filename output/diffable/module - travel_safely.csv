@@ -1,0 +1,5 @@
+row_id,type,edges.1.from,message_text,choices.1
+msg.Having_to_trave,send_message,start,"Having to travel with children during a crisis can feel scary and hard. 
+
+There are ways to help keep your children away from harm while you are on the move.",NEXT
+switch.input_text,wait_for_response,msg.Having_to_trave,,

@@ -1,0 +1,5 @@
+row_id,type,edges.1.from,message_text,choices.1
+msg.Todays_tip_is_a,send_message,start,"Today's tip is about caring for yourself. 
+
+In tough times like these, it's normal to feel overwhelmed. Remember, it is important to take a moment for yourself, no matter how small.",NEXT
+switch.input_text,wait_for_response,msg.Todays_tip_is_a,,

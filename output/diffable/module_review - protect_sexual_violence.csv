@@ -1,0 +1,18 @@
+row_id,type,edges.1.from,message_text,choices.1,image
+msg.Todays_tip_is_a,send_message,start,"Today's tip is about protecting our children from sexual violence. 
+
+During difficult times, children are more likely to face dangers like sexual violence.
+
+Sexual violence means someone is forced into sexual activities they don't want to do.",,
+msg.By_listening_in,send_message,msg.Todays_tip_is_a,"By listening in a supportive way and talking openly with your children, you are helping them to stay as safe and well as possible.",,
+msg.Here_are_3_tips,send_message,msg.By_listening_in,Here are 3️⃣ tips for protecting your child from sexual violence: ,,
+msg.1_NO_IS_OKTeach,send_message,msg.Here_are_3_tips,"1️⃣ *NO IS OK!*
+
+Teach your child that no one has the right to touch them or make them uncomfortable.
+
+Practice saying ""no"" loudly and strongly together. 
+
+Remember, you can do this with words and with body. 
+
+Talking about this with your child helps protect them.",NEXT,"@(fields.image_path & ""crises_teen_5.jpg.jpg"")"
+switch.input_text,wait_for_response,msg.1_NO_IS_OKTeach,,,

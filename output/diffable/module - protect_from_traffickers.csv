@@ -1,0 +1,3 @@
+row_id,type,edges.1.from,message_text,choices.1
+msg.Human_trafficke,send_message,start,"Human traffickers are people who want to take children away from their families and make money from it. They usually target vulnerable people, like children who are unaccompanied by an adult or are escaping from difficult situations.",NEXT
+switch.input_text,wait_for_response,msg.Human_trafficke,,

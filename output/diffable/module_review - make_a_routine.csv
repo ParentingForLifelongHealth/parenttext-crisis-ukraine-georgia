@@ -1,0 +1,12 @@
+row_id,type,edges.1.from,message_text,choices.1
+msg.Todays_tip_is_a,send_message,start,"Today's tip is about making a routine for your children. 
+
+When we are in crisis, things can feel unfamiliar. Having routines helps your children feel safe and stable.",
+msg.When_you_do_the,send_message,msg.Todays_tip_is_a,"When you do the same things every day, it makes life more familiar for your children. It also makes them feel less worried and more secure.",
+msg.Here_are_3_tips,send_message,msg.When_you_do_the,Here are 3️⃣ tips on making routines to spend time together with your children:,
+msg.1_DO_IT_DAILYEv,send_message,msg.Here_are_3_tips,"1️⃣ *DO IT DAILY*
+
+Even when it feels hard, try to have some activities that you and your children do every day for yourself and your children.
+
+If you can, help children with daily routines like eating together and cleaning.",NEXT
+switch.input_text,wait_for_response,msg.1_DO_IT_DAILYEv,,

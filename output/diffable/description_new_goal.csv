@@ -1,0 +1,5 @@
+row_id,type,edges.1.from,edges.2.from,edges.1.condition,message_text,save_name
+switch.results_Result_,split_by_value,start,,,@results.Result.category,
+set_run_result.name,save_flow_result,switch.results_Result_,,value;Success|variable;@results.Result.category|type;has_only_text|name;Success,@webhook.text,name
+set_run_result.name.1,save_flow_result,switch.results_Result_,,,name,name
+msg.In_this_program,send_message,set_run_result.name,set_run_result.name.1,,"In this program, you will receive @fields.c_n_mod tips. You will receive a new tip each day. Your first tip is ""@results.name"".",

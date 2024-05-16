@@ -1,0 +1,12 @@
+row_id,type,edges.1.from,message_text,choices.1
+msg.Planning_to_lea,send_message,start,"Planning to leave your home during a crisis can be hard because you might not have much time to be ready. 
+
+There are ways to make sure you have what you need to keep your children safe while travelling.",
+msg.When_your_child,send_message,msg.Planning_to_lea,"When your children see that you're prepared, it can make them feel more stable even when things around them seem uncertain.",
+msg.Here_are_5_tips,send_message,msg.When_your_child,Here are 5️⃣ tips to help you get ready to travel with children in a crisis situation:,
+msg.1_IDENTIFY_PEOP,send_message,msg.Here_are_5_tips,"1️⃣ *IDENTIFY PEOPLE YOU TRUST*
+
+Write the full name & phone number of you and three people you trust.
+
+If you need help with writing, ask someone for help.",NEXT
+switch.input_text,wait_for_response,msg.1_IDENTIFY_PEOP,,
