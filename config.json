@@ -1,7 +1,12 @@
 {
     "meta": {
         "version": "1.0.0",
-        "pipeline_version": "1.0.0"
+        "pipeline_version": "1.1.0"
+    },
+    "parents": {
+        "plh": {
+            "location": "https://github.com/IDEMSInternational/plh-inheritance-test/archive/refs/heads/main.zip"
+        }
     },
     "flows_outputbasename": "parenttext_all",
     "output_split_number": 1,
@@ -9,16 +14,11 @@
         "crisis_sheets" : "1M3ohkdFNWzYQdMBdlnPP2_pi3RttKGXAvCUBgYLvuHA",
         "deployment_localised_sheets" : "1D7MbP-T0Iq019TJ6csi3UdOwKQp-EOX2JEPPcDThj0M",
 
-        "T_content" : "1hcH8pFdiHZN0UvZgyv3Zht9ARBTx-VXhNBI2o8L7fHU",
         "N_onboarding_data" : "1NujmHWbalM74U0Yl370MABtoYp6vfusUsrpq9a80n2Q",
-        "T_onboarding" : "1Sl0Jl_N4cGQi2INmE_EnX_aYUMUrUB6cKbuWVPzirtY",
         "C_ltp_activities" :"1P8OmAMo7_KPVDGSBScRB6ml2e4psCeKS3deG75NFllw",
         "C_modules_all_ages" : "1kGl23QMmUHPUamKxMkNqivYi2zESE7hKX6xkL-WnEM0",
         "N_safeguarding_data" : "1da7Kiw8KJXc026Ydq0lp52m7nP3TjoyWTHuxa74u5Tg",
-        "T_safeguarding" : "1bWOyM5yShTTJSaxwqRCrjUzkwbp7DF6_nSF_96YcZ2c",
-        "T_delivery" : "1q6E2c4Bg_UvqTmhxAsTIQngwAtj0aFoqu8wsPHnqmaU",
         "N_delivery_data_response" : "1W5Z0usyFcxZo85nXjSbjUj0-mjf7bG646w0BCwlO1pU",
-        "T_menu" : "1lIiFjZKS0eXzzo6XwDdqYv4e1A73WFCpWZg5ju-tCZE",
         "N_menu_data_response" : "1Mg1MuS3p2FNMVJl9Qu9ouU9rjzOrPiF3HWleMKHPK3Y",
 
         "ab_testing_sheet_ID" : "1i_oqiJYkeoMsYdeFOcKlvvjnNCEdQnZlsm17fgNvK0s",
@@ -27,37 +27,37 @@
     },
     "sources": {
         "flow_definitions": {
+            "parent_sources": [
+                "plh.flow_definitions"
+            ],
             "format": "sheets",
             "subformat": "google_sheets",
             "files_list": [
                 "N_onboarding_data",
-                "T_onboarding",
                 "C_ltp_activities",
                 "C_modules_all_ages",
-                "T_content",
                 "N_safeguarding_data",
-                "T_safeguarding",
                 "N_delivery_data_response",
-                "T_delivery",
                 "N_menu_data_response",
-                "T_menu",
                 "crisis_sheets",
                 "deployment_localised_sheets"
             ]
         },
         "edits_pretranslation": {
+            "parent_sources": [
+                "plh.edits_pretranslation"
+            ],
             "format": "sheets",
-            "subformat": "google_sheets",
-            "files_list": [
-                "ab_testing_sheet_ID"
-            ]
+            "subformat": "google_sheets"
         },
         "edits_posttranslation": {
+            "parent_sources": [
+                "plh.edits_posttranslation"
+            ],
             "format": "sheets",
             "subformat": "google_sheets",
             "files_list": [
-                "transl_edits_sheet_ID",
-                "eng_edits_sheet_ID"
+                "transl_edits_sheet_ID"
             ]
         },
         "translation": {
