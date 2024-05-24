@@ -590,21 +590,6 @@
         "tags.3": ""
       },
       {
-        "type": "create_triggers",
-        "sheet_name": "triggers",
-        "data_sheet": "",
-        "data_row_id": "",
-        "new_name": "",
-        "data_model": "",
-        "template_arguments": "",
-        "operation": "",
-        "status": "",
-        "group": "",
-        "tags.1": "trigger",
-        "tags.2": "",
-        "tags.3": ""
-      },
-      {
         "type": "create_flow",
         "sheet_name": "campaign",
         "data_sheet": "",
@@ -846,7 +831,7 @@
       },
       {
         "type": "data_sheet",
-        "sheet_name": "washtext_default_contact_fields_data;\ndefault_contact_fields_data",
+        "sheet_name": "default_contact_fields_data;\nwashtext_default_contact_fields_data",
         "data_sheet": "",
         "data_row_id": "",
         "new_name": "default_contact_fields_data",
@@ -933,6 +918,21 @@
         "tags.1": "",
         "tags.2": "",
         "tags.3": ""
+      },
+      {
+        "type": "create_flow",
+        "sheet_name": "demo_modules",
+        "data_sheet": "short_demo_module_data",
+        "data_row_id": "lang",
+        "new_name": "",
+        "data_model": "",
+        "template_arguments": "module_content_data;woman;low",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "module",
+        "tags.2": "",
+        "tags.3": ""
       }
     ],
     "daily_closing_data": [
@@ -946,84 +946,13 @@
         "ID": "x"
       }
     ],
-    "triggers": [
-      {
-        "type": "C",
-        "keywords": "",
-        "match_type": "",
-        "flow": "uncaught_message_flow",
-        "groups": ""
-      },
-      {
-        "type": "K",
-        "keywords": "WASH",
-        "match_type": "O",
-        "flow": "uncaught_message_flow",
-        "groups": ""
-      },
-      {
-        "type": "K",
-        "keywords": "help",
-        "match_type": "O",
-        "flow": "uncaught_message_flow",
-        "groups": ""
-      },
-      {
-        "type": "K",
-        "keywords": "stop",
-        "match_type": "O",
-        "flow": "uncaught_message_flow",
-        "groups": ""
-      },
-      {
-        "type": "K",
-        "keywords": "menu",
-        "match_type": "O",
-        "flow": "uncaught_message_flow",
-        "groups": ""
-      },
-      {
-        "type": "K",
-        "keywords": "review",
-        "match_type": "O",
-        "flow": "uncaught_message_flow",
-        "groups": ""
-      },
-      {
-        "type": "K",
-        "keywords": "id",
-        "match_type": "O",
-        "flow": "uncaught_message_flow",
-        "groups": ""
-      },
-      {
-        "type": "K",
-        "keywords": "FacTrain",
-        "match_type": "O",
-        "flow": "safeguarding_start_programme",
-        "groups": ""
-      },
-      {
-        "type": "K",
-        "keywords": "FacRESET",
-        "match_type": "O",
-        "flow": "reset_onboarding",
-        "groups": ""
-      },
-      {
-        "type": "K",
-        "keywords": "NEWDAY",
-        "match_type": "O",
-        "flow": "campaign_demo",
-        "groups": ""
-      }
-    ],
     "goal_data": [
       {
         "ID": "wash",
         "priority_c": "1",
         "relationship": "yes|no",
-        "name_c.eng": "Water, Sanitation and Health"
+        "name_c.eng": "Keeping My Family Healthy",
+        "name_c.zul": "Ukugcina Umndeni Wami Unempilo"
       }
     ],
     "module_data": [
@@ -1033,7 +962,8 @@
         "priority_in_topic": "",
         "age": "2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
         "child_gender": "male|female",
-        "name.eng": "Healthy Home, Healthy Families"
+        "name.eng": "Healthy Home, Healthy Families",
+        "name.zul": "Ikhaya Eliphilile, Umndeni Onempilo"
       },
       {
         "ID": "wash_2",
@@ -1041,7 +971,8 @@
         "priority_in_topic": "",
         "age": "2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
         "child_gender": "male|female",
-        "name.eng": "Handwashing"
+        "name.eng": "Handwashing",
+        "name.zul": "Ukugeza Izandla"
       },
       {
         "ID": "wash_3",
@@ -1049,7 +980,8 @@
         "priority_in_topic": "",
         "age": "2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
         "child_gender": "male|female",
-        "name.eng": "Safe Food & Water"
+        "name.eng": "Safe Food & Water",
+        "name.zul": "Ukudla Namanzi Okuphephile"
       },
       {
         "ID": "wash_4",
@@ -1057,7 +989,8 @@
         "priority_in_topic": "",
         "age": "2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
         "child_gender": "male|female",
-        "name.eng": "Clean Toilets"
+        "name.eng": "Clean Toilets",
+        "name.zul": "Izindlu Zangasese Ezihlanzekile"
       },
       {
         "ID": "wash_5",
@@ -1065,7 +998,8 @@
         "priority_in_topic": "",
         "age": "2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
         "child_gender": "male|female",
-        "name.eng": "Managing Rubbish"
+        "name.eng": "Managing Rubbish",
+        "name.zul": "Ukuphatha Udoti"
       }
     ],
     "goal_topic_link": [
@@ -1509,6 +1443,11 @@
         "ID": "age_group_for_tips",
         "name": "age group for tips",
         "value": "child"
+      },
+      {
+        "ID": "deployment",
+        "name": "deployment",
+        "value": "WashText"
       }
     ],
     "safeguarding_redirect_to_topic_data": [

@@ -1,10 +1,10 @@
-row_id,type,edges.1.from,message_text,choices.1
-msg.Being_in_a_shel,send_message,start,Being in a shelter can be lonely and stressful for children.,
-msg.There_are_thing,send_message,msg.Being_in_a_shel,"There are things you already know how to do, like doing daily activities and practising self-care. These can help you and your children feel safe and secure in a new place.",
-msg.Here_are_3_new_,send_message,msg.There_are_thing,Here are 3️⃣ new tips that will help you to support your children in a shelter:,
+row_id,type,edges.1.from,message_text,choices.1,image
+msg.Being_in_a_shel,send_message,start,Being in a shelter can be lonely and stressful for children.,,
+msg.There_are_thing,send_message,msg.Being_in_a_shel,"There are things you already know how to do, like doing daily activities and practising self-care. These can help you and your children feel safe and secure in a new place.",,
+msg.Here_are_3_new_,send_message,msg.There_are_thing,Here are 3️⃣ new tips that will help you to support your children in a shelter:,,
 msg.1_MAKE_IT_FAMIL,send_message,msg.Here_are_3_new_,"1️⃣ *MAKE IT FAMILIAR*
 
 If possible,take a comfort item from home with them to a shelter
 
-Decorate the shelter together, with notes or pictures for the walls if you can.",NEXT
-switch.input_text,wait_for_response,msg.1_MAKE_IT_FAMIL,,
+Decorate the shelter together, with notes or pictures for the walls if you can.",NEXT,"@(fields.image_path & ""play_yc_3.jpg.jpg"")"
+switch.input_text,wait_for_response,msg.1_MAKE_IT_FAMIL,,,

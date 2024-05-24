@@ -440,21 +440,6 @@
         "tags.3": ""
       },
       {
-        "type": "data_sheet",
-        "sheet_name": "settings_profile_data",
-        "data_sheet": "",
-        "data_row_id": "",
-        "new_name": "settings_profile_data",
-        "data_model": "",
-        "template_arguments": "",
-        "operation": "filter|expression;(ID!=\"research_ID\" and ID!=\"marital_status\" and ID!=\"child_name\" and ID!=\"child_gender\" and ID!=\"child_dob\")",
-        "status": "",
-        "group": "",
-        "tags.1": "",
-        "tags.2": "",
-        "tags.3": ""
-      },
-      {
         "type": "ignore_row",
         "sheet_name": "onboarding_question_date",
         "data_sheet": "",
@@ -493,21 +478,6 @@
         "data_model": "",
         "template_arguments": "",
         "operation": "",
-        "status": "",
-        "group": "",
-        "tags.1": "",
-        "tags.2": "",
-        "tags.3": ""
-      },
-      {
-        "type": "data_sheet",
-        "sheet_name": "onboarding_question_with_opt_data",
-        "data_sheet": "",
-        "data_row_id": "",
-        "new_name": "onboarding_question_with_opt_data",
-        "data_model": "OnboardingQuestionWithOptionsModel",
-        "template_arguments": "",
-        "operation": "filter|expression;(ID!=\"emojis\" and ID!=\"marital_status\" and ID!=\"child_gender\")",
         "status": "",
         "group": "",
         "tags.1": "",
