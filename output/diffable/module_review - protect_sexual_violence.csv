@@ -4,7 +4,7 @@ msg.Todays_tip_is_a,send_message,start,"Today's tip is about protecting our chil
 During difficult times, children are more likely to face dangers like sexual violence.
 
 Sexual violence means someone is forced into sexual activities they don't want to do.",,
-msg.By_listening_in,send_message,msg.Todays_tip_is_a,"By listening in a supportive way and talking openly with your children, you are helping them to stay as safe and well as possible.",,
+msg.By_listening_in,send_message,msg.Todays_tip_is_a,"By listening in a supportive way and talking openly with your children, you are helping them to stay as safe and well as possible.",,"@(fields.image_path & "".jpg"")"
 msg.Here_are_3_tips,send_message,msg.By_listening_in,Here are 3️⃣ tips for protecting your child from sexual violence: ,,
 msg.1_NO_IS_OKTeach,send_message,msg.Here_are_3_tips,"1️⃣ *NO IS OK!*
 

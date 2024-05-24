@@ -1,6 +1,6 @@
 row_id,type,edges.1.from,message_text,choices.1,image
 msg.Keeping_childre,send_message,start,"Keeping children safe can feel overwhelming, especially when dealing with unexpected challenges.",,
-msg.In_such_moments,send_message,msg.Keeping_childre,"In such moments, having a clear plan will help you and your children know what to do to be safe.",,
+msg.In_such_moments,send_message,msg.Keeping_childre,"In such moments, having a clear plan will help you and your children know what to do to be safe.",,"@(fields.image_path & "".jpg"")"
 msg.Here_are_3_tips,send_message,msg.In_such_moments,Here are 3️⃣ tips on how to keep your children safe in an unsafe situation:,,
 msg.1_TALKTalk_to_c,send_message,msg.Here_are_3_tips,"1️⃣ *TALK*
 
