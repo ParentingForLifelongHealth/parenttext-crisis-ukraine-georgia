@@ -4,14 +4,13 @@
         "pipeline_version": "1.1.0"
     },
     "parents": {
-        "plh": {
-            "location": "https://github.com/IDEMSInternational/plh-inheritance-test/archive/refs/heads/main.zip"
+        "base": {
+            "location": "https://github.com/IDEMSInternational/parenttext-crisis-base/archive/refs/heads/main.zip"
         }
     },
     "flows_outputbasename": "parenttext_all",
     "output_split_number": 1,
     "sheet_names" : {
-        "crisis_sheets" : "1M3ohkdFNWzYQdMBdlnPP2_pi3RttKGXAvCUBgYLvuHA",
         "deployment_localised_sheets" : "1D7MbP-T0Iq019TJ6csi3UdOwKQp-EOX2JEPPcDThj0M",
 
         "N_onboarding_data" : "1NujmHWbalM74U0Yl370MABtoYp6vfusUsrpq9a80n2Q",
@@ -28,12 +27,11 @@
     "sources": {
         "flow_definitions": {
             "parent_sources": [
-                "plh.flow_definitions"
+                "base.flow_definitions"
             ],
             "format": "sheets",
             "subformat": "google_sheets",
             "files_list": [
-                "crisis_sheets",
                 "N_onboarding_data",
                 "C_ltp_activities",
                 "C_modules_all_ages",
@@ -45,14 +43,14 @@
         },
         "edits_pretranslation": {
             "parent_sources": [
-                "plh.edits_pretranslation"
+                "base.edits_pretranslation"
             ],
             "format": "sheets",
             "subformat": "google_sheets"
         },
         "edits_posttranslation": {
             "parent_sources": [
-                "plh.edits_posttranslation"
+                "base.edits_posttranslation"
             ],
             "format": "sheets",
             "subformat": "google_sheets",
