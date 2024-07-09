@@ -12,3 +12,19 @@ Notice how you are feeling emotionally.
 
 Notice how your body feels.",,NEXT,
 switch.input_text,wait_for_response,msg.Start_by_taking,,,,,,,,
+msg.Continue_to_tak,send_message,switch.input_text,,,,,"Continue to take deep breaths.
+
+Feel your breath as it goes in and out.
+
+Notice any emotions you are feeling. Are there feelings of happiness, excitement, worry?
+
+Whatever you are feeling is okay.",,NEXT,
+switch.input_text.1,wait_for_response,msg.Continue_to_tak,,,,,,,,
+msg.Now_expand_your,send_message,switch.input_text.1,,,,,"Now, expand your awareness to your whole body. 
+
+Listen to the sounds in the room.",,NEXT,
+switch.input_text.2,wait_for_response,msg.Now_expand_your,,,,,,,,
+msg.Take_a_moment_t,send_message,switch.input_text.2,,,,,"Take a moment to reflect on whether you feel any different. 
+
+When you are ready, continue to your lesson with a sense of calm.",,NEXT,
+switch.input_text.3,wait_for_response,msg.Take_a_moment_t,,,,,,,,

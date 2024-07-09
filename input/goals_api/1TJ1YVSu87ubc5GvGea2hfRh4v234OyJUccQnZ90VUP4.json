@@ -923,7 +923,7 @@
         "type": "create_flow",
         "sheet_name": "demo_modules",
         "data_sheet": "short_demo_module_data",
-        "data_row_id": "lang",
+        "data_row_id": "lang_media_gender",
         "new_name": "",
         "data_model": "",
         "template_arguments": "module_content_data;woman;low",
@@ -1390,7 +1390,7 @@
       {
         "ID": "welcome_msg",
         "flow": "onboarding_welcome_msg",
-        "variable": "@fields.completed_language"
+        "variable": "@fields.completed_welcome_msg"
       },
       {
         "ID": "consent",
