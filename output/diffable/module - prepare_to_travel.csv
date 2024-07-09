@@ -3,8 +3,12 @@ msg.Planning_to_lea,send_message,start,"Planning to leave your home during a cri
 
 There are ways to make sure you have what you need to keep your children safe while travelling.",,NEXT,
 switch.input_text,wait_for_response,msg.Planning_to_lea,,,,
-msg.When_your_child,send_message,switch.input_text,"When your children see that you're prepared, it can make them feel more stable even when things around them seem uncertain.",,,
-msg.Here_are_5_tips,send_message,msg.When_your_child,Here are 5️⃣ tips to help you get ready to travel with children in a crisis situation:,,,
+set_contact_field.ntb_prepare_to_,save_value,switch.input_text,"@(text_length(""11""))",ntb prepare to travel,,
+set_contact_field.ncb_prepare_to_,save_value,set_contact_field.ntb_prepare_to_,"@(text_length(""""))",ncb prepare to travel,,
+msg.When_your_child,send_message,set_contact_field.ncb_prepare_to_,"When your children see that you're prepared, it can make them feel more stable even when things around them seem uncertain.",,,
+set_contact_field.ntb_prepare_to_.1,save_value,msg.When_your_child,"@(text_length(""11""))",ntb prepare to travel,,
+set_contact_field.ncb_prepare_to_.1,save_value,set_contact_field.ntb_prepare_to_.1,"@(text_length(""""))",ncb prepare to travel,,
+msg.Here_are_5_tips,send_message,set_contact_field.ncb_prepare_to_.1,Here are 5️⃣ tips to help you get ready to travel with children in a crisis situation:,,,
 msg.1_IDENTIFY_PEOP,send_message,msg.Here_are_5_tips,"1️⃣ *IDENTIFY PEOPLE YOU TRUST*
 
 Write the full name & phone number of you and three people you trust.
@@ -33,7 +37,9 @@ Tell your child where you're going and why in a way they can understand and hand
 
 Let your children take a comfort item from home with them before leaving if possible.",,NEXT,
 switch.input_text.4,wait_for_response,msg.4_COMMUNICATE_W,,,,
-msg.Youve_completed,send_message,switch.input_text.4,"✅⬜️
+set_contact_field.ntb_prepare_to_.2,save_value,switch.input_text.4,"@(text_length(""11""))",ntb prepare to travel,,
+set_contact_field.ncb_prepare_to_.2,save_value,set_contact_field.ntb_prepare_to_.2,"@(text_length(""1""))",ncb prepare to travel,,
+msg.Youve_completed,send_message,set_contact_field.ncb_prepare_to_.2,"✅⬜️
 You’ve completed 50% of this skill! Press NEXT to continue.",,NEXT,
 switch.input_text.5,wait_for_response,msg.Youve_completed,,,,
 set_contact_field.bugfix,save_value,switch.input_text.5,x,bugfix,,
@@ -50,6 +56,11 @@ msg.Cover_the_tag_i,send_message,switch.input_text.9,Cover the tag in plastic or
 switch.input_text.10,wait_for_response,msg.Cover_the_tag_i,,,,
 msg.Hide_the_tag_in,send_message,switch.input_text.10,"Hide the tag in something your child always wears (e.g., their pocket, or shoe)",,NEXT,"@(fields.comic_path & ""prepare_to_travel_6.jpg"")"
 switch.input_text.11,wait_for_response,msg.Hide_the_tag_in,,,,
-msg._100,send_message,switch.input_text.11,"✅✅ 100%
+set_contact_field.ntb_prepare_to_.3,save_value,switch.input_text.11,"@(text_length(""11""))",ntb prepare to travel,,
+set_contact_field.ncb_prepare_to_.3,save_value,set_contact_field.ntb_prepare_to_.3,"@(text_length(""11""))",ncb prepare to travel,,
+msg._100,send_message,set_contact_field.ncb_prepare_to_.3,"✅✅ 100%
 ",,,
 msg.Thank_you_for_j,send_message,msg._100,Thank you for joining us today. Everything you do is protecting your children. Well done.,,,
+set_contact_field.ntb_prepare_to_.4,save_value,msg.Thank_you_for_j,"@(text_length(""11""))",ntb prepare to travel,,
+set_contact_field.ncb_prepare_to_.4,save_value,set_contact_field.ntb_prepare_to_.4,"@(text_length(""11""))",ncb prepare to travel,,
+set_run_result.completed,save_flow_result,set_contact_field.ncb_prepare_to_.4,yes,completed,,

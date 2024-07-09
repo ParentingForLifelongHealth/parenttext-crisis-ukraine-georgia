@@ -41,3 +41,4 @@ msg.Their_reactions,send_message,switch.input_text.8,"Their reactions will vary 
 switch.input_text.9,wait_for_response,msg.Their_reactions,,,,
 msg._100,send_message,switch.input_text.9,"✅✅ 100%
 ",,,
+set_run_result.completed,save_flow_result,msg._100,yes,completed,,

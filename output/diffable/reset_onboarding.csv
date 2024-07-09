@@ -11,7 +11,8 @@ set_contact_field.completed_gende,save_value,set_contact_field.completed_timin,,
 set_contact_field.completed_marit,save_value,set_contact_field.completed_gende,,completed marital status
 set_contact_field.completed_child,save_value,set_contact_field.completed_marit,,completed child age
 set_contact_field.completed_child.1,save_value,set_contact_field.completed_child,,completed child name
-remove_contact_groups.completed_progr,remove_from_group,set_contact_field.completed_child.1,completed program|,
+set_contact_field.child_nickname,save_value,set_contact_field.completed_child.1,,child nickname
+remove_contact_groups.completed_progr,remove_from_group,set_contact_field.child_nickname,completed program|,
 remove_contact_groups.enrolled,remove_from_group,remove_contact_groups.completed_progr,enrolled|,
 remove_contact_groups.left_program,remove_from_group,remove_contact_groups.enrolled,left program|,
 remove_contact_groups.in_program,remove_from_group,remove_contact_groups.left_program,in program|,
@@ -28,4 +29,18 @@ set_contact_field.assigned_resear,save_value,set_contact_field.n_goals_started,,
 set_contact_field.research_id,save_value,set_contact_field.assigned_resear,,research id
 set_contact_field.completion_time,save_value,set_contact_field.research_id,,completion time
 set_contact_field.curr_demo_day,save_value,set_contact_field.completion_time,,curr demo day
-msg.Variables_have_,send_message,set_contact_field.curr_demo_day,Variables have been reset,
+set_contact_field.c_mod_to_start,save_value,set_contact_field.curr_demo_day,,c mod to start
+set_contact_field.c_mod_started,save_value,set_contact_field.c_mod_to_start,,c mod started
+set_contact_field.c_mod_compl,save_value,set_contact_field.c_mod_started,,c mod compl
+set_contact_field.c_checkins_to_s,save_value,set_contact_field.c_mod_compl,,c checkins to start
+set_contact_field.c_n_mod,save_value,set_contact_field.c_checkins_to_s,,c n mod
+set_contact_field.c_n_mod_compl,save_value,set_contact_field.c_n_mod,,c n mod compl
+set_contact_field.c_n_mod_started,save_value,set_contact_field.c_n_mod_compl,,c n mod started
+set_contact_field.c_goal_checkin_,save_value,set_contact_field.c_n_mod_started,,c goal checkin id
+set_contact_field.curr_goal,save_value,set_contact_field.c_goal_checkin_,,curr goal
+set_contact_field.assigned_resear.1,save_value,set_contact_field.curr_goal,,assigned research id
+set_contact_field.completed_onboa,save_value,set_contact_field.assigned_resear.1,,completed onboarding
+set_contact_field.completed_progc,save_value,set_contact_field.completed_onboa,,completed progcheck
+set_contact_field.completed_pause,save_value,set_contact_field.completed_progc,,completed pause
+set_contact_field.completed_pre_g,save_value,set_contact_field.completed_pause,,completed pre goal checkin
+msg.Variables_have_,send_message,set_contact_field.completed_pre_g,Variables have been reset,

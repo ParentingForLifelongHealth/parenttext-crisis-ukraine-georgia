@@ -8,15 +8,17 @@ flow.timed_programme,start_new_flow,set_contact_field.from_timed,,,timed_program
 switch.contact_groups.2,split_by_group,switch.contact_groups.1,,,completed program|,
 msg.You_have_alread,send_message,switch.contact_groups.2,,value;completed program|,You have already received all of the avilable tips. Type MENU to review previous tips.,
 msg.Please_type_MEN,send_message,msg.You_are_already,msg.You_have_alread,,"Please type MENU to access resources and review previous tips, PLAY to receive a playful activity you can complete with your child, or HELP to access additional support resources.",
-add_contact_groups.in_program,add_to_group,switch.contact_groups.2,,,in program|,
+add_contact_groups.in_program,add_to_group,switch.contact_groups.2,,value;left program|,in program|,
 remove_contact_groups.left_program,remove_from_group,add_contact_groups.in_program,,,left program|,
 set_contact_field.rejoined_progra,save_value,remove_contact_groups.left_program,,,"@(fields.rejoined_program & now() & ""|"")",rejoined program
 msg.Welcome_back_to,send_message,set_contact_field.rejoined_progra,,,Welcome back to ParentText.,
 set_contact_field.from_timed.1,save_value,msg.Welcome_back_to,,,no,from timed
 flow.timed_programme.1,start_new_flow,set_contact_field.from_timed.1,,,timed_programme,
+set_contact_field.from_timed.2,save_value,switch.contact_groups.2,,,no,from timed
+flow.timed_programme.2,start_new_flow,set_contact_field.from_timed.2,,,timed_programme,
 set_contact_field.start_time,save_value,switch.contact_groups,,,@(now()),start time
 flow.joining_trigger,start_new_flow,set_contact_field.start_time,,,joining_trigger_confirmation,
 switch.child_results_p,split_by_value,flow.joining_trigger,,value;completed|,@child.results.proceed,
 add_contact_groups.enrolled,add_to_group,switch.child_results_p,,value;yes|variable;@child.results.proceed|type;has_any_word|name;Yes,enrolled|,
 flow.set_up_default_,start_new_flow,add_contact_groups.enrolled,,,set_up_default_contact_fields,
-flow.timed_programme.2,start_new_flow,flow.set_up_default_,,value;completed|,timed_programme,
+flow.timed_programme.3,start_new_flow,flow.set_up_default_,,value;completed|,timed_programme,

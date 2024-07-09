@@ -51,3 +51,4 @@ msg.Hide_the_tag_in,send_message,switch.input_text.9,"Hide the tag in something 
 switch.input_text.10,wait_for_response,msg.Hide_the_tag_in,,,,
 msg._100,send_message,switch.input_text.10,"✅✅ 100%
 ",,,
+set_run_result.completed,save_flow_result,msg._100,yes,completed,,
