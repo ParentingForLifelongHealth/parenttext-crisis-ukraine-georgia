@@ -1,6 +1,6 @@
 # Intermediary output files
 temp/
-output/
+output/send_to_translators
 
 #credentials files
 credentials.json

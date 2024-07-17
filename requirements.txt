@@ -1,2 +1,1 @@
-parenttext_pipeline@https://github.com/IDEMSInternational/parenttext-pipeline/archive/refs/heads/main.tar.gz
-
+parenttext_pipeline@git+https://github.com/IDEMSInternational/parenttext-pipeline.git@main
