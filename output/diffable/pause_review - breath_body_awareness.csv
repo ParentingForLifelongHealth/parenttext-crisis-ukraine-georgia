@@ -2,10 +2,10 @@ row_id,type,edges.1.from,edges.2.from,edges.2.condition,edges.3.from,edges.1.con
 switch.media,split_by_value,start,,,,,@fields.type_of_media,,,,,
 msg.Todays_pause_is,send_message,switch.media,,,,value;high|variable;@fields.type_of_media|type;has_any_word|name;High,"Today's pause is called ""Breath and Body Awareness"".
 
-Press ▶️ to watch a video to practise taking a pause together",,,,NEXT,"@(fields.voiceover_video_path & ""breath_body_awareness.mp4"")"
+Press ▶️ to practise taking a pause together",,,,NEXT,"@(fields.voiceover_video_path & ""breath_body_awareness.mp4"")"
 wait_for.wait_media,wait_for_response,msg.Todays_pause_is,,,,,,wait_media,300,,,
-msg.Press__to_liste,send_message,switch.media,,,,value;medium|variable;@fields.type_of_media|type;has_any_word|name;Medium,Press ▶️ to listen to an audio and practise taking a pause together,,,"@(fields.voiceover_audio_path & ""breath_body_awareness.mp3"")",,
-msg.Todays_pause_is.1,send_message,msg.Press__to_liste,switch.media,,,,"Today's pause is called ""Breath and Body Awareness"".",,,,,
+msg.Press__to_pract,send_message,switch.media,,,,value;medium|variable;@fields.type_of_media|type;has_any_word|name;Medium,Press ▶️ to practise taking a pause together,,,"@(fields.voiceover_audio_path & ""breath_body_awareness.mp3"")",,
+msg.Todays_pause_is.1,send_message,msg.Press__to_pract,switch.media,,,,"Today's pause is called ""Breath and Body Awareness"".",,,,,
 msg.Start_by_taking,send_message,msg.Todays_pause_is.1,,,,,"Start by taking a deep breath.
  
 Notice how you are feeling emotionally. 

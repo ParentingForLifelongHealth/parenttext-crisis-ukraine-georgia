@@ -1,10 +1,10 @@
 row_id,type,edges.1.from,message_text,save_name,choices.1,image
-msg.Todays_tip_is_a,send_message,start,"Today's tip is about protecting our children from sexual violence. 
+msg.Here_is_a_tip_a,send_message,start,"Here is a tip about protecting our children from sexual violence. 
 
 During difficult times, children are more likely to face dangers like sexual violence.
 
 Sexual violence means someone is forced into sexual activities they don't want to do.",,NEXT,
-switch.input_text,wait_for_response,msg.Todays_tip_is_a,,,,
+switch.input_text,wait_for_response,msg.Here_is_a_tip_a,,,,
 set_contact_field.ntb_protect_sex,save_value,switch.input_text,"@(text_length(""1""))",ntb protect sexual violence,,
 set_contact_field.ncb_protect_sex,save_value,set_contact_field.ntb_protect_sex,"@(text_length(""""))",ncb protect sexual violence,,
 msg.By_listening_in,send_message,set_contact_field.ncb_protect_sex,"By listening in a supportive way and talking openly with your children, you are helping them to stay as safe and well as possible.",,,

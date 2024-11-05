@@ -154,7 +154,7 @@
       {
         "ID": "final_completion",
         "msg": "You have completed the programme. Well done!\nRemember, you can always return to ParentText to review these tips. Just type {MENU}.",
-        "extra_msg": ""
+        "extra_msg": "Was ParentText helpful? If so, share it with a friend. Just send this link: {insert link}"
       }
     ],
     "make_options_wrapper_data": [
@@ -354,38 +354,38 @@
       {
         "ID": "timed_programme",
         "activity_handler_flow": "activity_handler",
-        "offer_msg": "What would you like to do next?",
-        "accept.child": "I want an idea for an activity I can do with my child to connect with them",
+        "offer_msg": "What would you like now?",
+        "accept.child": "A fun activity I can do with my child",
         "accept.teen": "NA",
         "accept.baby": "NA",
-        "refuse": "Continue with another tip tomorrow. ",
+        "refuse": "Nothing. Let's continue tomorrow.",
         "refuse_msg": "Alright. I will share another tip tomorrow. ",
-        "next_offer_msg": "What would you like to do?",
-        "next_accept": "View another activity idea",
-        "next_refuse": "Continue with another tip tomorrow. ",
+        "next_offer_msg": "What would you like now?",
+        "next_accept": "Another fun activity I can do with my child",
+        "next_refuse": "Nothing. Let's continue tomorrow.",
         "next_refuse_msg": "OK, see you tomorrow.",
         "next_refuse_flow": "",
-        "next_other_opt": "",
+        "next_other_opt": "The next tip ",
         "next_other_msg": "",
-        "next_other_flow": ""
+        "next_other_flow": "empty"
       },
       {
         "ID": "demo",
         "activity_handler_flow": "activity_handler",
-        "offer_msg": "What would you like to do next?",
-        "accept.child": "I want an idea for an activity I can do with my child to connect with them",
+        "offer_msg": "What would you like now?",
+        "accept.child": "A fun activity I can do with my child",
         "accept.teen": "NA",
         "accept.baby": "NA",
         "refuse": "Continue with another tip tomorrow. ",
         "refuse_msg": "Alright. I will share another tip tomorrow. ",
-        "next_offer_msg": "What would you like to do?",
+        "next_offer_msg": "What would you like now?",
         "next_accept": "View another activity idea",
-        "next_refuse": "Continue with another tip tomorrow. ",
+        "next_refuse": "Nothing. Let's continue tomorrow.",
         "next_refuse_msg": "OK, see you tomorrow.",
         "next_refuse_flow": "",
-        "next_other_opt": "",
+        "next_other_opt": "The next tip ",
         "next_other_msg": "",
-        "next_other_flow": ""
+        "next_other_flow": "empty"
       },
       {
         "ID": "menu",

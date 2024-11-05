@@ -1,10 +1,10 @@
 row_id,type,edges.1.from,message_text,save_name,choices.1,image
-msg.Todays_tip_is_a,send_message,start,"Today's tip is about helping your children when someone dies. 
+msg.Here_is_a_tip_a,send_message,start,"Here is a tip about helping your children when someone dies. 
 
 Losing a loved one is painful for everyone, including children. 
 
 Children may feel overwhelmed and upset when someone dies.",,NEXT,
-switch.input_text,wait_for_response,msg.Todays_tip_is_a,,,,
+switch.input_text,wait_for_response,msg.Here_is_a_tip_a,,,,
 set_contact_field.ntb_when_someon,save_value,switch.input_text,"@(text_length(""11""))",ntb when someone dies,,
 set_contact_field.ncb_when_someon,save_value,set_contact_field.ntb_when_someon,"@(text_length(""""))",ncb when someone dies,,
 msg.Talking_to_your,send_message,set_contact_field.ncb_when_someon,"Talking to your children about death can be hard, but it will help them make sense of what is happening.",,,
