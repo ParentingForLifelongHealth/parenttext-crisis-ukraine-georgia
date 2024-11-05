@@ -1,8 +1,8 @@
 row_id,type,edges.1.from,message_text,save_name,choices.1,image
-msg.Todays_tip_is_a,send_message,start,"Today's tip is about caring for yourself. 
+msg.Your_first_tip_,send_message,start,"Your first tip is about caring for yourself. 
 
 In tough times like these, it's normal to feel overwhelmed. Remember, it is important to take a moment for yourself, no matter how small.",,,
-msg.Taking_care_of_,send_message,msg.Todays_tip_is_a,Taking care of yourself helps you be there for your children during tough times.,,,
+msg.Taking_care_of_,send_message,msg.Your_first_tip_,Taking care of yourself helps you be there for your children during tough times.,,,
 msg.Here_are_4_tips,send_message,msg.Taking_care_of_,Here are 4 tips on how to take care of yourself: ,,,
 msg.1_RESTLook_afte,send_message,msg.Here_are_4_tips,"1️⃣ *REST*
 

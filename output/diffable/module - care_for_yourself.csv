@@ -1,8 +1,8 @@
 row_id,type,edges.1.from,message_text,save_name,choices.1,image
-msg.Todays_tip_is_a,send_message,start,"Today's tip is about caring for yourself. 
+msg.Your_first_tip_,send_message,start,"Your first tip is about caring for yourself. 
 
 In tough times like these, it's normal to feel overwhelmed. Remember, it is important to take a moment for yourself, no matter how small.",,NEXT,
-switch.input_text,wait_for_response,msg.Todays_tip_is_a,,,,
+switch.input_text,wait_for_response,msg.Your_first_tip_,,,,
 set_contact_field.ntb_care_for_yo,save_value,switch.input_text,"@(text_length(""1""))",ntb care for yourself,,
 set_contact_field.ncb_care_for_yo,save_value,set_contact_field.ntb_care_for_yo,"@(text_length(""""))",ncb care for yourself,,
 msg.Taking_care_of_,send_message,set_contact_field.ncb_care_for_yo,Taking care of yourself helps you be there for your children during tough times.,,,

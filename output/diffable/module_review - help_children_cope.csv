@@ -1,10 +1,10 @@
 row_id,type,edges.1.from,message_text,save_name,choices.1,image
-msg.Todays_tip_is_a,send_message,start,"Today's tip is about helping your children cope with crisis. 
+msg.Here_is_a_tip_a,send_message,start,"Here is a tip about helping your children cope with crisis. 
 
 It is normal to be worried about your children, especially during tough times   
 
 Children might face emotions and challenges they don’t know how to handle.",,,
-msg.There_are_thing,send_message,msg.Todays_tip_is_a,There are things you can do to help them feel better now and make them stronger for the future.,,,
+msg.There_are_thing,send_message,msg.Here_is_a_tip_a,There are things you can do to help them feel better now and make them stronger for the future.,,,
 msg.Here_are_3_tips,send_message,msg.There_are_thing,Here are 3️⃣ tips on how you can support your children during tough times: ,,,
 msg.1_LISTENChildre,send_message,msg.Here_are_3_tips,"1️⃣ *LISTEN*
 

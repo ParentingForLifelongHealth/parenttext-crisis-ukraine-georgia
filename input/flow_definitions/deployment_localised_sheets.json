@@ -159,6 +159,36 @@
         "token": ""
       }
     ],
+    "local_triggers": [
+      {
+        "type": "K",
+        "keywords": "aide",
+        "match_type": "O",
+        "flow": "uncaught_message_flow",
+        "groups": ""
+      },
+      {
+        "type": "K",
+        "keywords": "arrêt",
+        "match_type": "O",
+        "flow": "uncaught_message_flow",
+        "groups": ""
+      },
+      {
+        "type": "K",
+        "keywords": "jouer",
+        "match_type": "O",
+        "flow": "uncaught_message_flow",
+        "groups": ""
+      },
+      {
+        "type": "K",
+        "keywords": "commencer",
+        "match_type": "O",
+        "flow": "uncaught_message_flow",
+        "groups": ""
+      }
+    ],
     "wa_templates": [
       {
         "ID": "daily_interaction",
@@ -196,36 +226,6 @@
         "uuid": "2a1c42a2-1469-4f8b-867c-707c9d3e4090"
       }
     ],
-    "local_triggers": [
-      {
-        "type": "K",
-        "keywords": "aide",
-        "match_type": "O",
-        "flow": "uncaught_message_flow",
-        "groups": ""
-      },
-      {
-        "type": "K",
-        "keywords": "arrêt",
-        "match_type": "O",
-        "flow": "uncaught_message_flow",
-        "groups": ""
-      },
-      {
-        "type": "K",
-        "keywords": "jouer",
-        "match_type": "O",
-        "flow": "uncaught_message_flow",
-        "groups": ""
-      },
-      {
-        "type": "K",
-        "keywords": "commencer",
-        "match_type": "O",
-        "flow": "uncaught_message_flow",
-        "groups": ""
-      }
-    ],
     "settings_lang_profile_data": [
       {
         "ID": "language",
@@ -238,8 +238,8 @@
         "missing.value": "",
         "var.1.val": "eng",
         "var.1.alias": "English",
-        "var.2.val": "fra",
-        "var.2.alias": "French",
+        "var.2.val": "ara",
+        "var.2.alias": "Arabic",
         "var.3.val": "",
         "var.3.alias": "",
         "var.4.val": "",
@@ -254,7 +254,7 @@
         "priority_c": "1",
         "relationship": "yes|no",
         "name_c.eng": "Tips",
-        "name_c.fra": "Tips"
+        "name_c.fra": ""
       }
     ],
     "module_data": [
@@ -265,7 +265,7 @@
         "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
         "child_gender": "male|female",
         "name.eng": "Care for Yourself",
-        "name.fra": "Prendre soin de Vous-même"
+        "name.fra": ""
       },
       {
         "ID": "make_a_routine",
@@ -274,7 +274,7 @@
         "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
         "child_gender": "male|female",
         "name.eng": "Make a Routine for Time Together",
-        "name.fra": "Instaurer des habitudes pour passer du temps ensemble"
+        "name.fra": ""
       },
       {
         "ID": "help_children_cope",
@@ -283,7 +283,7 @@
         "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
         "child_gender": "male|female",
         "name.eng": "Help Children Cope with Crisis",
-        "name.fra": "Aider les Enfants à Faire Face à une Crise"
+        "name.fra": ""
       },
       {
         "ID": "when_someone_dies",
@@ -292,7 +292,7 @@
         "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
         "child_gender": "male|female",
         "name.eng": "Help our Children when Someone Dies",
-        "name.fra": "Aider nos Enfants lors du Décès d'une Personne"
+        "name.fra": ""
       },
       {
         "ID": "protect_sexual_violence",
@@ -301,7 +301,7 @@
         "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
         "child_gender": "male|female",
         "name.eng": "Protect our Children from Sexual Violence",
-        "name.fra": "Protéger nos Enfants des Violences Sexuelles"
+        "name.fra": ""
       },
       {
         "ID": "keep_children_safe",
@@ -310,7 +310,7 @@
         "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
         "child_gender": "male|female",
         "name.eng": "Keep Children Safe",
-        "name.fra": "Assurer la Sécurité des Enfants"
+        "name.fra": ""
       },
       {
         "ID": "prepare_to_travel",
@@ -319,7 +319,7 @@
         "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
         "child_gender": "male|female",
         "name.eng": "Prepare to Travel",
-        "name.fra": "Préparer son Voyage"
+        "name.fra": ""
       },
       {
         "ID": "travel_safely",
@@ -328,7 +328,7 @@
         "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
         "child_gender": "male|female",
         "name.eng": "Travel Safely",
-        "name.fra": "Voyager en toute Sécurité"
+        "name.fra": ""
       },
       {
         "ID": "protect_from_traffickers",
@@ -337,7 +337,7 @@
         "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
         "child_gender": "male|female",
         "name.eng": "Protect Your Children from Traffickers",
-        "name.fra": "Protégez Vos Enfants des Trafiquants"
+        "name.fra": ""
       },
       {
         "ID": "care_in_a_shelter",
@@ -346,7 +346,7 @@
         "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
         "child_gender": "male|female",
         "name.eng": "Care for your Children in a Shelter",
-        "name.fra": "S'occuper de ses Enfants dans un Centre d'Hébergement"
+        "name.fra": ""
       }
     ],
     "goal_topic_link": [

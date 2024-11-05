@@ -1,8 +1,8 @@
 row_id,type,edges.1.from,message_text,save_name,choices.1,image
-msg.Todays_tip_is_a,send_message,start,"Today's tip is about making a routine for your children. 
+msg.Here_is_a_tip_a,send_message,start,"Here is a tip about making a routine for your children. 
 
 When we are in crisis, things can feel unfamiliar. Having routines helps your children feel safe and stable.",,NEXT,
-switch.input_text,wait_for_response,msg.Todays_tip_is_a,,,,
+switch.input_text,wait_for_response,msg.Here_is_a_tip_a,,,,
 set_contact_field.ntb_make_a_rout,save_value,switch.input_text,"@(text_length(""11""))",ntb make a routine,,
 set_contact_field.ncb_make_a_rout,save_value,set_contact_field.ntb_make_a_rout,"@(text_length(""""))",ncb make a routine,,
 msg.When_you_do_the,send_message,set_contact_field.ncb_make_a_rout,"When you do the same things every day, it makes life more familiar for your children. It also makes them feel less worried and more secure.",,,
