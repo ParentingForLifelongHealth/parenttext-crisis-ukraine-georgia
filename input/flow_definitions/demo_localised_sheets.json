@@ -299,7 +299,7 @@
         "sheet": "goal_data"
       },
       {
-        "book": "ltp_activities.json",
+        "book": "localized.json",
         "model": "LTPActivities",
         "resource": "ltp_activities",
         "sheet": "ltp_activity_data"
