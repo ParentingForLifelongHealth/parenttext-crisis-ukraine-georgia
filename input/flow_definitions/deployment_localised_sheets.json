@@ -315,7 +315,7 @@
     "webhook_settings": [
       {
         "ID": "content_delivery",
-        "url": "https://pt-goals-crisis-palestine-349333393514.europe-west1.run.app",
+        "url": "https://pt-goals-crisis-palestine-349333393514.europe-west1.run.app/",
         "token": ""
       },
       {
