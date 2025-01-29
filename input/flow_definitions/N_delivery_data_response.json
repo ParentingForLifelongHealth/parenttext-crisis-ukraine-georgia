@@ -149,6 +149,122 @@
         "tags.4": ""
       }
     ],
+    "survey": [
+      {
+        "ID": "intro",
+        "tags": "1|2",
+        "type": "intro",
+        "messages": "Please type a number between 0-7 or type S to skip the question: ",
+        "variable": "",
+        "expiration.message": "",
+        "choices.1.text": "",
+        "choices.1.value": "",
+        "choices.2.text": "",
+        "choices.2.value": "",
+        "choices.3.text": "",
+        "choices.3.value": "",
+        "stop.conditions.1.condition": "",
+        "stop.conditions.1.message": "",
+        "stop.conditions.2.condition": "",
+        "stop.conditions.2.message": "",
+        "postprocessing.flow": ""
+      },
+      {
+        "ID": "monitoring",
+        "tags": "1|2",
+        "type": "numeric",
+        "messages": "How many days in the past week did you do something to keep your child(ren) safe, such as make sure they don't spend time alone with unknown adults/children or walk home alone outside after dark? ",
+        "variable": "",
+        "expiration.message": "",
+        "choices.1.text": "",
+        "choices.1.value": "",
+        "choices.2.text": "",
+        "choices.2.value": "",
+        "choices.3.text": "",
+        "choices.3.value": "",
+        "stop.conditions.1.condition": "",
+        "stop.conditions.1.message": "",
+        "stop.conditions.2.condition": "",
+        "stop.conditions.2.message": "",
+        "postprocessing.flow": ""
+      },
+      {
+        "ID": "emotional_violence",
+        "tags": "1|2",
+        "type": "numeric",
+        "messages": "How many days in the past week did you shout, yell, or scream at your child(ren)?",
+        "variable": "",
+        "expiration.message": "",
+        "choices.1.text": "",
+        "choices.1.value": "",
+        "choices.2.text": "",
+        "choices.2.value": "",
+        "choices.3.text": "",
+        "choices.3.value": "",
+        "stop.conditions.1.condition": "",
+        "stop.conditions.1.message": "",
+        "stop.conditions.2.condition": "",
+        "stop.conditions.2.message": "",
+        "postprocessing.flow": ""
+      },
+      {
+        "ID": "physical_violence",
+        "tags": "1|2",
+        "type": "numeric",
+        "messages": "How many days in the past week did you discipline your child(ren) physically, such as hitting them with your hand or another object?",
+        "variable": "",
+        "expiration.message": "",
+        "choices.1.text": "",
+        "choices.1.value": "",
+        "choices.2.text": "",
+        "choices.2.value": "",
+        "choices.3.text": "",
+        "choices.3.value": "",
+        "stop.conditions.1.condition": "",
+        "stop.conditions.1.message": "",
+        "stop.conditions.2.condition": "",
+        "stop.conditions.2.message": "",
+        "postprocessing.flow": ""
+      },
+      {
+        "ID": "nonviol_disc",
+        "tags": "1|2",
+        "type": "numeric",
+        "messages": "How many days in the past week did you try to speak calmly with your child when you were upset with them?",
+        "variable": "",
+        "expiration.message": "",
+        "choices.1.text": "",
+        "choices.1.value": "",
+        "choices.2.text": "",
+        "choices.2.value": "",
+        "choices.3.text": "",
+        "choices.3.value": "",
+        "stop.conditions.1.condition": "",
+        "stop.conditions.1.message": "",
+        "stop.conditions.2.condition": "",
+        "stop.conditions.2.message": "",
+        "postprocessing.flow": ""
+      },
+      {
+        "ID": "parent_child_comm",
+        "tags": "1|2",
+        "type": "numeric",
+        "messages": "How many days in the past week did you have a meaningful conversation with your child(ren) about how they’re doing amidst the current war, displacement, and other tough times?",
+        "variable": "",
+        "expiration.message": "",
+        "choices.1.text": "",
+        "choices.1.value": "",
+        "choices.2.text": "",
+        "choices.2.value": "",
+        "choices.3.text": "",
+        "choices.3.value": "",
+        "stop.conditions.1.condition": "",
+        "stop.conditions.1.message": "",
+        "stop.conditions.2.condition": "",
+        "stop.conditions.2.message": "",
+        "postprocessing.flow": ""
+      }
+    ],
     "show_options_wrapper_data": [],
     "congrats_data": [
       {
@@ -196,7 +312,7 @@
     "description_data": [
       {
         "ID": "new",
-        "msg": "In this program, you will receive @fields.c_n_mod tips. You will receive a new tip each day. Your first tip is \"@results.name\"."
+        "msg": "In this program, you will receive @fields.c_n_mod tips. Your first tip is \"@results.name\"."
       },
       {
         "ID": "first",
@@ -211,7 +327,7 @@
       },
       {
         "ID": "first_module_intro",
-        "text": "You and your family are facing a challenging time. ParentText provides tips on how you can support your child during this crisis. Would you like to recieve your first tip now?\n\nPress a number on your keypad:\n1. Yes\n2. Remind me tomorrow",
+        "text": "You and your family are facing a challenging time. ParentText provides tips to find hope and build your own strength to support your child during this crisis. Would you like to recieve your first tip now?\n\nPress a number on your keypad:\n1. Yes\n2. Remind me tomorrow",
         "fra": "Vous et votre famille traversez une période difficile. ParentText vous donne des conseils sur la manière dont vous pouvez soutenir votre enfant pendant cette crise. Souhaitez-vous recevoir votre premier conseil dès maintenant ?\n\nAppuyez sur un numéro de votre clavier:\n1. Oui\n2. Non, rappelez-moi cela demain"
       },
       {
@@ -226,12 +342,12 @@
       },
       {
         "ID": "unfinished_onboarding",
-        "text": "It’s a difficult moment for your family. I’m here today with a few tips to create small moments of connection with your child to give them the routine and stability you all need right now. Press 1 to continue with your registration. \n\nPress a number on your keypad:\n1. Continue my registration\n2. Remind me tomorrow",
+        "text": "It’s a difficult moment for your family. I’m here today with a few tips for you to build hope and strength for yourself and to create small moments of connection with your child. Press 1 to continue with your registration.\n\nPress a number on your keypad:\n1. Continue my registration\n2. Remind me tomorrow",
         "fra": "C'est un moment difficile pour votre famille. Je suis ici aujourd'hui pour vous donner quelques conseils afin de créer de petits moments de complicité avec votre enfant afin de lui donner les bonnes habitudes et la stabilité dont vous avez tous besoin en ce moment. Appuyez sur 1 pour continuer votre inscription. \n\nAppuyez sur un numéro de votre clavier:\n1. Continuer mon inscription\n2. Rappelez-le moi demain"
       },
       {
         "ID": "no_response",
-        "text": "This time is difficult. It doesn't seem like you have the time for the these tips right now. When you are ready to keep going, press 1. ",
+        "text": "This time is so difficult. It seems like you might not have time for these tips right now, and that's ok! When you want to keep going, press 1.",
         "fra": "Cette période est difficile. Apparemment, vous n'avez pas le temps de suivre ces conseils pour l'instant. Lorsque vous êtes prêt à continuer, appuyez sur 1. "
       },
       {
@@ -358,6 +474,8 @@
         "accept.child": "A fun activity I can do with my child",
         "accept.teen": "NA",
         "accept.baby": "NA",
+        "other_option": "Proceed to the next tip",
+        "other_flow": "new_day_goal_content",
         "refuse": "Nothing. Let's continue tomorrow.",
         "refuse_msg": "Alright. I will share another tip tomorrow. ",
         "next_offer_msg": "What would you like now?",
@@ -365,9 +483,9 @@
         "next_refuse": "Nothing. Let's continue tomorrow.",
         "next_refuse_msg": "OK, see you tomorrow.",
         "next_refuse_flow": "",
-        "next_other_opt": "The next tip ",
+        "next_other_opt": "",
         "next_other_msg": "",
-        "next_other_flow": "empty"
+        "next_other_flow": ""
       },
       {
         "ID": "demo",
@@ -376,6 +494,8 @@
         "accept.child": "A fun activity I can do with my child",
         "accept.teen": "NA",
         "accept.baby": "NA",
+        "other_option": "Proceed to the next tip",
+        "other_flow": "new_day_goal_content",
         "refuse": "Continue with another tip tomorrow. ",
         "refuse_msg": "Alright. I will share another tip tomorrow. ",
         "next_offer_msg": "What would you like now?",
@@ -383,9 +503,9 @@
         "next_refuse": "Nothing. Let's continue tomorrow.",
         "next_refuse_msg": "OK, see you tomorrow.",
         "next_refuse_flow": "",
-        "next_other_opt": "The next tip ",
+        "next_other_opt": "",
         "next_other_msg": "",
-        "next_other_flow": "empty"
+        "next_other_flow": ""
       },
       {
         "ID": "menu",
@@ -394,6 +514,8 @@
         "accept.child": "",
         "accept.teen": "",
         "accept.baby": "",
+        "other_option": "",
+        "other_flow": "",
         "refuse": "",
         "refuse_msg": "",
         "next_offer_msg": "What would you like to do?",
@@ -435,13 +557,13 @@
     "completion_tracker_data": [
       {
         "ID": "multiple",
-        "msg": "There are @(fields.c_n_mod - fields.c_n_mod_compl) more tips. You'll receive a new one tomorrow. ",
+        "msg": "There are @(fields.c_n_mod - fields.c_n_mod_compl) more tips.",
         "next_button_option": "NEXT",
         "metadata.description": ""
       },
       {
         "ID": "one",
-        "msg": "There is one more tip. You'll receive it tomorrow. ",
+        "msg": "There is one more tip.",
         "next_button_option": "NEXT",
         "metadata.description": ""
       }

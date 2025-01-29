@@ -51,6 +51,18 @@
         "status": "",
         "tags.1": "",
         "tags.2": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "onboarding_input_number",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "OnboardingQuestionRangeModel",
+        "template_arguments": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": ""
       }
     ],
     "onboarding_messages": [
@@ -70,14 +82,14 @@
     "onboarding_question_language_data": [
       {
         "ID": "entry",
-        "question": "Please select your language:\n\nChoisissez votre ethnie:",
+        "question": "Please select your language:",
         "image": "https://firebasestorage.googleapis.com/v0/b/idems-media-recorder.appspot.com/o/project%2FPLH%2Fsubproject%2FParentText_v2%2Fdeployment%2FGlobal%2FresourceGroup%2Fimage%2Funiversal%2Fparenttext_logo.png?alt=media&token=09fbdf89-e9c8-4d06-bf14-4c480a3a869a",
         "options.1.text": "English",
         "options.1.value": "eng",
         "options.1.alias": "eng",
-        "options.2.text": "Français",
-        "options.2.value": "fra",
-        "options.2.alias": "fra"
+        "options.2.text": "Arabic",
+        "options.2.value": "ara",
+        "options.2.alias": "ara"
       },
       {
         "ID": "menu",
@@ -86,29 +98,33 @@
         "options.1.text": "English",
         "options.1.value": "eng",
         "options.1.alias": "eng",
-        "options.2.text": "French",
-        "options.2.value": "fra",
-        "options.2.alias": "fra"
+        "options.2.text": "Arabic",
+        "options.2.value": "ara",
+        "options.2.alias": "ara"
       }
     ],
     "onboarding_question_with_opt_data": [
       {
         "ID": "media",
-        "question": "ParentText is easiest to use when you receive content as videos, images and text. However, your data bundle and bandwidth may not support videos. To save on data, you can opt to receive the same content with a smaller audio file or as text. How would you like to receive ParentText?",
+        "question": "Would you like to receive ParentText lessons as text or videos? ",
         "image": "",
         "variable": "type of media",
-        "options.1.text": "Text, Images, and Videos",
+        "options.1.text": "Video ",
         "options.1.value": "high",
-        "options.2.text": "Text, Images, and Audio",
-        "options.2.value": "medium",
-        "options.3.text": "Text and Images Only",
-        "options.3.value": "low",
+        "options.2.text": "Text",
+        "options.2.value": "low",
+        "options.3.text": "",
+        "options.3.value": "",
         "options.4.text": "",
         "options.4.value": "",
         "options.5.text": "",
         "options.5.value": "",
         "options.6.text": "",
-        "options.6.value": ""
+        "options.6.value": "",
+        "options.7.text": "",
+        "options.7.value": "",
+        "options.8.text": "",
+        "options.8.value": ""
       },
       {
         "ID": "gender",
@@ -126,13 +142,83 @@
         "options.5.text": "",
         "options.5.value": "",
         "options.6.text": "",
-        "options.6.value": ""
+        "options.6.value": "",
+        "options.7.text": "",
+        "options.7.value": "",
+        "options.8.text": "",
+        "options.8.value": ""
+      },
+      {
+        "ID": "location",
+        "question": "Where are you located?",
+        "image": "https://firebasestorage.googleapis.com/v0/b/idems-media-recorder.appspot.com/o/project%2FPLH%2Fsubproject%2FParentText_v2%2Fdeployment%2FGlobal%2FresourceGroup%2Fimage%2Funiversal%2Fparenttext_logo.png?alt=media&token=09fbdf89-e9c8-4d06-bf14-4c480a3a869a",
+        "variable": "location",
+        "options.1.text": "1",
+        "options.1.value": "Jordan",
+        "options.2.text": "2",
+        "options.2.value": "West Bank",
+        "options.3.text": "3",
+        "options.3.value": "Gaza",
+        "options.4.text": "4",
+        "options.4.value": "Lebanon",
+        "options.5.text": "5",
+        "options.5.value": "Egypt",
+        "options.6.text": "6",
+        "options.6.value": "Syria",
+        "options.7.text": "7",
+        "options.7.value": "Yemen",
+        "options.8.text": "Other",
+        "options.8.value": "Other"
+      },
+      {
+        "ID": "situation",
+        "question": "What is your current living situation?",
+        "image": "",
+        "variable": "situation",
+        "options.1.text": "Living in a camp or shelter",
+        "options.1.value": "camp",
+        "options.2.text": "Living in a house or apartment",
+        "options.2.value": "home",
+        "options.3.text": "Moving around often",
+        "options.3.value": "on_the_move",
+        "options.4.text": "Prefer not to say",
+        "options.4.value": "no",
+        "options.5.text": "",
+        "options.5.value": "",
+        "options.6.text": "",
+        "options.6.value": "",
+        "options.7.text": "",
+        "options.7.value": "",
+        "options.8.text": "",
+        "options.8.value": ""
+      },
+      {
+        "ID": "age",
+        "question": "How old are you?",
+        "image": "",
+        "variable": "age",
+        "options.1.text": "Under 16 years old",
+        "options.1.value": "Under 16 years old",
+        "options.2.text": "16-19 years old",
+        "options.2.value": "16-19 years old",
+        "options.3.text": "20-35 years old",
+        "options.3.value": "20-35 years old",
+        "options.4.text": "Over 35 years old",
+        "options.4.value": "Over 35 years old",
+        "options.5.text": "",
+        "options.5.value": "",
+        "options.6.text": "",
+        "options.6.value": "",
+        "options.7.text": "",
+        "options.7.value": "",
+        "options.8.text": "",
+        "options.8.value": ""
       }
     ],
     "consent_data": [
       {
         "ID": "intro",
-        "msg": "The tips you will receive in this programme have been developed by UNICEF, UNHCR, and the Global Initiative to Support Parents. ",
+        "msg": "The tips you will receive in this programme have been developed with support from Sanadak, Anar for Empowerment and Psychosocial Support, World Without Orphans, Parenting for Lifelong Health, and UNICEF",
         "metadata.description": ""
       },
       {
@@ -179,56 +265,33 @@
         "ID": "agreement_thanks",
         "msg": "That is wonderful, thank you so much! ",
         "metadata.description": ""
-      },
+      }
+    ],
+    "onboarding_input_number": [
       {
-        "ID": "age_confirmation",
-        "msg": "Can you please confirm that you are 18 years old or older?",
-        "metadata.description": ""
-      },
-      {
-        "ID": "above_age_opt",
-        "msg": "Yes, I am over 18",
-        "metadata.description": ""
-      },
-      {
-        "ID": "above_age_opt_aliases",
-        "msg": "yes y over",
-        "metadata.description": "what is accepted if they want to select \"above_age_opt\""
-      },
-      {
-        "ID": "below_age_opt",
-        "msg": "No, I am under 18",
-        "metadata.description": "what is accepted if they want to select \"below_age_opt\""
-      },
-      {
-        "ID": "below_age_opt_aliases",
-        "msg": "no n under",
-        "metadata.description": ""
-      },
-      {
-        "ID": "above_age_msg",
-        "msg": "Let's begin. ",
-        "metadata.description": ""
-      },
-      {
-        "ID": "below_age_confirm",
-        "msg": "Sorry, ParentText is only for people over the age of 18. Do you confirm that you are under the age of 18?",
-        "metadata.description": ""
-      },
-      {
-        "ID": "below_age_yes",
-        "msg": "Yes",
-        "metadata.description": ""
-      },
-      {
-        "ID": "below_age_no",
-        "msg": "No",
-        "metadata.description": ""
-      },
-      {
-        "ID": "below_age_msg",
-        "msg": "If you want to experience ParentText, you can always share it with your parents or caregivers who are over the age of 18.\n{insert link}",
-        "metadata.description": ""
+        "ID": "children_at_home",
+        "question": "How many children do you take care of? ",
+        "variable": "children at home",
+        "grouping_variable": "",
+        "lower_bound": "0",
+        "low_error_msg": "I'm sorry. I don't understand. Please enter a number 0-30.",
+        "low_confirm_question": "",
+        "low_stop_opt": "",
+        "low_go_back_opt": "",
+        "low_stop_message": "",
+        "upper_bound": "30",
+        "up_error_msg": "I'm sorry. I don't understand. Please enter a number 0-30.",
+        "up_confirm_question": "",
+        "up_stop_opt": "",
+        "up_go_back_opt": "",
+        "up_stop_message": "",
+        "general_error_msg": "I'm sorry. I don't understand. Please enter a number 0-30.",
+        "ranges.1.limit": "",
+        "ranges.1.var_value": "",
+        "ranges.2.limit": "",
+        "ranges.2.var_value": "",
+        "ranges.3.limit": "",
+        "ranges.3.var_value": ""
       }
     ]
   }

@@ -1,0 +1,403 @@
+{
+  "meta": {
+    "version": "0.1.0"
+  },
+  "sheets": {
+    "content_index": [
+      {
+        "type": "data_sheet",
+        "sheet_name": "goal_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "GoalDataModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "module_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "ModuleDataModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "goal_topic_link",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "GoalTopicLinkModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "create_triggers",
+        "sheet_name": "demo_triggers",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "",
+        "template_arguments": "",
+        "operation": "",
+        "status": "draft",
+        "group": "",
+        "tags.1": "trigger",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "create_flow",
+        "sheet_name": "new_day_goal_content",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "delivery",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "daily_closing_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "TimedProgrammeModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "module_content_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "module_content_data",
+        "data_model": "",
+        "template_arguments": "",
+        "operation": "filter|expression;(ID==\"help_children_cope\")",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "take_a_pause",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "take_a_pause_data",
+        "data_model": "",
+        "template_arguments": "",
+        "operation": "filter|expression;(ID==\"body_scan\")",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "ltp_activity_crisis_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "ltp_activity_data",
+        "data_model": "LtpActivityModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      }
+    ],
+    "goal_data": [
+      {
+        "ID": "core",
+        "priority_c": "1",
+        "relationship": "yes|no",
+        "name_c.eng": "Tips",
+        "name_c.ara": ""
+      }
+    ],
+    "module_data": [
+      {
+        "ID": "care_for_yourself",
+        "topic_ID": "care_for_yourself",
+        "priority_in_topic": "",
+        "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
+        "child_gender": "male|female",
+        "name.eng": "Care for Yourself",
+        "name.ara": "Care for Yourself"
+      },
+      {
+        "ID": "help_children_cope",
+        "topic_ID": "help_children_cope",
+        "priority_in_topic": "",
+        "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
+        "child_gender": "male|female",
+        "name.eng": "Help Children Cope",
+        "name.ara": "Help Children Cope"
+      },
+      {
+        "ID": "make_a_routine",
+        "topic_ID": "make_a_routine",
+        "priority_in_topic": "",
+        "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
+        "child_gender": "male|female",
+        "name.eng": "Spending Time With Children to Cope ",
+        "name.ara": "Spending Time With Children to Cope "
+      },
+      {
+        "ID": "calm_encourage",
+        "topic_ID": "calm_encourage",
+        "priority_in_topic": "",
+        "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
+        "child_gender": "male|female",
+        "name.eng": "Stay Calm and Encourage Children",
+        "name.ara": "Stay Calm and Encourage Children"
+      },
+      {
+        "ID": "prepare_to_travel",
+        "topic_ID": "prepare_to_travel",
+        "priority_in_topic": "",
+        "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
+        "child_gender": "male|female",
+        "name.eng": "Prepare to Travel",
+        "name.ara": "Prepare to Travel"
+      },
+      {
+        "ID": "travel_safely",
+        "topic_ID": "travel_safely",
+        "priority_in_topic": "",
+        "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
+        "child_gender": "male|female",
+        "name.eng": "Travel Safely Together With Children",
+        "name.ara": "Travel Safely Together With Children"
+      },
+      {
+        "ID": "protect_sexual_violence",
+        "topic_ID": "protect_sexual_violence",
+        "priority_in_topic": "",
+        "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
+        "child_gender": "male|female",
+        "name.eng": "Protecting Your Children From Harassment",
+        "name.ara": "Protecting Your Children From Harassment"
+      },
+      {
+        "ID": "when_someone_dies",
+        "topic_ID": "when_someone_dies",
+        "priority_in_topic": "",
+        "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
+        "child_gender": "male|female",
+        "name.eng": "Helping Your Child In Case Of Death Of Loved Ones",
+        "name.ara": "Helping Your Child In Case Of Death Of Loved Ones"
+      },
+      {
+        "ID": "building_strength",
+        "topic_ID": "building_strength",
+        "priority_in_topic": "",
+        "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
+        "child_gender": "male|female",
+        "name.eng": "Building Your Strength",
+        "name.ara": "Building Your Strength"
+      }
+    ],
+    "goal_topic_link": [
+      {
+        "ID": "care_for_yourself",
+        "goal_id_c": "core",
+        "priority_in_goal_c": "02"
+      },
+      {
+        "ID": "help_children_cope",
+        "goal_id_c": "core",
+        "priority_in_goal_c": "01"
+      },
+      {
+        "ID": "make_a_routine",
+        "goal_id_c": "core",
+        "priority_in_goal_c": "03"
+      },
+      {
+        "ID": "calm_encourage",
+        "goal_id_c": "core",
+        "priority_in_goal_c": "04"
+      },
+      {
+        "ID": "prepare_to_travel",
+        "goal_id_c": "core",
+        "priority_in_goal_c": "05"
+      },
+      {
+        "ID": "travel_safely",
+        "goal_id_c": "core",
+        "priority_in_goal_c": "06"
+      },
+      {
+        "ID": "protect_sexual_violence",
+        "goal_id_c": "core",
+        "priority_in_goal_c": "07"
+      },
+      {
+        "ID": "when_someone_dies",
+        "goal_id_c": "core",
+        "priority_in_goal_c": "08"
+      },
+      {
+        "ID": "building_strength",
+        "goal_id_c": "core",
+        "priority_in_goal_c": "09"
+      }
+    ],
+    "goals_api_sources": [
+      {
+        "book": "localized.json",
+        "model": "ModuleDataGlobal",
+        "resource": "modules",
+        "sheet": "module_data"
+      },
+      {
+        "book": "localized.json",
+        "model": "GoalModuleLinkGlobal",
+        "resource": "goal_topic_links",
+        "sheet": "goal_topic_link"
+      },
+      {
+        "book": "localized.json",
+        "model": "GoalDataGlobal",
+        "resource": "goals",
+        "sheet": "goal_data"
+      },
+      {
+        "book": "ltp_activities.json",
+        "model": "LTPActivities",
+        "resource": "ltp_activities",
+        "sheet": "ltp_activity_data"
+      }
+    ],
+    "demo_triggers": [
+      {
+        "type": "K",
+        "keywords": "demo",
+        "match_type": "O",
+        "flow": "uncaught_message_flow",
+        "groups": ""
+      },
+      {
+        "type": "K",
+        "keywords": "demo - arabic",
+        "match_type": "O",
+        "flow": "uncaught_message_flow",
+        "groups": ""
+      }
+    ],
+    "new_day_goal_content": [
+      {
+        "row_id": "",
+        "type": "send_message",
+        "from": "",
+        "condition": "",
+        "condition_var": "",
+        "condition_type": "",
+        "condition_name": "",
+        "include_if": "",
+        "message_text": "End of demo. In a full package, the next lesson begins immediately when this option is selected. Otherwise, a new lesson would be delivered in 24 hours.",
+        "data_sheet": "",
+        "data_row_id": "",
+        "choices.1": "",
+        "choices.2": "",
+        "save_name": "",
+        "image": "",
+        "audio": "",
+        "video": "",
+        "obj_name": "",
+        "obj_id": "",
+        "node_name": "",
+        "_nodeId": "",
+        "no_response": ""
+      }
+    ],
+    "daily_closing_data": [
+      {
+        "ID": "progress_tracker",
+        "flow": "completion_tracker"
+      },
+      {
+        "ID": "activity_offer",
+        "flow": "activity_offer - timed_programme"
+      }
+    ],
+    "ltp_activity_data": [
+      {
+        "ID": "friendly_chat",
+        "name": "A Friendly Chat",
+        "text": "Talk to your children about something that they are interested in! 😃\n\n⚽ An easy way to start talking to your children is to ask them about something they are interested in. For example, you could talk about local stories, traditions, sports, favourite books, friends, music, famous people or something they have been learning about.\n;\n👂 You may not find everything your children share to be interesting, but it’s important to show enthusiasm and an eagerness to learn. \n\nPaying attention to what matters to your children can make a big difference in your relationship and their happiness. ",
+        "act_type": "Quick | Calm ",
+        "act_age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "whats_new",
+        "name": "What’s New?",
+        "text": "Learning is fun! 🎓\n\n❓ Ask your children to think of a new, fun skill you could learn together. \nFor example, keeping a ball in the air with your foot, learning, practising local language phrases, sharing stories from your culture, playing local games and sports, or learning a new song.\n;\n🔄 Take turns trying out the new skill. Make sure to praise each other and learn and play together!\n💛 Approach learning the skill in a kind and fun way, and do not judge your children or yourself for your ability in the skill. ",
+        "act_type": "Active",
+        "act_age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "express_yourself",
+        "name": "Express Yourself",
+        "text": "Movement makes people happy!\nThis game can be played in pairs or as a group - stand facing each other or in a circle.\n🎵 Together, choose a song, a fun sound, or a clapping pattern to follow and choose a person to start the game by creating one movement.\n👀 The person to their right must copy that movement and add their own movement to it.\n✨ Go around the circle, each person adding a new movement.\n;\n🔄 The first one who forgets someone's movements or does it in the wrong order chooses the next song, sound, or pattern and starts the game again.\n\n🎉 Have fun trying out different movements together with this fun game.",
+        "act_type": "Quick | Active ",
+        "act_age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "one_on_one_time",
+        "name": "One-on-One Time",
+        "text": "💚 Spending time just with your children and taking an interest in them can improve your relationship. \n\n👀 When your children are playing alone or occupying themselves, join them and show interest in what they are doing.\n\n👂Ask questions about their activity and listen to them.\n;\nLet your children lead the activity and follow them to build their confidence and autonomy. 😃\n\n👀 Say what you see - describing everything and supporting your children’s actions.\n\nBe positive, praise your children and enjoy spending this time with them. 😃💚",
+        "act_type": "Calm",
+        "act_age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "active_counting",
+        "name": "Active Counting",
+        "text": "👋 Clap, hop, jump: Play the following game with your children. Make it active!\n\n1️⃣ Clap hands 1 time. \n2️⃣ Clap hands 2 times.\n1️⃣ Jump 1 time. \n2️⃣ Jump 2 times.\n1️⃣ Hop 1 time.\n3️⃣ Hop 3 times.\n💡 Can you hop, then jump, then clap? \n🏆 Can you clap twice, jump once, and hop three times?\n;\n💡 Remembering Instructions\nTake turns playing a game where you give 2-3 instructions that the other person has to remember to follow. Make sure physical movement is included!\nFor example:\nHop twice, turn around.\nTake ten steps forward, three steps to the side and sit down. ✅",
+        "act_type": "Active",
+        "act_age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
+        "attached_single_doc": ""
+      }
+    ]
+  }
+}
