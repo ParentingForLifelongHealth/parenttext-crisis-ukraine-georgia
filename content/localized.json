@@ -297,12 +297,6 @@
         "model": "GoalDataGlobal",
         "resource": "goals",
         "sheet": "goal_data"
-      },
-      {
-        "book": "ltp_activities.json",
-        "model": "LTPActivities",
-        "resource": "ltp_activities",
-        "sheet": "ltp_activity_data"
       }
     ],
     "demo_triggers": [
