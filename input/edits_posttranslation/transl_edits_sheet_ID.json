@@ -97,7 +97,7 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*",
         "original": "**",
-        "language": "fra",
+        "language": "ara",
         "replacement": "*"
       }
     ],
@@ -155,8 +155,8 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{generic referrals}.*",
         "original": "{generic referrals}",
-        "language": "fra",
-        "replacement": "Ce contenu est localisé dans votre contexte de crise avant le déploiement. Par exemple:\n\n[Réfugiés et informations sur l'asile du HCR](https://help.unhcr.org/fr)\n\nLes numéros locaux pour le support d'urgence peuvent aller ici. Par exemple, [NIGERIA'S NCFRMI](https://www.ncfrmi.com/#)"
+        "language": "ara",
+        "replacement": ""
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -164,8 +164,8 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{mental_health referrals}.*",
         "original": "{mental_health referrals}",
-        "language": "fra",
-        "replacement": "Les numéros de téléphones locaux et les ressources internationales pour le soutien en santé mentale peuvent aller ici. Ce contenu est localisé avant le déploiement.\n"
+        "language": "ara",
+        "replacement": ""
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -173,8 +173,8 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{health referrals}.*",
         "original": "{health referrals}",
-        "language": "fra",
-        "replacement": "Les numéros de téléphones locaux pour les soins médicaux d'urgence peuvent aller ici. Ce contenu est localisé avant le déploiement.\n"
+        "language": "ara",
+        "replacement": ""
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -182,8 +182,8 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{natural_disasters referrals}.*",
         "original": "{natural_disasters referrals}",
-        "language": "fra",
-        "replacement": "Les ressources locales et internationales pour les catastrophes naturelles peuvent aller ici. Ce contenu est localisé avant le déploiement.\n"
+        "language": "ara",
+        "replacement": ""
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -191,8 +191,8 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{family referrals}.*",
         "original": "{family referrals}",
-        "language": "fra",
-        "replacement": "Les ressources locales et internationales pour les références de soutien familiales peuvent aller ici. Ce contenu est localisé avant le déploiement."
+        "language": "ara",
+        "replacement": ""
       }
     ],
     "triggers_eng": [
@@ -258,8 +258,8 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{HELP}.*",
         "original": "{HELP}",
-        "language": "fra",
-        "replacement": "AIDE"
+        "language": "ara",
+        "replacement": ""
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -267,8 +267,8 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{MENU}.*",
         "original": "{MENU}",
-        "language": "fra",
-        "replacement": "MENU"
+        "language": "ara",
+        "replacement": ""
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -276,8 +276,8 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{PLAY}.*",
         "original": "{PLAY}",
-        "language": "fra",
-        "replacement": "JOUER"
+        "language": "ara",
+        "replacement": ""
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -285,8 +285,8 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{STOP}.*",
         "original": "{STOP}",
-        "language": "fra",
-        "replacement": "ARRÊT"
+        "language": "ara",
+        "replacement": ""
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -294,8 +294,8 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{START}.*",
         "original": "{START}",
-        "language": "fra",
-        "replacement": "COMMENCER"
+        "language": "ara",
+        "replacement": ""
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -303,23 +303,14 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{PAUSE}.*",
         "original": "{PAUSE}",
-        "language": "fra",
-        "replacement": "PAUSE"
+        "language": "ara",
+        "replacement": ""
       }
     ],
     "urls": [
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "share",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{insert link}.*",
-        "change": "{insert link}",
-        "condition_var": "",
-        "category": "https://wa.me/14156399477/?text=start"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "consent",
         "original_row_id": "",
         "node_identifier": "Regex:.*{insert link}.*",
         "change": "{insert link}",
@@ -334,16 +325,7 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{insert link}.*",
         "original": "{insert link}",
-        "language": "fra",
-        "replacement": "https://wa.me/14156399477/?text=commencer"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "consent",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{insert link}.*",
-        "original": "{insert link}",
-        "language": "fra",
+        "language": "ara",
         "replacement": "https://wa.me/14156399477/?text=commencer"
       }
     ]

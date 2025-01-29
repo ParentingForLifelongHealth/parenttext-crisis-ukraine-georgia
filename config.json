@@ -5,13 +5,14 @@
     },
     "parents": {
         "base": {
-            "location": "https://github.com/IDEMSInternational/parenttext-crisis-base/archive/tags/v1.0.3.zip"
+            "location": "https://github.com/IDEMSInternational/parenttext-crisis-base/archive/refs/tags/v1.0.4.zip"
         }
     },
     "flows_outputbasename": "parenttext_all",
     "output_split_number": 1,
     "sheet_names" : {
         "deployment_localised_sheets" : "1tLDsUe-NxOxpxOBuTJmopOnP9dOcmLVHjO2YQxGxe28",
+        "demo_localised_sheets" : "1LxRmR5SS-5OZfiXlHzmg1yOsN2u33sgEexXj0I-W2js",
 
         "N_onboarding_data" : "1tC8BcP32nE7Bt5sRKAsfx0_69bfjsslOtvaAjSEaQ1A",
         "C_ltp_activities" :"1IwBHNx8zh-xg7Jk5KdcO4VM-FospCj3H3OizYG-kkuw",
@@ -38,7 +39,8 @@
                 "N_safeguarding_data",
                 "N_delivery_data_response",
                 "N_menu_data_response",
-                "deployment_localised_sheets"
+                "deployment_localised_sheets",
+                "demo_localised_sheets"
             ]
         },
         "edits_pretranslation": {
@@ -61,7 +63,7 @@
         "translation": {
             "format": "translation_repo",
             "translation_repo": "https://github.com/IDEMSInternational/plh-digital-content",
-            "folder_within_repo": "translations/parent_text_crisis_global",
+            "folder_within_repo": "translations/parent_text_crisis_palestine",
             "commit_hash": "",
             "commit_tag": "",
             "languages": [
@@ -85,7 +87,7 @@
             "format": "safeguarding",
             "sources" : [
                 {
-                    "key": "fra",
+                    "key": "ara",
                     "path": "excel_files/safeguarding crisis.xlsx"
                 }
             ]
@@ -104,7 +106,7 @@
             "type": "create_flows",
             "models_module": "models.parenttext_models",
             "sources": ["flow_definitions"],
-            "tags": []
+            "tags": [1, "delivery",1 ,"menu",1,"onboarding",1,"safeguarding"]
         },
         {
             "id": "update_expiration_times",
@@ -134,7 +136,7 @@
             "type": "translation",
             "sources": ["translation"],
             "languages": [
-                {"language": "fra", "code": "fr"}
+                {"language": "ara", "code": "ar"}
             ]
         },
         {   
