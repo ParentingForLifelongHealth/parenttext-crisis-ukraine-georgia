@@ -5,7 +5,7 @@
     },
     "parents": {
         "base": {
-            "location": "https://github.com/IDEMSInternational/parenttext-crisis-base/archive/refs/tags/v1.0.4.zip"
+            "location": "https://github.com/IDEMSInternational/parenttext-crisis-base/archive/refs/tags/v1.0.5.zip"
         }
     },
     "flows_outputbasename": "parenttext_all",
@@ -106,7 +106,7 @@
             "type": "create_flows",
             "models_module": "models.parenttext_models",
             "sources": ["flow_definitions"],
-            "tags": []
+            "tags": [1, "delivery"]
         },
         {
             "id": "update_expiration_times",

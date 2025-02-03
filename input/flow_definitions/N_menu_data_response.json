@@ -178,7 +178,7 @@
         "return_option.text": "Return to Main Menu",
         "return_option.flow": "menu - main",
         "options.1.text": "Get the next tip.",
-        "options.1.flow": "timed_programme",
+        "options.1.flow": "new_day_goal_content",
         "options.2.text": "Nothing. Let's continue tomorrow.",
         "options.2.flow": "exit_menu",
         "options.3.text": "",

@@ -315,7 +315,7 @@
         "node_identifier": "Regex:.*{insert link}.*",
         "change": "{insert link}",
         "condition_var": "",
-        "category": "https://wa.me/14156399477/?text=start"
+        "category": "------"
       }
     ],
     "urls_transl": [
@@ -326,7 +326,7 @@
         "node_identifier": "Regex:.*{insert link}.*",
         "original": "{insert link}",
         "language": "ara",
-        "replacement": "https://wa.me/14156399477/?text=commencer"
+        "replacement": "------"
       }
     ]
   }

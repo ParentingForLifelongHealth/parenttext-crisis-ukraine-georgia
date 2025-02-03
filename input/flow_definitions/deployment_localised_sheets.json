@@ -192,7 +192,7 @@
         "new_name": "onboarding_data",
         "data_model": "OnboardingStepsModel",
         "template_arguments": "",
-        "operation": "filter|expression;(ID !=\"situation\")",
+        "operation": "",
         "status": "",
         "group": "",
         "tags.1": "",
@@ -330,42 +330,42 @@
         "keywords": "المساعدة",
         "match_type": "O",
         "flow": "uncaught_message_flow",
-        "groups": ""
+        "groups": "Help"
       },
       {
         "type": "K",
         "keywords": "توقف",
         "match_type": "O",
         "flow": "uncaught_message_flow",
-        "groups": ""
+        "groups": "Stop"
       },
       {
         "type": "K",
         "keywords": "العب",
         "match_type": "O",
         "flow": "uncaught_message_flow",
-        "groups": ""
+        "groups": "Play"
       },
       {
         "type": "K",
         "keywords": "ابدأ",
         "match_type": "O",
         "flow": "uncaught_message_flow",
-        "groups": ""
+        "groups": "Start"
       },
       {
         "type": "K",
         "keywords": "القائمة ",
         "match_type": "O",
         "flow": "uncaught_message_flow",
-        "groups": ""
+        "groups": "Menu"
       },
       {
         "type": "K",
-        "keywords": "demo",
+        "keywords": "تجريبية",
         "match_type": "O",
         "flow": "uncaught_message_flow",
-        "groups": ""
+        "groups": "Demo"
       }
     ],
     "wa_templates": [
@@ -1323,7 +1323,7 @@
         "variable": "@fields.completed_children_at_home"
       },
       {
-        "ID": "location",
+        "ID": "located",
         "flow": "onboarding_question_with_opt - location",
         "variable": "@fields.completed_location"
       },

@@ -17,22 +17,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "kidnapper",
-                        "enl\u00e8vement",
-                        "kidnappeur",
-                        "kidnapp\u00e9",
-                        "kidnapp\u00e9e"
-                    ],
-                    "mispellings": [
-                        "dificil",
-                        "enl\u00e8vemen",
-                        "enlevemen",
-                        "enlaiveman",
-                        "enleveman",
-                        "enlevmen",
-                        "enlevement"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -50,21 +36,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "mort",
-                        "mort",
-                        "morte",
-                        "mourant",
-                        "mourante"
-                    ],
-                    "mispellings": [
-                        "mor",
-                        "more",
-                        "mouran",
-                        "morrant",
-                        "meur",
-                        "mourir"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -81,18 +54,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "ill\u00e9gal"
-                    ],
-                    "mispellings": [
-                        "ilegal",
-                        "ilegalle",
-                        "ylegal",
-                        "ilega",
-                        "ilegaleman",
-                        "ilegalemen",
-                        "ilegalemen"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -113,21 +76,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "poison",
-                        "empoisonnement",
-                        "empoisonn\u00e9",
-                        "empoisonn\u00e9e"
-                    ],
-                    "mispellings": [
-                        "poisson",
-                        "poizon",
-                        "empoizoner",
-                        "poizoner",
-                        "anpoizon\u00e9",
-                        "empoisoner",
-                        "enpoisone"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -144,18 +94,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "crise",
-                        "crises"
-                    ],
-                    "mispellings": [
-                        "criz",
-                        "crize",
-                        "kryz",
-                        "krize",
-                        "crisse",
-                        "cryse"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -175,23 +115,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "Probl\u00e8me",
-                        "troublant",
-                        "p\u00e9nible",
-                        "troubl\u00e9",
-                        "troubl\u00e9e"
-                    ],
-                    "mispellings": [
-                        "troubl",
-                        "troublan",
-                        "truble",
-                        "trubles",
-                        "troble",
-                        "trobble",
-                        "pblm",
-                        "blem"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -209,20 +134,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "victime",
-                        "victime"
-                    ],
-                    "mispellings": [
-                        "victm",
-                        "victimes",
-                        "victim",
-                        "viktim",
-                        "viktem",
-                        "victimm",
-                        "vyktim",
-                        "vctm"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -241,18 +154,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "urgence",
-                        "secours"
-                    ],
-                    "mispellings": [
-                        "urjens",
-                        "urjence",
-                        "urganse",
-                        "urjansse",
-                        "urjense",
-                        "ujense"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -272,20 +175,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "danger",
-                        "dangereux",
-                        "danger"
-                    ],
-                    "mispellings": [
-                        "danj\u00e9",
-                        "danjer",
-                        "dangereu",
-                        "danjereu",
-                        "denj\u00e9",
-                        "deng\u00e9",
-                        "denger"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -303,18 +194,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "harc\u00e8lement"
-                    ],
-                    "mispellings": [
-                        "arceleman",
-                        "arcelemen",
-                        "arsaileman",
-                        "arcele",
-                        "harecele",
-                        "harsele",
-                        "harseleman"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -334,18 +215,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "suivre",
-                        "suit",
-                        "suivi"
-                    ],
-                    "mispellings": [
-                        "suivr",
-                        "sui",
-                        "suivi",
-                        "suvre",
-                        "suvr"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -365,25 +236,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "souffrir",
-                        "souffrance",
-                        "souffert",
-                        "tortur\u00e9",
-                        "tortur\u00e9e"
-                    ],
-                    "mispellings": [
-                        "suffrir",
-                        "souffer",
-                        "soffert",
-                        "soffrir",
-                        "suffrance",
-                        "soufrence",
-                        "sufrense",
-                        "souffrans",
-                        "torture",
-                        "torturee"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -402,19 +256,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "cacher",
-                        "cache",
-                        "cach\u00e9"
-                    ],
-                    "mispellings": [
-                        "kacher",
-                        "casher",
-                        "cashe",
-                        "cash\u00e9",
-                        "cach",
-                        "kache"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         }
@@ -435,16 +278,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "vomi",
-                        "vomi",
-                        "vomir"
-                    ],
-                    "mispellings": [
-                        "vomire",
-                        "vmir",
-                        "vom"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -463,16 +298,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "vomir",
-                        "vomir",
-                        "vomi"
-                    ],
-                    "mispellings": [
-                        "vom",
-                        "vommir",
-                        "vmi"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -491,18 +318,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "maladie",
-                        "MST",
-                        "maladies"
-                    ],
-                    "mispellings": [
-                        "maladi",
-                        "SMT",
-                        "malad",
-                        "malady",
-                        "mldie"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -521,17 +338,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "malade",
-                        "maladie",
-                        "maladif"
-                    ],
-                    "mispellings": [
-                        "malad",
-                        "maladdi",
-                        "maladife",
-                        "maladei"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -550,16 +358,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "malade",
-                        "maladie",
-                        "maladies"
-                    ],
-                    "mispellings": [
-                        "malad",
-                        "maladdie",
-                        "malladi"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -577,18 +377,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "sant\u00e9",
-                        "sain"
-                    ],
-                    "mispellings": [
-                        "sante",
-                        "sin",
-                        "sein",
-                        "senter",
-                        "sent\u00e9",
-                        "ssante"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -606,18 +396,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "h\u00f4pital",
-                        "clinique"
-                    ],
-                    "mispellings": [
-                        "opital",
-                        "klinik",
-                        "klinic",
-                        "clinik",
-                        "clenik",
-                        "klenik"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -634,18 +414,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "fausse couche",
-                        "faire une fausse couche"
-                    ],
-                    "mispellings": [
-                        "faus couch",
-                        "fos couche",
-                        "fosse couche",
-                        "foss kouch",
-                        "fau couche",
-                        "fasse coush"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -664,20 +434,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "enceinte",
-                        "grossesse",
-                        "enceinte"
-                    ],
-                    "mispellings": [
-                        "enseinte",
-                        "ensint",
-                        "anceinte",
-                        "encinte",
-                        "ensinte",
-                        "ancint",
-                        "ansint"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -696,18 +454,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "avortement",
-                        "avorter",
-                        "avort\u00e9"
-                    ],
-                    "mispellings": [
-                        "avort",
-                        "avorte",
-                        "avortemen",
-                        "avortte",
-                        "avoter"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -721,15 +469,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "COVID",
-                        "COVID19"
-                    ],
-                    "mispellings": [
-                        "COV",
-                        "COV19",
-                        "Covide"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         }
@@ -750,17 +491,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "anxi\u00e9t\u00e9",
-                        "anxieux",
-                        "anxi\u00e9t\u00e9"
-                    ],
-                    "mispellings": [
-                        "anxeite",
-                        "anxieu",
-                        "anxie",
-                        "anxiete"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -779,21 +511,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "d\u00e9pression",
-                        "d\u00e9pressif",
-                        "d\u00e9prim\u00e9"
-                    ],
-                    "mispellings": [
-                        "despression",
-                        "despressif",
-                        "deprim",
-                        "dprime",
-                        "depprime",
-                        "deprecif",
-                        "deprime",
-                        "depressif"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -811,17 +530,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "trouble",
-                        "troubles"
-                    ],
-                    "mispellings": [
-                        "trubl",
-                        "trubbles",
-                        "troubl",
-                        "touble",
-                        "troubble"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -838,16 +548,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "th\u00e9rapie"
-                    ],
-                    "mispellings": [
-                        "terapi",
-                        "terapie",
-                        "terrapi",
-                        "terrapie",
-                        "terap"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -863,16 +565,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "psychologue"
-                    ],
-                    "mispellings": [
-                        "sycologue",
-                        "sicologue",
-                        "psikolog",
-                        "psicologue",
-                        "sikologue"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -890,19 +584,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "suicide",
-                        "suicidaire",
-                        "suicides"
-                    ],
-                    "mispellings": [
-                        "sucid",
-                        "ssuicid",
-                        "suisidaire",
-                        "suside",
-                        "sucider",
-                        "sucidere"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -921,22 +604,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "stress",
-                        "stress\u00e9",
-                        "stress\u00e9e"
-                    ],
-                    "mispellings": [
-                        "stresss",
-                        "strees",
-                        "srtess",
-                        "stres",
-                        "stresser",
-                        "strss\u00e9",
-                        "stressee",
-                        "stresse",
-                        "strs"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -955,17 +624,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "d\u00e9tresse"
-                    ],
-                    "mispellings": [
-                        "detres",
-                        "dettresse",
-                        "dttress",
-                        "dtrese",
-                        "detrres",
-                        "detrresse"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -983,20 +643,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "triste",
-                        "attrist\u00e9",
-                        "attrist\u00e9e"
-                    ],
-                    "mispellings": [
-                        "trist",
-                        "atrist\u00e9",
-                        "atristte",
-                        "atrisste",
-                        "trste",
-                        "attristee",
-                        "attriste"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -1013,19 +661,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "effrayer",
-                        "effray\u00e9",
-                        "effray\u00e9e"
-                    ],
-                    "mispellings": [
-                        "effraier",
-                        "efrayer",
-                        "efraye",
-                        "fraye",
-                        "effrayee",
-                        "effraye"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -1040,9 +677,7 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "effray\u00e9"
-                    ],
+                    "keywords": [],
                     "mispellings": []
                 }
             }
@@ -1058,14 +693,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "inquiet"
-                    ],
-                    "mispellings": [
-                        "inkie",
-                        "inkiet",
-                        "inqiet"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -1082,16 +711,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "peur",
-                        "effrayer"
-                    ],
-                    "mispellings": [
-                        "peurr",
-                        "peurre",
-                        "reup",
-                        "perr"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -1110,18 +731,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "panique",
-                        "panique",
-                        "paniqu\u00e9",
-                        "paniqu\u00e9e"
-                    ],
-                    "mispellings": [
-                        "panik",
-                        "panike",
-                        "panique",
-                        "paniquee"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -1137,15 +748,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "fou",
-                        "folle"
-                    ],
-                    "mispellings": [
-                        "fouu",
-                        "foou",
-                        "ouf"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -1161,15 +765,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "douleur"
-                    ],
-                    "mispellings": [
-                        "douler",
-                        "duleur",
-                        "doleur",
-                        "doulur"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         }
@@ -1190,15 +787,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "feu",
-                        "feu de for\u00eat"
-                    ],
-                    "mispellings": [
-                        "fe",
-                        "brul",
-                        "feu foret"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -1218,19 +808,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "tremblement terre",
-                        "glissement terrain",
-                        "\u00e9croulement"
-                    ],
-                    "mispellings": [
-                        "trenblemen",
-                        "trmbl",
-                        "ecroulmen",
-                        "tramblemen",
-                        "ter",
-                        "ecroulement"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -1252,20 +831,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "inondations",
-                        "inond\u00e9",
-                        "inondation",
-                        "mousson"
-                    ],
-                    "mispellings": [
-                        "inondasion",
-                        "innonde",
-                        "nondation",
-                        "inondasyon",
-                        "mouson",
-                        "inonde"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -1282,17 +849,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "fum\u00e9e",
-                        "fum\u00e9",
-                        "fum\u00e9e"
-                    ],
-                    "mispellings": [
-                        "fum",
-                        "fumme",
-                        "fume",
-                        "fumee"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -1313,22 +871,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "typhon",
-                        "ouragan",
-                        "tornade",
-                        "cyclone"
-                    ],
-                    "mispellings": [
-                        "tifon",
-                        "tyfon",
-                        "tiffon",
-                        "ouragant",
-                        "tornad",
-                        "siclone",
-                        "ciclon",
-                        "siclon"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -1345,18 +889,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "s\u00e9cheresse",
-                        "sec",
-                        "aridit\u00e9"
-                    ],
-                    "mispellings": [
-                        "secheres",
-                        "sek",
-                        "sce",
-                        "arid",
-                        "aridite"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -1373,16 +907,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "\u00e9ruption volcanique",
-                        "volcan"
-                    ],
-                    "mispellings": [
-                        "volkan",
-                        "vollkan",
-                        "volcann",
-                        "eruption volcanique"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         },
@@ -1398,19 +924,8 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [
-                        "vent",
-                        "explosion"
-                    ],
-                    "mispellings": [
-                        "ven",
-                        "van",
-                        "vant",
-                        "xplosion",
-                        "explozion",
-                        "xploze",
-                        "explos"
-                    ]
+                    "keywords": [],
+                    "mispellings": []
                 }
             }
         }
@@ -1432,16 +947,9 @@
             "Translation": {
                 "ara": {
                     "keywords": [
-                        "MENU",
-                        "Menu Principal",
-                        "Menue",
-                        "Menu Prinsipal"
+                        "\u0627\u0644\u0642\u0627\u0626\u0645\u0629"
                     ],
-                    "mispellings": [
-                        "Manu Prinsipal",
-                        "meun",
-                        "Menu Prinsipal"
-                    ]
+                    "mispellings": []
                 }
             }
         }
@@ -1462,15 +970,9 @@
             "Translation": {
                 "ara": {
                     "keywords": [
-                        "AIDE",
-                        "aid",
-                        "ede",
-                        "aidde"
+                        "\u0627\u0644\u0645\u0633\u0627\u0639\u062f\u0629"
                     ],
-                    "mispellings": [
-                        "ade",
-                        "edde"
-                    ]
+                    "mispellings": []
                 }
             }
         }
@@ -1489,14 +991,9 @@
             "Translation": {
                 "ara": {
                     "keywords": [
-                        "PAUSE",
-                        "Puase",
-                        "Pose",
-                        "Paus"
+                        "PAUSE"
                     ],
-                    "mispellings": [
-                        "Pauz"
-                    ]
+                    "mispellings": []
                 }
             }
         }
@@ -1505,16 +1002,14 @@
         {
             "English": {
                 "keywords": [
-                    "Start",
-                    "COMMENCER"
+                    "Demo"
                 ],
                 "mispellings": []
             },
             "Translation": {
                 "ara": {
                     "keywords": [
-                        "COMMENCER",
-                        "Start"
+                        "\u062a\u062c\u0631\u064a\u0628\u064a\u0629"
                     ],
                     "mispellings": []
                 }
@@ -1532,8 +1027,7 @@
             "Translation": {
                 "ara": {
                     "keywords": [
-                        "ARR\u00caT",
-                        "arret"
+                        "\u062a\u0648\u0642\u0641"
                     ],
                     "mispellings": []
                 }
@@ -1556,15 +1050,9 @@
             "Translation": {
                 "ara": {
                     "keywords": [
-                        "JOUER",
-                        "juer",
-                        "joer",
-                        "jour"
+                        "\u0627\u0644\u0639\u0628"
                     ],
-                    "mispellings": [
-                        "juor",
-                        "joure"
-                    ]
+                    "mispellings": []
                 }
             }
         }
