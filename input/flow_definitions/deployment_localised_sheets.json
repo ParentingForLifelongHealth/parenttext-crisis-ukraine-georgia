@@ -330,42 +330,42 @@
         "keywords": "المساعدة",
         "match_type": "O",
         "flow": "uncaught_message_flow",
-        "groups": "Help"
+        "groups": ""
       },
       {
         "type": "K",
         "keywords": "توقف",
         "match_type": "O",
         "flow": "uncaught_message_flow",
-        "groups": "Stop"
+        "groups": ""
       },
       {
         "type": "K",
         "keywords": "العب",
         "match_type": "O",
         "flow": "uncaught_message_flow",
-        "groups": "Play"
+        "groups": ""
       },
       {
         "type": "K",
         "keywords": "ابدأ",
         "match_type": "O",
         "flow": "uncaught_message_flow",
-        "groups": "Start"
+        "groups": ""
       },
       {
         "type": "K",
         "keywords": "القائمة ",
         "match_type": "O",
         "flow": "uncaught_message_flow",
-        "groups": "Menu"
+        "groups": ""
       },
       {
         "type": "K",
         "keywords": "تجريبية",
         "match_type": "O",
         "flow": "uncaught_message_flow",
-        "groups": "Demo"
+        "groups": ""
       }
     ],
     "wa_templates": [
