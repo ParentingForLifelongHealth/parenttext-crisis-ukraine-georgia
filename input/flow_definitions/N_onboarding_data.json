@@ -82,12 +82,12 @@
     "onboarding_question_language_data": [
       {
         "ID": "entry",
-        "question": "Please select your language:",
+        "question": "Please select your language:\n\n[In Arabic] Please select your language:",
         "image": "https://firebasestorage.googleapis.com/v0/b/idems-media-recorder.appspot.com/o/project%2FPLH%2Fsubproject%2FParentText_v2%2Fdeployment%2FGlobal%2FresourceGroup%2Fimage%2Funiversal%2Fparenttext_logo.png?alt=media&token=09fbdf89-e9c8-4d06-bf14-4c480a3a869a",
         "options.1.text": "English",
         "options.1.value": "eng",
         "options.1.alias": "eng",
-        "options.2.text": "Arabic",
+        "options.2.text": "[In Arabic] Arabic",
         "options.2.value": "ara",
         "options.2.alias": "ara"
       },

@@ -103,7 +103,7 @@
         "data_model": "",
         "template_arguments": "",
         "operation": "filter|expression;(ID==\"help_children_cope\")",
-        "status": "draft",
+        "status": "",
         "group": "",
         "tags.1": "",
         "tags.2": "",
@@ -118,7 +118,7 @@
         "data_model": "",
         "template_arguments": "",
         "operation": "filter|expression;(ID==\"body_scan\")",
-        "status": "draft",
+        "status": "",
         "group": "",
         "tags.1": "",
         "tags.2": "",
@@ -315,7 +315,7 @@
       },
       {
         "type": "K",
-        "keywords": "demo - arabic",
+        "keywords": "تجريبية",
         "match_type": "O",
         "flow": "uncaught_message_flow",
         "groups": ""
