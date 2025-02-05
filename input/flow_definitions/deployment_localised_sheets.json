@@ -305,25 +305,6 @@
         "tags.3": ""
       }
     ],
-    "local_default_contact_fields_data": [
-      {
-        "ID": "deployment_name",
-        "name": "deployment",
-        "value": "CrisisPalestine"
-      }
-    ],
-    "webhook_settings": [
-      {
-        "ID": "content_delivery",
-        "url": "https://pt-goals-crisis-palestine-349333393514.europe-west1.run.app/",
-        "token": ""
-      },
-      {
-        "ID": "certificate",
-        "url": "NA",
-        "token": ""
-      }
-    ],
     "local_triggers": [
       {
         "type": "K",
@@ -366,6 +347,25 @@
         "match_type": "O",
         "flow": "uncaught_message_flow",
         "groups": ""
+      }
+    ],
+    "local_default_contact_fields_data": [
+      {
+        "ID": "deployment_name",
+        "name": "deployment",
+        "value": "CrisisPalestine"
+      }
+    ],
+    "webhook_settings": [
+      {
+        "ID": "content_delivery",
+        "url": "https://pt-goals-crisis-palestine-349333393514.europe-west1.run.app/",
+        "token": ""
+      },
+      {
+        "ID": "certificate",
+        "url": "NA",
+        "token": ""
       }
     ],
     "wa_templates": [
@@ -433,7 +433,7 @@
         "priority_c": "1",
         "relationship": "yes|no",
         "name_c.eng": "Tips",
-        "name_c.ara": ""
+        "name_c.ara": "نصائح"
       }
     ],
     "module_data": [
