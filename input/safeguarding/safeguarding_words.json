@@ -17,8 +17,18 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "kidnap",
+                        "kidnapping",
+                        "kidnapper",
+                        "kidnapped"
+                    ],
+                    "mispellings": [
+                        "troublesome",
+                        "kidnapp",
+                        "kiddnap",
+                        "kidnape"
+                    ]
                 }
             }
         },
@@ -36,8 +46,15 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "death",
+                        "dead",
+                        "dying"
+                    ],
+                    "mispellings": [
+                        "deeath",
+                        "deat"
+                    ]
                 }
             }
         },
@@ -54,8 +71,14 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "illegal"
+                    ],
+                    "mispellings": [
+                        "ilegal",
+                        "ellegal",
+                        "ileagaly"
+                    ]
                 }
             }
         },
@@ -76,8 +99,17 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "poison",
+                        "poisoning",
+                        "poisoned"
+                    ],
+                    "mispellings": [
+                        "pesian",
+                        "boisoned",
+                        "poision",
+                        "poisioning"
+                    ]
                 }
             }
         },
@@ -94,8 +126,14 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "crisis",
+                        "crises"
+                    ],
+                    "mispellings": [
+                        "krisis",
+                        "krises"
+                    ]
                 }
             }
         },
@@ -115,8 +153,17 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "trouble",
+                        "troubling",
+                        "troublesome",
+                        "troubled"
+                    ],
+                    "mispellings": [
+                        "troubl",
+                        "trevel",
+                        "trubl"
+                    ]
                 }
             }
         },
@@ -134,8 +181,15 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "victim",
+                        "victimised"
+                    ],
+                    "mispellings": [
+                        "victm",
+                        "victimized",
+                        "victem"
+                    ]
                 }
             }
         },
@@ -154,8 +208,16 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "emergency",
+                        "911"
+                    ],
+                    "mispellings": [
+                        "emergincy",
+                        "emergincey",
+                        "emergince",
+                        "imerjensi"
+                    ]
                 }
             }
         },
@@ -175,8 +237,17 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "danger",
+                        "dangerous",
+                        "endangered"
+                    ],
+                    "mispellings": [
+                        "dangeur",
+                        "dangeer",
+                        "dangre",
+                        "dange"
+                    ]
                 }
             }
         },
@@ -194,8 +265,15 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "stalking"
+                    ],
+                    "mispellings": [
+                        "staling",
+                        "staking",
+                        "stakling",
+                        "stalkin"
+                    ]
                 }
             }
         },
@@ -215,8 +293,17 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "follow",
+                        "following",
+                        "followed"
+                    ],
+                    "mispellings": [
+                        "folow",
+                        "folowed",
+                        "followin",
+                        "folowin"
+                    ]
                 }
             }
         },
@@ -236,8 +323,17 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "suffer",
+                        "suffering",
+                        "suffered",
+                        "tortured"
+                    ],
+                    "mispellings": [
+                        "sufer",
+                        "sufering",
+                        "sufered"
+                    ]
                 }
             }
         },
@@ -256,8 +352,16 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "hide",
+                        "hiding",
+                        "hid"
+                    ],
+                    "mispellings": [
+                        "hidin",
+                        "heed",
+                        "haid"
+                    ]
                 }
             }
         }
@@ -278,8 +382,16 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "vomit",
+                        "vomitted",
+                        "vomitting"
+                    ],
+                    "mispellings": [
+                        "yak",
+                        "vomited",
+                        "womit"
+                    ]
                 }
             }
         },
@@ -298,8 +410,16 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "puke",
+                        "puking",
+                        "puked"
+                    ],
+                    "mispellings": [
+                        "pook",
+                        "pukeing",
+                        "pooking"
+                    ]
                 }
             }
         },
@@ -318,8 +438,16 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "disease",
+                        "STD",
+                        "diseases"
+                    ],
+                    "mispellings": [
+                        "diseaze",
+                        "dizeese",
+                        "SDT"
+                    ]
                 }
             }
         },
@@ -338,8 +466,16 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "sick",
+                        "sickness",
+                        "sickly"
+                    ],
+                    "mispellings": [
+                        "sik",
+                        "seck",
+                        "seek"
+                    ]
                 }
             }
         },
@@ -358,8 +494,16 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "ill",
+                        "illness",
+                        "illnesses"
+                    ],
+                    "mispellings": [
+                        "illl",
+                        "illniss",
+                        "illnees"
+                    ]
                 }
             }
         },
@@ -377,8 +521,15 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "health",
+                        "healthy"
+                    ],
+                    "mispellings": [
+                        "haelth",
+                        "healthy",
+                        "helath"
+                    ]
                 }
             }
         },
@@ -396,8 +547,15 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "hospital",
+                        "clinic"
+                    ],
+                    "mispellings": [
+                        "hopital",
+                        "hopsital",
+                        "celinic"
+                    ]
                 }
             }
         },
@@ -414,8 +572,14 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "miscarriage",
+                        "miscarry"
+                    ],
+                    "mispellings": [
+                        "miscariage",
+                        "miscarig"
+                    ]
                 }
             }
         },
@@ -434,8 +598,16 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "pregnant",
+                        "pregnancy",
+                        "expecting"
+                    ],
+                    "mispellings": [
+                        "pegant",
+                        "preganci",
+                        "prengant"
+                    ]
                 }
             }
         },
@@ -454,8 +626,16 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "abortion",
+                        "abort",
+                        "aborted",
+                        "aborting"
+                    ],
+                    "mispellings": [
+                        "abbortion",
+                        "obortion"
+                    ]
                 }
             }
         },
@@ -469,7 +649,10 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
+                    "keywords": [
+                        "COVID",
+                        "COVID19"
+                    ],
                     "mispellings": []
                 }
             }
@@ -491,8 +674,16 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "anxiety",
+                        "anxious",
+                        "anxiousness"
+                    ],
+                    "mispellings": [
+                        "angziaty",
+                        "anxieti",
+                        "anxeity"
+                    ]
                 }
             }
         },
@@ -511,8 +702,16 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "depression",
+                        "depressive",
+                        "depressed"
+                    ],
+                    "mispellings": [
+                        "despression",
+                        "despressive",
+                        "despressed"
+                    ]
                 }
             }
         },
@@ -530,8 +729,15 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "disorder",
+                        "disorders"
+                    ],
+                    "mispellings": [
+                        "dizorder",
+                        "dissorder",
+                        "isorder"
+                    ]
                 }
             }
         },
@@ -548,8 +754,14 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "therapy"
+                    ],
+                    "mispellings": [
+                        "therapi",
+                        "therepy",
+                        "therepi"
+                    ]
                 }
             }
         },
@@ -565,8 +777,13 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "psychologist"
+                    ],
+                    "mispellings": [
+                        "sychology",
+                        "psichology"
+                    ]
                 }
             }
         },
@@ -584,8 +801,15 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "suicide",
+                        "suicidal",
+                        "suicides"
+                    ],
+                    "mispellings": [
+                        "suicido",
+                        "suiced"
+                    ]
                 }
             }
         },
@@ -604,8 +828,16 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "stress",
+                        "stressed"
+                    ],
+                    "mispellings": [
+                        "stresss",
+                        "strees",
+                        "srtess",
+                        "stres"
+                    ]
                 }
             }
         },
@@ -624,8 +856,16 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "distress",
+                        "distressed"
+                    ],
+                    "mispellings": [
+                        "destressed",
+                        "destresss",
+                        "detresse",
+                        "detresse"
+                    ]
                 }
             }
         },
@@ -643,8 +883,15 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "sad",
+                        "saddened"
+                    ],
+                    "mispellings": [
+                        "sadd",
+                        "saddenned",
+                        "sadend"
+                    ]
                 }
             }
         },
@@ -661,8 +908,14 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "scare",
+                        "scared"
+                    ],
+                    "mispellings": [
+                        "csared",
+                        "csare"
+                    ]
                 }
             }
         },
@@ -677,8 +930,12 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "afraid"
+                    ],
+                    "mispellings": [
+                        "afaid"
+                    ]
                 }
             }
         },
@@ -693,8 +950,12 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "worried"
+                    ],
+                    "mispellings": [
+                        "woried"
+                    ]
                 }
             }
         },
@@ -711,8 +972,13 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "fear",
+                        "frighten"
+                    ],
+                    "mispellings": [
+                        "fer"
+                    ]
                 }
             }
         },
@@ -731,8 +997,16 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "panic",
+                        "panicking",
+                        "panicked"
+                    ],
+                    "mispellings": [
+                        "panik",
+                        "paniked",
+                        "paniking"
+                    ]
                 }
             }
         },
@@ -748,8 +1022,13 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "mad"
+                    ],
+                    "mispellings": [
+                        "md",
+                        "made"
+                    ]
                 }
             }
         },
@@ -765,8 +1044,13 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "grief"
+                    ],
+                    "mispellings": [
+                        "greif",
+                        "griev"
+                    ]
                 }
             }
         }
@@ -787,8 +1071,16 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "fire",
+                        "wildfire"
+                    ],
+                    "mispellings": [
+                        "blaze",
+                        "burnt",
+                        "hot",
+                        "fir"
+                    ]
                 }
             }
         },
@@ -808,8 +1100,17 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "earthquake",
+                        "Landslide",
+                        "collapse"
+                    ],
+                    "mispellings": [
+                        "shake",
+                        "irthquake",
+                        "earthquak",
+                        "fall"
+                    ]
                 }
             }
         },
@@ -831,8 +1132,19 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "flood",
+                        "flooded",
+                        "flooding",
+                        "monsoon"
+                    ],
+                    "mispellings": [
+                        "flud",
+                        "flod",
+                        "munson",
+                        "monson",
+                        "monsun"
+                    ]
                 }
             }
         },
@@ -849,8 +1161,14 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "smoke",
+                        "smoked"
+                    ],
+                    "mispellings": [
+                        "smooke",
+                        "smok"
+                    ]
                 }
             }
         },
@@ -871,8 +1189,18 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "typhoon",
+                        "hurricane",
+                        "tornado",
+                        "cyclone"
+                    ],
+                    "mispellings": [
+                        "storm",
+                        "rain",
+                        "water",
+                        "stormy"
+                    ]
                 }
             }
         },
@@ -889,8 +1217,14 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "droughts",
+                        "dry",
+                        "aridity"
+                    ],
+                    "mispellings": [
+                        "dri"
+                    ]
                 }
             }
         },
@@ -907,8 +1241,14 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "volcanic eruption",
+                        "volcano"
+                    ],
+                    "mispellings": [
+                        "fire",
+                        "hot"
+                    ]
                 }
             }
         },
@@ -924,8 +1264,13 @@
             },
             "Translation": {
                 "ara": {
-                    "keywords": [],
-                    "mispellings": []
+                    "keywords": [
+                        "wind",
+                        "blast"
+                    ],
+                    "mispellings": [
+                        "air"
+                    ]
                 }
             }
         }

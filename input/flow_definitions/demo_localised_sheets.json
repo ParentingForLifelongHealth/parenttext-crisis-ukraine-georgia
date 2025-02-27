@@ -138,6 +138,21 @@
         "tags.1": "",
         "tags.2": "",
         "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "onboarding_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "onboarding_data",
+        "data_model": "OnboardingStepsModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
       }
     ],
     "goal_data": [
@@ -364,7 +379,7 @@
         "flow": "activity_offer - timed_programme"
       }
     ],
-    "ltp_activity_data": [
+    "ltp_activity_crisis_data": [
       {
         "ID": "friendly_chat",
         "name": "A Friendly Chat",
@@ -404,6 +419,63 @@
         "act_type": "Active",
         "act_age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
         "attached_single_doc": ""
+      }
+    ],
+    "onboarding_data": [
+      {
+        "ID": "language",
+        "flow": "onboarding_question_language - entry",
+        "variable": "@fields.completed_language"
+      },
+      {
+        "ID": "welcome_msg",
+        "flow": "onboarding_welcome_msg",
+        "variable": "@fields.completed_language"
+      },
+      {
+        "ID": "consent",
+        "flow": "consent_pilot",
+        "variable": "@fields.completed_consent"
+      },
+      {
+        "ID": "media",
+        "flow": "onboarding_question_with_opt - media",
+        "variable": "@fields.completed_media"
+      },
+      {
+        "ID": "age",
+        "flow": "onboarding_question_with_opt - age",
+        "variable": "@fields.completed_age"
+      },
+      {
+        "ID": "gender",
+        "flow": "onboarding_question_with_opt - gender",
+        "variable": "@fields.completed_gender"
+      },
+      {
+        "ID": "update_attachment_paths",
+        "flow": "update_attachment_paths",
+        "variable": "@fields.completed_gender"
+      },
+      {
+        "ID": "status",
+        "flow": "onboarding_question_range - children_at_home",
+        "variable": "@fields.completed_children_at_home"
+      },
+      {
+        "ID": "located",
+        "flow": "onboarding_question_with_opt - location",
+        "variable": "@fields.completed_location"
+      },
+      {
+        "ID": "situation",
+        "flow": "onboarding_question_with_opt - situation",
+        "variable": "@fields.completed_situation"
+      },
+      {
+        "ID": "orientation",
+        "flow": "orientation",
+        "variable": "@fields.completed_orientation"
       }
     ]
   }

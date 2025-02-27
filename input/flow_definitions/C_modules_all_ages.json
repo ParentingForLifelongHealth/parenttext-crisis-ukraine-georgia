@@ -133,7 +133,7 @@
         "tips.message.3.image": "help_cope_tip_3",
         "tips.message.4.text": "4️⃣ **PRAISE YOURSELF AND YOUR CHILDREN**\n\n🌟 Every night, praise yourself and your children for something, however small. \n\nThis will make you and your children feel better and will help build a caring relationship between you 🦋.",
         "tips.message.4.image": "help_cope_tip_4",
-        "tips.message.5.text": "5️⃣ **THERE IS HELP**\n\n🤝If you have any concerns regarding a child’s feelings and behaviours, then please contact a trusted person, organisation, or helpline. Type {HELP} after this lesson, or any time you need help, for more information. ",
+        "tips.message.5.text": "5️⃣ **THERE IS HELP**\n\n🤝If you have any concerns regarding a child’s feelings and behaviours, then please contact a trusted person, organisation, or helpline. Type {HELP} after these tips, or any time you need help, for more information. ",
         "tips.message.5.image": "",
         "tips.message.6.text": "",
         "tips.message.6.image": "",
@@ -183,7 +183,7 @@
         "tips.next_button": "",
         "tips.message.1.text": "1️⃣ **SPEND TIME TOGETHER**\n\nIf it is possible, try to make a routine for spending time together 🕒. \n\n🔁 You can engage children in daily activities, such as telling a story, praying together, or sharing at least one meal together.",
         "tips.message.1.image": "make_a_routine_tip_1",
-        "tips.message.2.text": "2️⃣ **ASK YOUR CHILD**\n\nWhen you do spend time together, ask children what they want to do. \n\nIf you can’t do that activity now, it’s still a chance to connect with your child emotionally 🤍.\n\nAfter this lesson, you can type {PLAY} to get some activity ideas to do with children 📝. ",
+        "tips.message.2.text": "5️⃣ **THERE IS HELP**\n\n🤝If you have any concerns regarding a child’s feelings and behaviours, then please contact a trusted person, organisation, or helpline. Type {HELP} after these tips, or any time you need help, for more information. ",
         "tips.message.2.image": "make_a_routine_tip_2",
         "tips.message.3.text": "3️⃣ **APPRECIATE YOUR CHILDREN**\n\nTake a moment every day to appreciate your children for engaging in activities with you 🌿.",
         "tips.message.3.image": "",
@@ -553,7 +553,7 @@
     "take_a_pause": [
       {
         "ID": "breath_body_awareness",
-        "introduction.msg_list": "Before we begin today's lesson, let's take a pause together. Remember, this is something you can do whenever you are feeling stressed. ",
+        "introduction.msg_list": "Before we begin today's tips, let's take a pause together. Remember, this is something you can do whenever you are feeling stressed. ",
         "video.message": "Today's pause is called \"Breath and Body Awareness\".\n\nPress ▶️ to watch a video to practise taking a pause together",
         "audio.message": "Today's pause is called \"Breath and Body Awareness\".\n\nPress ▶️ to listen to an audio and practise taking a pause together",
         "tips.intro": "Today's pause is called \"Breath and Body Awareness\".",
@@ -563,13 +563,13 @@
         "tips.message.2.image": "",
         "tips.message.3.text": "Now, expand your awareness to your whole body. \n\nListen to the sounds around you..",
         "tips.message.3.image": "",
-        "tips.message.4.text": "Take a moment to reflect on whether you feel any different. \n\nWhen you are ready, continue to your lesson with a sense of calm. ",
-        "congratulations.msg_list": "Thank you for taking a moment to pause with us. It's time for today's lesson. ",
+        "tips.message.4.text": "Take a moment to reflect on whether you feel any different. \n\nWhen you are ready, continue to today's tips with a sense of calm. ",
+        "congratulations.msg_list": "Thank you for taking a moment to pause with us. It's time for today's tips. ",
         "attached_single_doc": "https://docs.google.com/document/d/1jJPI5yIZMBaavYiMCAdD_cpzsDKkXW006I0Yta76iV0"
       },
       {
         "ID": "body_scan",
-        "introduction.msg_list": "Before we begin today's lesson, let's take a pause together. Remember, this is something you can do whenever you are feeling stressed. ",
+        "introduction.msg_list": "Thank you for taking a moment to pause with us. It's time for today's tips. ",
         "video.message": "Today's pause is called Checking-In.\n\nPress ▶️ to watch a video to practise taking a pause together",
         "audio.message": "Today's pause is called Checking-In.\nPress ▶️ to listen to an audio and practise taking a pause together",
         "tips.intro": "Today's pause is called Checking-In.",
@@ -580,12 +580,12 @@
         "tips.message.3.text": "Feeling the contact of your body with the chair if you are seated. \n\nNow sensing your upper legs, your lower legs, and the feet. ",
         "tips.message.3.image": "",
         "tips.message.4.text": "Finish this pause by taking a full deep breath in and a long breath out.",
-        "congratulations.msg_list": "Thank you for taking a moment to pause with us. It's time for today's lesson. ",
+        "congratulations.msg_list": "Thank you for taking a moment to pause with us. It's time for today's tips. ",
         "attached_single_doc": ""
       },
       {
         "ID": "loving_kindness_meditation",
-        "introduction.msg_list": "Before we begin today's lesson, let's take a pause together. \n\nSometimes when we are experiencing stress or feeling alone, it can be helpful to send thoughts of loving kindness to ourselves.",
+        "introduction.msg_list": "Before we begin today's tips, let's take a pause together. \n\nSometimes when we are experiencing stress or feeling alone, it can be helpful to send thoughts of loving kindness to ourselves.",
         "video.message": "Today's pause is called \"Loving Kindness Meditation\".\n\nPress ▶️ to watch a video to practise taking a pause together",
         "audio.message": "Today's pause is called \"Loving Kindness Meditation\".\n\nPress ▶️ to listen to an audio and practise taking a pause together",
         "tips.intro": "Today's pause is called \"Loving Kindness Meditation\".",
@@ -596,12 +596,12 @@
         "tips.message.3.text": "Connect to your heart in a kind and gentle way. You may want to place one hand on your heart or chest. \n\nYou can then say the following words silently to yourself: \n\nMay I be peaceful. \n\nMay I be safe. \n\nMay I be healthy. \n\nMay I be happy. \n\nMay I feel loved. \n\nRepeat slowly once or twice taking your time between each phrase.",
         "tips.message.3.image": "",
         "tips.message.4.text": "If you feel comfortable, you can also send thoughts of loving-kindness to your child, your spouse or fiance, your family, and anyone else who is close to you in your life.\n\nNow, allow your focus to expand to the whole body. \n\nAllow your focus to expand to the sounds around you.. ",
-        "congratulations.msg_list": "Take a moment to reflect on your experience. \n\nWhen you are ready, continue to today's lesson with a sense of calm. \n\nThank you for taking a moment to pause with us. ",
+        "congratulations.msg_list": "Take a moment to reflect on your experience. \n\nWhen you are ready, continue to today's tips with a sense of calm. \n\nThank you for taking a moment to pause with us. ",
         "attached_single_doc": ""
       },
       {
         "ID": "slow_breathe",
-        "introduction.msg_list": "Before we begin today's lesson, let's take a pause together. Remember, this is something you can do whenever you are feeling stressed. ",
+        "introduction.msg_list": "Before we begin today's tips, let's take a pause together. Remember, this is something you can do whenever you are feeling stressed. ",
         "video.message": "Today's pause is called \"Slow Down and Breathe”.\n\nPress ▶️ to watch a video to practise taking a pause together",
         "audio.message": "Today's pause is called \"Slow Down and Breathe”.\n\nPress ▶️ to listen to an audio and practise taking a pause together",
         "tips.intro": "Today's pause is called \"Slow Down and Breathe\".",
@@ -612,7 +612,7 @@
         "tips.message.3.text": "Repeat this two more times. ",
         "tips.message.3.image": "",
         "tips.message.4.text": "Let your breath return to normal and notice how you feel.  \nDo you feel any different? \n",
-        "congratulations.msg_list": "Thank you for taking a moment to pause with us. It's time for today's lesson. ",
+        "congratulations.msg_list": "Thank you for taking a moment to pause with us. It's time for today's tips. ",
         "attached_single_doc": ""
       }
     ]

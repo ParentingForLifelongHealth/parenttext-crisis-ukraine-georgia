@@ -5,7 +5,7 @@
     },
     "parents": {
         "base": {
-            "location": "https://github.com/IDEMSInternational/parenttext-crisis-base/archive/refs/tags/v1.0.5.zip"
+            "location": "https://github.com/IDEMSInternational/parenttext-crisis-base/archive/refs/tags/v1.0.6.zip"
         }
     },
     "flows_outputbasename": "parenttext_all",
@@ -92,6 +92,7 @@
                 }
             ]
         },
+        
         "goals_api": {   
             "format": "sheets",
             "subformat": "google_sheets",
@@ -160,10 +161,7 @@
             "id": "qr_treatment",
             "type": "qr_treatment",
             "sources": ["qr_treatment"],
-            "qr_treatment": "reformat",  
-            "count_threshold": "13",
-            "length_threshold": "18",
-            "add_selectors": "yes"
+            "qr_treatment": "reformat_palestine"
         },
         {   
             "id": "safeguarding",
