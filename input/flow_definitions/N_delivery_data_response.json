@@ -323,37 +323,37 @@
       {
         "ID": "daily_interaction",
         "text": "A new tip is ready for you. Would you like to continue now?\n\nPress a number on your keypad:\n1. Yes\n2. No, remind me tomorrow. ",
-        "fra": "Un nouveau conseil est disponible. Voulez-vous continuer maintenant ?\n\nAppuyez sur un numéro de votre clavier:\n1. Oui\n2. Non, rappelez-moi cela demain"
+        "ara": "Un nouveau conseil est disponible. Voulez-vous continuer maintenant ?\n\nAppuyez sur un numéro de votre clavier:\n1. Oui\n2. Non, rappelez-moi cela demain"
       },
       {
         "ID": "first_module_intro",
         "text": "You and your family are facing a challenging time. ParentText provides tips to find hope and build your own strength to support your child during this crisis. Would you like to recieve your first tip now?\n\nPress a number on your keypad:\n1. Yes\n2. Remind me tomorrow",
-        "fra": "Vous et votre famille traversez une période difficile. ParentText vous donne des conseils sur la manière dont vous pouvez soutenir votre enfant pendant cette crise. Souhaitez-vous recevoir votre premier conseil dès maintenant ?\n\nAppuyez sur un numéro de votre clavier:\n1. Oui\n2. Non, rappelez-moi cela demain"
+        "ara": "Vous et votre famille traversez une période difficile. ParentText vous donne des conseils sur la manière dont vous pouvez soutenir votre enfant pendant cette crise. Souhaitez-vous recevoir votre premier conseil dès maintenant ?\n\nAppuyez sur un numéro de votre clavier:\n1. Oui\n2. Non, rappelez-moi cela demain"
       },
       {
         "ID": "start_started_mod_or_later_single",
         "text": "It looks like you started a parenting tip, but didn't finish receiving all of the information. What would you like to do?\n\nPress a number on your keypad:\n1. Receive the remaining information\n2. Remind me about this tomorrow\n3. I've finished receiving all of the information that I want from this chatbot.",
-        "fra": "On dirait que vous avez commencé avec un conseil pour parents, mais que vous n'avez pas fini de recevoir toutes les informations. Que voulez-vous faire ?\n\nAppuyez sur un numéro de votre clavier:\n1. Recevez les informations restantes\n2. Rappelez-moi cela demain\n3. J'ai fini de recevoir toutes les informations que je souhaitais de la part de ce chatbot."
+        "ara": "On dirait que vous avez commencé avec un conseil pour parents, mais que vous n'avez pas fini de recevoir toutes les informations. Que voulez-vous faire ?\n\nAppuyez sur un numéro de votre clavier:\n1. Recevez les informations restantes\n2. Rappelez-moi cela demain\n3. J'ai fini de recevoir toutes les informations que je souhaitais de la part de ce chatbot."
       },
       {
         "ID": "start_started_mod_or_later_multiple",
         "text": "It looks like you started to receive tips, but haven't finished receiving all of them. You have @fields.c_n_mod_started tips with more information available for you. What would you like to do?\n\nPress a number on your keypad:\n1. Receive the remaining information\n2. Remind me about this tomorrow\n3. I've finished receiving all of the information that I want from this chatbot.",
-        "fra": "Il semble que vous ayez commencé à recevoir des conseils, mais que vous n'ayez pas fini de les recevoir tous. Vous avez @fields.c_n_mod_started conseils avec plus d'informations à votre disposition. Que voulez-vous faire ?\n\nAppuyez sur un numéro de votre clavier:\n1. Recevez les informations restantes\n2. Rappelez-moi cela demain\n3. J'ai fini de recevoir toutes les informations que je souhaitais de la part de ce chatbot."
+        "ara": "Il semble que vous ayez commencé à recevoir des conseils, mais que vous n'ayez pas fini de les recevoir tous. Vous avez @fields.c_n_mod_started conseils avec plus d'informations à votre disposition. Que voulez-vous faire ?\n\nAppuyez sur un numéro de votre clavier:\n1. Recevez les informations restantes\n2. Rappelez-moi cela demain\n3. J'ai fini de recevoir toutes les informations que je souhaitais de la part de ce chatbot."
       },
       {
         "ID": "unfinished_onboarding",
         "text": "It’s a difficult moment for your family. I’m here today with a few tips for you to build hope and strength for yourself and to create small moments of connection with your child. Press 1 to continue with your registration.\n\nPress a number on your keypad:\n1. Continue my registration\n2. Remind me tomorrow",
-        "fra": "C'est un moment difficile pour votre famille. Je suis ici aujourd'hui pour vous donner quelques conseils afin de créer de petits moments de complicité avec votre enfant afin de lui donner les bonnes habitudes et la stabilité dont vous avez tous besoin en ce moment. Appuyez sur 1 pour continuer votre inscription. \n\nAppuyez sur un numéro de votre clavier:\n1. Continuer mon inscription\n2. Rappelez-le moi demain"
+        "ara": "C'est un moment difficile pour votre famille. Je suis ici aujourd'hui pour vous donner quelques conseils afin de créer de petits moments de complicité avec votre enfant afin de lui donner les bonnes habitudes et la stabilité dont vous avez tous besoin en ce moment. Appuyez sur 1 pour continuer votre inscription. \n\nAppuyez sur un numéro de votre clavier:\n1. Continuer mon inscription\n2. Rappelez-le moi demain"
       },
       {
         "ID": "no_response",
         "text": "This time is so difficult. It seems like you might not have time for these tips right now, and that's ok! When you want to keep going, press 1.",
-        "fra": "Cette période est difficile. Apparemment, vous n'avez pas le temps de suivre ces conseils pour l'instant. Lorsque vous êtes prêt à continuer, appuyez sur 1. "
+        "ara": "Cette période est difficile. Apparemment, vous n'avez pas le temps de suivre ces conseils pour l'instant. Lorsque vous êtes prêt à continuer, appuyez sur 1. "
       },
       {
         "ID": "complete_start_module",
         "text": "It looks like you started a parenting tip, but didn't finish receiving all of the information. Would you like to receive it now or start a new tip?\n \nPress a number on your keypad:\n1. Complete my previous tip\n2. Receive a new tip\n3. Remind me tomorrow",
-        "fra": "On dirait que vous avez commencé avec un conseil pour parents, mais que vous n'avez pas fini de recevoir toutes les informations. Voulez-vous les recevoir maintenant ou commencer un nouveau conseil ?\n\nAppuyez sur un numéro de votre clavier:\n1. Appliquer l'astuce précédente\n2. Recevez une nouvelle astuce\n3. Rappelez-le moi demain"
+        "ara": "On dirait que vous avez commencé avec un conseil pour parents, mais que vous n'avez pas fini de recevoir toutes les informations. Voulez-vous les recevoir maintenant ou commencer un nouveau conseil ?\n\nAppuyez sur un numéro de votre clavier:\n1. Appliquer l'astuce précédente\n2. Recevez une nouvelle astuce\n3. Rappelez-le moi demain"
       }
     ],
     "interaction_data": [
@@ -363,6 +363,24 @@
         "webhook_template_name": "",
         "webhook_template_args": "",
         "options.1.text": "Continue my registration",
+        "options.1.proceed_result_value": "yes",
+        "options.1.stop_message": "",
+        "options.2.text": "Remind me tomorrow",
+        "options.2.proceed_result_value": "",
+        "options.2.stop_message": "OK, see you tomorrow.",
+        "options.3.text": "",
+        "options.3.proceed_result_value": "",
+        "options.3.stop_message": "",
+        "wa_template_ID": "unfinished_onboarding",
+        "wa_template_vars.1": "",
+        "wa_template_vars.2": ""
+      },
+      {
+        "ID": "unfinished_baseline",
+        "question": "It looks like you started answering some baseline questions but didn't get a chance to finish. Would you like to continue now and then we can move onto the tips?",
+        "webhook_template_name": "",
+        "webhook_template_args": "",
+        "options.1.text": "Continue my initial questions",
         "options.1.proceed_result_value": "yes",
         "options.1.stop_message": "",
         "options.2.text": "Remind me tomorrow",

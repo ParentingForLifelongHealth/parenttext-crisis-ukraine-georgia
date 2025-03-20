@@ -106,13 +106,13 @@
     "onboarding_question_with_opt_data": [
       {
         "ID": "media",
-        "question": "❔Before we get started, we have a few questions to make this journey personalised:\n\n📲 How would you prefer to receive content —through mostly text / images or more videos?",
+        "question": "❔Before we get started, we have a few questions to make this journey personalised:\n\n📲 How would you prefer to receive content —through mostly text / images or with audio guides?",
         "image": "",
         "variable": "type of media",
         "options.1.text": "Text / Images",
         "options.1.value": "low",
-        "options.2.text": "Video ",
-        "options.2.value": "high",
+        "options.2.text": "Audio",
+        "options.2.value": "medium",
         "options.3.text": "",
         "options.3.value": "",
         "options.4.text": "",

@@ -12,7 +12,7 @@
         "new_name": "ltp_activity_data",
         "data_model": "LtpActivityModel",
         "template_arguments": "",
-        "status": "draft"
+        "status": ""
       }
     ],
     "ltp_activity_crisis_data": [
