@@ -6,6 +6,9 @@ on:
 jobs:
   pipeline:
     uses: IDEMSInternational/parenttext-goals-webhooks/.github/workflows/deploy.yml@c1db31107c4898ace2813f63ab504afe4b5c5a68
+    permissions:
+      contents: 'read'
+      id-token: 'write'
     secrets:
       credentials: ${{ secrets.GCP_CREDENTIALS }}
     with:
