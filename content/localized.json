@@ -616,7 +616,7 @@
         "sheet": "goal_data"
       },
       {
-        "book": "activities.json",
+        "book": "ltp_activities.json",
         "model": "LTPActivities",
         "resource": "ltp_activities",
         "sheet": "ltp_activity_data"
