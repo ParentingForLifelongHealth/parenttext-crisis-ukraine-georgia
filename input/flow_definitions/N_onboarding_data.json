@@ -74,7 +74,7 @@
       },
       {
         "ID": "orientation",
-        "msg": "Thanks for answering our questions. We're ready to get started. 💚\nTo start, you can watch this video to learn about this programme. ",
+        "msg": "Thanks for answering our questions. We're ready to get started. 💚\nTo start, you can watch this video to learn about ParentText. ",
         "next_button_option": "NEXT",
         "metadata.description": "message with onboarding video"
       }
@@ -243,17 +243,22 @@
     "consent_data": [
       {
         "ID": "intro",
-        "msg": "The tips you will receive in this programme have been developed with support from Sanadak, Anar for Empowerment and Psychosocial Support, World Without Orphans, Parenting for Lifelong Health, and UNICEF",
+        "msg": "The tips you will receive in this programme have been developed with support from Sanadak, Anar for Empowerment and Psychosocial Support, World Without Orphans, and Parenting for Lifelong Health.",
         "metadata.description": ""
       },
       {
         "ID": "info",
-        "msg": "✅Participating in ParentText is optional. \n✅Your personal information is safe and private. Your name and information will not be public, but your responses will be kept and used by researchers to learn how to support families like yours.  They plan to publish the results. \n❌You can stop when you want. Just type {STOP}",
+        "msg": "🧡 You are a great parent. Thank you for joining us. \n\n✅ Participating in ParentText is optional.\n✅ We won’t ever ask for your name. Anything you share is safe, private, and anonymous.\n✅Your anonymous information may also be shared with others working to help families like yours build strength and hope in tough times. All your information will be private and can’t be linked back to you.\n❌You can stop when you want. Just type {STOP}",
         "metadata.description": "{STOP} placeholder: do not edit\n{consent_link} placeholder: do not edit"
       },
       {
+        "ID": "info_consent",
+        "msg": "ParentText Terms and Conditions are available here: {consent_link}. ",
+        "metadata.description": ""
+      },
+      {
         "ID": "agree_instructions",
-        "msg": "Press YES if you agree with this. Type \"EXIT\" if you do not want to participate. ",
+        "msg": "Press YES if you understand and want to receive ParentText.. Type 'EXIT' if you do not wish to participate.",
         "metadata.description": "YES needs to be consistent with \"yes_option\"\nEXIT needs to be consistent with \"exit_option\""
       },
       {
@@ -288,7 +293,7 @@
       },
       {
         "ID": "agreement_thanks",
-        "msg": "That is wonderful, thank you so much! ",
+        "msg": "Thank you! 🤲 We hope these tips will help you build strength and hope for you and your family. ",
         "metadata.description": ""
       }
     ],
