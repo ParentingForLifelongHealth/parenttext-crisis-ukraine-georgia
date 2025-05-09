@@ -1,0 +1,39 @@
+row_id,type,edges.1.from,edges.2.from,edges.2.condition,edges.3.from,no_response,edges.1.condition,message_text,save_name,choices.1,image,audio
+msg.In_these_times_,send_message,start,,,,,,"In these times that are so hard, we often have extra stress and tension, and it’s normal that we feel more anger.",,,,
+msg.In_case_of_any_,send_message,msg.In_these_times_,,,,,,"In case of any uncertainty, children observe and imitate the behaviours of their elders 👀.
+
+Children can learn to be calm from us, which helps them face challenges 🌸.",,,,
+switch.media,split_by_value,msg.In_case_of_any_,,,,,,@fields.type_of_media,,,,
+msg.Press_Play__to_,send_message,switch.media,,,,,value;medium|variable;@fields.type_of_media|type;has_any_word|name;Medium,"Press Play ▶️ to learn 4️⃣ tips that can help you cope with negative emotions while encouraging children: 
+1️⃣ *SHARE YOUR FEELINGS*
+2️⃣ *BREATHE*
+3️⃣ *REASSURE YOUR CHILD*
+4️⃣ *THERE ARE PEOPLE WHO CARE*",,NEXT,,"@(fields.voiceover_audio_path & ""calm_encourage.mp3"")"
+wait_for.input_text,wait_for_response,msg.Press_Play__to_,,,,60,,,,,,
+msg.Here_are_4_tips,send_message,wait_for.input_text,wait_for.input_text,value;No Response|,switch.media,,,Here are 4️⃣ tips that can help you cope with negative emotions and also encourage your children:,,,,
+msg.1_SHARE_YOUR_FE,send_message,msg.Here_are_4_tips,,,,,,"1️⃣ *SHARE YOUR FEELINGS*
+
+When you are feeling stress, tension or anger, find someone who you can share your feelings with, like a family member or friend.
+
+Avoid substance abuse as a stress coping mechanism. 
+ 
+If your stress feels overwhelming, you can contact an organization or helpline for extra support. Type HELP after these tips for more information🤲.",,NEXT,"@(fields.image_path & ""calm_encourage_tip_1.jpg"")",
+switch.input_text,wait_for_response,msg.1_SHARE_YOUR_FE,,,,,,,,,,
+msg.2_BREATHEWhen_y,send_message,switch.input_text,,,,,,"2️⃣ *BREATHE*
+
+When you feel extremely angry, take a ten-second break or pause before you engage with anyone, including your children ⏸️.
+Take five deep breaths🌬️.
+Then try to respond in a calmer way 🕊️.",,NEXT,"@(fields.image_path & ""calm_encourage_tip_2.jpg"")",
+switch.input_text.1,wait_for_response,msg.2_BREATHEWhen_y,,,,,,,,,,
+msg.3_REASSURE_YOUR,send_message,switch.input_text.1,,,,,,"3️⃣ *REASSURE YOUR CHILDREN*
+It’s ok to show your concern and emotions to your children 💬. This will help them learn about their own emotions. It’s also good to remind them that we believe that one day hope and justice will prevail ✨.",,,"@(fields.image_path & ""calm_encourage_tip_3.jpg"")",
+msg.Reassure_your_c,send_message,msg.3_REASSURE_YOUR,,,,,,"Reassure your children that one day, war will end and our community will be able to rebuild and thrive together 🌿.
+Share stories with them of how people in the past have worked together and come out of traumatic situations 📖.",,NEXT,,
+switch.input_text.2,wait_for_response,msg.Reassure_your_c,,,,,,,,,,
+msg.4_THERE_ARE_PEO,send_message,switch.input_text.2,,,,,,"4️⃣ *THERE ARE PEOPLE WHO CARE*
+
+Assure your children that friends, relatives, or charitable organisations will try to find ways to help them in these situations 🤲.",,NEXT,"@(fields.image_path & ""help_phone.jpg"")",
+switch.input_text.3,wait_for_response,msg.4_THERE_ARE_PEO,,,,,,,,,,
+msg._100,send_message,switch.input_text.3,,,,,,"✅ 100%
+",,,,
+set_run_result.completed,save_flow_result,msg._100,,,,,,yes,completed,,,

@@ -1,0 +1,11 @@
+row_id,type,edges.1.from,message_text,save_name
+set_contact_field.goal_core_mod_s,save_value,start,"@(replace(fields.goal_core_mod_started, fields.accessed_module,""""))",goal_core_mod_started
+set_contact_field.goal_core_n_mod,save_value,set_contact_field.goal_core_mod_s,@(word_count(fields.goal_core_mod_started)),goal_core_n_mod_started
+set_contact_field.goal_core_mod_c,save_value,set_contact_field.goal_core_n_mod,"@(fields.accessed_module & "" "" & fields.goal_core_mod_compl)",goal_core_mod_compl
+set_contact_field.goal_core_n_mod.1,save_value,set_contact_field.goal_core_mod_c,@(word_count(fields.goal_core_mod_compl)),goal_core_n_mod_compl
+set_contact_field.goal_core_check,save_value,set_contact_field.goal_core_n_mod.1,"@(fields.goal_core_checkins_to_start & "" "" & fields.accessed_module)",goal_core_checkins_to_start
+set_contact_field.goal_core_mod_c.1,save_value,set_contact_field.goal_core_check,"@(fields.goal_core_mod_compl_times & fields.accessed_module & "" "" & now() & ""|"" )",goal_core_mod_compl_times
+set_contact_field.id_last_module_,save_value,set_contact_field.goal_core_mod_c.1,@fields.accessed_module,id_last_module_completed
+set_contact_field.accessed_module,save_value,set_contact_field.id_last_module_,,accessed_module
+set_contact_field.completed_last_,save_value,set_contact_field.accessed_module,@(now()),completed_last_module
+flow.update_curr_goa,start_new_flow,set_contact_field.completed_last_,update_curr_goal_var - core,

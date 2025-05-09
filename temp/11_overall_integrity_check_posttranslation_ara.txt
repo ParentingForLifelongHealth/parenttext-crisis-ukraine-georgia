@@ -1,0 +1,11 @@
+JSON Processed: temp\parenttext_all_10_fix_arg_qr_translation.json
+
+This file provides a log of potential errors in a PLH json file, it identifies potential errors in the quick replies and arguments using the "overall_check_integrity" script
+
+Language: ara
+Total flows in JSON file: 261
+Total nodes with "quick replies": 240
+
+Total problem flows: 0
+Total problem nodes: 0
+

@@ -1,0 +1,20 @@
+row_id,type,edges.1.from,edges.2.from,edges.2.condition,edges.3.from,edges.4.from,edges.4.condition,edges.5.from,edges.1.condition,message_text,choices.1,choices.2,choices.3,save_name
+switch.fields_sq_feed_,split_by_value,start,,,,,,,,@fields.sq_feed_usedcontactinfo,,,,
+set_contact_field.sq_feed_usedcon,save_value,switch.fields_sq_feed_,,,,,,,value;NA|variable;@fields.sq_feed_usedcontactinfo|type;has_only_phrase|name;is NA,,,,,sq_feed_usedcontactinfo
+switch.fields_age,split_by_value,set_contact_field.sq_feed_usedcon,switch.fields_sq_feed_,,,,,,,@fields.age,,,,
+switch.fields_in_study,split_by_value,switch.fields_age,,,,,,,"value;19, 20, 35|variable;@fields.age|type;has_any_word|name;19, 20, 35",@fields.in_study,,,,
+set_run_result.dummy,save_flow_result,switch.fields_in_study,,,,,,,value;yes|variable;@fields.in_study|type;has_any_word|name;Yes,"Block can’t start with for loop, see issue #47",,,,dummy
+msg.From_using_thes,send_message,set_run_result.dummy,,,,,,,,"From using these tips, have you reached out to a trusted friend, family member, person, organisation, or helpline for support?",Yes,No,Prefer not to answer,
+switch.input,wait_for_response,msg.From_using_thes,,,,,,,,,,,,input
+set_run_result.variable,save_flow_result,switch.input,,,,,,,value;Yes|variable;@input.text|type;has_only_phrase|name;Yes,Yes,,,,variable
+set_run_result.variable.1,save_flow_result,switch.input,,,,,,,value;No|variable;@input.text|type;has_only_phrase|name;No,No,,,,variable
+set_run_result.variable.2,save_flow_result,switch.input,,,,,,,value;Prefer not to answer|variable;@input.text|type;has_only_phrase|name;Prefer Not To Answer,prefer not to answer,,,,variable
+set_contact_field.sq_feed_usedcon.1,save_value,set_run_result.variable,set_run_result.variable.1,,set_run_result.variable.2,,,,,@results.variable,,,,sq_feed_usedcontactinfo
+set_run_result.dummy.1,save_flow_result,set_contact_field.sq_feed_usedcon.1,,,,,,,,Need something to apply this label to,,,,dummy
+msg.Sorry_I_dont_un,send_message,switch.input,,,,,,,,"Sorry, I don't understand what you mean.",,,,
+goto.set_run_result.dummy,go_to,msg.Sorry_I_dont_un,,,,,,,,set_run_result.dummy|,,,,
+switch.fields_sq_feed_.1,split_by_value,switch.fields_in_study,,,,,,,,@fields.sq_feed_usedcontactinfo,,,,
+set_contact_field.sq_feed_usedcon.2,save_value,switch.fields_sq_feed_.1,,,,,,,,NA,,,,sq_feed_usedcontactinfo
+switch.fields_sq_feed_.2,split_by_value,switch.fields_age,,,,,,,,@fields.sq_feed_usedcontactinfo,,,,
+set_contact_field.sq_feed_usedcon.3,save_value,switch.fields_sq_feed_.2,,,,,,,,NA,,,,sq_feed_usedcontactinfo
+set_contact_field.sq_feed_usedcon.4,save_value,set_run_result.dummy.1,switch.fields_sq_feed_.1,variable;@fields.sq_feed_usedcontactinfo|type;has_text|name;had value,set_contact_field.sq_feed_usedcon.2,switch.fields_sq_feed_.2,variable;@fields.sq_feed_usedcontactinfo|type;has_text|name;had value,set_contact_field.sq_feed_usedcon.3,,yes,,,,sq_feed_usedcontactinfo_complete

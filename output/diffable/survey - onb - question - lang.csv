@@ -1,0 +1,18 @@
+row_id,type,edges.1.from,edges.1.condition,edges.2.from,edges.2.condition,message_text,choices.1,choices.2,image,save_name
+switch.fields_sq_onb_l,split_by_value,start,,,,@fields.sq_onb_lang,,,,
+set_contact_field.sq_onb_lang,save_value,switch.fields_sq_onb_l,value;NA|variable;@fields.sq_onb_lang|type;has_only_phrase|name;is NA,,,,,,,sq_onb_lang
+switch.1,split_by_value,set_contact_field.sq_onb_lang,,switch.fields_sq_onb_l,,1,,,,
+set_run_result.dummy,save_flow_result,switch.1,,,,"Block can’t start with for loop, see issue #47",,,,dummy
+msg.Please_select_y,send_message,set_run_result.dummy,,,,"Please select your language:
+
+من فضلك ادخل اللغة",English,اللغة العربية,https://firebasestorage.googleapis.com/v0/b/idems-media-recorder.appspot.com/o/project%2FPLH%2Fsubproject%2FParentText_v2%2Fdeployment%2FGlobal%2FresourceGroup%2Fimage%2Funiversal%2Fparenttext_logo.png?alt=media&token=09fbdf89-e9c8-4d06-bf14-4c480a3a869a,
+switch.input,wait_for_response,msg.Please_select_y,,,,,,,,input
+set_run_result.variable,save_flow_result,switch.input,value;English|variable;@input.text|type;has_only_phrase|name;English,,,eng,,,,variable
+set_run_result.variable.1,save_flow_result,switch.input,value;اللغة العربية|variable;@input.text|type;has_only_phrase|name;اللغة العربية,,,ara,,,,variable
+set_contact_field.sq_onb_lang.1,save_value,set_run_result.variable,,set_run_result.variable.1,,@results.variable,,,,sq_onb_lang
+set_run_result.dummy.1,save_flow_result,set_contact_field.sq_onb_lang.1,,,,Need something to apply this label to,,,,dummy
+set_contact_field.lang_code,save_value,set_run_result.dummy.1,,,,@fields.sq_onb_lang,,,,lang_code
+flow.set_contact_lan,start_new_flow,set_contact_field.lang_code,,,,set_contact_language,,,,
+set_contact_field.sq_onb_lang_com,save_value,flow.set_contact_lan,value;completed|,flow.set_contact_lan,value;expired|,yes,,,,sq_onb_lang_complete
+msg.Sorry_I_dont_un,send_message,switch.input,,,,"Sorry, I don't understand what you mean.",,,,
+goto.set_run_result.dummy,go_to,msg.Sorry_I_dont_un,,,,set_run_result.dummy|,,,,

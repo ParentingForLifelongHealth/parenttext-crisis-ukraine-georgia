@@ -1,0 +1,12 @@
+row_id,type,edges.1.from,edges.1.condition,edges.2.from,edges.2.condition,edges.3.from,edges.3.condition,edges.4.from,edges.4.condition,edges.5.from,edges.5.condition,edges.6.from,edges.6.condition,message_text,save_name,choices.1,choices.2,choices.3
+msg.What_kind_of_ac,send_message,start,,,,,,,,,,,,What kind of activity do you want to try with your child?,,Something Quick,Something Active,Something Calm
+switch.act_type,wait_for_response,msg.What_kind_of_ac,,,,,,,,,,,,,act type,,,
+set_contact_field.accessed_act,save_value,switch.act_type,value;Something Quick|variable;@input.text|type;has_only_phrase|name;quick,,,,,,,,,,,"@(word_slice(fields.c_quick_act ,0,1))",accessed_act,,,
+flow.update_act_var,start_new_flow,set_contact_field.accessed_act,,,,,,,,,,,,update_act_var,,,,
+set_contact_field.accessed_act.1,save_value,switch.act_type,value;Something Active|variable;@input.text|type;has_only_phrase|name;active,,,,,,,,,,,"@(word_slice(fields.c_active_act ,0,1))",accessed_act,,,
+flow.update_act_var.1,start_new_flow,set_contact_field.accessed_act.1,,,,,,,,,,,,update_act_var,,,,
+set_contact_field.accessed_act.2,save_value,switch.act_type,value;Something Calm|variable;@input.text|type;has_only_phrase|name;calm,,,,,,,,,,,"@(word_slice(fields.c_calm_act ,0,1))",accessed_act,,,
+flow.update_act_var.2,start_new_flow,set_contact_field.accessed_act.2,,,,,,,,,,,,update_act_var,,,,
+flow.split_by_id_tem,start_new_flow,flow.update_act_var,value;completed|,flow.update_act_var,value;expired|,flow.update_act_var.1,value;completed|,flow.update_act_var.1,value;expired|,flow.update_act_var.2,value;completed|,flow.update_act_var.2,value;expired|,split_by_id_template - ltp_activity,,,,
+msg.Sorry_I_dont_un,send_message,switch.act_type,,,,,,,,,,,,"Sorry, I don't understand what you mean.",,,,
+goto.msg.What_kind_of_ac,go_to,msg.Sorry_I_dont_un,,,,,,,,,,,,msg.What_kind_of_ac|,,,,

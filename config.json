@@ -5,12 +5,13 @@
     },
     "parents": {
         "base": {
-            "location": "https://github.com/IDEMSInternational/parenttext-crisis-base/archive/refs/tags/v1.0.9.zip"
+            "location": "https://github.com/IDEMSInternational/parenttext-crisis-base/archive/refs/tags/v1.0.10.zip"
         }
     },
     "flows_outputbasename": "parenttext_all",
     "output_split_number": 1,
     "sheet_names" : {
+        "T_survey": "1dewoAzGyWAIljHK5KnL3TNP8g5pz0Vt6Lux2O6rycYU",
         "deployment_localised_sheets" : "1tLDsUe-NxOxpxOBuTJmopOnP9dOcmLVHjO2YQxGxe28",
 
         "N_onboarding_data" : "1tC8BcP32nE7Bt5sRKAsfx0_69bfjsslOtvaAjSEaQ1A",
@@ -19,7 +20,7 @@
         "N_safeguarding_data" : "1lRez9sBgmhoDHareah7b9VaHXoQIF-6w14Sgub0cTc8",
         "N_delivery_data_response" : "1Z396_UL_n-Bw1W5gNxmdE9pN35PI2yrezQS-yXE3muo",
         "N_menu_data_response" : "10LlNXD7rQk0vDEBkMve59pVfqBM_KI39dEeIhZgFVVg",
-        "T_survey": "14j8bPSU-ITmLzeKrYujYp7ZYIjoY-A0acjjn008QRnE",
+        
         "surveys": "1qpara2udvGN3wTGQLfmrEFeVIe9Ei3pi8SAAZDphqgU",
 
         "ab_testing_sheet_ID" : "1kr9z6TIRHD0apskM1qDQEVzY2CMBBMBc4NYd9a3Bsxs",
@@ -64,7 +65,7 @@
         },
         "translation": {
             "format": "translation_repo",
-            "translation_repo": "https://github.com/IDEMSInternational/plh-digital-content",
+            "translation_repo": "https://github.com/edmoss345/palestine-translations",
             "folder_within_repo": "translations/parent_text_crisis_palestine",
             "commit_hash": "",
             "commit_tag": "",

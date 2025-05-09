@@ -1,0 +1,25 @@
+row_id,type,edges.1.from,edges.2.from,edges.3.from,webhook.url,webhook.method,webhook.headers.1.1,webhook.headers.1.2,webhook.headers.2.1,webhook.headers.2.2,webhook.body,edges.1.condition,message_text,save_name
+set_contact_field.c_quick_act,save_value,start,,,,,,,,,,,"@(replace(fields.c_quick_act, fields.accessed_act,""""))",c_quick_act
+switch.word_countfield,split_by_value,set_contact_field.c_quick_act,,,,,,,,,,,@(word_count(fields.c_quick_act)),
+set_contact_field.filter_expressi,save_value,switch.word_countfield,,,,,,,,,,value;0|variable;@(word_count(fields.c_quick_act))|type;has_any_word|name;0,'quick' in [a.lower() for a in act_type] and @fields.child_age in act_age,filter_expression
+webhook.httpspt-goals-c,call_webhook,set_contact_field.filter_expressi,,,https://pt-goals-crisis-palestine-349333393514.europe-west1.run.app/get_ltp_activities_list,POST,Accept,application/json,Content-Type,application/json,"@(json(object(
+    ""filter_expression"", fields.filter_expression
+)))",,,Result
+set_contact_field.c_quick_act.1,save_value,webhook.httpspt-goals-c,,,,,,,,,,value;Success|variable;@results.result.category|type;has_only_text|name;Success,@webhook.text,c_quick_act
+msg.fail,send_message,webhook.httpspt-goals-c,,,,,,,,,,,fail,
+set_contact_field.c_active_act,save_value,set_contact_field.c_quick_act.1,msg.fail,switch.word_countfield,,,,,,,,,"@(replace(fields.c_active_act, fields.accessed_act,""""))",c_active_act
+switch.word_countfield.1,split_by_value,set_contact_field.c_active_act,,,,,,,,,,,@(word_count(fields.c_active_act)),
+set_contact_field.filter_expressi.1,save_value,switch.word_countfield.1,,,,,,,,,,value;0|variable;@(word_count(fields.c_active_act))|type;has_any_word|name;0,'active' in [a.lower() for a in act_type] and @fields.child_age in act_age,filter_expression
+webhook.httpspt-goals-c.1,call_webhook,set_contact_field.filter_expressi.1,,,https://pt-goals-crisis-palestine-349333393514.europe-west1.run.app/get_ltp_activities_list,POST,Accept,application/json,Content-Type,application/json,"@(json(object(
+    ""filter_expression"", fields.filter_expression
+)))",,,Result
+set_contact_field.c_active_act.1,save_value,webhook.httpspt-goals-c.1,,,,,,,,,,value;Success|variable;@results.result.category|type;has_only_text|name;Success,@webhook.text,c_active_act
+msg.fail.1,send_message,webhook.httpspt-goals-c.1,,,,,,,,,,,fail,
+set_contact_field.c_calm_act,save_value,set_contact_field.c_active_act.1,msg.fail.1,switch.word_countfield.1,,,,,,,,,"@(replace(fields.c_calm_act, fields.accessed_act,""""))",c_calm_act
+switch.word_countfield.2,split_by_value,set_contact_field.c_calm_act,,,,,,,,,,,@(word_count(fields.c_calm_act)),
+set_contact_field.filter_expressi.2,save_value,switch.word_countfield.2,,,,,,,,,,value;0|variable;@(word_count(fields.c_calm_act))|type;has_any_word|name;0,'calm' in [a.lower() for a in act_type] and @fields.child_age in act_age,filter_expression
+webhook.httpspt-goals-c.2,call_webhook,set_contact_field.filter_expressi.2,,,https://pt-goals-crisis-palestine-349333393514.europe-west1.run.app/get_ltp_activities_list,POST,Accept,application/json,Content-Type,application/json,"@(json(object(
+    ""filter_expression"", fields.filter_expression
+)))",,,Result
+set_contact_field.c_calm_act.1,save_value,webhook.httpspt-goals-c.2,,,,,,,,,,value;Success|variable;@results.result.category|type;has_only_text|name;Success,@webhook.text,c_calm_act
+msg.fail.2,send_message,webhook.httpspt-goals-c.2,,,,,,,,,,,fail,

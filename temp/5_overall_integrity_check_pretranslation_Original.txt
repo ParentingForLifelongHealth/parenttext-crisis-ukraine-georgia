@@ -1,0 +1,1498 @@
+JSON Processed: temp\parenttext_all_4_hasanyword_pretranslation.json
+
+This file provides a log of potential errors in a PLH json file, it identifies potential errors in the quick replies and arguments using the "overall_check_integrity" script
+
+Language: Eng
+Total flows in JSON file: 261
+Total nodes with "quick replies": 240
+
+Total problem flows: 38
+Total problem nodes: 147
+
+Details of the problem flows/ nodes are summarised below:
+
+    Problem flow: 1
+    Flow ID: 33530821-50f6-4388-8ea4-f400e7207130
+    Flow name: consent
+
+        QR Node ID: 512ad39b-23e3-4ae1-a1fe-6e3246fa9fe8
+        Arg Node ID: 2068e3d3-5d6e-40af-9cb6-ccba1b816f9c
+        Action text: Press YES if you understand and want to receive ParentText. Type 'EXIT' if you do not wish to participate.
+        Quick replies:
+                yes
+        Arguments:
+                yes  -  has_only_phrase
+                exit  -  has_only_phrase
+        Link "QR","Argument"
+                0,0
+                 ,1
+
+        QR Node ID: cb2d6606-c9ce-49d4-bfdf-f23c9476ff09
+        Arg Node ID: 7243a8bf-e09f-456e-bd57-0951b0b93e7d
+        Action text: Are you sure you do not want to get these messages? If you do not want to receive any more messages, please type NO. If you made a mistake, please press BACK and choose another option.
+        Quick replies:
+                back
+        Arguments:
+                no  -  has_only_phrase
+                back  -  has_only_phrase
+        Link "QR","Argument"
+                0,1
+                 ,0
+
+    Problem flow: 2
+    Flow ID: 88dd5936-ec7e-4e19-bf4f-ae327bf97735
+    Flow name: orientation
+
+        QR Node ID: 00cee0b1-c6d7-4391-b243-001c930c8486
+        Arg Node ID: f0896873-845b-4dc0-ab89-51c66d16ae44
+        Action text: Thanks for answering our questions. We're ready to get started. 💚; To start, you can watch this video to learn about ParentText.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: ee6bc8dc-3461-4f5f-b47d-efbed9601299
+        Arg Node ID: f0896873-845b-4dc0-ab89-51c66d16ae44
+        Action text: Thanks for answering our questions. We're ready to get started. 💚; To start, you can watch this video to learn about ParentText.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 885785fb-5019-4019-b60f-f88da6ef7d5a
+        Arg Node ID: f0896873-845b-4dc0-ab89-51c66d16ae44
+        Action text: Thanks for answering our questions. We're ready to get started. 💚; To start, you can watch this video to learn about ParentText.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+    Problem flow: 3
+    Flow ID: ff6d6eb5-6dca-444c-97c7-426e1e108049
+    Flow name: safeguarding_leave_programme
+
+        QR Node ID: e7303995-218c-4cfb-9828-41447f55a313
+        Arg Node ID: c6583a3b-5976-47fb-a912-d9e50906675f
+        Action text: If you do not want to receive any more messages, please type "EXIT".; ; If you made a mistake, please type "BACK".
+        Quick replies:
+                back
+        Arguments:
+                exit  -  has_any_word
+                back  -  has_any_word
+        Link "QR","Argument"
+                0,1
+                 ,0
+
+    Problem flow: 4
+    Flow ID: ee182ffa-bb54-450e-9bd5-0db5cc64ce5f
+    Flow name: safeguarding_leave_programme_menu
+
+        QR Node ID: d915e532-93d3-41be-90e9-c97c87c56978
+        Arg Node ID: bde9f9cf-12af-4a37-8e8d-5eb3a948e439
+        Action text: If you do not want to receive any more messages, please type "EXIT".; ; If you made a mistake, please type "BACK".
+        Quick replies:
+                back
+        Arguments:
+                exit  -  has_any_word
+                back  -  has_any_word
+        Link "QR","Argument"
+                0,1
+                 ,0
+
+    Problem flow: 5
+    Flow ID: 4b2f2aa9-11a8-48a0-9f65-92fa4f6d8fd8
+    Flow name: pregoal_checkin_wrapper
+
+        QR Node ID: 51817425-a587-4c66-80f8-d30292c1d013
+        Arg Node ID: ad781789-ad3d-485c-ae4a-f04c6e0b0e05
+        Action text: Let’s get started. Press NEXT to begin.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+    Problem flow: 6
+    Flow ID: 21bb7661-326b-433b-a49e-161c841c6674
+    Flow name: hook_message
+
+        QR Node ID: ddd61391-0a11-484d-80de-50c95df82ba7
+        Action text: This time is difficult. It doesn't seem like you have the time for the these tips right now. When you are ready to keep going, press 1.
+        NO ASSOCIATED ARGUMENT NODE
+
+    Problem flow: 7
+    Flow ID: fa4db07a-6f82-45e1-b35f-c3513aaf50d2
+    Flow name: module - care_for_yourself
+
+        QR Node ID: 819b0c3a-fd51-4720-9b23-f22733f5a0e5
+        Arg Node ID: 0f3c9c4f-3aea-41e7-920d-a7fabf0ad369
+        Action text: You are not alone 🤲. Many other people are also going through very hard times, including war or having to leave their homes 💔. Many people share your pain as you face so many losses and uncertainties.; ; When life is this hard, it's normal to feel overwhelmed 😣.; ; Today’s tips are about ways you can take care of yourself 🌱, even when it is very difficult.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: a96aa757-b3f4-4c48-a692-30b8538aad35
+        Arg Node ID: 2191b00b-d0b3-4a48-b8b0-07f34505c066
+        Action text: Press Play ▶️ to learn 3️⃣ tips to help you care for yourself so you can care for your children: ; 1️⃣ **BREATHE**; 2️⃣ **BREATHE TOGETHER WITH YOUR CHILDREN**; 3️⃣ **CONNECT AND SHARE**
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: e4deef38-0e5b-4db4-af7b-08beb1d30222
+        Arg Node ID: ca746f30-d8ba-444d-92f8-4ecf6a48dce1
+        Action text: 1️⃣ **BREATHE**; ; Listen to your breath 🌬️ as it goes in and out.; Place your hands on your chest or tummy and feel how it rises and falls with each breath.; Then, listen to your breath in a calm, gentle way for a while🌄.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 70d7d012-86c1-40f8-8a5b-32b38509e6b9
+        Arg Node ID: 0e409f1b-57a3-426b-bedf-8c79a660ee26
+        Action text: 2️⃣ **BREATHE TOGETHER WITH YOUR CHILDREN**; ;  🗓️ Do these breathing practices every day together with your children. It will help you and them learn to manage stress 🌱.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: d251562b-ff65-4c15-b256-bf11ee53baf1
+        Arg Node ID: a0c8a30f-0a04-46ec-824b-d327c8795798
+        Action text: 3️⃣ **CONNECT AND SHARE**; ; If your stress feels overwhelming, please contact a trusted person, organisation or helpline. Type {HELP} after these tips for more information.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+    Problem flow: 8
+    Flow ID: 5b575042-137e-4dc4-83f7-c595c5f84124
+    Flow name: module - help_children_cope
+
+        QR Node ID: 0ffcd2a5-117c-4d2a-a040-a0fcf0f3a832
+        Arg Node ID: f8eb2fc0-7609-4d8e-8385-d1dfc47cf784
+        Action text: In these times, it can be hard for us as parents to help our children feel secure.; ; Today's tips are about helping your children cope with trauma from war, displacement, and other hardships 🌍💔.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 241d5eba-f6e5-49c9-bc64-fedf2059ed1b
+        Arg Node ID: a8c9fd76-e200-4ab9-8d0d-008877861831
+        Action text: Press Play ▶️ to learn 5️⃣ tips on how you can support your children during these tough times: ; 1️⃣ **LISTEN**; 2️⃣ **ACCEPT & BE SENSITIVE**; 3️⃣ **BE HONEST**; 4️⃣ **PRAISE YOURSELF AND YOUR CHILDREN**; 5️⃣ **THERE IS HELP**
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 72305034-1da9-4df9-9ee3-85207be78ba8
+        Arg Node ID: 90e3275b-b3d5-4d46-846c-6cb2695c88ca
+        Action text: 1️⃣ **LISTEN**; ; 👂 Listen to your children carefully when they express their feelings and try to empathise.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 7be3b108-8235-453c-8a0e-9156a2d71b87
+        Arg Node ID: 30d6ebe1-8368-4c53-9550-db5d765b238b
+        Action text: 2️⃣ **ACCEPT & BE SENSITIVE**; ; 🌱 Accept whatever they are feeling and give them comfort that such feelings are quite normal under these circumstances.; ; 🛑 If your children do not want to talk about this situation, do not insist.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: cd2dc5b0-1e49-43f6-9282-201275959f44
+        Arg Node ID: 79aac1e1-7903-4bec-a8e8-81932f90c1e8
+        Action text: 3️⃣ **BE HONEST**; ; If your children ask a question about what is happening, be honest in your response and share information that is appropriate for their age.; ; Try to have a compassionate attitude and accept any feelings they have.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 127e67cc-804b-45a6-9bb0-b5399badae61
+        Arg Node ID: 3c1751d3-7eef-4bb7-8c72-caf1f2f5fb25
+        Action text: 4️⃣ **PRAISE YOURSELF AND YOUR CHILDREN**; ; 🌟 Every night, praise yourself and your children for something, however small. ; ; This will make you and your children feel better and will help build a caring relationship between you 🦋.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 8b857c80-f273-4a34-bb75-70b823d72d2e
+        Arg Node ID: e31b2aa8-1675-40a7-8d8f-5583bd51a293
+        Action text: 5️⃣ **THERE IS HELP**; ; 🤝If you have any concerns regarding a child’s feelings and behaviours, then please contact a trusted person, organisation, or helpline. Type {HELP} after these tips, or any time you need help, for more information.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+    Problem flow: 9
+    Flow ID: 43cc0d71-7420-4c1b-bf8e-0814eba8d9f6
+    Flow name: module - make_a_routine
+
+        QR Node ID: 00536ff7-6abf-4d74-9bbb-efc0bb1fa27e
+        Arg Node ID: 69199cf4-f920-4092-8046-692b269a0b39
+        Action text: Today's tips are about practical ways to cope during difficult times.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 2550fdfe-0ffd-44d8-885c-e392c18a5ba7
+        Arg Node ID: 92997ef5-c6ca-4bd0-b814-3084232691d2
+        Action text: Press Play ▶️ to learn 5️⃣ practical, daily habits you can do every day that will help you and your children cope with your current situation:  ; 1️⃣ **SPEND TIME TOGETHER**; 2️⃣ **ASK YOUR CHILDREN**; 3️⃣ **APPRECIATE YOUR CHILDREN**; 4️⃣ **HELP OTHERS**; 5️⃣ **BE PRESENT**
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: a87d544f-322c-4a7b-9f8a-04eb691f8c37
+        Arg Node ID: f0205a2a-1d62-41fb-9661-b0a4977ee072
+        Action text: 1️⃣ **SPEND TIME TOGETHER**; ; If it is possible, try to make a routine for spending time together 🕒. ; ; 🔁 You can engage children in daily activities, such as telling a story, praying together, or sharing at least one meal together.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 17e77e4b-876a-4f05-82a7-fda4a9faa131
+        Arg Node ID: 93aa6276-adad-489e-8b71-54c406e7bde5
+        Action text: 2️⃣ **ASK YOUR CHILDREN**; ; Ask children what they want to do. ; ; If you can’t do that activity now, it’s still a chance to connect with your children emotionally 🤍.; ; After this lesson, you can type {PLAY} to get some activity ideas to do with children 📝.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 586c5a75-2fc4-4e87-902b-dd288a814a06
+        Arg Node ID: 787e93af-dc6c-4db8-b08f-76f5eb374366
+        Action text: 3️⃣ **APPRECIATE YOUR CHILDREN**; ; Take a moment every day to appreciate your children for engaging in activities with you 🌿.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 68ada87e-231a-4191-b913-55a7cfbcc7fd
+        Arg Node ID: e79ab71f-98e5-43bb-a28e-18290bfb9a49
+        Action text: 4️⃣ **HELP OTHERS**; ; Helping others can also make you feel better 🤍. Even a smile can help someone else feel better 🌱.; ; Our children can learn calmness and kindness from us 💙.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: be82ad54-75af-4fe8-a46b-77dd1c8d2dc8
+        Arg Node ID: 7fd763b0-bf25-4320-b842-058d0be9901a
+        Action text: 5️⃣ **BE PRESENT**; ; When spending time with your children, be as present as possible. Listen to them👂 and look at them 👀 when they talk.; ; Pay your full attention to them, this will help validate, reassure, and comfort children 🤍.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 94a24173-88b2-4ff1-b350-303f7313fece
+        Arg Node ID: efa5ed48-35e9-4212-ab21-91eae7ea3bb7
+        Action text: ✅⬜️; You’ve completed 50% of this tip! Press NEXT to continue.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: d3507643-6369-4e04-a2c6-efb6b5edf26c
+        Arg Node ID: 71052954-30b1-4cbf-a106-55f37f39f4bc
+        Action text: Share one meal together
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: e1f19c3d-ba54-4211-bb86-0e0bf33df080
+        Arg Node ID: 7ed6246a-c789-4f90-a2c1-6bd26bdf8543
+        Action text: Getting ready to sleep
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: cae85425-5a05-4b0c-af2d-ac95c7d55c67
+        Arg Node ID: 3c1cbdb8-1a7a-4795-995b-d187367404fd
+        Action text: Exercise daily
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 7e5317ba-c044-4ef0-b4ac-8f81242ca76b
+        Arg Node ID: ff4d7263-3dc7-4be5-987e-b94f8abf8b76
+        Action text: Daily play activities
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+    Problem flow: 10
+    Flow ID: cb7d72b5-4a8e-4fb8-93dd-9db66415a7f5
+    Flow name: module - calm_encourage
+
+        QR Node ID: 8827217c-9728-4ab5-96fe-49dda0c41ee6
+        Arg Node ID: 5430455c-7e71-489d-b80b-2c3674448de3
+        Action text: In these times that are so hard, we often have extra stress and tension, and it’s normal that we feel more anger.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: aaab1985-b3fa-47ca-a5c1-7c1ff478a4fa
+        Arg Node ID: 53fbded4-c5d6-4ad9-a99b-7250c4733b0e
+        Action text: Press Play ▶️ to learn 4️⃣ tips that can help you cope with negative emotions while encouraging children: ; 1️⃣ **SHARE YOUR FEELINGS**; 2️⃣ **BREATHE**; 3️⃣ **REASSURE YOUR CHILD**; 4️⃣ **THERE ARE PEOPLE WHO CARE**
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 2fb99474-6cf7-45ad-be4e-bc7618b225c8
+        Arg Node ID: 1eab434f-0747-4bb2-bdba-4489f3ab4ad3
+        Action text: 1️⃣ **SHARE YOUR FEELINGS**; ; When you are feeling stress, tension or anger, find someone who you can share your feelings with, like a family member or friend.; ; Avoid substance abuse as a stress coping mechanism. ;  ; If your stress feels overwhelming, you can contact an organization or helpline for extra support. Type {HELP} after these tips for more information🤲.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 21aba1b0-076b-40a0-8640-1d0cae41b9f3
+        Arg Node ID: dd48591d-cfdf-4196-a02d-e3397f642934
+        Action text: 2️⃣ **BREATHE**; ; When you feel extremely angry, take a ten-second break or pause before you engage with anyone, including your children ⏸️.; Take five deep breaths🌬️.; Then try to respond in a calmer way 🕊️.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 7ec28a5f-6301-4320-8030-6f3e60dda5d7
+        Arg Node ID: 24fb0486-664e-401f-a8e9-e47342876b20
+        Action text: Reassure your children that one day, war will end and our community will be able to rebuild and thrive together 🌿.; Share stories with them of how people in the past have worked together and come out of traumatic situations 📖.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: ff01d365-fdcd-4db3-bf49-215906fd4f43
+        Arg Node ID: 162e9d9a-e475-4ad6-8e65-ee6dfcb410e6
+        Action text: 4️⃣ **THERE ARE PEOPLE WHO CARE**; ; Assure your children that friends, relatives, or charitable organisations will try to find ways to help them in these situations 🤲.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+    Problem flow: 11
+    Flow ID: 66fe8831-c154-4e25-89c4-ef71c3a3c907
+    Flow name: module - prepare_to_travel
+
+        QR Node ID: 58874376-962c-4c16-a294-815a462599c6
+        Arg Node ID: ad90e523-684a-4668-8873-21b29c594e92
+        Action text: In today's tips, we will talk about some simple safety plans you can make with your children 📝.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 7a4e90e1-6cbc-4030-862b-da6e4d2e1dfe
+        Arg Node ID: fd6fe1a7-a44b-4848-8ee5-a83bc7ed7c5a
+        Action text: Press Play ▶️ to learn 4️⃣ tips to help you get ready to travel with children in a crisis situation: ; 1️⃣ **PROTECT YOUR DOCUMENTS**; 2️⃣ **HIDE MONEY**; 3️⃣ **SUPERVISE YOUR CHILDREN**; 4️⃣ **COMMUNICATE WITH YOUR CHILDREN**
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: f128dd61-aadf-4973-b9d3-95f05efcd8f7
+        Arg Node ID: 78d68253-d658-4c38-beac-ffc0f9a8277f
+        Action text: 1️⃣ **PROTECT YOUR DOCUMENTS**; ; Take pictures 📷 or make copies of any identity documents or cards and hide these in separate secure places 🛡️.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: ce77d1e9-d56d-4921-a7e3-b78eaf2978ea
+        Arg Node ID: 397362e2-f3d9-40b6-8a65-d439b41b9dec
+        Action text: 2️⃣ **HIDE MONEY**; ; Also hide any money you have separately in different places, so that if something is lost, you won’t lose everything 💙.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 767ad024-9a44-4263-8ceb-7b863e201eb0
+        Arg Node ID: d14040d2-5b97-43d2-b914-3e0ffde66ed0
+        Action text: 3️⃣ **SUPERVISE YOUR CHILDREN**; ; 🤍 Try your best to keep children with you or someone you trust. ; Make sure you know that the people your children spend time with in person and online are trustworthy ✔️.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 0f4e5918-a95a-4f30-8802-d36d0cdae419
+        Arg Node ID: 7fd1477c-b53d-4a69-a50d-9b3b055f61e0
+        Action text: 4️⃣ **COMMUNICATE WITH YOUR CHILDREN**; ; Tell your children they should not spend time outside alone after dark 🚫 or take a lift with someone alone.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+    Problem flow: 12
+    Flow ID: 1a5875af-30c6-4555-9a31-7314e6d0a49e
+    Flow name: module - travel_safely
+
+        QR Node ID: 53e588e5-ffba-4023-8238-334f90bb9eab
+        Arg Node ID: d6fec2af-b584-42c8-b3f6-cf04aeb43321
+        Action text: In these tips, we will talk about ways you can be prepared to travel safely with your children 💙.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 6798ce49-f642-4ef3-956a-57235b4d76dd
+        Arg Node ID: e00e90a1-915c-4138-ac52-11adf9c5962e
+        Action text: Press Play ▶️ to learn 3 things you can do to ensure that you and your children are as safe as possible when you are on the move:; ; 1️⃣ **MOVE SAFELY**; 2️⃣ **PREPARE YOUR CHILDREN**; 3️⃣ **MAKE A SAFETY NOTE**
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 81db4e6b-16fa-41ee-a65a-29c834846413
+        Arg Node ID: 6270fdff-d05b-4910-a845-4dac8bf16bde
+        Action text: 1️⃣ **MOVE SAFELY**; ; 🔒 Travel in a group of people you know, and don’t give any ID documents or cards to anyone, where possible.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: b34f0a4c-d167-4b99-8348-a04b95493189
+        Arg Node ID: e97fb2b8-16a7-4a4b-b144-07892cfd0cff
+        Action text: 2️⃣ **PREPARE YOUR CHILDREN**; ; 🎵Make a song or chant with your children to help them memorise your full name and phone number, and number of someone you trust. ; ; 🔁 Go over it every day.; ; 📍Every day, agree on a clear place to meet if you are separated from each other.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 2af0e029-bba2-4c78-8234-79e4755724b8
+        Arg Node ID: aa62e428-197b-4525-97cc-03d2f1eaa173
+        Action text: 3️⃣ **MAKE A SAFETY NOTE**; ; 🗒️ Make a safety note for each child.; Write the full name & phone number of yourself and three people you trust, plus any medication your child needs and any special needs they have. ; ; Cover the note in plastic and hide it in something they always wear.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+    Problem flow: 13
+    Flow ID: 1ffa8daf-daa5-4733-b535-398bc4e3e47d
+    Flow name: module - protect_sexual_violence
+
+        QR Node ID: 99fc2800-8d03-49d7-bea5-74807f628660
+        Arg Node ID: c60c004e-e318-418c-86b3-20a8bde5b75e
+        Action text: Today's tips are about protecting our children from harassment. ; ; During difficult times, children are more likely to face harassment.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 00a39002-23f2-4da3-a7c2-84498e0f3f12
+        Arg Node ID: 865cdb3b-3226-4321-9b35-8f121798be1e
+        Action text: Press Play ▶️ to learn 3️⃣ tips for protecting your children from harassment: ; 1️⃣ **"NO" IS OK!**; 2️⃣ **TEACH YOUR CHILDREN**; 3️⃣ **COMFORT YOUR CHILDREN**
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 06efc93b-87f4-465e-8b1a-ef89762240b0
+        Arg Node ID: db53b148-cf6f-4ce6-b361-bcd01ef9cd25
+        Action text: 1️⃣ **”NO” IS OK!**; ; Teach your children that nobody has the right to touch them.; ; In order to stop someone who tries to do that, practice saying and shouting “NO” with your children.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 869329aa-2a8a-484d-9e8f-d554b06b0421
+        Arg Node ID: b09d8cfa-7164-4618-861d-ad395166b4f6
+        Action text: 2️⃣ **TEACH YOUR CHILDREN**; ; Talk to your children about dangerous people and places. Make plans together about how to avoid danger.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 4b26cdf1-16f3-4a5d-985c-4eb0bee18737
+        Arg Node ID: 2ca20452-e56d-4b3f-8844-f71619179ad9
+        Action text: 3️⃣ **COMFORT YOUR CHILDREN**; ; If your children tell you they were abused, always believe them. ; ; Tell them that it’s not their fault and you love them 💙.; ; You can type {HELP} for resources if your children share about abuse with you.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+    Problem flow: 14
+    Flow ID: 0b9e91fc-5136-4a09-9031-dc4851aa0c30
+    Flow name: module - when_someone_dies
+
+        QR Node ID: 0187b58d-ad74-4d5a-8360-12ba015d6ff3
+        Arg Node ID: c13a4580-7a77-4433-8f4a-c85fd8b146d9
+        Action text: These tips are about helping your children in the case of loved ones dying. ; ; Losing a loved one is painful for everyone, including children. ; ; It is possible that your children appear to be happy but deep inside are sad.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 849dda6c-8111-4a20-8129-dddb95176420
+        Arg Node ID: 0a6ebbfb-97a1-482f-b667-078ddf2e0769
+        Action text: Here are 5️⃣ tips on how to help your children when loved ones die:; 1️⃣ **TALK WITH CHILDREN** ; 2️⃣ **LISTEN AND ACCEPT**; 3️⃣ **SAY GOODBYE**; 4️⃣ **NO BLAMING**; 5️⃣ **BE CLEAR**
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 8bc445c0-e3fe-4d17-b58b-248c243501c6
+        Arg Node ID: e80496f8-7ecd-4a1b-8f08-d766d9206929
+        Action text: 1️⃣ **TALK WITH CHILDREN** ; ; Children often sense the pain of loss or death, even if they don't know yet what happened. ; Tell them in simple and honest words that the person has passed away. ; 💙Be sensitive to their emotions and try to create a compassionate space when you talk with them about the death of loved ones.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 3d2cf383-a557-430b-aa27-002832703360
+        Arg Node ID: b8ee1dcc-3d76-451c-a7fb-e7c5cf8f98ea
+        Action text: 2️⃣ **LISTEN AND ACCEPT**; ; Listen to your children. Accept anything they are feeling and show them affection.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 91bb532b-066a-4069-a812-d7799174f5ff
+        Arg Node ID: 69371730-abdc-4177-bed9-1e28fa7e5157
+        Action text: 3️⃣ **SAY GOODBYE**; ; Do something together to say goodbye to the person who had died – consider a prayer 🤲 or a letter 📃.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 98a8b6c1-3ca9-4a7b-bb5d-2815d1ea37f0
+        Arg Node ID: 2110e24e-2dba-4d08-9074-6f43bf59143a
+        Action text: 4️⃣ **NO BLAMING**; ; Sometimes we feel like loss is our fault, even when it is not, and children may feel this way too. ; Many people have these feelings. Remind yourself it’s not your fault and help your children see it’s not their fault either 💙.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 17edc40c-bb10-43be-8e1e-42a8f6cec09f
+        Arg Node ID: 44a6b3a2-7128-42bd-8ace-a7ba9b95652a
+        Action text: 5️⃣ **BE CLEAR**; ; Tell children clearly who will be taking care of them now, if a change needs to happen.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 88ed2a13-8e44-4f5f-8d94-9d350ce595af
+        Arg Node ID: 4bd489c8-39bf-4017-9f5b-43eddfa97d89
+        Action text: ✅⬜️; You’ve completed 50% of this tip! Press NEXT to continue.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: b5e3a0b8-54d7-4f73-a16c-3701734f8114
+        Arg Node ID: 2a0e1561-5ed6-441e-8b41-aa75c15910c6
+        Action text: Small children under the age of 5 years may ask if the person who has died is coming back. ; ;; They might hold onto you or other caregivers more or start doing things they used to do when they were younger, like wetting the bed.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 1cac284f-a9ef-45eb-aabe-76c846086cfe
+        Arg Node ID: 6fa8fca9-9410-4b49-a571-f46a1bc917a8
+        Action text: Older children between 6 and 11 years old may ask more questions and want to understand what happened. ; ;; They may show their grief through anger and experience physical aches or pains.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 5d98cab5-4ae7-46f8-af2f-7adaa0fb74f0
+        Arg Node ID: 15eca1f1-f141-4346-bca2-925bcc803d44
+        Action text: Adolescents and young teenagers from around the age of 12 years will wonder about why things happen.; ;; Their reactions will vary and can include lack of interest, anger, extreme sadness and poor concentration.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+    Problem flow: 15
+    Flow ID: 18586a78-fd08-4598-93c7-c28b8688fe85
+    Flow name: module - building_strength
+
+        QR Node ID: 97a34acb-e26c-427f-a049-c6db7005d8fa
+        Arg Node ID: addbab81-0d51-4aef-ad70-7185cbffc5e3
+        Action text: Congratulations on reaching our final set of tips! 🎉 Here we are talking about ways to build your and your children’s strength and to encourage good behaviours in them.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 0077da5f-62d5-4c01-a2a8-bc9c371a00ee
+        Arg Node ID: f3328b6f-b809-4318-a4cb-d450b5664053
+        Action text: Press Play ▶️ to learn 2️⃣ simple tips that can help you encourage your children to build strength:; ; 1️⃣ **INVOLVE YOUR CHILDREN**; 2️⃣ **PRAISE THEM**
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 8001c285-a27a-4ebd-bc2c-7c3b3a059623
+        Arg Node ID: dda75a7c-42af-46d2-aaec-720c48c9ea12
+        Action text: 1️⃣ **INVOLVE YOUR CHILDREN**; ; Ask children to help in simple chores 💪. This will give them a sense of responsibility.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: afca6f40-827d-4663-bf3a-5b85878bb592
+        Arg Node ID: c86cd3f8-56c5-436a-869e-999cd1ab0ab1
+        Action text: 2️⃣ **PRAISE THEM**; 💙Appreciate children when they are trying or doing something good.; ; This will help them to do good again.; ; 🌟 Praising children shows them that you notice and care, and helps build confidence.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: e0002e4e-cbcd-499a-87ab-623703b2620b
+        Arg Node ID: e79512dc-2e85-4903-9615-fc776c6153a4
+        Action text: You can also build your own strength 💪 by remembering that you are not alone. ; Sharing your sorrow and worries with someone you trust often helps lighten the burden 🤝. ; ; If your sorrow and worries feel overwhelming, please contact a trusted person, organisation or helpline. Type {HELP} after these tips for more information.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+    Problem flow: 16
+    Flow ID: 0871b6d2-761b-4723-9f5f-db7deff18104
+    Flow name: module_review - care_for_yourself
+
+        QR Node ID: bf518e21-1073-4527-bd16-234bc6648ded
+        Arg Node ID: e66ebdda-9d14-4b1d-a129-3d247046bd3f
+        Action text: Press Play ▶️ to learn 3️⃣ tips to help you care for yourself so you can care for your children: ; 1️⃣ **BREATHE**; 2️⃣ **BREATHE TOGETHER WITH YOUR CHILDREN**; 3️⃣ **CONNECT AND SHARE**
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: dc157bc0-9c51-4913-991c-227dbbab4ccf
+        Arg Node ID: b6a094e0-69af-4974-a33b-6df6e3402465
+        Action text: 1️⃣ **BREATHE**; ; Listen to your breath 🌬️ as it goes in and out.; Place your hands on your chest or tummy and feel how it rises and falls with each breath.; Then, listen to your breath in a calm, gentle way for a while🌄.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 74f0bcdf-2bfc-42a6-81a1-c4570df9f8d1
+        Arg Node ID: 1793a2d8-4ace-4ff2-83ff-e026730fe200
+        Action text: 2️⃣ **BREATHE TOGETHER WITH YOUR CHILDREN**; ;  🗓️ Do these breathing practices every day together with your children. It will help you and them learn to manage stress 🌱.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 4979e8dc-d994-457a-930e-b5b5368d8b38
+        Arg Node ID: 1cea920a-cd8f-4ed0-b61e-99214a82667d
+        Action text: 3️⃣ **CONNECT AND SHARE**; ; If your stress feels overwhelming, please contact a trusted person, organisation or helpline. Type {HELP} after these tips for more information.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+    Problem flow: 17
+    Flow ID: 5f2b819c-445d-4d7f-a7ec-2a8a66378d8f
+    Flow name: module_review - help_children_cope
+
+        QR Node ID: 68b30c50-7b85-48e6-a155-8238aaa567ed
+        Arg Node ID: f9655841-943c-4393-a0a8-98b88c261876
+        Action text: Press Play ▶️ to learn 5️⃣ tips on how you can support your children during these tough times: ; 1️⃣ **LISTEN**; 2️⃣ **ACCEPT & BE SENSITIVE**; 3️⃣ **BE HONEST**; 4️⃣ **PRAISE YOURSELF AND YOUR CHILDREN**; 5️⃣ **THERE IS HELP**
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 8083ad8e-c726-4a22-9ae5-f244de7f8c99
+        Arg Node ID: 3edd75e9-b06f-4e48-a9d9-1ce7419ad950
+        Action text: 1️⃣ **LISTEN**; ; 👂 Listen to your children carefully when they express their feelings and try to empathise.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: a57e4bef-187d-4f64-a66f-12297bb419e2
+        Arg Node ID: ffdd38fc-4438-4b18-b607-3370ada52d76
+        Action text: 2️⃣ **ACCEPT & BE SENSITIVE**; ; 🌱 Accept whatever they are feeling and give them comfort that such feelings are quite normal under these circumstances.; ; 🛑 If your children do not want to talk about this situation, do not insist.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: eb1b6dca-dcee-4328-a879-c57c33c92d4c
+        Arg Node ID: 48a03e87-39ab-422e-9c85-0c0fff1a4ced
+        Action text: 3️⃣ **BE HONEST**; ; If your children ask a question about what is happening, be honest in your response and share information that is appropriate for their age.; ; Try to have a compassionate attitude and accept any feelings they have.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 193b0597-778b-4a64-a897-e1c2cb011dc3
+        Arg Node ID: 60ad286f-5591-4149-b1d5-c26e49c39c21
+        Action text: 4️⃣ **PRAISE YOURSELF AND YOUR CHILDREN**; ; 🌟 Every night, praise yourself and your children for something, however small. ; ; This will make you and your children feel better and will help build a caring relationship between you 🦋.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 1ac39dd3-a391-4491-963a-88e800a11ad9
+        Arg Node ID: f4a3ddd8-cf2d-4110-b5a8-7beceaa5d70d
+        Action text: 5️⃣ **THERE IS HELP**; ; 🤝If you have any concerns regarding a child’s feelings and behaviours, then please contact a trusted person, organisation, or helpline. Type {HELP} after these tips, or any time you need help, for more information.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+    Problem flow: 18
+    Flow ID: f86e6630-d30c-4758-a0b8-0251c1d46295
+    Flow name: module_review - make_a_routine
+
+        QR Node ID: 44fc00d2-6926-41e5-bafb-6ad37f3d96cd
+        Arg Node ID: eadddded-7e0f-4977-a07b-6b59d2409302
+        Action text: Press Play ▶️ to learn 5️⃣ practical, daily habits you can do every day that will help you and your children cope with your current situation:  ; 1️⃣ **SPEND TIME TOGETHER**; 2️⃣ **ASK YOUR CHILDREN**; 3️⃣ **APPRECIATE YOUR CHILDREN**; 4️⃣ **HELP OTHERS**; 5️⃣ **BE PRESENT**
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 1145eec4-3c5f-496c-bb7e-a2f77c7d3a07
+        Arg Node ID: 2dc98679-8b7d-4731-aa2f-b684cf6a4e97
+        Action text: 1️⃣ **SPEND TIME TOGETHER**; ; If it is possible, try to make a routine for spending time together 🕒. ; ; 🔁 You can engage children in daily activities, such as telling a story, praying together, or sharing at least one meal together.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 73b6a6c6-ed8f-4121-b60c-5395c2a0da7a
+        Arg Node ID: 6276043a-83d8-4803-b59f-c93dc6f013c2
+        Action text: 2️⃣ **ASK YOUR CHILDREN**; ; Ask children what they want to do. ; ; If you can’t do that activity now, it’s still a chance to connect with your children emotionally 🤍.; ; After this lesson, you can type {PLAY} to get some activity ideas to do with children 📝.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: eb9a8658-aac1-4cbb-bdf6-4b1d04634e5d
+        Arg Node ID: d265518e-d9d4-4f01-81e2-e117bb87e10d
+        Action text: 3️⃣ **APPRECIATE YOUR CHILDREN**; ; Take a moment every day to appreciate your children for engaging in activities with you 🌿.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 1e7484bb-cc53-4460-aead-e64f87af57c9
+        Arg Node ID: 0288a6c6-8293-4127-a20a-09f44a1a9567
+        Action text: 4️⃣ **HELP OTHERS**; ; Helping others can also make you feel better 🤍. Even a smile can help someone else feel better 🌱.; ; Our children can learn calmness and kindness from us 💙.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 3ef735b7-b020-4ced-a1fa-f19bda07e3e1
+        Arg Node ID: 1deda22f-7ab5-49bf-94cc-4840e8cf3568
+        Action text: 5️⃣ **BE PRESENT**; ; When spending time with your children, be as present as possible. Listen to them👂 and look at them 👀 when they talk.; ; Pay your full attention to them, this will help validate, reassure, and comfort children 🤍.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: c3a35095-1f8e-40ee-bc2d-c63e809df83b
+        Arg Node ID: fb649dbc-7ec4-4758-8f7a-309b43632821
+        Action text: ✅⬜️; You’ve completed 50% of this tip! Press NEXT to continue.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 8421bc2a-9ca3-4a8e-9003-9310ffd51641
+        Arg Node ID: 2e9d701d-bd7f-4c72-8fbe-f9767dfe2f26
+        Action text: Share one meal together
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: e72fbded-767e-47da-b63e-0398af5afd05
+        Arg Node ID: ea1bb40e-d9d2-44ba-a8f7-1b6387b37b60
+        Action text: Getting ready to sleep
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 05e71e65-400a-4714-a9be-f5b7b787cc2d
+        Arg Node ID: ea0aef93-1199-434a-8b25-e87a59a8cdaa
+        Action text: Exercise daily
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: fa4a3ec5-a663-4686-9156-7c0dac94edeb
+        Arg Node ID: a0db3411-2453-4d94-8ed3-de2999f49891
+        Action text: Daily play activities
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+    Problem flow: 19
+    Flow ID: acf27779-95c7-4785-9761-13a4564dc7c4
+    Flow name: module_review - calm_encourage
+
+        QR Node ID: 9beb65d4-62a5-4918-ac78-bcfde620cd00
+        Arg Node ID: 4af92b4c-8b9a-4a59-81b3-56797c792771
+        Action text: Press Play ▶️ to learn 4️⃣ tips that can help you cope with negative emotions while encouraging children: ; 1️⃣ **SHARE YOUR FEELINGS**; 2️⃣ **BREATHE**; 3️⃣ **REASSURE YOUR CHILD**; 4️⃣ **THERE ARE PEOPLE WHO CARE**
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 5cface07-977e-4084-a354-0ec5a580c566
+        Arg Node ID: d00f4a9d-66ad-45c2-944c-39f9336c63ed
+        Action text: 1️⃣ **SHARE YOUR FEELINGS**; ; When you are feeling stress, tension or anger, find someone who you can share your feelings with, like a family member or friend.; ; Avoid substance abuse as a stress coping mechanism. ;  ; If your stress feels overwhelming, you can contact an organization or helpline for extra support. Type {HELP} after these tips for more information🤲.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 05b6b619-32dd-4200-b78c-a961fe5d9d6e
+        Arg Node ID: d9a1dc8a-5431-4381-ae18-a28eb9450694
+        Action text: 2️⃣ **BREATHE**; ; When you feel extremely angry, take a ten-second break or pause before you engage with anyone, including your children ⏸️.; Take five deep breaths🌬️.; Then try to respond in a calmer way 🕊️.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: f1f4694d-9c17-44b7-9512-d1516cb26e3b
+        Arg Node ID: 333c6bf5-7b35-443c-a2ae-6a19a10c3dfd
+        Action text: Reassure your children that one day, war will end and our community will be able to rebuild and thrive together 🌿.; Share stories with them of how people in the past have worked together and come out of traumatic situations 📖.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 6674c750-c7fc-4efb-a1f9-ca89b748b5d4
+        Arg Node ID: bb6699dc-fc64-43ca-bfe6-266bc9da87fc
+        Action text: 4️⃣ **THERE ARE PEOPLE WHO CARE**; ; Assure your children that friends, relatives, or charitable organisations will try to find ways to help them in these situations 🤲.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+    Problem flow: 20
+    Flow ID: 970cc789-3dd9-489c-8bce-73d0d9ebf68a
+    Flow name: module_review - prepare_to_travel
+
+        QR Node ID: 2ff0b5ee-e184-431d-8659-edde5772c1cb
+        Arg Node ID: 4f7e677f-6f9a-4e73-8854-46541282ea36
+        Action text: Press Play ▶️ to learn 4️⃣ tips to help you get ready to travel with children in a crisis situation: ; 1️⃣ **PROTECT YOUR DOCUMENTS**; 2️⃣ **HIDE MONEY**; 3️⃣ **SUPERVISE YOUR CHILDREN**; 4️⃣ **COMMUNICATE WITH YOUR CHILDREN**
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 729a1e1c-9024-4d14-b503-4d1db8035f94
+        Arg Node ID: bb4f6c04-b90e-497a-815f-bdbd1981f44a
+        Action text: 1️⃣ **PROTECT YOUR DOCUMENTS**; ; Take pictures 📷 or make copies of any identity documents or cards and hide these in separate secure places 🛡️.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: ac28cf7b-bf69-4e34-ac45-75aca90fa3f7
+        Arg Node ID: 3153d91a-6452-4e5c-9102-26e9eb67281e
+        Action text: 2️⃣ **HIDE MONEY**; ; Also hide any money you have separately in different places, so that if something is lost, you won’t lose everything 💙.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 9a4ced87-1f4f-4970-8202-d70fc41eb122
+        Arg Node ID: 9fb073f6-3c70-4df8-a44e-28c72e12b8a1
+        Action text: 3️⃣ **SUPERVISE YOUR CHILDREN**; ; 🤍 Try your best to keep children with you or someone you trust. ; Make sure you know that the people your children spend time with in person and online are trustworthy ✔️.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 0a7fb4a7-177f-478d-a9ca-88c8d3d33652
+        Arg Node ID: 60252127-9257-4ee8-9453-9004b3915c29
+        Action text: 4️⃣ **COMMUNICATE WITH YOUR CHILDREN**; ; Tell your children they should not spend time outside alone after dark 🚫 or take a lift with someone alone.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+    Problem flow: 21
+    Flow ID: f994b29b-d312-4147-b8c5-543806853f80
+    Flow name: module_review - travel_safely
+
+        QR Node ID: 9dd8629d-187f-42c4-9e19-8785138a443a
+        Arg Node ID: 629a60cf-d25f-4256-9ed0-0e7714cfe282
+        Action text: Press Play ▶️ to learn 3 things you can do to ensure that you and your children are as safe as possible when you are on the move:; ; 1️⃣ **MOVE SAFELY**; 2️⃣ **PREPARE YOUR CHILDREN**; 3️⃣ **MAKE A SAFETY NOTE**
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: d1cb5bf3-432f-4307-a589-0574a5f1bc2c
+        Arg Node ID: 259b70b6-4aef-4334-8e96-22b4e66bca39
+        Action text: 1️⃣ **MOVE SAFELY**; ; 🔒 Travel in a group of people you know, and don’t give any ID documents or cards to anyone, where possible.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: f6b08c97-09ff-447e-90a7-86e376dd49f8
+        Arg Node ID: edc9e1eb-6a38-4a56-a5c7-262d8aba24bb
+        Action text: 2️⃣ **PREPARE YOUR CHILDREN**; ; 🎵Make a song or chant with your children to help them memorise your full name and phone number, and number of someone you trust. ; ; 🔁 Go over it every day.; ; 📍Every day, agree on a clear place to meet if you are separated from each other.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 0c29e40a-05d2-47af-9d05-ca04afde103f
+        Arg Node ID: b1d9bb99-3a98-448a-af12-b4060a5a47f4
+        Action text: 3️⃣ **MAKE A SAFETY NOTE**; ; 🗒️ Make a safety note for each child.; Write the full name & phone number of yourself and three people you trust, plus any medication your child needs and any special needs they have. ; ; Cover the note in plastic and hide it in something they always wear.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+    Problem flow: 22
+    Flow ID: e1cc9654-39d5-42d8-b967-a13665ad1485
+    Flow name: module_review - protect_sexual_violence
+
+        QR Node ID: 4c710dad-851f-4b4f-9a73-efd3e4e2226b
+        Arg Node ID: a6c1745a-84ae-4808-858f-48fb2a8764df
+        Action text: Press Play ▶️ to learn 3️⃣ tips for protecting your children from harassment: ; 1️⃣ **"NO" IS OK!**; 2️⃣ **TEACH YOUR CHILDREN**; 3️⃣ **COMFORT YOUR CHILDREN**
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 88c8550b-f400-4a21-9c94-ec0195775a87
+        Arg Node ID: 712f9e69-5386-4c77-bc0b-7cab20952071
+        Action text: 1️⃣ **”NO” IS OK!**; ; Teach your children that nobody has the right to touch them.; ; In order to stop someone who tries to do that, practice saying and shouting “NO” with your children.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 2c89e275-c79e-4cec-b1cb-26284525e5f3
+        Arg Node ID: a65144ce-a7bc-4012-b217-41bf4b88be3e
+        Action text: 2️⃣ **TEACH YOUR CHILDREN**; ; Talk to your children about dangerous people and places. Make plans together about how to avoid danger.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 85f1d56c-b00f-4336-ba8f-894bf481ec9c
+        Arg Node ID: 2cc4a350-c5bc-45c1-bd84-a324e1663870
+        Action text: 3️⃣ **COMFORT YOUR CHILDREN**; ; If your children tell you they were abused, always believe them. ; ; Tell them that it’s not their fault and you love them 💙.; ; You can type {HELP} for resources if your children share about abuse with you.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+    Problem flow: 23
+    Flow ID: 6c0f4c9b-bdd4-4ddb-99dd-30cf69d97720
+    Flow name: module_review - when_someone_dies
+
+        QR Node ID: 52350951-de20-47af-bd20-f9e11a012b4f
+        Arg Node ID: e05c49d8-4252-4991-8541-a8f7c614c540
+        Action text: Here are 5️⃣ tips on how to help your children when loved ones die:; 1️⃣ **TALK WITH CHILDREN** ; 2️⃣ **LISTEN AND ACCEPT**; 3️⃣ **SAY GOODBYE**; 4️⃣ **NO BLAMING**; 5️⃣ **BE CLEAR**
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 07573532-0e33-4d95-b16a-3e68bdd41479
+        Arg Node ID: 4358afcc-9229-492d-9a03-b9e0c48c2691
+        Action text: 1️⃣ **TALK WITH CHILDREN** ; ; Children often sense the pain of loss or death, even if they don't know yet what happened. ; Tell them in simple and honest words that the person has passed away. ; 💙Be sensitive to their emotions and try to create a compassionate space when you talk with them about the death of loved ones.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: ca406604-3d04-4e19-b5e3-50fb13b6c0f2
+        Arg Node ID: 884da7da-1101-4530-833f-c0da56495050
+        Action text: 2️⃣ **LISTEN AND ACCEPT**; ; Listen to your children. Accept anything they are feeling and show them affection.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 056b84ff-8584-4e59-b8a2-5d43c3afeef5
+        Arg Node ID: 15a92e18-f8bd-4968-bcdb-8211447aefa5
+        Action text: 3️⃣ **SAY GOODBYE**; ; Do something together to say goodbye to the person who had died – consider a prayer 🤲 or a letter 📃.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 0edb14d8-d60d-41a6-b345-f592033fed12
+        Arg Node ID: c9a5fac7-2c83-4afe-91cc-d5b088fce2bc
+        Action text: 4️⃣ **NO BLAMING**; ; Sometimes we feel like loss is our fault, even when it is not, and children may feel this way too. ; Many people have these feelings. Remind yourself it’s not your fault and help your children see it’s not their fault either 💙.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 2551ee67-f0bc-4a94-b55c-074f56328469
+        Arg Node ID: 2daf672f-0ca3-4931-a445-28dbdab8abba
+        Action text: 5️⃣ **BE CLEAR**; ; Tell children clearly who will be taking care of them now, if a change needs to happen.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 178917ef-5d90-42d7-87c3-f4c32b4e9213
+        Arg Node ID: 0e46792d-e4f4-42e0-aeac-18a9f9cd3020
+        Action text: ✅⬜️; You’ve completed 50% of this tip! Press NEXT to continue.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 2181e14a-f56c-4538-b7e2-466119fceb55
+        Arg Node ID: ec2528a8-6c84-4b17-94c4-9b778ddfaedb
+        Action text: Small children under the age of 5 years may ask if the person who has died is coming back. ; ;; They might hold onto you or other caregivers more or start doing things they used to do when they were younger, like wetting the bed.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: e34dc49a-54d4-48f2-ae5f-7bbd6b71e642
+        Arg Node ID: 3a3456f4-8e37-43d5-b440-1988a31bcbb1
+        Action text: Older children between 6 and 11 years old may ask more questions and want to understand what happened. ; ;; They may show their grief through anger and experience physical aches or pains.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 141952f8-e2dc-411c-a682-92c32d664397
+        Arg Node ID: 2f14fdf2-439e-4c7e-8ed2-0e1a292cdfc8
+        Action text: Adolescents and young teenagers from around the age of 12 years will wonder about why things happen.; ;; Their reactions will vary and can include lack of interest, anger, extreme sadness and poor concentration.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+    Problem flow: 24
+    Flow ID: 6217f860-cbe7-4d3b-8563-529827aecc4e
+    Flow name: module_review - building_strength
+
+        QR Node ID: 58c5baa4-5b72-4da7-9662-e4650ce5f9a3
+        Arg Node ID: 641e415c-8c3c-4557-90f5-11191178ee48
+        Action text: Press Play ▶️ to learn 2️⃣ simple tips that can help you encourage your children to build strength:; ; 1️⃣ **INVOLVE YOUR CHILDREN**; 2️⃣ **PRAISE THEM**
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 5e5311b1-2952-4e7f-8565-b8564eb6cee3
+        Arg Node ID: 2d40bb5b-adfb-4091-bd79-9ead8d075b77
+        Action text: 1️⃣ **INVOLVE YOUR CHILDREN**; ; Ask children to help in simple chores 💪. This will give them a sense of responsibility.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 8e3a7457-b347-42e8-8336-1f0b14567ff5
+        Arg Node ID: 3b2fc8c4-7765-4dc6-8caa-77729dc83b06
+        Action text: 2️⃣ **PRAISE THEM**; 💙Appreciate children when they are trying or doing something good.; ; This will help them to do good again.; ; 🌟 Praising children shows them that you notice and care, and helps build confidence.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: ad7e87f3-1650-4de4-80af-3999a3f022b1
+        Arg Node ID: f6ce9f74-aa06-4099-9939-63f4fc1db3e9
+        Action text: You can also build your own strength 💪 by remembering that you are not alone. ; Sharing your sorrow and worries with someone you trust often helps lighten the burden 🤝. ; ; If your sorrow and worries feel overwhelming, please contact a trusted person, organisation or helpline. Type {HELP} after these tips for more information.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+    Problem flow: 25
+    Flow ID: c59edcd7-9c19-448e-b16f-ac73c4861d2c
+    Flow name: pause - breath_body_awareness
+
+        QR Node ID: 42f429a1-7ada-4765-b3ee-fa3b684c98be
+        Arg Node ID: 5be34918-1005-4050-9dc8-114eaa1ca42b
+        Action text: **Let's take a pause together.** ; ; Remember, this is something you can do whenever you are feeling stressed.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 6a766fa5-4aa0-4578-99d7-544ad9e57999
+        Arg Node ID: 916b5272-cc90-43e1-bcaf-03d1f5671bc1
+        Action text: Press ▶️ to take a pause together.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 7c3554d7-283e-4f7a-87ed-4e458caf5b6b
+        Arg Node ID: 108db956-47e6-4d64-b675-017e938c32cd
+        Action text: Thank you for taking a moment to pause with us. It's time for today's tips.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+    Problem flow: 26
+    Flow ID: 414ec05a-524f-4d42-8f65-311ef25e4fe6
+    Flow name: pause - body_scan
+
+        QR Node ID: e0cae751-ac1e-4f39-be1f-fedf54e66305
+        Arg Node ID: 6baac496-a7a2-4f79-b2ec-c6884126be3b
+        Action text: **Let’s take a pause together.**; ; Whenever you’re feeling stressed, remember that taking a pause like this can help you feel more grounded and calm.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: ea36948b-ea14-4357-8a1d-d11305704ed9
+        Arg Node ID: c9413a70-7a3d-4a45-aa97-0c6762b17ae5
+        Action text: Press ▶️ to take a pause together.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 6b0541ac-53c6-497c-9ce2-a3b9601261b2
+        Arg Node ID: 7d878755-67be-48bd-a18d-eafd1d68c314
+        Action text: Thank you for taking a moment to pause with us. It's time for today's tips.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+    Problem flow: 27
+    Flow ID: e1a54ff8-1153-4538-8418-a7980cfd582c
+    Flow name: pause - loving_kindness_meditation
+
+        QR Node ID: 4740c4a2-7429-4737-a399-6ee425d0751b
+        Arg Node ID: 081d8bf1-59c3-44d3-a043-61c5ed56095c
+        Action text: **Let’s take a pause together.**; ; Sometimes when we are experiencing stress or feeling alone, it can be helpful to send thoughts of loving kindness to ourselves.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 3021e1bd-57e8-4183-98b7-05209d89441c
+        Arg Node ID: 6b843535-30e3-4a3b-afe1-ac6f111c196d
+        Action text: Press ▶️ to take a pause together.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: b10bc0d7-dcd4-42f4-af64-a55d0debaaac
+        Arg Node ID: d4a77df3-b34c-4e5f-9286-84c0120517c9
+        Action text: Take a moment to reflect on your experience. ; ; When you are ready, continue to today's tips with a sense of calm. ; ; Thank you for taking a moment to pause with us.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+    Problem flow: 28
+    Flow ID: db26ce6e-60c7-4715-a92d-a4a1bab0b14d
+    Flow name: pause - slow_breathe
+
+        QR Node ID: 03da989f-0070-478e-a2b3-8c60ad8d2de6
+        Arg Node ID: 5bd5a69a-04a8-40f9-bbf6-b6183a2dec67
+        Action text: **Let’s take a pause together.**; ; You can do this anytime you feel stressed or worried.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 02a246ea-249e-48d9-be82-fea49c2a4739
+        Arg Node ID: 9cbfa6cc-60ae-4062-ad11-7093a4e7b938
+        Action text: Press ▶️ to take a pause together.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 67d76be2-7cfc-4aa6-aed2-1f58e7891772
+        Arg Node ID: 52a0be7a-4bea-403d-8272-2b5baa02e180
+        Action text: Thank you for taking a moment to pause with us. It's time for today's tips.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+    Problem flow: 29
+    Flow ID: 9e840f06-c380-445c-bb6c-349b392350e2
+    Flow name: pause_review - breath_body_awareness
+
+        QR Node ID: 964b0629-33b1-447f-90b3-d7641d2478e5
+        Arg Node ID: bec7552e-2d60-489b-a9b5-a48711ca73d6
+        Action text: Press ▶️ to take a pause together.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+    Problem flow: 30
+    Flow ID: c5dbec0c-4db5-473c-8881-f7e8e9292f15
+    Flow name: pause_review - body_scan
+
+        QR Node ID: e2a1f2c9-d2ca-4f9b-b92e-f9705501ec38
+        Arg Node ID: 95c7ed39-4fb2-43b3-b38e-ba26db125b26
+        Action text: Press ▶️ to take a pause together.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+    Problem flow: 31
+    Flow ID: b6474053-b782-4543-8d76-35e140c2489f
+    Flow name: pause_review - loving_kindness_meditation
+
+        QR Node ID: 76aa0141-28f7-4d05-84bd-cd9b3e29ba18
+        Arg Node ID: 8e1a27ff-184e-415d-a55e-abb7eef6bb2c
+        Action text: Press ▶️ to take a pause together.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+    Problem flow: 32
+    Flow ID: 8ff9202a-0319-4655-9a61-7c5a4b54b8eb
+    Flow name: pause_review - slow_breathe
+
+        QR Node ID: 21953282-0562-4961-add8-4b3efbe47fca
+        Arg Node ID: 0d5d4f59-5c45-4b25-b632-631a03a4bcf8
+        Action text: Press ▶️ to take a pause together.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+    Problem flow: 33
+    Flow ID: eb33a2ba-2d5a-4584-91a4-31261cd9fb6c
+    Flow name: completion_tracker
+
+        QR Node ID: 1ebb76c1-1b97-4a5a-a801-4d72dba893e5
+        Arg Node ID: 3095aa6f-12db-4f8e-a502-e32f6714428d
+        Action text: There are @(fields.c_n_mod - fields.c_n_mod_compl) more tips.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+        QR Node ID: 9abb603c-cc7c-42b1-94d4-0dc2d342f964
+        Arg Node ID: 73a2da21-b149-4d2a-b669-762a746f0ce7
+        Action text: There is one more tip.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+    Problem flow: 34
+    Flow ID: 285f17b4-0073-4e2c-9764-7b40a5038dc5
+    Flow name: survey - onb - question - agree_instructions
+
+        QR Node ID: 1fd921de-0686-43a6-a499-765304f6a360
+        Arg Node ID: bac45460-a8e7-47f4-8943-67e28d360316
+        Action text: Press YES if you understand and want to receive ParentText. Type 'EXIT' if you do not wish to participate.
+        Quick replies:
+                yes
+        Arguments:
+                yes  -  has_only_phrase
+                exit  -  has_only_phrase
+        Link "QR","Argument"
+                0,0
+                 ,1
+
+    Problem flow: 35
+    Flow ID: 163fcd9e-b941-4f97-9c9d-ddebab7dbb5b
+    Flow name: survey - onb - question - orientation
+
+        QR Node ID: 10ea3426-9be5-4000-bcfe-6d8e45f82eef
+        Arg Node ID: 0d922ae7-756a-45b3-884e-6463e5eb92e6
+        Action text: Thanks for answering our questions. We're ready to get started. 💚; To start, you can watch this video to learn about ParentText.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+    Problem flow: 36
+    Flow ID: 1f1f1b2f-cfb4-4653-8851-098a8d41c840
+    Flow name: survey - dem - question - demographic_intro
+
+        QR Node ID: 463e6a94-ec6c-4342-a4dd-57be75bf1dcb
+        Arg Node ID: 2c4c1a65-d095-4618-945f-82efbb612b7f
+        Action text: Just 3 more quick questions 💬; This helps us give tips that truly help parents like you.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+    Problem flow: 37
+    Flow ID: a6f6de21-9bb4-42ec-b6e2-93dace45e7c8
+    Flow name: survey - feed - question - feedback_intro
+
+        QR Node ID: a864c0fb-1920-409c-8cf2-75da597556a4
+        Arg Node ID: 6cc0bf58-4f68-4287-9dea-c9bc110db761
+        Action text: Lastly, today we want to ask 2 questions to make these tips better for others 🎉
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+
+    Problem flow: 38
+    Flow ID: ec1c041c-a26f-4883-9744-be0a09a7937c
+    Flow name: survey - end1 - question - thank_you_end
+
+        QR Node ID: 34b5a2fc-853f-4eb6-8057-c172fc9efe9b
+        Arg Node ID: d06782e9-74ed-4420-b7ee-b8fd1333c540
+        Action text: Thank you so much for participating in these tips! You are so brave and such an amazing caregiver.
+        Quick replies:
+                next
+        Arguments:
+        Link "QR","Argument"
+                0,
+

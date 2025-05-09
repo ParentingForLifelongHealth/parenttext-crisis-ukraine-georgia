@@ -1,0 +1,8 @@
+row_id,type,edges.1.from,edges.2.from,edges.1.condition,message_text,save_name,choices.1,choices.2
+msg.Are_you_a_WOMAN,send_message,start,,,Are you a WOMAN or MAN?,,Woman,Man
+switch.input_text,wait_for_response,msg.Are_you_a_WOMAN,,,,,,
+set_contact_field.gender,save_value,switch.input_text,,value;Woman|variable;@input.text|type;has_only_phrase|name;Woman,woman,gender,,
+set_contact_field.gender.1,save_value,switch.input_text,,value;Man|variable;@input.text|type;has_only_phrase|name;Man,man,gender,,
+set_contact_field.completed_gende,save_value,set_contact_field.gender,set_contact_field.gender.1,,yes,completed_gender,,
+msg.Sorry_I_dont_un,send_message,switch.input_text,,,"Sorry, I don't understand what you mean.",,,
+goto.msg.Are_you_a_WOMAN,go_to,msg.Sorry_I_dont_un,,,msg.Are_you_a_WOMAN|,,,

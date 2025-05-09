@@ -1,0 +1,33 @@
+row_id,type,edges.1.from,edges.2.from,edges.2.condition,edges.3.from,no_response,edges.1.condition,message_text,save_name,choices.1,image,audio
+msg.In_these_tips_w,send_message,start,,,,,,"In these tips, we will talk about ways you can be prepared to travel safely with your children 💙.",,,,
+msg.Your_children_w,send_message,msg.In_these_tips_w,,,,,,Your children will feel reassured knowing you have a plan 📝.,,,,
+switch.media,split_by_value,msg.Your_children_w,,,,,,@fields.type_of_media,,,,
+msg.Press_Play__to_,send_message,switch.media,,,,,value;medium|variable;@fields.type_of_media|type;has_any_word|name;Medium,"Press Play ▶️ to learn 3 things you can do to ensure that you and your children are as safe as possible when you are on the move:
+
+1️⃣ *MOVE SAFELY*
+2️⃣ *PREPARE YOUR CHILDREN*
+3️⃣ *MAKE A SAFETY NOTE*",,NEXT,,"@(fields.voiceover_audio_path & ""travel_safely.mp3"")"
+wait_for.input_text,wait_for_response,msg.Press_Play__to_,,,,60,,,,,,
+msg.Here_are_3_thin,send_message,wait_for.input_text,wait_for.input_text,value;No Response|,switch.media,,,Here are 3️⃣ things you can do to ensure that you and your children are as safe as possible when you are on the move:,,,,
+msg.1_MOVE_SAFELY_T,send_message,msg.Here_are_3_thin,,,,,,"1️⃣ *MOVE SAFELY*
+
+🔒 Travel in a group of people you know, and don’t give any ID documents or cards to anyone, where possible.",,NEXT,"@(fields.image_path & ""travel_safely_tip_1.jpg"")",
+switch.input_text,wait_for_response,msg.1_MOVE_SAFELY_T,,,,,,,,,,
+msg.2_PREPARE_YOUR_,send_message,switch.input_text,,,,,,"2️⃣ *PREPARE YOUR CHILDREN*
+
+🎵Make a song or chant with your children to help them memorise your full name and phone number, and number of someone you trust. 
+
+🔁 Go over it every day.
+
+📍Every day, agree on a clear place to meet if you are separated from each other.",,NEXT,"@(fields.image_path & ""travel_safely_tip_2.jpg"")",
+switch.input_text.1,wait_for_response,msg.2_PREPARE_YOUR_,,,,,,,,,,
+msg.3_MAKE_A_SAFETY,send_message,switch.input_text.1,,,,,,"3️⃣ *MAKE A SAFETY NOTE*
+
+🗒️ Make a safety note for each child.
+Write the full name & phone number of yourself and three people you trust, plus any medication your child needs and any special needs they have. 
+
+Cover the note in plastic and hide it in something they always wear.",,NEXT,"@(fields.image_path & ""travel_safely_tip_3.jpg"")",
+switch.input_text.2,wait_for_response,msg.3_MAKE_A_SAFETY,,,,,,,,,,
+msg._100,send_message,switch.input_text.2,,,,,,"✅ 100%
+",,,,
+set_run_result.completed,save_flow_result,msg._100,,,,,,yes,completed,,,

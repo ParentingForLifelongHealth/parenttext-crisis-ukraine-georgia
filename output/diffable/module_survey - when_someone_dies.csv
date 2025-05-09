@@ -1,0 +1,4 @@
+row_id,type,edges.1.from,edges.1.condition,message_text,save_name
+set_run_result.bugfix,save_flow_result,start,,x,bugfix
+flow.module_-_when_s,start_new_flow,set_run_result.bugfix,,module - when_someone_dies,
+set_run_result.status,save_flow_result,flow.module_-_when_s,value;completed|,not_expired,status

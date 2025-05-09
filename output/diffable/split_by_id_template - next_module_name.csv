@@ -1,0 +1,4 @@
+row_id,type,edges.1.from,edges.1.condition,message_text,save_name
+switch.fields_curr_goa,split_by_value,start,,@fields.curr_goal,
+flow.get_next_module,start_new_flow,switch.fields_curr_goa,value;core|variable;@fields.curr_goal|type;has_only_phrase|name;Core,get_next_module_name - core,
+set_run_result.status,save_flow_result,flow.get_next_module,value;completed|,not_expired,status

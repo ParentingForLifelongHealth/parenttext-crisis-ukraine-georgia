@@ -1,0 +1,29 @@
+row_id,type,edges.1.from,edges.1.condition,edges.2.from,message_text,save_name
+switch.fields_sq_dem_d,split_by_value,start,,,@fields.sq_dem_demographicintro_complete,
+flow.survey_-_dem_-_,start_new_flow,switch.fields_sq_dem_d,,,survey - dem - question - demographic_intro,
+switch.child_results_n,split_by_value,flow.survey_-_dem_-_,value;completed|,,@child.results.next_action,
+switch.fields_sq_dem_d.1,split_by_value,switch.fields_sq_dem_d,value;yes|variable;@fields.sq_dem_demographicintro_complete|type;has_any_word|name;Yes,switch.child_results_n,@fields.sq_dem_displacementstatus_complete,
+flow.survey_-_dem_-_.1,start_new_flow,switch.fields_sq_dem_d.1,,,survey - dem - question - displacement_status,
+switch.child_results_n.1,split_by_value,flow.survey_-_dem_-_.1,value;completed|,,@child.results.next_action,
+switch.fields_sq_dem_n,split_by_value,switch.fields_sq_dem_d.1,value;yes|variable;@fields.sq_dem_displacementstatus_complete|type;has_any_word|name;Yes,switch.child_results_n.1,@fields.sq_dem_nationality_complete,
+flow.survey_-_dem_-_.2,start_new_flow,switch.fields_sq_dem_n,,,survey - dem - question - nationality,
+switch.child_results_n.2,split_by_value,flow.survey_-_dem_-_.2,value;completed|,,@child.results.next_action,
+switch.fields_sq_dem_d.2,split_by_value,switch.fields_sq_dem_n,value;yes|variable;@fields.sq_dem_nationality_complete|type;has_any_word|name;Yes,switch.child_results_n.2,@fields.sq_dem_displacementtime_complete,
+flow.survey_-_dem_-_.3,start_new_flow,switch.fields_sq_dem_d.2,,,survey - dem - question - displacement_time,
+switch.child_results_n.3,split_by_value,flow.survey_-_dem_-_.3,value;completed|,,@child.results.next_action,
+switch.fields_sq_dem_d.3,split_by_value,switch.fields_sq_dem_d.2,value;yes|variable;@fields.sq_dem_displacementtime_complete|type;has_any_word|name;Yes,switch.child_results_n.3,@fields.sq_dem_demographicend_complete,
+flow.survey_-_dem_-_.4,start_new_flow,switch.fields_sq_dem_d.3,,,survey - dem - question - demographic_end,
+switch.child_results_n.4,split_by_value,flow.survey_-_dem_-_.4,value;completed|,,@child.results.next_action,
+set_run_result.proceed,save_flow_result,switch.fields_sq_dem_d.3,value;yes|variable;@fields.sq_dem_demographicend_complete|type;has_any_word|name;Yes,switch.child_results_n.4,yes,proceed
+set_contact_field.s_dem_complete,save_value,set_run_result.proceed,,,yes,s_dem_complete
+set_contact_field.s_dem_completio,save_value,set_contact_field.s_dem_complete,,,@(now()),s_dem_completion_time
+set_run_result.expired,save_flow_result,flow.survey_-_dem_-_.4,value;expired|,,yes,expired
+msg.It_looks_like_t,send_message,set_run_result.expired,,,It looks like this is not a good time. Please type 1 if you'd like to continue.,
+set_run_result.expired.1,save_flow_result,flow.survey_-_dem_-_.3,value;expired|,,yes,expired
+msg.It_looks_like_t.1,send_message,set_run_result.expired.1,,,It looks like this is not a good time. Please type 1 if you'd like to continue.,
+set_run_result.expired.2,save_flow_result,flow.survey_-_dem_-_.2,value;expired|,,yes,expired
+msg.It_looks_like_t.2,send_message,set_run_result.expired.2,,,It looks like this is not a good time. Please type 1 if you'd like to continue.,
+set_run_result.expired.3,save_flow_result,flow.survey_-_dem_-_.1,value;expired|,,yes,expired
+msg.It_looks_like_t.3,send_message,set_run_result.expired.3,,,It looks like this is not a good time. Please type 1 if you'd like to continue.,
+set_run_result.expired.4,save_flow_result,flow.survey_-_dem_-_,value;expired|,,yes,expired
+msg.It_looks_like_t.4,send_message,set_run_result.expired.4,,,It looks like this is not a good time. Please type 1 if you'd like to continue.,

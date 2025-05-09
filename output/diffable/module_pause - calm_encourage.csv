@@ -1,0 +1,4 @@
+row_id,type,edges.1.from,edges.1.condition,message_text,save_name
+flow.pause_-_slow_br,start_new_flow,start,,pause - slow_breathe,
+flow.module_-_calm_e,start_new_flow,flow.pause_-_slow_br,value;completed|,module - calm_encourage,
+set_run_result.status,save_flow_result,flow.module_-_calm_e,value;completed|,not_expired,status

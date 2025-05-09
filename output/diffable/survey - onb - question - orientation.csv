@@ -1,0 +1,9 @@
+row_id,type,edges.1.from,no_response,edges.2.from,edges.2.condition,message_text,choices.1,video,edges.1.condition,save_name
+switch.fields_sq_onb_o,split_by_value,start,,,,@fields.sq_onb_orientation,,,,
+set_contact_field.sq_onb_orientat,save_value,switch.fields_sq_onb_o,,,,,,,value;NA|variable;@fields.sq_onb_orientation|type;has_only_phrase|name;is NA,sq_onb_orientation
+switch.1,split_by_value,set_contact_field.sq_onb_orientat,,switch.fields_sq_onb_o,,1,,,,
+set_run_result.dummy,save_flow_result,switch.1,,,,"Block can’t start with for loop, see issue #47",,,,dummy
+msg.Thanks_for_answ,send_message,set_run_result.dummy,,,,"Thanks for answering our questions. We're ready to get started. 💚
+To start, you can watch this video to learn about ParentText.",NEXT,"@(fields.voiceover_video_path & ""onboarding.mp4"")",,
+wait_for.input_text,wait_for_response,msg.Thanks_for_answ,60,,,,,,,
+set_contact_field.sq_onb_orientat.1,save_value,wait_for.input_text,,wait_for.input_text,value;No Response|,yes,,,,sq_onb_orientation_complete

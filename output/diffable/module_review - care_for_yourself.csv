@@ -1,0 +1,31 @@
+row_id,type,edges.1.from,edges.2.from,edges.2.condition,edges.3.from,no_response,edges.1.condition,message_text,save_name,choices.1,image,audio
+msg.You_are_not_alo,send_message,start,,,,,,"You are not alone 🤲. Many other people are also going through very hard times, including war or having to leave their homes 💔. Many people share your pain as you face so many losses and uncertainties.
+
+When life is this hard, it's normal to feel overwhelmed 😣.
+
+Today’s tips are about ways you can take care of yourself 🌱, even when it is very difficult.",,,,
+msg.Remember_when_y,send_message,msg.You_are_not_alo,,,,,,"Remember, when you take good care of yourself, it can help you take good care of your children.",,,,
+switch.media,split_by_value,msg.Remember_when_y,,,,,,@fields.type_of_media,,,,
+msg.Press_Play__to_,send_message,switch.media,,,,,value;medium|variable;@fields.type_of_media|type;has_any_word|name;Medium,"Press Play ▶️ to learn 3️⃣ tips to help you care for yourself so you can care for your children: 
+1️⃣ *BREATHE*
+2️⃣ *BREATHE TOGETHER WITH YOUR CHILDREN*
+3️⃣ *CONNECT AND SHARE*",,NEXT,,"@(fields.voiceover_audio_path & ""care_for_yourself.mp3"")"
+wait_for.input_text,wait_for_response,msg.Press_Play__to_,,,,60,,,,,,
+msg.Here_are_3_tips,send_message,wait_for.input_text,wait_for.input_text,value;No Response|,switch.media,,,Here are 3️⃣ tips to help:,,,,
+msg.1_BREATHEListen,send_message,msg.Here_are_3_tips,,,,,,"1️⃣ *BREATHE*
+
+Listen to your breath 🌬️ as it goes in and out.
+Place your hands on your chest or tummy and feel how it rises and falls with each breath.
+Then, listen to your breath in a calm, gentle way for a while🌄.",,NEXT,"@(fields.image_path & ""care_for_yourself_1.jpg"")",
+switch.input_text,wait_for_response,msg.1_BREATHEListen,,,,,,,,,,
+msg.2_BREATHE_TOGET,send_message,switch.input_text,,,,,,"2️⃣ *BREATHE TOGETHER WITH YOUR CHILDREN*
+
+ 🗓️ Do these breathing practices every day together with your children. It will help you and them learn to manage stress 🌱.",,NEXT,"@(fields.image_path & ""care_for_yourself_2.jpg"")",
+switch.input_text.1,wait_for_response,msg.2_BREATHE_TOGET,,,,,,,,,,
+msg.3_CONNECT_AND_S,send_message,switch.input_text.1,,,,,,"3️⃣ *CONNECT AND SHARE*
+
+If your stress feels overwhelming, please contact a trusted person, organisation or helpline. Type HELP after these tips for more information.",,NEXT,"@(fields.image_path & ""help_phone.jpg"")",
+switch.input_text.2,wait_for_response,msg.3_CONNECT_AND_S,,,,,,,,,,
+msg._100,send_message,switch.input_text.2,,,,,,"✅ 100%
+",,,,
+set_run_result.completed,save_flow_result,msg._100,,,,,,yes,completed,,,

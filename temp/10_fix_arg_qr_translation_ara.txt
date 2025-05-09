@@ -1,0 +1,16 @@
+JSON Processed: temp\parenttext_all_9_hasanyword_posttranslation.json
+
+This file provides a log of where there are possible errors between the translated quick replies and the arguments and where an automated fix has been applied using the "fix_arg_qr_translations" script
+
+Language: ara
+Total flows in JSON file: 261
+Total nodes with "quick replies": 240
+
+Total quick reply nodes missing some translation: 239
+Total arguments nodes missing some translation: 83
+
+Total modified flows: 0
+Total modified nodes: 0
+Total nodes not successfully fixed: 0
+ID of failed nodes: undefined
+

@@ -1,0 +1,3 @@
+row_id,type,edges.1.from,message_text,save_name
+set_run_result.bugfix,save_flow_result,start,x,bugfix
+set_contact_field.id_last_module_,save_value,set_run_result.bugfix,,id_last_module_completed

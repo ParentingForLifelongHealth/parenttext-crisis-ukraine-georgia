@@ -185,6 +185,11 @@
         "ID": "goodbye",
         "msg": "Thank you for participating. If you want to return to continue receiving tips, type HELLO. \n\nWe hope to see you again soon.",
         "metadata.description": "HELLO is just to suggest something to type, but anything typed in the chat will trigger the same behaviour"
+      },
+      {
+        "ID": "stay",
+        "msg": "We are so glad you want to stick around! We will resume your progress tomorrow. ",
+        "metadata.description": ""
       }
     ],
     "safeguarding_start_programme_data": [
@@ -291,12 +296,12 @@
     "referrals": [
       {
         "ID": "generic",
-        "referrals": "{generic referrals}",
+        "referrals": "{generic_referrals}",
         "option_name": "Local and international support"
       },
       {
         "ID": "health",
-        "referrals": "{health referrals}",
+        "referrals": "{health_referrals}",
         "option_name": "Medical services"
       },
       {
@@ -306,13 +311,18 @@
       },
       {
         "ID": "family",
-        "referrals": "{family referrals}",
+        "referrals": "{family_referrals}",
         "option_name": "Family counselling services"
       },
       {
         "ID": "natural_disasters",
         "referrals": "{natural_disasters referrals}",
         "option_name": "Natural disasters"
+      },
+      {
+        "ID": "child_protection",
+        "referrals": "{child_protection}",
+        "option_name": ""
       }
     ],
     "safeguarding_help_data": [

@@ -1,0 +1,12 @@
+row_id,type,edges.1.from,edges.2.from,message_text,edges.1.condition,save_name
+switch.fields_sq_onb_i,split_by_value,start,,@fields.sq_onb_info,,
+set_contact_field.sq_onb_info,save_value,switch.fields_sq_onb_i,,,value;NA|variable;@fields.sq_onb_info|type;has_only_phrase|name;is NA,sq_onb_info
+switch.1,split_by_value,set_contact_field.sq_onb_info,switch.fields_sq_onb_i,1,,
+set_run_result.dummy,save_flow_result,switch.1,,"Block can’t start with for loop, see issue #47",,dummy
+msg._You_are_a_grea,send_message,set_run_result.dummy,,"🧡 You are a great parent. Thank you for joining us. 
+
+✅ Participating in ParentText is optional.
+✅ We won’t ever ask for your name. Anything you share is safe, private, and anonymous.
+✅Your anonymous information may also be shared with others working to help families like yours build strength and hope in tough times. All your information will be private and can’t be linked back to you.
+❌You can stop when you want. Just type STOP",,
+set_contact_field.sq_onb_info_com,save_value,msg._You_are_a_grea,,yes,,sq_onb_info_complete

@@ -1,0 +1,11 @@
+row_id,type,edges.1.from,message_text
+msg.Express_Yoursel,send_message,start,"*Express Yourself*
+
+Movement makes people happy!
+This game can be played in pairs or as a group - stand facing each other or in a circle.
+🎵 Together, choose a song, a fun sound, or a clapping pattern to follow and choose a person to start the game by creating one movement.
+👀 The person to their right must copy that movement and add their own movement to it.
+✨ Go around the circle, each person adding a new movement."
+msg._The_first_one_,send_message,msg.Express_Yoursel,"🔄 The first one who forgets someone's movements or does it in the wrong order chooses the next song, sound, or pattern and starts the game again.
+
+🎉 Have fun trying out different movements together with this fun game."

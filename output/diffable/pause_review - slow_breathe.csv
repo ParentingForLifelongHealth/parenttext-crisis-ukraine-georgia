@@ -1,0 +1,4 @@
+row_id,type,edges.1.from,edges.2.from,edges.2.condition,message_text,save_name,no_response,choices.1,video
+msg.Press__to_take_,send_message,start,,,Press ▶️ to take a pause together.,,,NEXT,"@(fields.voiceover_video_path & ""slow_breathe.mp4"")"
+wait_for.wait_media,wait_for_response,msg.Press__to_take_,,,,wait_media,300,,
+set_run_result.completed,save_flow_result,wait_for.wait_media,wait_for.wait_media,value;No Response|,yes,completed,,,

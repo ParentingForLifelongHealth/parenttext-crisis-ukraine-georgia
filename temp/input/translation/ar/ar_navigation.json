@@ -1,0 +1,1322 @@
+[
+  {
+    "SourceText": "Would you like to go back to the previous messages?",
+    "text": "بدّك ترجع للرسائل الماضية؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That's okay. Type {HELP} at any time if you would like the details of emergency services or other hotlines.",
+    "text": "تمام، اكتب {HELP} بأي وقت لو بدّك تفاصيل عن خدمات الطوارئ أو الخطوط الساخنة الأخرى.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Sorry, I don't understand what you mean.",
+    "text": "آسف، ما فهمت شو قصدك.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Here are some services that might be able to help:",
+    "text": "هاي شوية خدمات ممكن تساعدك:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "{generic referrals}",
+    "text": "{generic referrals}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Type {HELP} at any time if you would like the details of emergency services or other hotlines. Remember everything you say will be completely private!",
+    "text": "اكتب {HELP} بأي وقت لو بدّك تفاصيل عن خدمات الطوارئ أو الخطوط الساخنة الأخرى. تذكّر، كل اشي بتحكيه رح يكون سرّي تمامًا!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "{mental_health referrals}",
+    "text": "{mental_health referrals}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "{health referrals}",
+    "text": "{health referrals}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "{natural_disasters referrals}",
+    "text": "{natural_disasters referrals}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Would you like information about local and international resources available to help you right now?",
+    "text": "بدّك معلومات عن مصادر محلية وعالمية ممكن تساعدك في هاي اللحظة؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Do you need some support with an emotional issue?",
+    "text": "بتحتاج دعم بمسألة عاطفية؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Are you currently experiencing a health issue?",
+    "text": "هل عندك مشكلة صحية في الوقت الحالي؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Do you have an emergency?",
+    "text": "هل عندك حالة طارئة؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It looks like you are facing an emergency. Can you please tell us what kind of assistance you need?",
+    "text": "يبدو إنك بتواجه حالة طارئة. بتقدر تحكيلنا شو نوع المساعدة اللي بتحتاجها؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "{family referrals}",
+    "text": "{family referrals}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What would you like to do?",
+    "text": "شو بدّك تختار تعمل؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We hope this was helpful. You can access this information at any time by typing {HELP}.",
+    "text": "بنتمنى إنه نكون ساعدناك. بتقدر توصل لهاي المعلومات بأي وقت بكتابة {HELP}.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Welcome back to ParentText!",
+    "text": "مرحبًا فيك مرة تانية في برنامج نصائح للوالدين!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "I don't understand your message.",
+    "text": "ما فهمت رسالتك.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Please type {MENU} to access resources and review previous tips, {PLAY} to receive a playful activity you can complete with your child, or {HELP} to access additional support resources.",
+    "text": "اكتب {MENU} علشان توصل للمصادر وتراجع النصائح السابقة، اكتب {PLAY} علشان تستقبل نشاط ممتع ممكن تعمله مع طفلك، أو اكتب {HELP} علشان توصل لمصادر دعم إضافية.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You have not given consent to participate in this programme. Would you like to participate?",
+    "text": "لسه ما وافقت على المشاركة بالبرنامج. بدّك تشارك؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "If you ever want to receive these tips in the future just type HELLO.",
+    "text": "لو بدّك تستقبل هاي النصائح بالمستقبل اكتب:  مرحبا",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We hope to see you again soon.",
+    "text": "بنتمنى نشوفك عن قريب.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We are here to help. You've received @fields.c_n_mod_compl out of @fields.c_n_mod tips. Would you like to continue?",
+    "text": "نحنا هون عشان نساعدك. استقبلت @fields.c_n_mod_compl out of @fields.c_n_mod tips نصيحة. بدّك تكمل؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That's okay. If you ever decide to come back, type HELLO.",
+    "text": "تمام. لو قررت ترجع اكتب: مرحبا.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We hope to see you again soon, and we wish you a happy and peaceful day!",
+    "text": "بنتمنى نشوفك مرّة تانية عن قريب، وبنتمنالك يوم سعيد وسالم!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You are already part of ParentText",
+    "text": "أنت من قبل جزء من برنامج نصائح للوالدين",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You have already received all of the avilable tips. Type {MENU} to review previous tips.",
+    "text": "استقبلت سابقاً كل النصائح المتاحة. اكتب {MENU} علشان تراجع النصائح اللي قبل.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Welcome back to ParentText.",
+    "text": "مرحبًا فيك مرة تانية في برنامج نصائح للوالدين",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Are you sure you want to stop receiving tips?",
+    "text": "هل أنت متأكد إنك بدّك توقف استلام النصائح؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "If you do not want to receive any more messages, please type \"EXIT\".",
+    "text": "لو ما بدّك تستقبل رسائل أكتر، الرجاء كتابة \"EXIT\".",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "If you made a mistake, please type \"BACK\".",
+    "text": "لو غلطت، الرجاء كتابة \"BACK\".",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for participating. If you want to return to continue receiving tips, type HELLO.",
+    "text": "شكرًا لمشاركتك. لو بدّك ترجع وتكمل استقبال النصائح، اكتب: مرحبا",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "This feature will be available once you have completed registration. It won’t take long. Please continue your progress!",
+    "text": "هاي الميزة رح تكون متاحة بس تكمّل التسجيل. ما رح تطول. كمّل تَقَدُمَك!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "The menu will be available once you have completed registration. It won’t take long. Please continue your progress!",
+    "text": "القائمة رح تكون متاحة بس تكمّل التسجيل. ما راح تطول. كمّل تَقَدُمَك!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for taking a pause with me today.",
+    "text": "شكرًا إنك أخدت استراحة معي اليوم.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "In this program, you will receive @fields.c_n_mod tips. Your first tip is \"@results.name\".",
+    "text": "بهادا البرنامج راح تستقبل @fields.c_n_mod نصيحة. أول نصيحة إلك هي \"@results.name\".",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "fail",
+    "text": "فشل.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Let’s get started. Press NEXT to begin.",
+    "text": "يلا نبلش. اضغط : التالي عشان تبدأ.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "nan",
+    "text": "غير متوفر",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "The tips you haven't finished are:",
+    "text": "النصائح اللي ما خلّصتها هي:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "@(text_slice(results.message_options,3)).",
+    "text": "@(text_slice(results.message_options,3)).",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Which tip would you like to receive?",
+    "text": "شو النصيحة اللي بتحب تستقبلها؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "@results.message_options",
+    "text": "@results.message_options",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You haven't received any tips yet.",
+    "text": "لسى ما استلمت أي نصائح ؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You have received the following tips:",
+    "text": "النصائح اللي استقبلتها هي:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Would you like to review it?",
+    "text": "بدّك تراجعها؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That's okay. You can come back here at any time to review it.",
+    "text": "تمام. بتقدر ترجع هون بأي وقت تراجعها.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You have completed @fields.n_s_modules_compl out of @fields.n_s_modules tips. Which of the following tips would you like to review?",
+    "text": "خلصت @fields.n_s_modules@ out of fields.n_s_modules_compltips   أي من النصائح التالية بدّك تراجع؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "@(word_count(fields.s_modules_compl) +1). Return to Main Menu",
+    "text": "@(word_count(fields.s_modules_compl) +1). رجوع للقائمة الرئيسية",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What would you like now?",
+    "text": "شو بتحتاج هلا؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Alright. I will share more tips tomorrow.",
+    "text": "تمام. رح أشاركك نصائح أكتر بكره.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "OK, see you tomorrow.",
+    "text": "أوكي، بشوفك بكره.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What kind of activity do you want to try with your child?",
+    "text": "شو نوع النشاط اللي بدك تجربه مع طفلك؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Do you want to begin now or tomorrow?",
+    "text": "بدّك تبدأ هلا أم بكره؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Great, see you tomorrow!",
+    "text": "عظيم، بشوفك بكره!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You have completed the programme. Well done!",
+    "text": "هيك خلصت البرنامج. أحسنت!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Remember, you can always return to ParentText to review these tips. Just type {MENU}.",
+    "text": "تذكّر، بتقدر ترجع لنصائح للوالدين بأي وقت عشان تراجع هاي النصائح. بس اكتب {MENU}.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Was ParentText helpful? If so, share it with a friend. Just send this link: {insert link}",
+    "text": "هل كان برنامج نصائح للوالدين مفيد؟ لو نعم، شاركه مع صاحبك. بس ابعث هادا الرابط: {insert link}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It’s a difficult moment for your family. I’m here today with a few tips to create small moments of connection with your child to give them the routine and stability you all need right now. Press 1 to continue with your registration.",
+    "text": "هادا الوقت صعب على عيلتك. أنا هون اليوم مع شوية نصائح عشان تخلق لحظات صغيرة للتواصل مع طفلك لتعطيه الروتين والاستقرار اللي كلكم بتحتاجوه. اضغط 1 عشان تكمّل تسجيلك.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It looks like you started answering some baseline questions but didn't get a chance to finish. Would you like to continue now and then we can move onto the tips?",
+    "text": "شكلك بلشت تجاوب على شوية أسئلة أساسية بس ما كمّلت. بدّك تكمّل هلا وبعدين ننتقل للنصائح؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It looks like you started a tip, but didn't finish receiving all of the information. Would you like to finish it or start learning someting new?",
+    "text": "شكلك بلّشت بنصيحة، بس ما خلّصت استلام كل المعلومات. بتحبّ تكمّل أو تبلّش إشي جديد؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It looks like you started a parenting tip, but didn't finish receiving all of the information. What would you like to do?",
+    "text": "شكلك بلّشت نصيحة تربوية بس ما خلصت استلام كل المعلومات. شو بتحب تعمل؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It looks like you have started, but not finished, @fields.c_n_mod_started tips. What would you like to do?",
+    "text": "مبيّن إنك بلّشت بس ما خلّصت، @fields.c_n_mod_started النصائح. شو حابب تعمل؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You and your family are facing a challenging time. ParentText provides tips on how you can support your child during this crisis. Would you like to recieve your first tips now?",
+    "text": "إنت و عيلتك عم بتمرّوا بوقت صعب. نصائح للوالدين بتوفّرلك نصائح عن كيف ممكن تدعم أطفالك بهيك أوقات. بتحب تستقبل النصائح الأولى؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "New tips are ready for you. Would you like to continue now?",
+    "text": "في نصيحة جديدة بإنتظارَك. جاهز تكمّل معنا؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💛 We’re thinking of you today. There are simple things you can do to help your child cope. Would you like to learn about them?",
+    "text": "💛 إحنا عم منفكّر فيك اليوم. في أشياء بسيطة بتقدر تمارسها عشان تساعد أطفالك يتعاملوا مع الظروف. بتحب تتعرّف عليهم؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Press a number on your keypad:",
+    "text": "إضغط رقم على لوحة المفاتيح عندك:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "1. Yes",
+    "text": "١. نعم",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "2. No, remind me tomorrow.",
+    "text": "٢. لا، الرجاء تذكيري غداً",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✨ Today’s tips can help your child feel more safe. Would you like to learn more?",
+    "text": "✨نصائح اليوم بتعرّفك كيف ممكن تساعد أطفالك يحسّوا بأمان. بتحب تتعرّف عليهم؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Today’s tips offer you some ways you can stay calm and also encourage your children during times of uncertainty 🌱.",
+    "text": "نصائح اليوم بتوفرّلك طرق تساعدك في تهدئة نفسك و بنفس الوقت تشجّع أطفالك في أوقات الحيرة وعدم الوضوح🌱.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Would you like to receive them?",
+    "text": "بتحب تُحصُل عليهم؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🧡 Planning to travel with your child soon?",
+    "text": "🧡 عم بتخطط تسافر مع أطفالك قريباً؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Today’s tips can help you prepare to stay safe— Would you like to learn more?",
+    "text": "نصائح اليوم رح تساعدك تاخد إحتياطات الأمان خلال السفر- بتحب تتعرّف عليهم؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💛 In stressful moments, even simple actions can help keep your child safe and close. Today’s tips share how to stay connected and calm when traveling.",
+    "text": "💛 أفعال بسيطة بتساعد تخلّي طفلك قريب و آمن في الأوقات الصعبة و اللي فيها تحدّي.نصائح اليوم بتشاركك طرق عشان تساعدك تحافظ على هدوئك و تخلّي طفلك بعلاقة قريبة منّك خلال السفر.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🫂 Many parents are having quiet talks with their children about staying safe. Today’s tips explain how to keep your child safe from harassment in a calm, age-appropriate way.",
+    "text": "🫂 كتير من الأهالي عم يحكوا مع أطفالهم على إنفراد عن الحذر و الإبتعاد عن الخطر. نصائح اليوم بعرّفوك كيف توعّي طفلك عن خطر التحرّش بطريقة هادية و مناسبة لعمره عشان تحميه و يضلّ آمن.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🕊️ In war and other tough times, children notice more than we think. Today’s tips help you talk to your child about death so they can feel safer, less confused, and more supported. Would you like to receive the tips?",
+    "text": "🕊️ الأطفال عندهم وعي و إدراك أكتر من ما منتصوّر سواء في الحرب أو الأوقات الصعبة. نصائح اليوم بستاعدك تحكي مع طفلك عن الموت عشان تطمّنه، يحسّ بالأمان و تخفف من حيرته. بتحب تُحصُل عليهم؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌿 Building strength in tough times starts with simple steps. Would you like to learn how to promote good behaviors and stay strong together?",
+    "text": "🌿  تجميع قوانا في الأوقات الصعبة فيه تحدّي كبير بس بيطلّب منّا خطوات بسيطة. بتحب تتعرّف على خطوات بتساعدك إنت و أطفالك تشجعوا السلوكيات الإجابية و تحافظوا على قوّتكم مع بعض؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "This time is difficult. It doesn't seem like you have the time for the these tips right now. When you are ready to keep going, press 1.",
+    "text": "هاد وقت صعب. يبدو إنه ما عندك وقت للنصائح هلا. لما تكون جاهز تكمّل، اضغط 1.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We hope this was helpful! You can access the Main Menu at any time by typing {MENU}.",
+    "text": "بنتمنى نكون ساعدناك! بتقدر توصل للقائمة الرئيسة في أي وقت عن طريق كتابة {MENU}.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "To invite someone to join, share this link!",
+    "text": "لدعوة شخص ما للانضمام، شارك معه هادا الرابط!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "{insert link}",
+    "text": "{insert link}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What would you like to do next?",
+    "text": "هلا شو حابب تعمل؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We hope this was helpful. You can access the Main Menu at any time by typing {MENU}.",
+    "text": "بنتمنى أنه نكون ساعدناك. بتقدر توصل إلى القائمة الرئيسة في أي وقت عن طريق كتابة {MENU}.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You've reached the end of today's tip. Well done for caring for your child during this challenging time.",
+    "text": "وصلت لنهاية نصيحة اليوم. أحسنت في اهتمامك بطفلك بهاد الوقت الصعب.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What would you like change?",
+    "text": "شو اللي بدّك تغيره؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Your current media setting is Text, Images, and Videos.",
+    "text": "إعداد الوسائط حاليًا عندك هو النص والصور ومقاطع الفيديو.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Your current media setting is Text and Images Only.",
+    "text": "إعداد الوسائط حاليًا عندك هو النص والصور فقط.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Your current media setting is",
+    "text": "إعداد الوسائط حاليًا عندك هو",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You didn't provide this info.",
+    "text": "أنت ما قدمت هاي المعلومات.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Would you like to change it?",
+    "text": "هل بدّك تغيره؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You didn't tell us if you are a woman or a man.",
+    "text": "ما قلتلنا، ،أنت ذكر أم أنثى",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are a Woman.",
+    "text": "قلتيلينا إنك أنثى.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are a Man.",
+    "text": "قلتلنا إنك ذكر.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are a",
+    "text": "قلت إنك",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Would you like to update your gender?",
+    "text": "هل ترغب بتحديث نوع جنسك؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You are currently receiving messages in English.",
+    "text": "أنت حالياً بتستلم الرسائل باللغة الإنجليزية.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You are currently receiving messages in Arabic.",
+    "text": "أنت حالياً بتستلم الرسائل باللغة العربية.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You are currently receiving messages in",
+    "text": "أنت حالياً بتستلم الرسائل باللغة",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Would you like to change your language?",
+    "text": "بدك تغيّر خَيَار اللغة؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "*DAY @fields.curr_demo_day*",
+    "text": "*DAY @fields.curr_demo_day*",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You completed the ParentText demo. Type RESET and then {FACSTART} to re-start from the beginning.",
+    "text": "أكملت العرض التجريبي الخاص بنصائح للوالدين. اكتب: إعادة تشغيل ,ثم {FACSTART} لإعادة التشغيل من البداية.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "There are @(fields.c_n_mod - fields.c_n_mod_compl) more tips.",
+    "text": "في كمان نصائح في@(fields.c_n_mod - fields.c_n_mod_compl)",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "There is one more tip.",
+    "text": "في كمان نصيحة.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Yes",
+    "text": "نعم",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "No",
+    "text": "لا",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Local and international support",
+    "text": "الدعم المحلي والدولي",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Medical services",
+    "text": "الخِدْمَات الطبية",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Mental health support",
+    "text": "دعم الصحة العقلية",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Family counselling services",
+    "text": "خدمات الاستشارة العائلية",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Natural disasters",
+    "text": "الكوارث الطبيعية",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Get other emergency contacts",
+    "text": "الحصول على جهات اتصال أخرى للطوارئ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Go to the Main Menu",
+    "text": "انتقل إلى القائمة الرئيسة",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Exit menu",
+    "text": "اخرج من القائمة",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "BACK",
+    "text": "الرجوع",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "NEXT",
+    "text": "التالي",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "A fun activity I can do with my child",
+    "text": "نشاط ممتع ممكن أعمله مع طفلي",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Proceed to the next tips",
+    "text": "انتقل إلى النصائح التالية",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Nothing. Let's continue tomorrow.",
+    "text": "ما في إشي. يلا نكمل بكره.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "nan",
+    "text": "غير متوفر",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Another fun activity I can do with my child",
+    "text": "نشاط ممتع تاني ممكن أعمله مع طفلي",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Continue with more tips tomorrow.",
+    "text": "كمِّل مع نصائح أكترغداً.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "View another activity idea",
+    "text": "عرض فكرة نشاط تاني",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Go to Main Menu",
+    "text": "انتقل إلى القائمة الرئيسية",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Something Quick",
+    "text": "إشي سريع",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Something Active",
+    "text": "إشي نشيط",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Something Calm",
+    "text": "إشي هادي",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Now",
+    "text": "هلا",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Tomorrow",
+    "text": "غدًا",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Continue my registration",
+    "text": "متابعة التسجيل",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Remind me tomorrow",
+    "text": "الرجاء تذكيري غداً",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Continue my initial questions",
+    "text": "أكمل أسئلتي الأولية",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Finish the previous tip",
+    "text": "أكمل النصيحة السابقة",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Receive a new tip",
+    "text": "استلم نصيحة جديدة",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Receive the remaining information",
+    "text": "استلم المعلومات الباقية",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Remind me about this tomorrow",
+    "text": "الرجاء تذكيري بهاذا الأمرغداً",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "I've finished receiving all of the information that I want from this chatbot.",
+    "text": "خلصت استلام كل المعلومات اللي برغب فيها من روبوت الدردشة",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "No, remind me tomorrow.",
+    "text": "لا، الرجاء تذكيري غداً",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "1",
+    "text": "1",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Return to Menu",
+    "text": "العودة إلى القائمة",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Review a different tip",
+    "text": "مراجعة نصيحة مختلفة",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Review tips",
+    "text": "مراجعة النصائح",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Change my settings",
+    "text": "تغيير إعداداتي",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Invite a friend to ParentText",
+    "text": "ادعُ صديق إلى برنامج نصائح للوالدين",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Get more help",
+    "text": "احصل على مزيد من المساعدة",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Watch a video about ParentText",
+    "text": "شاهد فيديو عن برنامج نصائح للوالدين",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Get the next tip",
+    "text": "احصل على النصيحة التالية",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Nothing, let's continue tomorrow",
+    "text": "ما في إشي، يلا نكمل بكره",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Change my profile",
+    "text": "تغيير ملفي الشخصي",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Stop receiving the messages",
+    "text": "وقف استلام الرسائل",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Return to Main Menu",
+    "text": "العودة إلى القائمة الرئيسة",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Change my language",
+    "text": "تغير اللغة",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Change the way I receive content",
+    "text": "تغيير طريقة استلامي للمحتوى",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Change my gender",
+    "text": "تغيير الجنس",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Get the next tip.",
+    "text": "احصل على النصيحة التالية.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "generic",
+    "text": "عام",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "mental_health",
+    "text": "الصحة_العقلية",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "health",
+    "text": "الصحة",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "natural_disasters",
+    "text": "الكوارث الطبيعية",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "help",
+    "text": "المساعدة",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "menu",
+    "text": "القائمة",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "play",
+    "text": "تشغيل",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "stop",
+    "text": "توقف",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "start",
+    "text": "ابدأ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "pause",
+    "text": "توقف",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "yes y yeah yep",
+    "text": "نعم حسنًا أوكي",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "no n nope nah",
+    "text": "لا لأ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "no n nope",
+    "text": "لا لأ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "local and international support",
+    "text": "الدعم المحلي والدولي",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "medical services",
+    "text": "الخدمات الطبية",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "mental health support",
+    "text": "دعم الصحة العقلية",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "family counselling services",
+    "text": "خدمات الاستشارة العائلية",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "natural disasters",
+    "text": "الكوارث الطبيعية",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "get other emergency contacts",
+    "text": "الحصول على جهات اتصال أخرى للطوارئ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "go to the main menu",
+    "text": "انتقل إلى القائمة الرئيسة",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "exit menu",
+    "text": "اخرج من القائمة",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "yes",
+    "text": "نعم",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "no",
+    "text": "لا",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "exit",
+    "text": "خروج",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "back",
+    "text": "الرجوع",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "nothing. let's continue tomorrow.",
+    "text": "ما في إشي. يلا نكمّل بكره.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "a fun activity i can do with my child",
+    "text": "نشاط ممتع ممكن أعمله مع طفلي",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "proceed to the next tips",
+    "text": "انتقل إلى النصيحة التالية",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "na",
+    "text": "غير متوفر",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "another fun activity i can do with my child",
+    "text": "نشاط ممتع تاني ممكن أعمله مع طفلي",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "continue with more tips tomorrow.",
+    "text": "أكمل",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "view another activity idea",
+    "text": "عرض فكرة نشاط تاني",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "go to main menu",
+    "text": "انتقل إلى القائمة الرئيسية",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "something quick",
+    "text": "إشي سريع",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "something active",
+    "text": "إشي نشيط",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "something calm",
+    "text": "إشي هادي",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "now",
+    "text": "هلا",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "tomorrow",
+    "text": "غدًا",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "continue my registration",
+    "text": "متابعة التسجيل",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "remind me tomorrow",
+    "text": "الرجاء تذكيري غداً",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "continue my initial questions",
+    "text": "كمّل أسئلتي الأولية",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "finish the previous tip",
+    "text": "كمِّل مع نصائح أكترغداً.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "receive a new tip",
+    "text": "استلم نصيحة جديدة",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "receive the remaining information",
+    "text": "استلم المعلومات الباقية",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "remind me about this tomorrow",
+    "text": "الرجاء تذكيري بهاذا الأمرغداً",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "i've finished receiving all of the information that i want from this chatbot.",
+    "text": "خلصت استلام كل المعلومات اللي برغب فيها من روبوت الدردشة",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "no, remind me tomorrow.",
+    "text": "لا، الرجاء تذكيري غداً",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "return to menu",
+    "text": "العودة إلى القائمة",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "review a different tip",
+    "text": "مراجعة نصيحة مختلفة",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "review tips",
+    "text": "مراجعة النصائح",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "change my settings",
+    "text": "تغيير إعداداتي",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "invite a friend to parenttext",
+    "text": "ادعُ صديق إلى برنامج نصائح للوالدين",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "get more help",
+    "text": "احصل على مزيد من المساعدة",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "watch a video about parenttext",
+    "text": "شاهد فيديو عن برنامج نصائح للوالدين",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "get the next tip",
+    "text": "احصل على النصيحة التالية",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "nothing, let's continue tomorrow",
+    "text": "ما في إشي، يلا نكمل بكره",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "change my profile",
+    "text": "تغيير ملفي الشخصي",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "stop receiving the messages",
+    "text": "وقف استلام الرسائل",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "return to main menu",
+    "text": "العودة إلى القائمة الرئيسة",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "change my language",
+    "text": "تغير اللغة",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "change the way i receive content",
+    "text": "تغيير طريقة استلامي للمحتوى",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "change my gender",
+    "text": "تغيير الجنس",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "get the next tip.",
+    "text": "احصل على النصيحة التالية.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "yes y yeah yep ok",
+    "text": "نعم حسنا أوكي",
+    "type": "text",
+    "note": ""
+  }
+]

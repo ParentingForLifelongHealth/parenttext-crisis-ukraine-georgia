@@ -1,0 +1,58 @@
+row_id,type,edges.1.from,edges.2.from,edges.2.condition,edges.3.from,no_response,edges.1.condition,message_text,save_name,choices.1,image,audio
+msg.Todays_tips_are,send_message,start,,,,,,Today's tips are about practical ways to cope during difficult times.,,,,
+msg.Even_though_its,send_message,msg.Todays_tips_are,,,,,,"Even though it’s hard, try to practise simple daily habits 🗓️ because routines help children feel secure.",,,,
+switch.media,split_by_value,msg.Even_though_its,,,,,,@fields.type_of_media,,,,
+msg.Press_Play__to_,send_message,switch.media,,,,,value;medium|variable;@fields.type_of_media|type;has_any_word|name;Medium,"Press Play ▶️ to learn 5️⃣ practical, daily habits you can do every day that will help you and your children cope with your current situation:  
+1️⃣ *SPEND TIME TOGETHER*
+2️⃣ *ASK YOUR CHILDREN*
+3️⃣ *APPRECIATE YOUR CHILDREN*
+4️⃣ *HELP OTHERS*
+5️⃣ *BE PRESENT*",,NEXT,,"@(fields.voiceover_audio_path & ""make_a_routine.mp3"")"
+wait_for.input_text,wait_for_response,msg.Press_Play__to_,,,,60,,,,,,
+msg.Here_are_5_tips,send_message,wait_for.input_text,wait_for.input_text,value;No Response|,switch.media,,,Here are 5️⃣ tips for building practical habits you can do every day that will help you and your children cope with your current situation:,,,,
+msg.1_SPEND_TIME_TO,send_message,msg.Here_are_5_tips,,,,,,"1️⃣ *SPEND TIME TOGETHER*
+
+If it is possible, try to make a routine for spending time together 🕒. 
+
+🔁 You can engage children in daily activities, such as telling a story, praying together, or sharing at least one meal together.",,NEXT,"@(fields.image_path & ""make_a_routine_tip_1.jpg"")",
+switch.input_text,wait_for_response,msg.1_SPEND_TIME_TO,,,,,,,,,,
+msg.2_ASK_YOUR_CHIL,send_message,switch.input_text,,,,,,"2️⃣ *ASK YOUR CHILDREN*
+
+Ask children what they want to do. 
+
+If you can’t do that activity now, it’s still a chance to connect with your children emotionally 🤍.
+
+After this lesson, you can type PLAY to get some activity ideas to do with children 📝.",,NEXT,"@(fields.image_path & ""make_a_routine_tip_2.jpg"")",
+switch.input_text.1,wait_for_response,msg.2_ASK_YOUR_CHIL,,,,,,,,,,
+msg.3_APPRECIATE_YO,send_message,switch.input_text.1,,,,,,"3️⃣ *APPRECIATE YOUR CHILDREN*
+
+Take a moment every day to appreciate your children for engaging in activities with you 🌿.",,NEXT,,
+switch.input_text.2,wait_for_response,msg.3_APPRECIATE_YO,,,,,,,,,,
+msg.4_HELP_OTHERSHe,send_message,switch.input_text.2,,,,,,"4️⃣ *HELP OTHERS*
+
+Helping others can also make you feel better 🤍. Even a smile can help someone else feel better 🌱.
+
+Our children can learn calmness and kindness from us 💙.",,NEXT,,
+switch.input_text.3,wait_for_response,msg.4_HELP_OTHERSHe,,,,,,,,,,
+msg.5_BE_PRESENTWhe,send_message,switch.input_text.3,,,,,,"5️⃣ *BE PRESENT*
+
+When spending time with your children, be as present as possible. Listen to them👂 and look at them 👀 when they talk.
+
+Pay your full attention to them, this will help validate, reassure, and comfort children 🤍.",,NEXT,"@(fields.image_path & ""make_a_routine_tip_5.jpg"")",
+switch.input_text.4,wait_for_response,msg.5_BE_PRESENTWhe,,,,,,,,,,
+msg.Youve_completed,send_message,switch.input_text.4,,,,,,"✅⬜️
+You’ve completed 50% of this tip! Press NEXT to continue.",,NEXT,,
+switch.input_text.5,wait_for_response,msg.Youve_completed,,,,,,,,,,
+set_contact_field.bugfix,save_value,switch.input_text.5,,,,,,x,bugfix,,,
+msg.Here_are_some_r,send_message,set_contact_field.bugfix,,,,,,Here are some regular activities you might want to try to do with your children:,,,,
+msg.Share_one_meal_,send_message,msg.Here_are_some_r,,,,,,Share one meal together,,NEXT,"@(fields.comic_path & ""make_a_routine_1.jpg"")",
+switch.input_text.6,wait_for_response,msg.Share_one_meal_,,,,,,,,,,
+msg.Getting_ready_t,send_message,switch.input_text.6,,,,,,Getting ready to sleep,,NEXT,"@(fields.comic_path & ""make_a_routine_2.jpg"")",
+switch.input_text.7,wait_for_response,msg.Getting_ready_t,,,,,,,,,,
+msg.Exercise_daily,send_message,switch.input_text.7,,,,,,Exercise daily,,NEXT,"@(fields.comic_path & ""make_a_routine_3.jpg"")",
+switch.input_text.8,wait_for_response,msg.Exercise_daily,,,,,,,,,,
+msg.Daily_play_acti,send_message,switch.input_text.8,,,,,,Daily play activities,,NEXT,"@(fields.comic_path & ""make_a_routine_4.jpg"")",
+switch.input_text.9,wait_for_response,msg.Daily_play_acti,,,,,,,,,,
+msg._100,send_message,switch.input_text.9,,,,,,"✅✅ 100%
+",,,,
+set_run_result.completed,save_flow_result,msg._100,,,,,,yes,completed,,,

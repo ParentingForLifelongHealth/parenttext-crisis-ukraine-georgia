@@ -1,0 +1,10 @@
+row_id,type,edges.1.from,edges.2.from,edges.3.from,no_response,edges.1.condition,message_text,choices.1,video,save_name
+set_contact_field.completed_orien,save_value,start,,,,,yes,,,completed_orientation
+switch.fields_age_grou,split_by_value,set_contact_field.completed_orien,,,,,@fields.age_group_for_tips,,,
+msg.Thanks_for_answ,send_message,switch.fields_age_grou,,,,value;teen|variable;@fields.age_group_for_tips|type;has_any_word|name;teen,"Thanks for answering our questions. We're ready to get started. 💚
+To start, you can watch this video to learn about ParentText.",NEXT,"@(fields.voiceover_video_path & ""onboarding_t.mp4"")",
+msg.Thanks_for_answ.1,send_message,switch.fields_age_grou,,,,value;baby|variable;@fields.age_group_for_tips|type;has_any_word|name;baby,"Thanks for answering our questions. We're ready to get started. 💚
+To start, you can watch this video to learn about ParentText.",NEXT,"@(fields.voiceover_video_path & ""onboarding_b.mp4"")",
+msg.Thanks_for_answ.2,send_message,switch.fields_age_grou,,,,,"Thanks for answering our questions. We're ready to get started. 💚
+To start, you can watch this video to learn about ParentText.",NEXT,"@(fields.voiceover_video_path & ""onboarding.mp4"")",
+wait_for.input_text,wait_for_response,msg.Thanks_for_answ,msg.Thanks_for_answ.1,msg.Thanks_for_answ.2,300,,,,,

@@ -1,0 +1,11 @@
+row_id,type,edges.1.from,edges.1.condition,message_text,save_name
+set_run_result.random,save_flow_result,start,,@(rand()),random
+switch.results_random,split_by_value,set_run_result.random,,@results.random,
+flow.pause_review_-_,start_new_flow,switch.results_random,value;0.25|variable;@results.random|type;has_number_lte|name;0.25,pause_review - breath_body_awareness,
+set_run_result.status,save_flow_result,flow.pause_review_-_,value;completed|,not_expired,status
+flow.pause_review_-_.1,start_new_flow,switch.results_random,value;0.5|variable;@results.random|type;has_number_lte|name;0.5,pause_review - body_scan,
+set_run_result.status.1,save_flow_result,flow.pause_review_-_.1,value;completed|,not_expired,status
+flow.pause_review_-_.2,start_new_flow,switch.results_random,value;0.75|variable;@results.random|type;has_number_lte|name;0.75,pause_review - loving_kindness_meditation,
+set_run_result.status.2,save_flow_result,flow.pause_review_-_.2,value;completed|,not_expired,status
+flow.pause_review_-_.3,start_new_flow,switch.results_random,value;1.0|variable;@results.random|type;has_number_lte|name;1.0,pause_review - slow_breathe,
+set_run_result.status.3,save_flow_result,flow.pause_review_-_.3,value;completed|,not_expired,status

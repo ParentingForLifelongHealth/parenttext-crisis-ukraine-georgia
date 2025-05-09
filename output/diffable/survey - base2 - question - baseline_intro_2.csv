@@ -1,0 +1,25 @@
+row_id,type,edges.1.from,edges.2.from,edges.2.condition,edges.3.from,edges.4.from,edges.4.condition,edges.5.from,edges.1.condition,message_text,choices.1,choices.2,save_name
+switch.fields_sq_base2,split_by_value,start,,,,,,,,@fields.sq_base2_baselineintro2,,,
+set_contact_field.sq_base2_baseli,save_value,switch.fields_sq_base2,,,,,,,value;NA|variable;@fields.sq_base2_baselineintro2|type;has_only_phrase|name;is NA,,,,sq_base2_baselineintro2
+switch.fields_age,split_by_value,set_contact_field.sq_base2_baseli,switch.fields_sq_base2,,,,,,,@fields.age,,,
+switch.fields_in_study,split_by_value,switch.fields_age,,,,,,,"value;19, 20, 35|variable;@fields.age|type;has_any_word|name;19, 20, 35",@fields.in_study,,,
+set_run_result.dummy,save_flow_result,switch.fields_in_study,,,,,,,value;yes|variable;@fields.in_study|type;has_any_word|name;Yes,"Block can’t start with for loop, see issue #47",,,dummy
+msg.Before_we_conti,send_message,set_run_result.dummy,,,,,,,,"Before we continue, would you like to answer 5 quick questions? 📝
+
+Your answers will help us make these tips better for parents and children finding strength and hope during war, displacement, and other tough times 💔🌱",Yes,No,
+switch.input,wait_for_response,msg.Before_we_conti,,,,,,,,,,,input
+set_run_result.variable,save_flow_result,switch.input,,,,,,,value;Yes|variable;@input.text|type;has_only_phrase|name;Yes,yes,,,variable
+set_run_result.variable.1,save_flow_result,switch.input,,,,,,,value;No|variable;@input.text|type;has_only_phrase|name;No,no,,,variable
+set_contact_field.sq_base2_baseli.1,save_value,set_run_result.variable,set_run_result.variable.1,,,,,,,@results.variable,,,sq_base2_baselineintro2
+set_run_result.dummy.1,save_flow_result,set_contact_field.sq_base2_baseli.1,,,,,,,,Need something to apply this label to,,,dummy
+switch.fields_sq_base2.1,split_by_value,set_run_result.dummy.1,,,,,,,,@fields.sq_base2_baselineintro2,,,
+set_run_result.next_action,save_flow_result,switch.fields_sq_base2.1,,,,,,,value;no|variable;@fields.sq_base2_baselineintro2|type;has_only_phrase|name;stop,stop,,,next action
+msg.Thats_ok_you_wi,send_message,set_run_result.next_action,,,,,,,,"That's ok, you will get more tips tomorrow.",,,
+set_contact_field.in_study,save_value,msg.Thats_ok_you_wi,switch.fields_sq_base2.1,,,,,,,@fields.sq_base2_baselineintro2,,,in_study
+msg.Sorry_I_dont_un,send_message,switch.input,,,,,,,,"Sorry, I don't understand what you mean.",,,
+goto.set_run_result.dummy,go_to,msg.Sorry_I_dont_un,,,,,,,,set_run_result.dummy|,,,
+switch.fields_sq_base2.2,split_by_value,switch.fields_in_study,,,,,,,,@fields.sq_base2_baselineintro2,,,
+set_contact_field.sq_base2_baseli.2,save_value,switch.fields_sq_base2.2,,,,,,,,NA,,,sq_base2_baselineintro2
+switch.fields_sq_base2.3,split_by_value,switch.fields_age,,,,,,,,@fields.sq_base2_baselineintro2,,,
+set_contact_field.sq_base2_baseli.3,save_value,switch.fields_sq_base2.3,,,,,,,,NA,,,sq_base2_baselineintro2
+set_contact_field.sq_base2_baseli.4,save_value,set_contact_field.in_study,switch.fields_sq_base2.2,variable;@fields.sq_base2_baselineintro2|type;has_text|name;had value,set_contact_field.sq_base2_baseli.2,switch.fields_sq_base2.3,variable;@fields.sq_base2_baselineintro2|type;has_text|name;had value,set_contact_field.sq_base2_baseli.3,,yes,,,sq_base2_baselineintro2_complete

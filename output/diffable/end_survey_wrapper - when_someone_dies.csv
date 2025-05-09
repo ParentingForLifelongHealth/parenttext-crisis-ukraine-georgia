@@ -1,0 +1,5 @@
+row_id,type,edges.1.from,edges.1.condition,edges.2.from,edges.3.from,edges.3.condition,message_text,save_name
+set_run_result.bugfix,save_flow_result,start,,,,,x,bugfix
+flow.survey_-_feed,start_new_flow,set_run_result.bugfix,,,,,survey - feed,
+switch.child_results_e,split_by_value,flow.survey_-_feed,value;completed|,,,,@child.results.expired,
+set_contact_field.id_last_module_,save_value,switch.child_results_e,value;yes|variable;@child.results.expired|type;has_any_word|name;Yes,switch.child_results_e,flow.survey_-_feed,value;expired|,,id_last_module_completed

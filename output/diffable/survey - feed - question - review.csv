@@ -1,0 +1,29 @@
+row_id,type,edges.1.from,edges.2.from,edges.2.condition,edges.3.from,edges.4.from,edges.4.condition,edges.5.from,edges.1.condition,message_text,choices.1,choices.2,choices.3,choices.4,choices.5,save_name
+switch.fields_sq_feed_,split_by_value,start,,,,,,,,@fields.sq_feed_review,,,,,,
+set_contact_field.sq_feed_review,save_value,switch.fields_sq_feed_,,,,,,,value;NA|variable;@fields.sq_feed_review|type;has_only_phrase|name;is NA,,,,,,,sq_feed_review
+switch.fields_age,split_by_value,set_contact_field.sq_feed_review,switch.fields_sq_feed_,,,,,,,@fields.age,,,,,,
+switch.fields_in_study,split_by_value,switch.fields_age,,,,,,,"value;19, 20, 35|variable;@fields.age|type;has_any_word|name;19, 20, 35",@fields.in_study,,,,,,
+set_run_result.dummy,save_flow_result,switch.fields_in_study,,,,,,,value;yes|variable;@fields.in_study|type;has_any_word|name;Yes,"Block can’t start with for loop, see issue #47",,,,,,dummy
+msg.Did_these_paren,send_message,set_run_result.dummy,,,,,,,,"Did these parenting tips help you and your family during war, displacement or other tough times?
+
+Press a number on your keypad:
+1. Yes, ALL of the tips helped
+2. Yes, MANY of the tips helped
+3. Yes, a FEW of the tips helped
+4. NONE of the tips helped
+0. Prefer not to answer",1,2,3,4,0,
+switch.input,wait_for_response,msg.Did_these_paren,,,,,,,,,,,,,,input
+set_run_result.variable,save_flow_result,switch.input,,,,,,,"value;1,|variable;@input.text|type;has_any_word|name;Yes, All Of The Tips Helped",ALL tips helped,,,,,,variable
+set_run_result.variable.1,save_flow_result,switch.input,,,,,,,"value;2,|variable;@input.text|type;has_any_word|name;Yes, Many Of The Tips Helped",MANY tips helped,,,,,,variable
+set_run_result.variable.2,save_flow_result,switch.input,,,,,,,"value;3,|variable;@input.text|type;has_any_word|name;Yes, A Few Of The Tips Helped",FEW of the tips helped,,,,,,variable
+set_run_result.variable.3,save_flow_result,switch.input,,,,,,,"value;4,|variable;@input.text|type;has_any_word|name;None Of The Tips Helped",NONE of the tips helped,,,,,,variable
+set_run_result.variable.4,save_flow_result,switch.input,,,,,,,"value;0,|variable;@input.text|type;has_any_word|name;Prefer Not To Answer",prefer not to answer,,,,,,variable
+set_contact_field.sq_feed_review.1,save_value,set_run_result.variable,set_run_result.variable.1,,set_run_result.variable.2,set_run_result.variable.3,,set_run_result.variable.4,,@results.variable,,,,,,sq_feed_review
+set_run_result.dummy.1,save_flow_result,set_contact_field.sq_feed_review.1,,,,,,,,Need something to apply this label to,,,,,,dummy
+msg.Sorry_I_dont_un,send_message,switch.input,,,,,,,,"Sorry, I don't understand what you mean.",,,,,,
+goto.set_run_result.dummy,go_to,msg.Sorry_I_dont_un,,,,,,,,set_run_result.dummy|,,,,,,
+switch.fields_sq_feed_.1,split_by_value,switch.fields_in_study,,,,,,,,@fields.sq_feed_review,,,,,,
+set_contact_field.sq_feed_review.2,save_value,switch.fields_sq_feed_.1,,,,,,,,NA,,,,,,sq_feed_review
+switch.fields_sq_feed_.2,split_by_value,switch.fields_age,,,,,,,,@fields.sq_feed_review,,,,,,
+set_contact_field.sq_feed_review.3,save_value,switch.fields_sq_feed_.2,,,,,,,,NA,,,,,,sq_feed_review
+set_contact_field.sq_feed_review_,save_value,set_run_result.dummy.1,switch.fields_sq_feed_.1,variable;@fields.sq_feed_review|type;has_text|name;had value,set_contact_field.sq_feed_review.2,switch.fields_sq_feed_.2,variable;@fields.sq_feed_review|type;has_text|name;had value,set_contact_field.sq_feed_review.3,,yes,,,,,,sq_feed_review_complete

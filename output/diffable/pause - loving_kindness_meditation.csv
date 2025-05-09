@@ -1,0 +1,28 @@
+row_id,type,edges.1.from,edges.1.condition,webhook.url,webhook.method,webhook.headers.1.1,webhook.headers.1.2,webhook.headers.2.1,webhook.headers.2.2,webhook.body,edges.2.from,edges.2.condition,message_text,save_name,no_response,choices.1,video
+msg.Lets_take_a_pau,send_message,start,,,,,,,,,,,"*Let’s take a pause together.*
+
+Sometimes when we are experiencing stress or feeling alone, it can be helpful to send thoughts of loving kindness to ourselves.",,,NEXT,
+switch.input_text,wait_for_response,msg.Lets_take_a_pau,,,,,,,,,,,,,,,
+set_contact_field.ntb_loving_kind,save_value,switch.input_text,,,,,,,,,,,"@(text_length(""""))",ntb_loving_kindness_meditation,,,
+set_contact_field.ncb_loving_kind,save_value,set_contact_field.ntb_loving_kind,,,,,,,,,,,"@(text_length(""""))",ncb_loving_kindness_meditation,,,
+msg.Press__to_take_,send_message,set_contact_field.ncb_loving_kind,,,,,,,,,,,Press ▶️ to take a pause together.,,,NEXT,"@(fields.voiceover_video_path & ""loving_kindness_meditation.mp4"")"
+wait_for.wait_media,wait_for_response,msg.Press__to_take_,,,,,,,,,,,,wait_media,300,,
+set_contact_field.ntb_loving_kind.1,save_value,wait_for.wait_media,,,,,,,,,wait_for.wait_media,value;No Response|,"@(text_length(""""))",ntb_loving_kindness_meditation,,,
+set_contact_field.ncb_loving_kind.1,save_value,set_contact_field.ntb_loving_kind.1,,,,,,,,,,,"@(text_length(""""))",ncb_loving_kindness_meditation,,,
+webhook.httpspt-goals-c,call_webhook,set_contact_field.ncb_loving_kind.1,,https://pt-goals-crisis-palestine-349333393514.europe-west1.run.app/get_goal_name,POST,Accept,application/json,Content-Type,application/json,"@(json(object(
+    ""column"", (""name_"" & fields.naming_group_id),
+    ""language"", contact.language, 
+    ""id"", fields.curr_goal
+)))
+",,,,Result,,,
+set_run_result.name,save_flow_result,webhook.httpspt-goals-c,value;Success|variable;@results.result.category|type;has_only_text|name;Success,,,,,,,,,,@webhook.text,name,,,
+set_run_result.name.1,save_flow_result,webhook.httpspt-goals-c,,,,,,,,,,,name,name,,,
+msg.Take_a_moment_t,send_message,set_run_result.name,,,,,,,,,set_run_result.name.1,,"Take a moment to reflect on your experience. 
+
+When you are ready, continue to today's tips with a sense of calm. 
+
+Thank you for taking a moment to pause with us.",,,NEXT,
+wait_for.input_text,wait_for_response,msg.Take_a_moment_t,,,,,,,,,,,,,60,,
+set_contact_field.ntb_loving_kind.2,save_value,wait_for.input_text,,,,,,,,,wait_for.input_text,value;No Response|,"@(text_length(""""))",ntb_loving_kindness_meditation,,,
+set_contact_field.ncb_loving_kind.2,save_value,set_contact_field.ntb_loving_kind.2,,,,,,,,,,,"@(text_length(""""))",ncb_loving_kindness_meditation,,,
+set_run_result.completed,save_flow_result,set_contact_field.ncb_loving_kind.2,,,,,,,,,,,yes,completed,,,

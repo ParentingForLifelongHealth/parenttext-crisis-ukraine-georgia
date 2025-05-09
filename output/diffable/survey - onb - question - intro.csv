@@ -1,0 +1,7 @@
+row_id,type,edges.1.from,edges.2.from,message_text,edges.1.condition,save_name
+switch.fields_sq_onb_i,split_by_value,start,,@fields.sq_onb_intro,,
+set_contact_field.sq_onb_intro,save_value,switch.fields_sq_onb_i,,,value;NA|variable;@fields.sq_onb_intro|type;has_only_phrase|name;is NA,sq_onb_intro
+switch.1,split_by_value,set_contact_field.sq_onb_intro,switch.fields_sq_onb_i,1,,
+set_run_result.dummy,save_flow_result,switch.1,,"Block can’t start with for loop, see issue #47",,dummy
+msg.The_tips_you_wi,send_message,set_run_result.dummy,,"The tips you will receive in this programme have been developed with support from Sanadak, Anar for Empowerment and Psychosocial Support, World Without Orphans, and Parenting for Lifelong Health.",,
+set_contact_field.sq_onb_intro_co,save_value,msg.The_tips_you_wi,,yes,,sq_onb_intro_complete

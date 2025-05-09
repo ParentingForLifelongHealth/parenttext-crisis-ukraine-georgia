@@ -1,0 +1,25 @@
+row_id,type,edges.1.from,edges.2.from,edges.2.condition,edges.3.from,edges.4.from,edges.4.condition,edges.5.from,edges.1.condition,message_text,choices.1,choices.2,choices.3,save_name
+switch.fields_sq_dem_d,split_by_value,start,,,,,,,,@fields.sq_dem_displacementstatus,,,,
+set_contact_field.sq_dem_displace,save_value,switch.fields_sq_dem_d,,,,,,,value;NA|variable;@fields.sq_dem_displacementstatus|type;has_only_phrase|name;is NA,,,,,sq_dem_displacementstatus
+switch.fields_age,split_by_value,set_contact_field.sq_dem_displace,switch.fields_sq_dem_d,,,,,,,@fields.age,,,,
+switch.fields_in_study,split_by_value,switch.fields_age,,,,,,,"value;19, 20, 35|variable;@fields.age|type;has_any_word|name;19, 20, 35",@fields.in_study,,,,
+set_run_result.dummy,save_flow_result,switch.fields_in_study,,,,,,,value;yes|variable;@fields.in_study|type;has_any_word|name;Yes,"Block can’t start with for loop, see issue #47",,,,dummy
+msg.What_is_your_cu,send_message,set_run_result.dummy,,,,,,,,"What is your current living situation?
+
+Press a number on your keypad:
+1. Living in a camp or shelter
+2. Living in a house or apartment
+3. Moving around often",1,2,3,
+switch.input,wait_for_response,msg.What_is_your_cu,,,,,,,,,,,,input
+set_run_result.variable,save_flow_result,switch.input,,,,,,,"value;1,|variable;@input.text|type;has_any_word|name;Living In A Camp Or Shelter",camp or shelter,,,,variable
+set_run_result.variable.1,save_flow_result,switch.input,,,,,,,"value;2,|variable;@input.text|type;has_any_word|name;Living In A House Or Apartment",house or apartment,,,,variable
+set_run_result.variable.2,save_flow_result,switch.input,,,,,,,"value;3,|variable;@input.text|type;has_any_word|name;Moving Around Often",moving around,,,,variable
+set_contact_field.sq_dem_displace.1,save_value,set_run_result.variable,set_run_result.variable.1,,set_run_result.variable.2,,,,,@results.variable,,,,sq_dem_displacementstatus
+set_run_result.dummy.1,save_flow_result,set_contact_field.sq_dem_displace.1,,,,,,,,Need something to apply this label to,,,,dummy
+msg.Sorry_I_dont_un,send_message,switch.input,,,,,,,,"Sorry, I don't understand what you mean.",,,,
+goto.set_run_result.dummy,go_to,msg.Sorry_I_dont_un,,,,,,,,set_run_result.dummy|,,,,
+switch.fields_sq_dem_d.1,split_by_value,switch.fields_in_study,,,,,,,,@fields.sq_dem_displacementstatus,,,,
+set_contact_field.sq_dem_displace.2,save_value,switch.fields_sq_dem_d.1,,,,,,,,NA,,,,sq_dem_displacementstatus
+switch.fields_sq_dem_d.2,split_by_value,switch.fields_age,,,,,,,,@fields.sq_dem_displacementstatus,,,,
+set_contact_field.sq_dem_displace.3,save_value,switch.fields_sq_dem_d.2,,,,,,,,NA,,,,sq_dem_displacementstatus
+set_contact_field.sq_dem_displace.4,save_value,set_run_result.dummy.1,switch.fields_sq_dem_d.1,variable;@fields.sq_dem_displacementstatus|type;has_text|name;had value,set_contact_field.sq_dem_displace.2,switch.fields_sq_dem_d.2,variable;@fields.sq_dem_displacementstatus|type;has_text|name;had value,set_contact_field.sq_dem_displace.3,,yes,,,,sq_dem_displacementstatus_complete

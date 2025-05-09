@@ -1,0 +1,23 @@
+row_id,type,edges.1.from,edges.2.from,edges.2.condition,edges.3.from,edges.4.from,edges.4.condition,edges.5.from,edges.6.from,edges.1.condition,message_text,choices.1,choices.2,choices.3,choices.4,choices.5,choices.6,save_name
+switch.fields_sq_dem_d,split_by_value,start,,,,,,,,,@fields.sq_dem_displacementtime,,,,,,,
+set_contact_field.sq_dem_displace,save_value,switch.fields_sq_dem_d,,,,,,,,value;NA|variable;@fields.sq_dem_displacementtime|type;has_only_phrase|name;is NA,,,,,,,,sq_dem_displacementtime
+switch.fields_age,split_by_value,set_contact_field.sq_dem_displace,switch.fields_sq_dem_d,,,,,,,,@fields.age,,,,,,,
+switch.fields_in_study,split_by_value,switch.fields_age,,,,,,,,"value;19, 20, 35|variable;@fields.age|type;has_any_word|name;19, 20, 35",@fields.in_study,,,,,,,
+set_run_result.dummy,save_flow_result,switch.fields_in_study,,,,,,,,value;yes|variable;@fields.in_study|type;has_any_word|name;Yes,"Block can’t start with for loop, see issue #47",,,,,,,dummy
+msg.How_long_have_y,send_message,set_run_result.dummy,,,,,,,,,How long have you been displaced from your home?,My whole life,Less than 1 year,1-5 years,5-10 years,More than 10 years,Not displaced,
+switch.input,wait_for_response,msg.How_long_have_y,,,,,,,,,,,,,,,,input
+set_run_result.variable,save_flow_result,switch.input,,,,,,,,value;My whole life|variable;@input.text|type;has_only_phrase|name;My Whole Life,My whole life,,,,,,,variable
+set_run_result.variable.1,save_flow_result,switch.input,,,,,,,,value;Less than 1 year|variable;@input.text|type;has_only_phrase|name;Less Than 1 Year,Less than 1 year,,,,,,,variable
+set_run_result.variable.2,save_flow_result,switch.input,,,,,,,,value;1-5 years|variable;@input.text|type;has_only_phrase|name;1-5 Years,1-5 years,,,,,,,variable
+set_run_result.variable.3,save_flow_result,switch.input,,,,,,,,value;5-10 years|variable;@input.text|type;has_only_phrase|name;5-10 Years,5-10 years,,,,,,,variable
+set_run_result.variable.4,save_flow_result,switch.input,,,,,,,,value;More than 10 years|variable;@input.text|type;has_only_phrase|name;More Than 10 Years,More than 10 years,,,,,,,variable
+set_run_result.variable.5,save_flow_result,switch.input,,,,,,,,value;Not displaced|variable;@input.text|type;has_only_phrase|name;Not Displaced,Not displaced,,,,,,,variable
+set_contact_field.sq_dem_displace.1,save_value,set_run_result.variable,set_run_result.variable.1,,set_run_result.variable.2,set_run_result.variable.3,,set_run_result.variable.4,set_run_result.variable.5,,@results.variable,,,,,,,sq_dem_displacementtime
+set_run_result.dummy.1,save_flow_result,set_contact_field.sq_dem_displace.1,,,,,,,,,Need something to apply this label to,,,,,,,dummy
+msg.Sorry_I_dont_un,send_message,switch.input,,,,,,,,,"Sorry, I don't understand what you mean.",,,,,,,
+goto.set_run_result.dummy,go_to,msg.Sorry_I_dont_un,,,,,,,,,set_run_result.dummy|,,,,,,,
+switch.fields_sq_dem_d.1,split_by_value,switch.fields_in_study,,,,,,,,,@fields.sq_dem_displacementtime,,,,,,,
+set_contact_field.sq_dem_displace.2,save_value,switch.fields_sq_dem_d.1,,,,,,,,,NA,,,,,,,sq_dem_displacementtime
+switch.fields_sq_dem_d.2,split_by_value,switch.fields_age,,,,,,,,,@fields.sq_dem_displacementtime,,,,,,,
+set_contact_field.sq_dem_displace.3,save_value,switch.fields_sq_dem_d.2,,,,,,,,,NA,,,,,,,sq_dem_displacementtime
+set_contact_field.sq_dem_displace.4,save_value,set_run_result.dummy.1,switch.fields_sq_dem_d.1,variable;@fields.sq_dem_displacementtime|type;has_text|name;had value,set_contact_field.sq_dem_displace.2,switch.fields_sq_dem_d.2,variable;@fields.sq_dem_displacementtime|type;has_text|name;had value,set_contact_field.sq_dem_displace.3,,,yes,,,,,,,sq_dem_displacementtime_complete

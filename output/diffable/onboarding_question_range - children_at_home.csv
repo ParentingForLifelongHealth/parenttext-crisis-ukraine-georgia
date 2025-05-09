@@ -1,0 +1,12 @@
+row_id,type,edges.1.from,edges.1.condition,message_text,save_name
+msg.How_many_childr,send_message,start,,How many children do you take care of?,
+switch.number,wait_for_response,msg.How_many_childr,,,number
+msg.Im_sorry__I_don,send_message,switch.number,value;0|variable;@input.text|type;has_number_lt|name;low,I'm sorry. I don't understand. Please enter a number 0-30.,
+goto.switch.number,go_to,msg.Im_sorry__I_don,,switch.number|,
+msg.Im_sorry__I_don.1,send_message,switch.number,value;30|variable;@input.text|type;has_number_gt|name;high,I'm sorry. I don't understand. Please enter a number 0-30.,
+goto.switch.number.1,go_to,msg.Im_sorry__I_don.1,,switch.number|,
+set_contact_field.children_at_hom,save_value,switch.number,variable;@input.text|type;has_number|name;accepted range,@results.number,children_at_home
+switch.results_number,split_by_value,set_contact_field.children_at_hom,,@results.number,
+set_contact_field.completed_child,save_value,switch.results_number,,yes,completed_children_at_home
+msg.Im_sorry__I_don.2,send_message,switch.number,,I'm sorry. I don't understand. Please enter a number 0-30.,
+goto.switch.number.2,go_to,msg.Im_sorry__I_don.2,,switch.number|,

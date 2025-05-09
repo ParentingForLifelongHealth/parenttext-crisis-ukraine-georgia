@@ -1,0 +1,18 @@
+row_id,type,edges.1.from,edges.1.condition,message_text,save_name
+add_contact_groups.joined,add_to_group,start,,joined|,
+set_contact_field.child_age,save_value,add_contact_groups.joined,,8,child_age
+set_contact_field.child_gender,save_value,set_contact_field.child_age,,female,child_gender
+set_contact_field.age_group_for_t,save_value,set_contact_field.child_gender,,child,age_group_for_tips
+set_contact_field.start_new_goal,save_value,set_contact_field.age_group_for_t,,yes,start_new_goal
+set_contact_field.deployment,save_value,set_contact_field.start_new_goal,,Global,deployment
+set_contact_field.attachment_gend,save_value,set_contact_field.deployment,,"@(if(fields.gender = ""man"", ""male"",""female""))",attachment_gender
+set_contact_field.assigned_resear,save_value,set_contact_field.attachment_gend,,"@(if(fields.assigned_research_id=""yes"",""yes"",""no""))",assigned_research_id
+set_contact_field.selected_first_,save_value,set_contact_field.assigned_resear,,no,selected_first_goal
+set_contact_field.completed_pre_g,save_value,set_contact_field.selected_first_,,no,completed_pre_goal_checkin
+set_contact_field.from_timed,save_value,set_contact_field.completed_pre_g,,no,from_timed
+set_contact_field.completed_onboa,save_value,set_contact_field.from_timed,,no,completed_onboarding
+set_contact_field.completed_pause,save_value,set_contact_field.completed_onboa,,no,completed_pause
+set_contact_field.completed_progc,save_value,set_contact_field.completed_pause,,no,completed_progcheck
+set_contact_field.deployment.1,save_value,set_contact_field.completed_progc,,CrisisPalestine,deployment
+flow.define_attachme,start_new_flow,set_contact_field.deployment.1,,define_attachment_paths,
+flow.set_up_global_v,start_new_flow,flow.define_attachme,value;completed|,set_up_global_var,

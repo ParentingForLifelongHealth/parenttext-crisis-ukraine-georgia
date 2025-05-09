@@ -1,0 +1,20 @@
+row_id,type,edges.1.from,edges.1.condition,message_text,save_name
+switch.fields_accessed,split_by_value,start,,@fields.accessed_module,
+flow.module_-_care_f,start_new_flow,switch.fields_accessed,value;care_for_yourself|variable;@fields.accessed_module|type;has_only_phrase|name;Care_For_Yourself,module - care_for_yourself,
+set_run_result.status,save_flow_result,flow.module_-_care_f,value;completed|,not_expired,status
+flow.module_-_help_c,start_new_flow,switch.fields_accessed,value;help_children_cope|variable;@fields.accessed_module|type;has_only_phrase|name;Help_Children_Cope,module - help_children_cope,
+set_run_result.status.1,save_flow_result,flow.module_-_help_c,value;completed|,not_expired,status
+flow.module_-_make_a,start_new_flow,switch.fields_accessed,value;make_a_routine|variable;@fields.accessed_module|type;has_only_phrase|name;Make_A_Routine,module - make_a_routine,
+set_run_result.status.2,save_flow_result,flow.module_-_make_a,value;completed|,not_expired,status
+flow.module_-_calm_e,start_new_flow,switch.fields_accessed,value;calm_encourage|variable;@fields.accessed_module|type;has_only_phrase|name;Calm_Encourage,module - calm_encourage,
+set_run_result.status.3,save_flow_result,flow.module_-_calm_e,value;completed|,not_expired,status
+flow.module_-_prepar,start_new_flow,switch.fields_accessed,value;prepare_to_travel|variable;@fields.accessed_module|type;has_only_phrase|name;Prepare_To_Travel,module - prepare_to_travel,
+set_run_result.status.4,save_flow_result,flow.module_-_prepar,value;completed|,not_expired,status
+flow.module_-_travel,start_new_flow,switch.fields_accessed,value;travel_safely|variable;@fields.accessed_module|type;has_only_phrase|name;Travel_Safely,module - travel_safely,
+set_run_result.status.5,save_flow_result,flow.module_-_travel,value;completed|,not_expired,status
+flow.module_-_protec,start_new_flow,switch.fields_accessed,value;protect_sexual_violence|variable;@fields.accessed_module|type;has_only_phrase|name;Protect_Sexual_Violence,module - protect_sexual_violence,
+set_run_result.status.6,save_flow_result,flow.module_-_protec,value;completed|,not_expired,status
+flow.module_-_when_s,start_new_flow,switch.fields_accessed,value;when_someone_dies|variable;@fields.accessed_module|type;has_only_phrase|name;When_Someone_Dies,module - when_someone_dies,
+set_run_result.status.7,save_flow_result,flow.module_-_when_s,value;completed|,not_expired,status
+flow.module_-_buildi,start_new_flow,switch.fields_accessed,value;building_strength|variable;@fields.accessed_module|type;has_only_phrase|name;Building_Strength,module - building_strength,
+set_run_result.status.8,save_flow_result,flow.module_-_buildi,value;completed|,not_expired,status

@@ -1,0 +1,22 @@
+row_id,type,edges.1.from,edges.2.from,edges.2.condition,edges.3.from,edges.4.from,edges.4.condition,edges.5.from,edges.1.condition,message_text,choices.1,choices.2,choices.3,choices.4,choices.5,save_name
+switch.fields_sq_end1_,split_by_value,start,,,,,,,,@fields.sq_end1_phq2interest,,,,,,
+set_contact_field.sq_end1_phq2int,save_value,switch.fields_sq_end1_,,,,,,,value;NA|variable;@fields.sq_end1_phq2interest|type;has_only_phrase|name;is NA,,,,,,,sq_end1_phq2interest
+switch.fields_age,split_by_value,set_contact_field.sq_end1_phq2int,switch.fields_sq_end1_,,,,,,,@fields.age,,,,,,
+switch.fields_in_study,split_by_value,switch.fields_age,,,,,,,"value;19, 20, 35|variable;@fields.age|type;has_any_word|name;19, 20, 35",@fields.in_study,,,,,,
+set_run_result.dummy,save_flow_result,switch.fields_in_study,,,,,,,value;yes|variable;@fields.in_study|type;has_any_word|name;Yes,"Block can’t start with for loop, see issue #47",,,,,,dummy
+msg.Over_the_last_w,send_message,set_run_result.dummy,,,,,,,,"Over the last week, how often have you been bothered by little interest or pleasure in doing things?",Not at all,Some days,More than half the days,Nearly every day,Prefer not to answer,
+switch.input,wait_for_response,msg.Over_the_last_w,,,,,,,,,,,,,,input
+set_run_result.variable,save_flow_result,switch.input,,,,,,,value;Not at all|variable;@input.text|type;has_only_phrase|name;Not At All,not at all,,,,,,variable
+set_run_result.variable.1,save_flow_result,switch.input,,,,,,,value;Some days|variable;@input.text|type;has_only_phrase|name;Some Days,some days,,,,,,variable
+set_run_result.variable.2,save_flow_result,switch.input,,,,,,,value;More than half the days|variable;@input.text|type;has_only_phrase|name;More Than Half The Days,more than half,,,,,,variable
+set_run_result.variable.3,save_flow_result,switch.input,,,,,,,value;Nearly every day|variable;@input.text|type;has_only_phrase|name;Nearly Every Day,nearly every day,,,,,,variable
+set_run_result.variable.4,save_flow_result,switch.input,,,,,,,value;Prefer not to answer|variable;@input.text|type;has_only_phrase|name;Prefer Not To Answer,prefer not to answer,,,,,,variable
+set_contact_field.sq_end1_phq2int.1,save_value,set_run_result.variable,set_run_result.variable.1,,set_run_result.variable.2,set_run_result.variable.3,,set_run_result.variable.4,,@results.variable,,,,,,sq_end1_phq2interest
+set_run_result.dummy.1,save_flow_result,set_contact_field.sq_end1_phq2int.1,,,,,,,,Need something to apply this label to,,,,,,dummy
+msg.Sorry_I_dont_un,send_message,switch.input,,,,,,,,"Sorry, I don't understand what you mean.",,,,,,
+goto.set_run_result.dummy,go_to,msg.Sorry_I_dont_un,,,,,,,,set_run_result.dummy|,,,,,,
+switch.fields_sq_end1_.1,split_by_value,switch.fields_in_study,,,,,,,,@fields.sq_end1_phq2interest,,,,,,
+set_contact_field.sq_end1_phq2int.2,save_value,switch.fields_sq_end1_.1,,,,,,,,NA,,,,,,sq_end1_phq2interest
+switch.fields_sq_end1_.2,split_by_value,switch.fields_age,,,,,,,,@fields.sq_end1_phq2interest,,,,,,
+set_contact_field.sq_end1_phq2int.3,save_value,switch.fields_sq_end1_.2,,,,,,,,NA,,,,,,sq_end1_phq2interest
+set_contact_field.sq_end1_phq2int.4,save_value,set_run_result.dummy.1,switch.fields_sq_end1_.1,variable;@fields.sq_end1_phq2interest|type;has_text|name;had value,set_contact_field.sq_end1_phq2int.2,switch.fields_sq_end1_.2,variable;@fields.sq_end1_phq2interest|type;has_text|name;had value,set_contact_field.sq_end1_phq2int.3,,yes,,,,,,sq_end1_phq2interest_complete

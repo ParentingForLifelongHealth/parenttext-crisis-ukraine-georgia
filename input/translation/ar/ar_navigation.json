@@ -1,163 +1,25 @@
 [
   {
-    "SourceText": "❔Before we get started, we have a few questions to make this journey personalised:",
-    "text": "❔قبل أن نبدأ، لدينا بعض الأسئلة لجعل هذه الرحلة شخصية:",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "📲 How would you prefer to receive content —through mostly text / images or more videos?",
-    "text": "📲 كيف تفضل أن يصلك المحتوى -  نصوص / غالبا في صور أو مقاطع الفيديو؟",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Sorry, I don't understand what you mean.",
-    "text": "عذراً، أنا لا أفهم ما تقصد.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Are you a WOMAN or MAN?",
-    "text": "اخبرتنا انك انثى؟",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "📍 Where are you located?",
-    "text": "ماهو موقعك؟",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "This is a very difficult and dangerous time for you and your family. These tips might be different from what you need right now. What would you like to do? ",
-    "text": "هذا وقت صعب و شديد الْخَطَر لك ولأسرتك. قد تختلف هذه النصائح عن ما تحتاج الآن. ماذا تريد أن تفعل؟ ",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "That's okay. If you decide you want these tips later, type HELLO. ",
-    "text": "لا مشكلة. إذا قررت أنك تريد هذه النصائح فيما بعد، اكتب مرحبا. ",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "What is your current living situation?",
-    "text": "ماهو وضعك المعيشي الحالي؟",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "How old are you?",
-    "text": "كم عمرك؟",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Please select your language:",
-    "text": "الرجاء تحديد لغتك:",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "من فضلك ادخل اللغة",
-    "text": "من فضلك ادخل اللغة",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "The tips you will receive in this programme have been developed with support from Sanadak, Anar for Empowerment and Psychosocial Support, World Without Orphans, Parenting for Lifelong Health, and UNICEF",
-    "text": "تم تطوير هذه النصائح في هذا البرنامج تم تطويرها بدعم من سندك، جمعية أنار للتمكين والدعم النفسي الاجتماعي، عالم بلا أيتام، التربية لصحة الحياة، واليونيسيف",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "✅Participating in ParentText is optional. ",
-    "text": "✅المشاركة في نصائح للوالدين اختياري. ",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "✅Your personal information is safe and private. Your name and information will not be public, but your responses will be kept and used by researchers to learn how to support families like yours.  They plan to publish the results. ",
-    "text": "✅معلوماتك الشخصية بأمان وخصوصية. لن يكون اسمك ومعلوماتك عامة، ولكن سيتم الاحتفاظ بردودك واستخدامها من قبل الباحثين لمعرفة كيفية مساعدة الأسر مثل أسرتك. وهم يخططون لنشر النتائج. ",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "❌You can stop when you want. Just type {STOP}",
-    "text": "❌يمكنك التوقف عندما تريد. فقط اكتب {STOP}",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Press YES if you agree with this. Type \"EXIT\" if you do not want to participate. ",
-    "text": "اضغط على نعم إذا كنت توافق. اكتب \"خروج\" إذا كنت لا ترغب في المشاركة. ",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "That is wonderful, thank you so much! ",
-    "text": "هذا رائع، شكرًا لك! ",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Are you sure you do not want to get these messages? If you do not want to receive any more messages, please type NO. If you made a mistake, please press BACK and choose another option.",
-    "text": "هل أنت أكيد أنك لا ترغب في تلقي هذه الرسائل؟ إذا كنت لا ترغب في تلقي المزيد من الرسائل، يرجى كتابة لا. إذا ارتكبت خطأ، يرجى الضغط على رجوع واختيار شيء آخر.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "If you ever return to participate in the programme, type HELLO. ",
-    "text": "إذا عدت للمشاركة في البرنامج، اكتب مرحبًا. ",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "We hope to see you again soon, and we wish you a happy and peaceful day! ",
-    "text": "نتمنى أن نراك مجدداً قريبًا، ونتمنى لك يومًا سعيدًا وهادئاً! ",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Thanks for answering our questions. We're ready to get started. 💚",
-    "text": "شكرًا لك على الإجابة على أسئلتنا. نحن مستعدون للبدء. 💚",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "To start, you can watch this video to learn about this programme. ",
-    "text": "للبدء، شاهد هذا الفيديو للتعرف على البرنامج. ",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Variables have been reset",
-    "text": "تم إعادة تعيين المتغيرات",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Welcome to ParentText. Every parent everywhere needs support. We hope we can help. 💚",
-    "text": "مرحبا بك في النصائح الوالدية يحتاج كل منّا إلى المساعدة ونتمنى أن نفدّم المساعدة. 💚",
-    "type": "text",
-    "note": ""
-  },
-  {
     "SourceText": "Would you like to go back to the previous messages?",
-    "text": "هل ترغب في الرجوع إلى الرسائل السابقة؟",
+    "text": "بدّك ترجع للرسائل الماضية؟",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "That's okay. Type {HELP} at any time if you would like the details of emergency services or other hotlines.",
-    "text": "حسنا. اكتب {HELP} في أي وقت إذا كنت ترغب في الحصول على تفاصيل لخدمات الطوارئ أو الخطوط الساخنة الأخرى.",
+    "text": "تمام، اكتب {HELP} بأي وقت لو بدّك تفاصيل عن خدمات الطوارئ أو الخطوط الساخنة الأخرى.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "Here are some services that might be able to help: ",
-    "text": "إليك بعض من خدماتنا التي قد تعمل على مساعدتك: ",
+    "SourceText": "Sorry, I don't understand what you mean.",
+    "text": "آسف، ما فهمت شو قصدك.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Here are some services that might be able to help:",
+    "text": "هاي شوية خدمات ممكن تساعدك:",
     "type": "text",
     "note": ""
   },
@@ -169,7 +31,7 @@
   },
   {
     "SourceText": "Type {HELP} at any time if you would like the details of emergency services or other hotlines. Remember everything you say will be completely private!",
-    "text": "اكتب {HELP} في أي وقت إذا كنت ترغب في الحصول على تفاصيل لخدمات الطوارئ أو الخطوط الساخنة الأخرى. تذكر أن كل شيء تقوله سيكون خاص تمامًا!",
+    "text": "اكتب {HELP} بأي وقت لو بدّك تفاصيل عن خدمات الطوارئ أو الخطوط الساخنة الأخرى. تذكّر، كل اشي بتحكيه رح يكون سرّي تمامًا!",
     "type": "text",
     "note": ""
   },
@@ -192,32 +54,32 @@
     "note": ""
   },
   {
-    "SourceText": "Would you like information about local and international resources available to help you right now? ",
-    "text": "هل ترغب في الحصول على معلومات حول الموارد المحلية والدولية المتاحة لمساعدتك الآن؟ ",
+    "SourceText": "Would you like information about local and international resources available to help you right now?",
+    "text": "بدّك معلومات عن مصادر محلية وعالمية ممكن تساعدك في هاي اللحظة؟",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "Do you need some support with an emotional issue?",
-    "text": "هل تواجه مشكلة عاطفية وتحتاج إلى مساعدة؟",
+    "text": "بتحتاج دعم بمسألة عاطفية؟",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "Are you currently experiencing a health issue?",
-    "text": "هل تواجه مشكلة صحية حالياً؟",
+    "text": "هل عندك مشكلة صحية في الوقت الحالي؟",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "Do you have an emergency?",
-    "text": "هل تواجه حالة طارئة؟",
+    "text": "هل عندك حالة طارئة؟",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "It looks like you are facing an emergency. Can you please tell us what kind of assistance you need?",
-    "text": "يبدو أنك تواجه حالة طارئة. يرجى إخبارنا بنوع المساعدة التي تحتجاها؟",
+    "text": "يبدو إنك بتواجه حالة طارئة. بتقدر تحكيلنا شو نوع المساعدة اللي بتحتاجها؟",
     "type": "text",
     "note": ""
   },
@@ -229,151 +91,157 @@
   },
   {
     "SourceText": "What would you like to do?",
-    "text": "كيف يمكننا مساعدتك؟",
+    "text": "شو بدّك تختار تعمل؟",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "We hope this was helpful. You can access this information at any time by typing {HELP}.",
-    "text": "نتمنى أن تكون هذه المعلومات مفيدة. يمكنك الوصول إليها في أي وقت عن طريق كتابة {HELP}.",
+    "text": "بنتمنى إنه نكون ساعدناك. بتقدر توصل لهاي المعلومات بأي وقت بكتابة {HELP}.",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "Welcome back to ParentText!",
-    "text": "أهلا بك مرة أخرى في نصائح للوالدين!",
+    "text": "مرحبًا فيك مرة تانية في برنامج نصائح للوالدين!",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "I don't understand your message.",
-    "text": "لم أفهم رسالتك.",
+    "text": "ما فهمت رسالتك.",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "Please type {MENU} to access resources and review previous tips, {PLAY} to receive a playful activity you can complete with your child, or {HELP} to access additional support resources.",
-    "text": "الرجاء كتابة {MENU} للوصول إلى الموارد ومراجعة النصائح السابقة، أو {PLAY} للحصول على نشاط مرح يمكنك إكماله مع طفلك، أو {HELP} للوصول إلى موارد مساعدة إضافية.",
+    "text": "اكتب {MENU} علشان توصل للمصادر وتراجع النصائح السابقة، اكتب {PLAY} علشان تستقبل نشاط ممتع ممكن تعمله مع طفلك، أو اكتب {HELP} علشان توصل لمصادر دعم إضافية.",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "You have not given consent to participate in this programme. Would you like to participate?",
-    "text": "لم نحصل على الموافقة للمشاركة في هذا البرنامج. هل ترغب في الانضمام؟",
+    "text": "لسه ما وافقت على المشاركة بالبرنامج. بدّك تشارك؟",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "If you ever want to receive these tips in the future just type HELLO. ",
-    "text": "إذا كنت ترغب في تلقي هذه النصائح في المستقبل، فما عليك سوى كتابة مرحبا. ",
+    "SourceText": "If you ever want to receive these tips in the future just type HELLO.",
+    "text": "لو بدّك تستقبل هاي النصائح بالمستقبل اكتب:  مرحبا",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "We hope to see you again soon.",
-    "text": "نأمل أن نراك مجددًا قريبًا.",
+    "text": "بنتمنى نشوفك عن قريب.",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "We are here to help. You've received @fields.c_n_mod_compl out of @fields.c_n_mod tips. Would you like to continue?",
-    "text": "نحن هنا للمساعدة. لقد استلمت نصائح @fields.c_n_mod_compl من @fields.c_n_mod. هل ترغب في الاستمرار؟",
+    "text": "نحنا هون عشان نساعدك. استقبلت @fields.c_n_mod_compl out of @fields.c_n_mod tips نصيحة. بدّك تكمل؟",
     "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+    "note": ""
   },
   {
-    "SourceText": "That's okay. If you ever decide to come back, type HELLO. ",
-    "text": "حسنا. إذا قررت العودة في أي وقت، فاكتب مرحبا. ",
+    "SourceText": "That's okay. If you ever decide to come back, type HELLO.",
+    "text": "تمام. لو قررت ترجع اكتب: مرحبا.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We hope to see you again soon, and we wish you a happy and peaceful day!",
+    "text": "بنتمنى نشوفك مرّة تانية عن قريب، وبنتمنالك يوم سعيد وسالم!",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "You are already part of ParentText",
-    "text": "أنت فعلا جزء من نصائح للوالدين",
+    "text": "أنت من قبل جزء من برنامج نصائح للوالدين",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "You have already received all of the avilable tips. Type {MENU} to review previous tips.",
-    "text": "لقد استلمت جميع النصائح المتاحة. اكتب {MENU} لمراجعة النصائح السابقة.",
+    "text": "استقبلت سابقاً كل النصائح المتاحة. اكتب {MENU} علشان تراجع النصائح اللي قبل.",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "Welcome back to ParentText.",
-    "text": "مرحبًا بك مرة أخرى في نصائح للوالدين.",
+    "text": "مرحبًا فيك مرة تانية في برنامج نصائح للوالدين",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "Are you sure you want to stop receiving tips? ",
-    "text": "هل أنت متأكد من أنك تريد التوقف عن تلقي النصائح؟ ",
+    "SourceText": "Are you sure you want to stop receiving tips?",
+    "text": "هل أنت متأكد إنك بدّك توقف استلام النصائح؟",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "If you do not want to receive any more messages, please type \"EXIT\".",
-    "text": "إذا كنت لا ترغب في تلقي المزيد من الرسائل، الرجاء كتابة \"خروج\".",
+    "text": "لو ما بدّك تستقبل رسائل أكتر، الرجاء كتابة \"EXIT\".",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "If you made a mistake, please type \"BACK\".",
-    "text": "إذا ارتكبت خطأ، الرجاء كتابة \"رجوع\".",
+    "text": "لو غلطت، الرجاء كتابة \"BACK\".",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "Thank you for participating. If you want to return to continue receiving tips, type HELLO. ",
-    "text": "شكرًا لك على المشاركة. إذا كنت ترغب في العودة لمواصلة تلقي النصائح، اكتب مرحبا. ",
+    "SourceText": "Thank you for participating. If you want to return to continue receiving tips, type HELLO.",
+    "text": "شكرًا لمشاركتك. لو بدّك ترجع وتكمل استقبال النصائح، اكتب: مرحبا",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "This feature will be available once you have completed registration. It won’t take long. Please continue your progress!",
-    "text": "ستكون هذه الخاصية متاحة بمجرد إكمال التسجيل. لن يستغرق الأمر وقتًا طويلاً. الرجاء مواصلة تقدمك!",
+    "text": "هاي الميزة رح تكون متاحة بس تكمّل التسجيل. ما رح تطول. كمّل تَقَدُمَك!",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "The menu will be available once you have completed registration. It won’t take long. Please continue your progress!",
-    "text": "ستكون القائمة متاحة بمجرد إكمال التسجيل. لن يستغرق الأمر وقتًا طويلاً. الرجاء متابعة تقدمك!",
+    "text": "القائمة رح تكون متاحة بس تكمّل التسجيل. ما راح تطول. كمّل تَقَدُمَك!",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "Thank you for taking a pause with me today. ",
-    "text": "شكرا لك على التوقف معي اليوم. ",
+    "SourceText": "Thank you for taking a pause with me today.",
+    "text": "شكرًا إنك أخدت استراحة معي اليوم.",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "In this program, you will receive @fields.c_n_mod tips. Your first tip is \"@results.name\".",
-    "text": "في هذا البرنامج، سوف تتلقى نصائح @fields.c_n_mod. نصيحتك الأولى هي \"@results.name\".",
+    "text": "بهادا البرنامج راح تستقبل @fields.c_n_mod نصيحة. أول نصيحة إلك هي \"@results.name\".",
     "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+    "note": ""
   },
   {
     "SourceText": "fail",
-    "text": "فشل",
+    "text": "فشل.",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "Let’s get started. Press NEXT to begin.",
-    "text": "لنبدأ. اضغط على التالي حتى تبدأ.",
+    "text": "يلا نبلش. اضغط : التالي عشان تبدأ.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "NA",
+    "SourceText": "nan",
     "text": "غير متوفر",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "The tip you haven't finished is:",
-    "text": "النصيحة التي لم تنتهي منها هي:",
+    "SourceText": "The tips you haven't finished are:",
+    "text": "النصائح اللي ما خلّصتها هي:",
     "type": "text",
     "note": ""
   },
@@ -381,11 +249,11 @@
     "SourceText": "@(text_slice(results.message_options,3)).",
     "text": "@(text_slice(results.message_options,3)).",
     "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+    "note": ""
   },
   {
     "SourceText": "Which tip would you like to receive?",
-    "text": "ما النصيحة التي تجتاحها؟",
+    "text": "شو النصيحة اللي بتحب تستقبلها؟",
     "type": "text",
     "note": ""
   },
@@ -393,149 +261,233 @@
     "SourceText": "@results.message_options",
     "text": "@results.message_options",
     "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+    "note": ""
   },
   {
-    "SourceText": "You haven't received any tips yet. ",
-    "text": "لم تستلم أي نصائح بعد. ",
+    "SourceText": "You haven't received any tips yet.",
+    "text": "لسى ما استلمت أي نصائح ؟",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "You have received the following tip:",
-    "text": "استلمت النصيحة التالية:",
+    "SourceText": "You have received the following tips:",
+    "text": "النصائح اللي استقبلتها هي:",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "Would you like to review it?",
-    "text": "هل ترغب بمراجعته؟",
+    "text": "بدّك تراجعها؟",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "That's okay. You can come back here at any time to review it.",
-    "text": "حسنا. يمكنك العودة إلى هنا في أي وقت لمراجعته.",
+    "text": "تمام. بتقدر ترجع هون بأي وقت تراجعها.",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "You have completed @fields.n_s_modules_compl out of @fields.n_s_modules tips. Which of the following tips would you like to review?",
-    "text": "لقد أكملت @fields.n_s_modules_compl من بين نصائح @fields.n_s_modules. أي من النصائح التالية ترغب في مراجعتها؟",
-    "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
-  },
-  {
-    "SourceText": "@(word_count(fields.s_modules_compl) +1). Return to Main Menu",
-    "text": "@(word_count(fields.s_modules_compl) +1). العودة إلى القائمة الرئيسة",
-    "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated. @results.count is a number (counter for list)"
-  },
-  {
-    "SourceText": "What would you like now?",
-    "text": "ماذا تريد الآن؟",
+    "text": "خلصت @fields.n_s_modules@ out of fields.n_s_modules_compltips   أي من النصائح التالية بدّك تراجع؟",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "Alright. I will share another tip tomorrow. ",
-    "text": "حسنًا. سأشاركك نصيحة أخرى غدًا. ",
+    "SourceText": "@(word_count(fields.s_modules_compl) +1). Return to Main Menu",
+    "text": "@(word_count(fields.s_modules_compl) +1). رجوع للقائمة الرئيسية",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What would you like now?",
+    "text": "شو بتحتاج هلا؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Alright. I will share more tips tomorrow.",
+    "text": "تمام. رح أشاركك نصائح أكتر بكره.",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "OK, see you tomorrow.",
-    "text": "حسنًا، أراك غدًا.",
+    "text": "أوكي، بشوفك بكره.",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "What kind of activity do you want to try with your child?",
-    "text": "ما نوع النشاط الذي تود القيام به مع طفلك؟",
+    "text": "شو نوع النشاط اللي بدك تجربه مع طفلك؟",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "Do you want to begin now or tomorrow?",
-    "text": "هل تريد أن تبدأ الآن أم غدا؟",
+    "text": "بدّك تبدأ هلا أم بكره؟",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "Great, see you tomorrow!",
-    "text": "رائع، أراك غدا!",
+    "text": "عظيم، بشوفك بكره!",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "You have completed the programme. Well done!",
-    "text": "لقد أكملت البرنامج. أحسنت!",
+    "text": "هيك خلصت البرنامج. أحسنت!",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "Remember, you can always return to ParentText to review these tips. Just type {MENU}.",
-    "text": "تذكر أنه يمكنك دائمًا الرجوع إلى نصائح للوالدين لمراجعة هذه النصائح. فقط اكتب {MENU}.",
+    "text": "تذكّر، بتقدر ترجع لنصائح للوالدين بأي وقت عشان تراجع هاي النصائح. بس اكتب {MENU}.",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "Was ParentText helpful? If so, share it with a friend. Just send this link: {insert link}",
-    "text": "هل نصائح للوالدين مفيد بالنسبة لك؟ إذا كان مفيد، شاركه مع صديق. ما عليك سوى إرسال هذا الرابط: {insert link}",
+    "text": "هل كان برنامج نصائح للوالدين مفيد؟ لو نعم، شاركه مع صاحبك. بس ابعث هادا الرابط: {insert link}",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "It’s a difficult moment for your family. I’m here today with a few tips to create small moments of connection with your child to give them the routine and stability you all need right now. Press 1 to continue with your registration. ",
-    "text": "إنها لحظة صعبة لعائلتك، وأنا هنا لمساعدتك! إليك بعض النصائح للتواصل مع طفلك ومنحه الاستقرار الذي يحتاجوا. اضغط على \"1\" لإكمال التسجيل. ",
+    "SourceText": "It’s a difficult moment for your family. I’m here today with a few tips to create small moments of connection with your child to give them the routine and stability you all need right now. Press 1 to continue with your registration.",
+    "text": "هادا الوقت صعب على عيلتك. أنا هون اليوم مع شوية نصائح عشان تخلق لحظات صغيرة للتواصل مع طفلك لتعطيه الروتين والاستقرار اللي كلكم بتحتاجوه. اضغط 1 عشان تكمّل تسجيلك.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "It looks like you started a parenting tip, but didn't finish receiving all of the information. Would you like to receive it now or start a new tip?",
-    "text": "يبدو أنك بدأت في تلقي نصيحة حول تربية الأبناء، ولكنك لم تستكمل تلقي كافة المعلومات. هل ترغب في تلقيها الآن أم تبدأ نصيحة جديدة؟",
+    "SourceText": "It looks like you started answering some baseline questions but didn't get a chance to finish. Would you like to continue now and then we can move onto the tips?",
+    "text": "شكلك بلشت تجاوب على شوية أسئلة أساسية بس ما كمّلت. بدّك تكمّل هلا وبعدين ننتقل للنصائح؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It looks like you started a tip, but didn't finish receiving all of the information. Would you like to finish it or start learning someting new?",
+    "text": "شكلك بلّشت بنصيحة، بس ما خلّصت استلام كل المعلومات. بتحبّ تكمّل أو تبلّش إشي جديد؟",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "It looks like you started a parenting tip, but didn't finish receiving all of the information. What would you like to do?",
-    "text": "يبدو أنك بدأت في تقديم نصيحة حول تربية الأبناء لكنك لم تكمل جميع الخطوات. ماذا تود أن تفعل؟",
+    "text": "شكلك بلّشت نصيحة تربوية بس ما خلصت استلام كل المعلومات. شو بتحب تعمل؟",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "It looks like you started to receive tips, but haven't finished receiving all of them. You have @fields.c_n_mod_started tips with more information available for you. What would you like to do?",
-    "text": "يبدو أنك بدأت في تلقي النصائح، ولكنك لم تنتهِ من تلقيها كلها. لديك @fields.c_n_mod_started نصائح مع مزيد من المعلومات المتاحة لك. ماذا تريد أن تفعل؟",
-    "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
-  },
-  {
-    "SourceText": "You and your family are facing a challenging time. ParentText provides tips on how you can support your child during this crisis. Would you like to recieve your first tip now?",
-    "text": "أنت وعائلتك تمرون بوقت صعب. يوفر لك نصائح للوالدين نصائح لمساعدة طفلك خلال هذه الأزمة. هل ترغب في تلقي أول نصيحة الآن؟",
+    "SourceText": "It looks like you have started, but not finished, @fields.c_n_mod_started tips. What would you like to do?",
+    "text": "مبيّن إنك بلّشت بس ما خلّصت، @fields.c_n_mod_started النصائح. شو حابب تعمل؟",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "A new tip is ready for you. Would you like to continue now?",
-    "text": "نصيحة جديدة جاهزة لك. هل ترغب في الاستمرار الآن؟",
+    "SourceText": "You and your family are facing a challenging time. ParentText provides tips on how you can support your child during this crisis. Would you like to recieve your first tips now?",
+    "text": "إنت و عيلتك عم بتمرّوا بوقت صعب. نصائح للوالدين بتوفّرلك نصائح عن كيف ممكن تدعم أطفالك بهيك أوقات. بتحب تستقبل النصائح الأولى؟",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "This time is difficult. It doesn't seem like you have the time for the these tips right now. When you are ready to keep going, press 1. ",
-    "text": "هذا الوقت صعب. لا يبدو أن لديك الوقت لهذه النصائح الآن. عندما تكون مستعدًا للمتابعة، اضغط على 1. ",
+    "SourceText": "New tips are ready for you. Would you like to continue now?",
+    "text": "في نصيحة جديدة بإنتظارَك. جاهز تكمّل معنا؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💛 We’re thinking of you today. There are simple things you can do to help your child cope. Would you like to learn about them?",
+    "text": "💛 إحنا عم منفكّر فيك اليوم. في أشياء بسيطة بتقدر تمارسها عشان تساعد أطفالك يتعاملوا مع الظروف. بتحب تتعرّف عليهم؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Press a number on your keypad:",
+    "text": "إضغط رقم على لوحة المفاتيح عندك:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "1. Yes",
+    "text": "١. نعم",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "2. No, remind me tomorrow.",
+    "text": "٢. لا، الرجاء تذكيري غداً",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✨ Today’s tips can help your child feel more safe. Would you like to learn more?",
+    "text": "✨نصائح اليوم بتعرّفك كيف ممكن تساعد أطفالك يحسّوا بأمان. بتحب تتعرّف عليهم؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Today’s tips offer you some ways you can stay calm and also encourage your children during times of uncertainty 🌱.",
+    "text": "نصائح اليوم بتوفرّلك طرق تساعدك في تهدئة نفسك و بنفس الوقت تشجّع أطفالك في أوقات الحيرة وعدم الوضوح🌱.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Would you like to receive them?",
+    "text": "بتحب تُحصُل عليهم؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🧡 Planning to travel with your child soon?",
+    "text": "🧡 عم بتخطط تسافر مع أطفالك قريباً؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Today’s tips can help you prepare to stay safe— Would you like to learn more?",
+    "text": "نصائح اليوم رح تساعدك تاخد إحتياطات الأمان خلال السفر- بتحب تتعرّف عليهم؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💛 In stressful moments, even simple actions can help keep your child safe and close. Today’s tips share how to stay connected and calm when traveling.",
+    "text": "💛 أفعال بسيطة بتساعد تخلّي طفلك قريب و آمن في الأوقات الصعبة و اللي فيها تحدّي.نصائح اليوم بتشاركك طرق عشان تساعدك تحافظ على هدوئك و تخلّي طفلك بعلاقة قريبة منّك خلال السفر.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🫂 Many parents are having quiet talks with their children about staying safe. Today’s tips explain how to keep your child safe from harassment in a calm, age-appropriate way.",
+    "text": "🫂 كتير من الأهالي عم يحكوا مع أطفالهم على إنفراد عن الحذر و الإبتعاد عن الخطر. نصائح اليوم بعرّفوك كيف توعّي طفلك عن خطر التحرّش بطريقة هادية و مناسبة لعمره عشان تحميه و يضلّ آمن.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🕊️ In war and other tough times, children notice more than we think. Today’s tips help you talk to your child about death so they can feel safer, less confused, and more supported. Would you like to receive the tips?",
+    "text": "🕊️ الأطفال عندهم وعي و إدراك أكتر من ما منتصوّر سواء في الحرب أو الأوقات الصعبة. نصائح اليوم بستاعدك تحكي مع طفلك عن الموت عشان تطمّنه، يحسّ بالأمان و تخفف من حيرته. بتحب تُحصُل عليهم؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌿 Building strength in tough times starts with simple steps. Would you like to learn how to promote good behaviors and stay strong together?",
+    "text": "🌿  تجميع قوانا في الأوقات الصعبة فيه تحدّي كبير بس بيطلّب منّا خطوات بسيطة. بتحب تتعرّف على خطوات بتساعدك إنت و أطفالك تشجعوا السلوكيات الإجابية و تحافظوا على قوّتكم مع بعض؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "This time is difficult. It doesn't seem like you have the time for the these tips right now. When you are ready to keep going, press 1.",
+    "text": "هاد وقت صعب. يبدو إنه ما عندك وقت للنصائح هلا. لما تكون جاهز تكمّل، اضغط 1.",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "We hope this was helpful! You can access the Main Menu at any time by typing {MENU}.",
-    "text": "نأمل أن يكون هذا مفيدًا! يمكنك الوصول إلى القائمة الرئيسة في أي وقت عن طريق كتابة {MENU}.",
+    "text": "بنتمنى نكون ساعدناك! بتقدر توصل للقائمة الرئيسة في أي وقت عن طريق كتابة {MENU}.",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "To invite someone to join, share this link!",
-    "text": "لدعوة شخص ما للانضمام، شارك هذا الرابط!",
+    "text": "لدعوة شخص ما للانضمام، شارك معه هادا الرابط!",
     "type": "text",
     "note": ""
   },
@@ -547,1136 +499,824 @@
   },
   {
     "SourceText": "What would you like to do next?",
-    "text": "ماذا تريد أن تفعل بعد ذلك؟",
+    "text": "هلا شو حابب تعمل؟",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "We hope this was helpful. You can access the Main Menu at any time by typing {MENU}.",
-    "text": "نتمنى أن يكون هذا مفيدًا. يمكنك الوصول إلى القائمة الرئيسة في أي وقت عن طريق كتابة {MENU}.",
+    "text": "بنتمنى أنه نكون ساعدناك. بتقدر توصل إلى القائمة الرئيسة في أي وقت عن طريق كتابة {MENU}.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "You've reached the end of today's tip. Well done for caring for your child during this challenging time. ",
-    "text": "لقد وصلت إلى نهاية نصيحة اليوم. أحسنت رعاية طفلك خلال هذا الوقت الصعب. ",
+    "SourceText": "You've reached the end of today's tip. Well done for caring for your child during this challenging time.",
+    "text": "وصلت لنهاية نصيحة اليوم. أحسنت في اهتمامك بطفلك بهاد الوقت الصعب.",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "What would you like change?",
-    "text": "ماذا تريد أن يتغير؟",
+    "text": "شو اللي بدّك تغيره؟",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "Your current media setting is Text, Images, and Videos.",
-    "text": "إعداد الوسائط الحالي لديك هو النص والصور ومقاطع الفيديو.",
+    "text": "إعداد الوسائط حاليًا عندك هو النص والصور ومقاطع الفيديو.",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "Your current media setting is Text and Images Only.",
-    "text": "إعداد الوسائط الحالي لديك هو النص والصور فقط.",
+    "text": "إعداد الوسائط حاليًا عندك هو النص والصور فقط.",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "Your current media setting is",
-    "text": "إعداد الوسائط الحالي لديك هو",
+    "text": "إعداد الوسائط حاليًا عندك هو",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "You didn't provide this info.",
-    "text": "لم تقدم هذه المعلومات.",
+    "text": "أنت ما قدمت هاي المعلومات.",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "Would you like to change it?",
-    "text": "هل ترغب بتغييره؟",
+    "text": "هل بدّك تغيره؟",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "You didn't tell us if you are a woman or a man. ",
-    "text": "لم تخبرنا ان كنت ذكر ام انثى. ",
+    "SourceText": "You didn't tell us if you are a woman or a man.",
+    "text": "ما قلتلنا، ،أنت ذكر أم أنثى",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "You told us that you are a Woman.",
-    "text": "اخبرتنا انك انثى.",
+    "text": "قلتيلينا إنك أنثى.",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "You told us that you are a Man.",
-    "text": "لقد أخبرتنا أنك رجل.",
+    "text": "قلتلنا إنك ذكر.",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "You told us that you are a",
-    "text": "لقد أخبرتنا أنك",
+    "text": "قلت إنك",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "Would you like to update your gender?",
-    "text": "هل ترغب في تحديث نوع جنسك؟",
+    "text": "هل ترغب بتحديث نوع جنسك؟",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "You are currently receiving messages in English.",
-    "text": "أنت تتلقى حاليًا الرسائل باللغة الإنجليزية.",
+    "text": "أنت حالياً بتستلم الرسائل باللغة الإنجليزية.",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "You are currently receiving messages in Arabic.",
-    "text": "أنت تتلقى حاليًا الرسائل باللغة العربية.",
+    "text": "أنت حالياً بتستلم الرسائل باللغة العربية.",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "You are currently receiving messages in",
-    "text": "أنت تتلقى حاليًا رسائل في",
+    "text": "أنت حالياً بتستلم الرسائل باللغة",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "Would you like to change your language?",
-    "text": "هل ترغب بتغيير لغتك؟",
+    "text": "بدك تغيّر خَيَار اللغة؟",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "*DAY @fields.curr_demo_day*",
-    "text": "*يوم @fields.curr_demo_day",
+    "text": "*DAY @fields.curr_demo_day*",
     "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+    "note": ""
   },
   {
     "SourceText": "You completed the ParentText demo. Type RESET and then {FACSTART} to re-start from the beginning.",
-    "text": "لقد أكملت العرض التوضيحي الخاص بنصائح للوالدين. اكتب إعادة ضبط ثم {FACSTART} لإعادة التشغيل من البداية.",
+    "text": "أكملت العرض التجريبي الخاص بنصائح للوالدين. اكتب: إعادة تشغيل ,ثم {FACSTART} لإعادة التشغيل من البداية.",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "There are @(fields.c_n_mod - fields.c_n_mod_compl) more tips.",
-    "text": "هناك @(fields.c_n_mod - fields.c_n_mod_compl) المزيد من النصائح.",
+    "text": "في كمان نصائح في@(fields.c_n_mod - fields.c_n_mod_compl)",
     "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+    "note": ""
   },
   {
     "SourceText": "There is one more tip.",
-    "text": "هناك نصيحة أخرى.",
+    "text": "في كمان نصيحة.",
     "type": "text",
     "note": ""
-  },
-  {
-    "SourceText": "End of demo. In a full package, the next lesson begins immediately when this option is selected. Otherwise, a new lesson would be delivered in 24 hours.",
-    "text": "نهاية العرض التجريبي. في المجموعة الكاملة، يبدأ الدرس التالي فورًا عند تحديد هذا الاختيار. وإلا فسيتم تقديم درس جديد خلال 24 ساعة.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "How many children do you take care of? ",
-    "text": "كم عدد الأطفال الذين تعتني بهم؟ ",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "I'm sorry. I don't understand. Please enter a number 0-30.",
-    "text": "أعتذر، لا افهم، الإدخال يجب أن يكون من بين 0-30.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Text / Images",
-    "text": "نص / صور",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "Video",
-    "text": "الفيديو",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "Woman",
-    "text": "أنثى",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "Man",
-    "text": "ذكر",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "Jordan",
-    "text": "الأردن",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "Gaza",
-    "text": "غزة",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "West Bank",
-    "text": "الضفة الغربية",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "Lebanon",
-    "text": "لبنان",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "Egypt",
-    "text": "مصر",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "Syria",
-    "text": "سوريا",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "Yemen",
-    "text": "اليمن",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "Other",
-    "text": "أخرى",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "I want the tips",
-    "text": "أريد النصائح",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "I do not want the tips",
-    "text": "لا أريد النصائح",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "Living in a camp or shelter",
-    "text": "أعيش في مخيم أو مأوى مؤقّت",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "Living in a house or apartment",
-    "text": "أعيش في منزل",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "Moving around often",
-    "text": "أتنقّل بين أماكن كثيرة",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "Prefer not to say",
-    "text": "أفضل ألا أقول",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "Under 16 years old",
-    "text": "أقل من 16 سنة",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "16-19 years old",
-    "text": "16-19 سنة",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "20-35 years old",
-    "text": "20-35 سنة",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "Over 35 years old",
-    "text": "أكثر من 35 سنة",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "English",
-    "text": "اللغة الانجليزية",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "اللغة العربية",
-    "text": "اللغة العربية",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "Arabic",
-    "text": "اللغة العربية",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "YES",
-    "text": "نعم",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "BACK",
-    "text": "الرجوع",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "NEXT",
-    "text": "التالي",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
     "SourceText": "Yes",
     "text": "نعم",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "No",
     "text": "لا",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Local and international support",
     "text": "الدعم المحلي والدولي",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Medical services",
     "text": "الخِدْمَات الطبية",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Mental health support",
     "text": "دعم الصحة العقلية",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Family counselling services",
-    "text": "خِدْمَات الاستشارة العائلية",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "text": "خدمات الاستشارة العائلية",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Natural disasters",
     "text": "الكوارث الطبيعية",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Get other emergency contacts",
-    "text": "الحصول على جهات اتصال الطوارئ الأخرى",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "text": "الحصول على جهات اتصال أخرى للطوارئ",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Go to the Main Menu",
     "text": "انتقل إلى القائمة الرئيسة",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Exit menu",
     "text": "اخرج من القائمة",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "BACK",
+    "text": "الرجوع",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "NEXT",
+    "text": "التالي",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "A fun activity I can do with my child",
-    "text": "نشاط ممتع يمكنني القيام به مع طفلي",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "text": "نشاط ممتع ممكن أعمله مع طفلي",
+    "type": "text",
+    "note": ""
   },
   {
-    "SourceText": "Proceed to the next tip",
-    "text": "انتقل إلى النصيحة التالية",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "SourceText": "Proceed to the next tips",
+    "text": "انتقل إلى النصائح التالية",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Nothing. Let's continue tomorrow.",
-    "text": "لا شيء. دعنا نكمل غدًا.",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "text": "ما في إشي. يلا نكمل بكره.",
+    "type": "text",
+    "note": ""
   },
   {
-    "SourceText": "NA",
+    "SourceText": "nan",
     "text": "غير متوفر",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Another fun activity I can do with my child",
-    "text": "نشاط ممتع آخر يمكنني القيام به مع طفلي",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "text": "نشاط ممتع تاني ممكن أعمله مع طفلي",
+    "type": "text",
+    "note": ""
   },
   {
-    "SourceText": "Continue with another tip tomorrow.",
-    "text": "الاستمرار مع نصيحة أخرى غدا.",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "SourceText": "Continue with more tips tomorrow.",
+    "text": "كمِّل مع نصائح أكترغداً.",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "View another activity idea",
-    "text": "عرض فكرة نشاط أخر",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "text": "عرض فكرة نشاط تاني",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Go to Main Menu",
     "text": "انتقل إلى القائمة الرئيسية",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Something Quick",
-    "text": "سريع",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "text": "إشي سريع",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Something Active",
-    "text": "نشيط",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "text": "إشي نشيط",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Something Calm",
-    "text": "هادئ",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "text": "إشي هادي",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Now",
-    "text": "الآن",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "text": "هلا",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Tomorrow",
-    "text": "غداً",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "text": "غدًا",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Continue my registration",
     "text": "متابعة التسجيل",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Remind me tomorrow",
-    "text": "ذكرني غدا",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "text": "الرجاء تذكيري غداً",
+    "type": "text",
+    "note": ""
   },
   {
-    "SourceText": "Complete my previous tip",
-    "text": "أكمل نصيحتي السابقة",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "SourceText": "Continue my initial questions",
+    "text": "أكمل أسئلتي الأولية",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Finish the previous tip",
+    "text": "أكمل النصيحة السابقة",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Receive a new tip",
-    "text": "تلقي نصيحة جديدة",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "text": "استلم نصيحة جديدة",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Receive the remaining information",
-    "text": "تلقي المعلومات المتبقية",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "text": "استلم المعلومات الباقية",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Remind me about this tomorrow",
-    "text": "ذكرني غدا",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "text": "الرجاء تذكيري بهاذا الأمرغداً",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "I've finished receiving all of the information that I want from this chatbot.",
-    "text": "لقد انتهيت من تلقي جميع المعلومات التي أريدها من روبوت الدردشة.",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "text": "خلصت استلام كل المعلومات اللي برغب فيها من روبوت الدردشة",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "No, remind me tomorrow.",
-    "text": "لا، ذكرني غدا.",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "text": "لا، الرجاء تذكيري غداً",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "1",
     "text": "1",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Return to Menu",
     "text": "العودة إلى القائمة",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Review a different tip",
     "text": "مراجعة نصيحة مختلفة",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Review tips",
     "text": "مراجعة النصائح",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Change my settings",
     "text": "تغيير إعداداتي",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Invite a friend to ParentText",
     "text": "ادعُ صديق إلى برنامج نصائح للوالدين",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Get more help",
-    "text": "احصل على المزيد من المساعدة",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "text": "احصل على مزيد من المساعدة",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Watch a video about ParentText",
     "text": "شاهد فيديو عن برنامج نصائح للوالدين",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Get the next tip",
     "text": "احصل على النصيحة التالية",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Nothing, let's continue tomorrow",
-    "text": "لا شيء، دعنا نكمل غدًا",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "text": "ما في إشي، يلا نكمل بكره",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Change my profile",
     "text": "تغيير ملفي الشخصي",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Stop receiving the messages",
-    "text": "توقف عن تلقي الرسائل",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "text": "وقف استلام الرسائل",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Return to Main Menu",
     "text": "العودة إلى القائمة الرئيسة",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Change my language",
-    "text": "تغير اللغه",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "text": "تغير اللغة",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Change the way I receive content",
-    "text": "تغيير الطريقة التي أستقبل بها المحتوى",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "text": "تغيير طريقة استلامي للمحتوى",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Change my gender",
     "text": "تغيير الجنس",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Get the next tip.",
     "text": "احصل على النصيحة التالية.",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "text / images",
-    "text": "نص / صور",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "video",
-    "text": "فيديو",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "woman",
-    "text": "أنثى",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "man",
-    "text": "ذكر",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "jordan",
-    "text": "الأردن",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "gaza",
-    "text": "غزة",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "west bank",
-    "text": "الضفة الغربية",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "lebanon",
-    "text": "لبنان",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "egypt",
-    "text": "مصر",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "syria",
-    "text": "سوريا",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "yemen",
-    "text": "اليمن",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "other",
-    "text": "أخرى",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "i do not want the tips",
-    "text": "لا أريد النصائح",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "i want the tips",
-    "text": "أريد النصائح",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "living in a camp or shelter",
-    "text": "أعيش في مخيم أو مأوى مؤقّت",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "living in a house or apartment",
-    "text": "أعيش في منزل",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "moving around often",
-    "text": "أتنقّل بين أماكن كثيرة",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "prefer not to say",
-    "text": "يفضل عدم قول ذلك",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "under 16 years old",
-    "text": "أقل من 16 سنة",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "16-19 years old",
-    "text": "16-19 سنة",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "20-35 years old",
-    "text": "20-35 سنة",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "over 35 years old",
-    "text": "أكثر من 35 سنة",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "english",
-    "text": "الانجليزية",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "اللغة العربية",
-    "text": "اللغة العربية",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "arabic",
-    "text": "العربية",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "yes",
-    "text": "نعم",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "exit",
-    "text": "خروج",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "no",
-    "text": "لا",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "back",
-    "text": "الرجوع",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "generic",
     "text": "عام",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "mental_health",
     "text": "الصحة_العقلية",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "health",
     "text": "الصحة",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "natural_disasters",
     "text": "الكوارث الطبيعية",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "help",
     "text": "المساعدة",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "menu",
     "text": "القائمة",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "play",
     "text": "تشغيل",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "stop",
     "text": "توقف",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "start",
     "text": "ابدأ",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "pause",
     "text": "توقف",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "yes y yeah yep",
-    "text": "نعم حسنا أوك",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "text": "نعم حسنًا أوكي",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "no n nope nah",
-    "text": "لا",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "text": "لا لأ",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "no n nope",
-    "text": "لا",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "text": "لا لأ",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "local and international support",
     "text": "الدعم المحلي والدولي",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "medical services",
-    "text": "الخِدْمَات الطبية",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "text": "الخدمات الطبية",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "mental health support",
     "text": "دعم الصحة العقلية",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "family counselling services",
     "text": "خدمات الاستشارة العائلية",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "natural disasters",
     "text": "الكوارث الطبيعية",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "get other emergency contacts",
-    "text": "الحصول على جهات اتصال الطوارئ الأخرى",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "text": "الحصول على جهات اتصال أخرى للطوارئ",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "go to the main menu",
-    "text": "انتقل إلى القائمة الرئيسية",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "text": "انتقل إلى القائمة الرئيسة",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "exit menu",
     "text": "اخرج من القائمة",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "yes",
+    "text": "نعم",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "no",
+    "text": "لا",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "exit",
+    "text": "خروج",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "back",
+    "text": "الرجوع",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "nothing. let's continue tomorrow.",
-    "text": "لا شيء. دعنا نكمل غدًا.",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "text": "ما في إشي. يلا نكمّل بكره.",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "a fun activity i can do with my child",
-    "text": "نشاط ممتع يمكنني القيام به مع طفلي",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "text": "نشاط ممتع ممكن أعمله مع طفلي",
+    "type": "text",
+    "note": ""
   },
   {
-    "SourceText": "proceed to the next tip",
-    "text": "انتقل إلى النصيحة التالية",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "SourceText": "proceed to the next tips",
+    "text": "انتقل إلى النصيحة التالية",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "na",
-    "text": "لا",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "text": "غير متوفر",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "another fun activity i can do with my child",
-    "text": "نشاط ممتع آخر يمكنني القيام به مع طفلي",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "text": "نشاط ممتع تاني ممكن أعمله مع طفلي",
+    "type": "text",
+    "note": ""
   },
   {
-    "SourceText": "continue with another tip tomorrow.",
-    "text": "نواصل مع نصيحة أخرى غدا.",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "SourceText": "continue with more tips tomorrow.",
+    "text": "أكمل",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "view another activity idea",
-    "text": "عرض فكرة نشاط أخر",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "text": "عرض فكرة نشاط تاني",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "go to main menu",
-    "text": "انتقل إلى القائمة الرئيسة",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "text": "انتقل إلى القائمة الرئيسية",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "something quick",
-    "text": "سريع",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "text": "إشي سريع",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "something active",
-    "text": "نشيط",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "text": "إشي نشيط",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "something calm",
-    "text": "هادئ",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "text": "إشي هادي",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "now",
-    "text": "الآن",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "text": "هلا",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "tomorrow",
-    "text": "غدا",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "text": "غدًا",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "continue my registration",
     "text": "متابعة التسجيل",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "remind me tomorrow",
-    "text": "ذكرني غدا",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "text": "الرجاء تذكيري غداً",
+    "type": "text",
+    "note": ""
   },
   {
-    "SourceText": "complete my previous tip",
-    "text": "أكمل نصيحتي السابقة",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "SourceText": "continue my initial questions",
+    "text": "كمّل أسئلتي الأولية",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "finish the previous tip",
+    "text": "كمِّل مع نصائح أكترغداً.",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "receive a new tip",
-    "text": "تلقي نصيحة جديدة",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "text": "استلم نصيحة جديدة",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "receive the remaining information",
-    "text": "تلقي المعلومات المتبقية",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "text": "استلم المعلومات الباقية",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "remind me about this tomorrow",
-    "text": "ذكرني غدا",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "text": "الرجاء تذكيري بهاذا الأمرغداً",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "i've finished receiving all of the information that i want from this chatbot.",
-    "text": "لقد انتهيت من تلقي جميع المعلومات التي أريدها من روبوت الدردشة.",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "text": "خلصت استلام كل المعلومات اللي برغب فيها من روبوت الدردشة",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "no, remind me tomorrow.",
-    "text": "لا، ذكرني غدا.",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "text": "لا، الرجاء تذكيري غداً",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "return to menu",
     "text": "العودة إلى القائمة",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "review a different tip",
     "text": "مراجعة نصيحة مختلفة",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "review tips",
     "text": "مراجعة النصائح",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "change my settings",
     "text": "تغيير إعداداتي",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "invite a friend to parenttext",
     "text": "ادعُ صديق إلى برنامج نصائح للوالدين",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "get more help",
     "text": "احصل على مزيد من المساعدة",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "watch a video about parenttext",
     "text": "شاهد فيديو عن برنامج نصائح للوالدين",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "get the next tip",
     "text": "احصل على النصيحة التالية",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "nothing, let's continue tomorrow",
-    "text": "لا شيء، دعنا نكمل غدًا",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "text": "ما في إشي، يلا نكمل بكره",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "change my profile",
     "text": "تغيير ملفي الشخصي",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "stop receiving the messages",
-    "text": "إيقاف تلقي الرسائل",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "text": "وقف استلام الرسائل",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "return to main menu",
     "text": "العودة إلى القائمة الرئيسة",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "change my language",
-    "text": "تغيير لغتي",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "text": "تغير اللغة",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "change the way i receive content",
-    "text": "تغيير الطريقة التي أستقبل بها المحتوى",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "text": "تغيير طريقة استلامي للمحتوى",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "change my gender",
     "text": "تغيير الجنس",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "get the next tip.",
     "text": "احصل على النصيحة التالية.",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "yes y yeah yep ok",
-    "text": "نعم حسنا أوك",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+    "text": "نعم حسنا أوكي",
+    "type": "text",
+    "note": ""
   }
 ]

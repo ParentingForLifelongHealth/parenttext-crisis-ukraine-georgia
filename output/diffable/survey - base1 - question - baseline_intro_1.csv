@@ -1,0 +1,18 @@
+row_id,type,edges.1.from,edges.2.from,edges.2.condition,edges.3.from,edges.1.condition,message_text,choices.1,save_name
+switch.fields_sq_base1,split_by_value,start,,,,,@fields.sq_base1_baselineintro1,,
+set_contact_field.sq_base1_baseli,save_value,switch.fields_sq_base1,,,,value;NA|variable;@fields.sq_base1_baselineintro1|type;has_only_phrase|name;is NA,,,sq_base1_baselineintro1
+switch.fields_age,split_by_value,set_contact_field.sq_base1_baseli,switch.fields_sq_base1,,,,@fields.age,,
+switch.1,split_by_value,switch.fields_age,,,,"value;19, 20, 35|variable;@fields.age|type;has_any_word|name;19, 20, 35",1,,
+set_run_result.dummy,save_flow_result,switch.1,,,,,"Block can’t start with for loop, see issue #47",,dummy
+msg.Well_ask_3_quic,send_message,set_run_result.dummy,,,,,"We’ll ask 3 quick questions first 💬
+This helps us share tips that are right for families like yours 💔🕊️",NEXT,
+switch.input,wait_for_response,msg.Well_ask_3_quic,,,,,,,input
+set_run_result.variable,save_flow_result,switch.input,,,,value;NEXT|variable;@input.text|type;has_only_phrase|name;Next,next,,variable
+set_contact_field.sq_base1_baseli.1,save_value,set_run_result.variable,,,,,@results.variable,,sq_base1_baselineintro1
+set_run_result.dummy.1,save_flow_result,set_contact_field.sq_base1_baseli.1,,,,,Need something to apply this label to,,dummy
+set_contact_field.in_study,save_value,set_run_result.dummy.1,,,,,yes,,in_study
+msg.Sorry_I_dont_un,send_message,switch.input,,,,,"Sorry, I don't understand what you mean.",,
+goto.set_run_result.dummy,go_to,msg.Sorry_I_dont_un,,,,,set_run_result.dummy|,,
+switch.fields_sq_base1.1,split_by_value,switch.fields_age,,,,,@fields.sq_base1_baselineintro1,,
+set_contact_field.sq_base1_baseli.2,save_value,switch.fields_sq_base1.1,,,,,NA,,sq_base1_baselineintro1
+set_contact_field.sq_base1_baseli.3,save_value,set_contact_field.in_study,switch.fields_sq_base1.1,variable;@fields.sq_base1_baselineintro1|type;has_text|name;had value,set_contact_field.sq_base1_baseli.2,,yes,,sq_base1_baselineintro1_complete

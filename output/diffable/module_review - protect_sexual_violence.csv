@@ -1,0 +1,33 @@
+row_id,type,edges.1.from,edges.2.from,edges.2.condition,edges.3.from,no_response,edges.1.condition,message_text,save_name,choices.1,image,audio
+msg.Todays_tips_are,send_message,start,,,,,,"Today's tips are about protecting our children from harassment. 
+
+During difficult times, children are more likely to face harassment.",,,,
+msg.Talking_to_chil,send_message,msg.Todays_tips_are,,,,,,Talking to children about these things can help keep them safe 🛡️.,,,,
+switch.media,split_by_value,msg.Talking_to_chil,,,,,,@fields.type_of_media,,,,
+msg.Press_Play__to_,send_message,switch.media,,,,,value;medium|variable;@fields.type_of_media|type;has_any_word|name;Medium,"Press Play ▶️ to learn 3️⃣ tips for protecting your children from harassment: 
+1️⃣ *""NO"" IS OK!*
+2️⃣ *TEACH YOUR CHILDREN*
+3️⃣ *COMFORT YOUR CHILDREN*",,NEXT,,"@(fields.voiceover_audio_path & ""protect_sexual_violence.mp3"")"
+wait_for.input_text,wait_for_response,msg.Press_Play__to_,,,,60,,,,,,
+msg.Here_are_3_tips,send_message,wait_for.input_text,wait_for.input_text,value;No Response|,switch.media,,,Here are 3️⃣ tips for protecting your children from harassment:,,,,
+msg.1_NO_IS_OKTeach,send_message,msg.Here_are_3_tips,,,,,,"1️⃣ *”NO” IS OK!*
+
+Teach your children that nobody has the right to touch them.
+
+In order to stop someone who tries to do that, practice saying and shouting “NO” with your children.",,NEXT,"@(fields.image_path & ""sex_violence_tip_1.jpg"")",
+switch.input_text,wait_for_response,msg.1_NO_IS_OKTeach,,,,,,,,,,
+msg.2_TEACH_YOUR_CH,send_message,switch.input_text,,,,,,"2️⃣ *TEACH YOUR CHILDREN*
+
+Talk to your children about dangerous people and places. Make plans together about how to avoid danger.",,NEXT,"@(fields.image_path & ""sex_violence_tip_2.jpg"")",
+switch.input_text.1,wait_for_response,msg.2_TEACH_YOUR_CH,,,,,,,,,,
+msg.3_COMFORT_YOUR_,send_message,switch.input_text.1,,,,,,"3️⃣ *COMFORT YOUR CHILDREN*
+
+If your children tell you they were abused, always believe them. 
+
+Tell them that it’s not their fault and you love them 💙.
+
+You can type HELP for resources if your children share about abuse with you.",,NEXT,"@(fields.image_path & ""sex_violence_tip_3.jpg"")",
+switch.input_text.2,wait_for_response,msg.3_COMFORT_YOUR_,,,,,,,,,,
+msg._100,send_message,switch.input_text.2,,,,,,"✅ 100%
+",,,,
+set_run_result.completed,save_flow_result,msg._100,,,,,,yes,completed,,,

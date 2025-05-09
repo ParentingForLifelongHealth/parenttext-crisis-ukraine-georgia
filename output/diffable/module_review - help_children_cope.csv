@@ -1,0 +1,45 @@
+row_id,type,edges.1.from,edges.2.from,edges.2.condition,edges.3.from,no_response,edges.1.condition,message_text,save_name,choices.1,image,audio
+msg.In_these_times_,send_message,start,,,,,,"In these times, it can be hard for us as parents to help our children feel secure.
+
+Today's tips are about helping your children cope with trauma from war, displacement, and other hardships 🌍💔.",,,,
+msg.It_is_possible_,send_message,msg.In_these_times_,,,,,,"It is possible that your children are feeling upset, angry, or confused. They need your support.
+
+There are some simple things you can do! 🌟",,,,
+switch.media,split_by_value,msg.It_is_possible_,,,,,,@fields.type_of_media,,,,
+msg.Press_Play__to_,send_message,switch.media,,,,,value;medium|variable;@fields.type_of_media|type;has_any_word|name;Medium,"Press Play ▶️ to learn 5️⃣ tips on how you can support your children during these tough times: 
+1️⃣ *LISTEN*
+2️⃣ *ACCEPT & BE SENSITIVE*
+3️⃣ *BE HONEST*
+4️⃣ *PRAISE YOURSELF AND YOUR CHILDREN*
+5️⃣ *THERE IS HELP*",,NEXT,,"@(fields.voiceover_audio_path & ""help_children_cope.mp3"")"
+wait_for.input_text,wait_for_response,msg.Press_Play__to_,,,,60,,,,,,
+msg.Here_are_5_tips,send_message,wait_for.input_text,wait_for.input_text,value;No Response|,switch.media,,,Here are 5️⃣ tips on how you can support your children during these times:,,,,
+msg.1_LISTEN_Listen,send_message,msg.Here_are_5_tips,,,,,,"1️⃣ *LISTEN*
+
+👂 Listen to your children carefully when they express their feelings and try to empathise.",,NEXT,"@(fields.image_path & ""help_cope_tip_1.jpg"")",
+switch.input_text,wait_for_response,msg.1_LISTEN_Listen,,,,,,,,,,
+msg.2_ACCEPT__BE_SE,send_message,switch.input_text,,,,,,"2️⃣ *ACCEPT & BE SENSITIVE*
+
+🌱 Accept whatever they are feeling and give them comfort that such feelings are quite normal under these circumstances.
+
+🛑 If your children do not want to talk about this situation, do not insist.",,NEXT,"@(fields.image_path & ""help_cope_tip_2.jpg"")",
+switch.input_text.1,wait_for_response,msg.2_ACCEPT__BE_SE,,,,,,,,,,
+msg.3_BE_HONESTIf_y,send_message,switch.input_text.1,,,,,,"3️⃣ *BE HONEST*
+
+If your children ask a question about what is happening, be honest in your response and share information that is appropriate for their age.
+
+Try to have a compassionate attitude and accept any feelings they have.",,NEXT,"@(fields.image_path & ""help_cope_tip_3.jpg"")",
+switch.input_text.2,wait_for_response,msg.3_BE_HONESTIf_y,,,,,,,,,,
+msg.4_PRAISE_YOURSE,send_message,switch.input_text.2,,,,,,"4️⃣ *PRAISE YOURSELF AND YOUR CHILDREN*
+
+🌟 Every night, praise yourself and your children for something, however small. 
+
+This will make you and your children feel better and will help build a caring relationship between you 🦋.",,NEXT,"@(fields.image_path & ""help_cope_tip_4.jpg"")",
+switch.input_text.3,wait_for_response,msg.4_PRAISE_YOURSE,,,,,,,,,,
+msg.5_THERE_IS_HELP,send_message,switch.input_text.3,,,,,,"5️⃣ *THERE IS HELP*
+
+🤝If you have any concerns regarding a child’s feelings and behaviours, then please contact a trusted person, organisation, or helpline. Type HELP after these tips, or any time you need help, for more information.",,NEXT,,
+switch.input_text.4,wait_for_response,msg.5_THERE_IS_HELP,,,,,,,,,,
+msg._100,send_message,switch.input_text.4,,,,,,"✅ 100%
+",,,,
+set_run_result.completed,save_flow_result,msg._100,,,,,,yes,completed,,,

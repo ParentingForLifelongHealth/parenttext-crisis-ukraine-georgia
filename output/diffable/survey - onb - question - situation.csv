@@ -1,0 +1,22 @@
+row_id,type,edges.1.from,edges.2.from,edges.3.from,edges.4.from,edges.1.condition,message_text,choices.1,choices.2,choices.3,choices.4,save_name
+switch.fields_sq_onb_s,split_by_value,start,,,,,@fields.sq_onb_situation,,,,,
+set_contact_field.sq_onb_situatio,save_value,switch.fields_sq_onb_s,,,,value;NA|variable;@fields.sq_onb_situation|type;has_only_phrase|name;is NA,,,,,,sq_onb_situation
+switch.1,split_by_value,set_contact_field.sq_onb_situatio,switch.fields_sq_onb_s,,,,1,,,,,
+set_run_result.dummy,save_flow_result,switch.1,,,,,"Block can’t start with for loop, see issue #47",,,,,dummy
+msg.What_is_your_cu,send_message,set_run_result.dummy,,,,,"What is your current living situation?
+
+Press a number on your keypad:
+1. Living in a camp or shelter
+2. Living in a house or apartment
+3. Moving around often
+4. Prefer not to say",1,2,3,4,
+switch.input,wait_for_response,msg.What_is_your_cu,,,,,,,,,,input
+set_run_result.variable,save_flow_result,switch.input,,,,"value;1,|variable;@input.text|type;has_any_word|name;Living In A Camp Or Shelter",camp,,,,,variable
+set_run_result.variable.1,save_flow_result,switch.input,,,,"value;2,|variable;@input.text|type;has_any_word|name;Living In A House Or Apartment",home,,,,,variable
+set_run_result.variable.2,save_flow_result,switch.input,,,,"value;3,|variable;@input.text|type;has_any_word|name;Moving Around Often",on_the_move,,,,,variable
+set_run_result.variable.3,save_flow_result,switch.input,,,,"value;4,|variable;@input.text|type;has_any_word|name;Prefer Not To Say",no,,,,,variable
+set_contact_field.sq_onb_situatio.1,save_value,set_run_result.variable,set_run_result.variable.1,set_run_result.variable.2,set_run_result.variable.3,,@results.variable,,,,,sq_onb_situation
+set_run_result.dummy.1,save_flow_result,set_contact_field.sq_onb_situatio.1,,,,,Need something to apply this label to,,,,,dummy
+set_contact_field.sq_onb_situatio.2,save_value,set_run_result.dummy.1,,,,,yes,,,,,sq_onb_situation_complete
+msg.Sorry_I_dont_un,send_message,switch.input,,,,,"Sorry, I don't understand what you mean.",,,,,
+goto.set_run_result.dummy,go_to,msg.Sorry_I_dont_un,,,,,set_run_result.dummy|,,,,,

@@ -1,0 +1,7 @@
+row_id,type,edges.1.from,edges.2.from,message_text,edges.1.condition,save_name
+switch.fields_sq_onb_a,split_by_value,start,,@fields.sq_onb_agreementthanks,,
+set_contact_field.sq_onb_agreemen,save_value,switch.fields_sq_onb_a,,,value;NA|variable;@fields.sq_onb_agreementthanks|type;has_only_phrase|name;is NA,sq_onb_agreementthanks
+switch.1,split_by_value,set_contact_field.sq_onb_agreemen,switch.fields_sq_onb_a,1,,
+set_run_result.dummy,save_flow_result,switch.1,,"Block can’t start with for loop, see issue #47",,dummy
+msg.Thank_you__We_h,send_message,set_run_result.dummy,,Thank you! 🤲 We hope these tips will help you build strength and hope for you and your family.,,
+set_contact_field.sq_onb_agreemen.1,save_value,msg.Thank_you__We_h,,yes,,sq_onb_agreementthanks_complete

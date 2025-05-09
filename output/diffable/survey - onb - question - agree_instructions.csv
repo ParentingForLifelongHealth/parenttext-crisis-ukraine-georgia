@@ -1,0 +1,23 @@
+row_id,type,edges.1.from,edges.1.condition,edges.2.from,message_text,choices.1,choices.2,save_name
+switch.fields_sq_onb_a,split_by_value,start,,,@fields.sq_onb_agreeinstructions,,,
+set_contact_field.sq_onb_agreeins,save_value,switch.fields_sq_onb_a,value;NA|variable;@fields.sq_onb_agreeinstructions|type;has_only_phrase|name;is NA,,,,,sq_onb_agreeinstructions
+switch.1,split_by_value,set_contact_field.sq_onb_agreeins,,switch.fields_sq_onb_a,1,,,
+set_run_result.dummy,save_flow_result,switch.1,,,"Block can’t start with for loop, see issue #47",,,dummy
+msg.Press_YES_if_yo,send_message,set_run_result.dummy,,,Press YES if you understand and want to receive ParentText. Type 'EXIT' if you do not wish to participate.,YES,,
+switch.input,wait_for_response,msg.Press_YES_if_yo,,,,,,input
+set_run_result.variable,save_flow_result,switch.input,value;YES|variable;@input.text|type;has_only_phrase|name;Yes,,yes,,,variable
+set_run_result.variable.1,save_flow_result,switch.input,value;EXIT|variable;@input.text|type;has_only_phrase|name;Exit,,exit,,,variable
+set_contact_field.sq_onb_agreeins.1,save_value,set_run_result.variable,,set_run_result.variable.1,@results.variable,,,sq_onb_agreeinstructions
+switch.fields_sq_onb_a.1,split_by_value,set_contact_field.sq_onb_agreeins.1,,,@fields.sq_onb_agreeinstructions,,,
+msg.Are_you_sure_yo,send_message,switch.fields_sq_onb_a.1,value;exit|variable;@fields.sq_onb_agreeinstructions|type;has_only_phrase|name;exit,,"Are you sure you do not want to get these messages? If you do not want to receive any more messages, please press NO. If you made a mistake, please press BACK and choose another option.",NO,BACK,
+switch.input_text,wait_for_response,msg.Are_you_sure_yo,,,,,,
+goto.set_run_result.dummy,go_to,switch.input_text,value;BACK|variable;@input.text|type;has_only_phrase|name;BACK,,set_run_result.dummy|,,,
+msg.Sorry_I_dont_un,send_message,switch.input_text,,,"Sorry, I don't understand what you mean.",,,
+goto.msg.Are_you_sure_yo,go_to,msg.Sorry_I_dont_un,,,msg.Are_you_sure_yo|,,,
+set_run_result.dummy.1,save_flow_result,switch.input_text,value;NO|variable;@input.text|type;has_only_phrase|name;NO,switch.fields_sq_onb_a.1,Need something to apply this label to,,,dummy
+switch.fields_sq_onb_a.2,split_by_value,set_run_result.dummy.1,,,@fields.sq_onb_agreeinstructions,,,
+set_run_result.next_action,save_flow_result,switch.fields_sq_onb_a.2,value;exit|variable;@fields.sq_onb_agreeinstructions|type;has_only_phrase|name;stop,,stop,,,next action
+msg.Thats_okay__If_,send_message,set_run_result.next_action,,,"That's okay. If you decide you want these tips later, type HELLO.",,,
+set_contact_field.sq_onb_agreeins.2,save_value,msg.Thats_okay__If_,,switch.fields_sq_onb_a.2,yes,,,sq_onb_agreeinstructions_complete
+msg.Sorry_I_dont_un.1,send_message,switch.input,,,"Sorry, I don't understand what you mean.",,,
+goto.set_run_result.dummy.1,go_to,msg.Sorry_I_dont_un.1,,,set_run_result.dummy|,,,

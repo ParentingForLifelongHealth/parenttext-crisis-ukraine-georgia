@@ -1,0 +1,13 @@
+row_id,type,edges.1.from,no_response,edges.2.from,edges.2.condition,edges.3.from,edges.3.condition,edges.4.from,edges.5.from,edges.5.condition,edges.6.from,edges.1.condition,message_text,choices.1,save_name
+switch.fields_sq_feed_,split_by_value,start,,,,,,,,,,,@fields.sq_feed_feedbackintro,,
+set_contact_field.sq_feed_feedbac,save_value,switch.fields_sq_feed_,,,,,,,,,,value;NA|variable;@fields.sq_feed_feedbackintro|type;has_only_phrase|name;is NA,,,sq_feed_feedbackintro
+switch.fields_age,split_by_value,set_contact_field.sq_feed_feedbac,,switch.fields_sq_feed_,,,,,,,,,@fields.age,,
+switch.fields_in_study,split_by_value,switch.fields_age,,,,,,,,,,"value;19, 20, 35|variable;@fields.age|type;has_any_word|name;19, 20, 35",@fields.in_study,,
+set_run_result.dummy,save_flow_result,switch.fields_in_study,,,,,,,,,,value;yes|variable;@fields.in_study|type;has_any_word|name;Yes,"Block can’t start with for loop, see issue #47",,dummy
+msg.Lastly_today_we,send_message,set_run_result.dummy,,,,,,,,,,,"Lastly, today we want to ask 2 questions to make these tips better for others 🎉",NEXT,
+wait_for.input_text,wait_for_response,msg.Lastly_today_we,60,,,,,,,,,,,,
+switch.fields_sq_feed_.1,split_by_value,switch.fields_in_study,,,,,,,,,,,@fields.sq_feed_feedbackintro,,
+set_contact_field.sq_feed_feedbac.1,save_value,switch.fields_sq_feed_.1,,,,,,,,,,,NA,,sq_feed_feedbackintro
+switch.fields_sq_feed_.2,split_by_value,switch.fields_age,,,,,,,,,,,@fields.sq_feed_feedbackintro,,
+set_contact_field.sq_feed_feedbac.2,save_value,switch.fields_sq_feed_.2,,,,,,,,,,,NA,,sq_feed_feedbackintro
+set_contact_field.sq_feed_feedbac.3,save_value,wait_for.input_text,,wait_for.input_text,value;No Response|,switch.fields_sq_feed_.1,variable;@fields.sq_feed_feedbackintro|type;has_text|name;had value,set_contact_field.sq_feed_feedbac.1,switch.fields_sq_feed_.2,variable;@fields.sq_feed_feedbackintro|type;has_text|name;had value,set_contact_field.sq_feed_feedbac.2,,yes,,sq_feed_feedbackintro_complete

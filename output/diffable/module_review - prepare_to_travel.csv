@@ -1,0 +1,31 @@
+row_id,type,edges.1.from,edges.2.from,edges.2.condition,edges.3.from,no_response,edges.1.condition,message_text,save_name,choices.1,image,audio
+msg.In_todays_tips_,send_message,start,,,,,,"In today's tips, we will talk about some simple safety plans you can make with your children 📝.",,,,
+msg.It_can_help_you,send_message,msg.In_todays_tips_,,,,,,It can help your children when they see that you have plans 💙.,,,,
+switch.media,split_by_value,msg.It_can_help_you,,,,,,@fields.type_of_media,,,,
+msg.Press_Play__to_,send_message,switch.media,,,,,value;medium|variable;@fields.type_of_media|type;has_any_word|name;Medium,"Press Play ▶️ to learn 4️⃣ tips to help you get ready to travel with children in a crisis situation: 
+1️⃣ *PROTECT YOUR DOCUMENTS*
+2️⃣ *HIDE MONEY*
+3️⃣ *SUPERVISE YOUR CHILDREN*
+4️⃣ *COMMUNICATE WITH YOUR CHILDREN*",,NEXT,,"@(fields.voiceover_audio_path & ""prepare_to_travel.mp3"")"
+wait_for.input_text,wait_for_response,msg.Press_Play__to_,,,,60,,,,,,
+msg.Here_are_4_tips,send_message,wait_for.input_text,wait_for.input_text,value;No Response|,switch.media,,,Here are 4️⃣ tips to help you plan for safety with your children:,,,,
+msg.1_PROTECT_YOUR_,send_message,msg.Here_are_4_tips,,,,,,"1️⃣ *PROTECT YOUR DOCUMENTS*
+
+Take pictures 📷 or make copies of any identity documents or cards and hide these in separate secure places 🛡️.",,NEXT,"@(fields.image_path & ""prepare_to_travel_tip_1.jpg"")",
+switch.input_text,wait_for_response,msg.1_PROTECT_YOUR_,,,,,,,,,,
+msg.2_HIDE_MONEYAls,send_message,switch.input_text,,,,,,"2️⃣ *HIDE MONEY*
+
+Also hide any money you have separately in different places, so that if something is lost, you won’t lose everything 💙.",,NEXT,,
+switch.input_text.1,wait_for_response,msg.2_HIDE_MONEYAls,,,,,,,,,,
+msg.3_SUPERVISE_YOU,send_message,switch.input_text.1,,,,,,"3️⃣ *SUPERVISE YOUR CHILDREN*
+
+🤍 Try your best to keep children with you or someone you trust. 
+Make sure you know that the people your children spend time with in person and online are trustworthy ✔️.",,NEXT,"@(fields.image_path & ""prepare_to_travel_tip_3.jpg"")",
+switch.input_text.2,wait_for_response,msg.3_SUPERVISE_YOU,,,,,,,,,,
+msg.4_COMMUNICATE_W,send_message,switch.input_text.2,,,,,,"4️⃣ *COMMUNICATE WITH YOUR CHILDREN*
+
+Tell your children they should not spend time outside alone after dark 🚫 or take a lift with someone alone.",,NEXT,,
+switch.input_text.3,wait_for_response,msg.4_COMMUNICATE_W,,,,,,,,,,
+msg._100,send_message,switch.input_text.3,,,,,,"✅ 100%
+",,,,
+set_run_result.completed,save_flow_result,msg._100,,,,,,yes,completed,,,

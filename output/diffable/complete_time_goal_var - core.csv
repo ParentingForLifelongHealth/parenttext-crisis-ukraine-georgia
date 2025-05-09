@@ -1,0 +1,2 @@
+row_id,type,edges.1.from,message_text,save_name
+set_contact_field.goal_core_end_t,save_value,start,@(now()),goal_core_end_time

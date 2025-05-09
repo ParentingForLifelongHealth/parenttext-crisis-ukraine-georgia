@@ -1,0 +1,6 @@
+row_id,type,edges.1.from,edges.1.condition,message_text,save_name
+set_run_result.bugfix,save_flow_result,start,,x,bugfix
+flow.survey_-_end1,start_new_flow,set_run_result.bugfix,,survey - end1,
+switch.child_results_e,split_by_value,flow.survey_-_end1,value;completed|,@child.results.expired,
+flow.module_-_buildi,start_new_flow,switch.child_results_e,,module - building_strength,
+set_run_result.status,save_flow_result,flow.module_-_buildi,value;completed|,not_expired,status

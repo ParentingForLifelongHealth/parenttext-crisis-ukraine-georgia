@@ -1,0 +1,14 @@
+JSON Processed: temp\parenttext_all_3_edits_pretranslation.json
+
+This file povides a log of changes made using the check_has_any_word_args.js script
+
+Languages considered: ENG, 
+Total flows in JSON file: 261
+Total nodes with "has_any_word" arguments: 262
+
+Total Problem Flows: 0
+Total nodes with duplication in arguments which have been sucessfully modified (translations treated as individual nodes): 0
+Total serious errors where fix not applied as would have resulted in null arguments (translations treated as individual nodes): 0
+
+Details of the problem flows/ nodes are summarised below:
+

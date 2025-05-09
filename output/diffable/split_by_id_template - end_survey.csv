@@ -1,0 +1,20 @@
+row_id,type,edges.1.from,edges.1.condition,message_text,save_name
+switch.fields_id_last_,split_by_value,start,,@fields.id_last_module_completed,
+flow.end_survey_wrap,start_new_flow,switch.fields_id_last_,value;care_for_yourself|variable;@fields.id_last_module_completed|type;has_only_phrase|name;Care_For_Yourself,end_survey_wrapper - care_for_yourself,
+set_run_result.status,save_flow_result,flow.end_survey_wrap,value;completed|,not_expired,status
+flow.end_survey_wrap.1,start_new_flow,switch.fields_id_last_,value;help_children_cope|variable;@fields.id_last_module_completed|type;has_only_phrase|name;Help_Children_Cope,end_survey_wrapper - help_children_cope,
+set_run_result.status.1,save_flow_result,flow.end_survey_wrap.1,value;completed|,not_expired,status
+flow.end_survey_wrap.2,start_new_flow,switch.fields_id_last_,value;make_a_routine|variable;@fields.id_last_module_completed|type;has_only_phrase|name;Make_A_Routine,end_survey_wrapper - make_a_routine,
+set_run_result.status.2,save_flow_result,flow.end_survey_wrap.2,value;completed|,not_expired,status
+flow.end_survey_wrap.3,start_new_flow,switch.fields_id_last_,value;calm_encourage|variable;@fields.id_last_module_completed|type;has_only_phrase|name;Calm_Encourage,end_survey_wrapper - calm_encourage,
+set_run_result.status.3,save_flow_result,flow.end_survey_wrap.3,value;completed|,not_expired,status
+flow.end_survey_wrap.4,start_new_flow,switch.fields_id_last_,value;prepare_to_travel|variable;@fields.id_last_module_completed|type;has_only_phrase|name;Prepare_To_Travel,end_survey_wrapper - prepare_to_travel,
+set_run_result.status.4,save_flow_result,flow.end_survey_wrap.4,value;completed|,not_expired,status
+flow.end_survey_wrap.5,start_new_flow,switch.fields_id_last_,value;travel_safely|variable;@fields.id_last_module_completed|type;has_only_phrase|name;Travel_Safely,end_survey_wrapper - travel_safely,
+set_run_result.status.5,save_flow_result,flow.end_survey_wrap.5,value;completed|,not_expired,status
+flow.end_survey_wrap.6,start_new_flow,switch.fields_id_last_,value;protect_sexual_violence|variable;@fields.id_last_module_completed|type;has_only_phrase|name;Protect_Sexual_Violence,end_survey_wrapper - protect_sexual_violence,
+set_run_result.status.6,save_flow_result,flow.end_survey_wrap.6,value;completed|,not_expired,status
+flow.end_survey_wrap.7,start_new_flow,switch.fields_id_last_,value;when_someone_dies|variable;@fields.id_last_module_completed|type;has_only_phrase|name;When_Someone_Dies,end_survey_wrapper - when_someone_dies,
+set_run_result.status.7,save_flow_result,flow.end_survey_wrap.7,value;completed|,not_expired,status
+flow.end_survey_wrap.8,start_new_flow,switch.fields_id_last_,value;building_strength|variable;@fields.id_last_module_completed|type;has_only_phrase|name;Building_Strength,end_survey_wrapper - building_strength,
+set_run_result.status.8,save_flow_result,flow.end_survey_wrap.8,value;completed|,not_expired,status

@@ -1,0 +1,29 @@
+row_id,type,edges.1.from,edges.2.from,edges.2.condition,edges.3.from,no_response,edges.1.condition,message_text,save_name,choices.1,image,audio
+msg.Congratulations,send_message,start,,,,,,Congratulations on reaching our final set of tips! 🎉 Here we are talking about ways to build your and your children’s strength and to encourage good behaviours in them.,,,,
+msg.Even_in_these_t,send_message,msg.Congratulations,,,,,,"Even in these times that are so hard, there is hope that you can build strength, and when your children sense your love and appreciation, it helps them build their own strength, too. 🦋",,,,
+switch.media,split_by_value,msg.Even_in_these_t,,,,,,@fields.type_of_media,,,,
+msg.Press_Play__to_,send_message,switch.media,,,,,value;medium|variable;@fields.type_of_media|type;has_any_word|name;Medium,"Press Play ▶️ to learn 2️⃣ simple tips that can help you encourage your children to build strength:
+
+1️⃣ *INVOLVE YOUR CHILDREN*
+2️⃣ *PRAISE THEM*",,NEXT,,"@(fields.voiceover_audio_path & ""building_strength.mp3"")"
+wait_for.input_text,wait_for_response,msg.Press_Play__to_,,,,60,,,,,,
+msg.Here_are_2_simp,send_message,wait_for.input_text,wait_for.input_text,value;No Response|,switch.media,,,Here are 2️⃣ simple tips that can help you to encourage your children to build strength:,,,,
+msg.1_INVOLVE_YOUR_,send_message,msg.Here_are_2_simp,,,,,,"1️⃣ *INVOLVE YOUR CHILDREN*
+
+Ask children to help in simple chores 💪. This will give them a sense of responsibility.",,NEXT,"@(fields.image_path & ""build_strength_tip_1.jpg"")",
+switch.input_text,wait_for_response,msg.1_INVOLVE_YOUR_,,,,,,,,,,
+msg.2_PRAISE_THEMAp,send_message,switch.input_text,,,,,,"2️⃣ *PRAISE THEM*
+💙Appreciate children when they are trying or doing something good.
+
+This will help them to do good again.
+
+🌟 Praising children shows them that you notice and care, and helps build confidence.",,NEXT,"@(fields.image_path & ""build_strength_tip_2.jpg"")",
+switch.input_text.1,wait_for_response,msg.2_PRAISE_THEMAp,,,,,,,,,,
+msg.You_can_also_bu,send_message,switch.input_text.1,,,,,,"You can also build your own strength 💪 by remembering that you are not alone. 
+Sharing your sorrow and worries with someone you trust often helps lighten the burden 🤝. 
+
+If your sorrow and worries feel overwhelming, please contact a trusted person, organisation or helpline. Type HELP after these tips for more information.",,NEXT,"@(fields.image_path & ""help_phone.jpg"")",
+switch.input_text.2,wait_for_response,msg.You_can_also_bu,,,,,,,,,,
+msg._100,send_message,switch.input_text.2,,,,,,"✅ 100%
+",,,,
+set_run_result.completed,save_flow_result,msg._100,,,,,,yes,completed,,,

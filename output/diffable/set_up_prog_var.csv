@@ -1,0 +1,44 @@
+row_id,type,edges.1.from,webhook.url,webhook.method,webhook.headers.1.1,webhook.headers.1.2,webhook.headers.2.1,webhook.headers.2.2,webhook.body,edges.2.from,edges.3.from,edges.1.condition,message_text,save_name
+switch.fields_marital_,split_by_value,start,,,,,,,,,,,@fields.marital_status,
+set_contact_field.get_ipv_content,save_value,switch.fields_marital_,,,,,,,,,,value;Married	Partnered|variable;@fields.marital_status|type;has_any_word|name;relationship,yes,get_ipv_content
+set_contact_field.get_ipv_content.1,save_value,switch.fields_marital_,,,,,,,,,,,no,get_ipv_content
+switch.fields_child_ag,split_by_value,set_contact_field.get_ipv_content,,,,,,,,set_contact_field.get_ipv_content.1,,,@fields.child_age,
+set_contact_field.content_group_i,save_value,switch.fields_child_ag,,,,,,,,,,value;10|variable;@fields.child_age|type;has_number_lt|name;10,c,content_group_id
+set_contact_field.content_group_i.1,save_value,switch.fields_child_ag,,,,,,,,,,value;18|variable;@fields.child_age|type;has_number_lt|name;18,t,content_group_id
+switch.fields_child_ag.1,split_by_value,set_contact_field.content_group_i,,,,,,,,set_contact_field.content_group_i.1,switch.fields_child_ag,,@fields.child_age,
+set_contact_field.naming_group_id,save_value,switch.fields_child_ag.1,,,,,,,,,,value;10|variable;@fields.child_age|type;has_number_lt|name;10,c,naming_group_id
+set_contact_field.naming_group_id.1,save_value,switch.fields_child_ag.1,,,,,,,,,,value;18|variable;@fields.child_age|type;has_number_lt|name;18,t,naming_group_id
+set_contact_field.filter_expressi,save_value,set_contact_field.naming_group_id,,,,,,,,set_contact_field.naming_group_id.1,switch.fields_child_ag.1,,'@fields.get_ipv_content' in relationship,filter_expression
+webhook.httpspt-goals-c,call_webhook,set_contact_field.filter_expressi,https://pt-goals-crisis-palestine-349333393514.europe-west1.run.app/get_goals_list,POST,Accept,application/json,Content-Type,application/json,"@(json(object(
+    ""filter_expression"", fields.filter_expression,
+    ""sort_columns"",  split((""priority_""& fields.content_group_id))
+)))",,,,,Result
+set_contact_field.goals_to_start,save_value,webhook.httpspt-goals-c,,,,,,,,,,value;Success|variable;@results.result.category|type;has_only_text|name;Success,@webhook.text,goals_to_start
+msg.fail,send_message,webhook.httpspt-goals-c,,,,,,,,,,,fail,
+set_contact_field.full_goal_list,save_value,set_contact_field.goals_to_start,,,,,,,,msg.fail,,,@fields.goals_to_start,full_goal_list
+set_contact_field.goals_started,save_value,set_contact_field.full_goal_list,,,,,,,,,,,,goals_started
+set_contact_field.goals_accessed,save_value,set_contact_field.goals_started,,,,,,,,,,,,goals_accessed
+set_contact_field.goals_compl,save_value,set_contact_field.goals_accessed,,,,,,,,,,,,goals_compl
+set_contact_field.pre_goal_checki,save_value,set_contact_field.goals_compl,,,,,,,,,,,,pre_goal_checkin_compl
+set_contact_field.n_goals_prog,save_value,set_contact_field.pre_goal_checki,,,,,,,,,,,@(word_count(fields.goals_to_start)),n_goals_prog
+set_contact_field.n_goals_to_star,save_value,set_contact_field.n_goals_prog,,,,,,,,,,,@(word_count(fields.goals_to_start)),n_goals_to_start
+set_contact_field.n_goals_complet,save_value,set_contact_field.n_goals_to_star,,,,,,,,,,,0,n_goals_completed
+set_contact_field.n_goals_started,save_value,set_contact_field.n_goals_complet,,,,,,,,,,,0,n_goals_started
+set_contact_field.filter_expressi.1,save_value,set_contact_field.n_goals_started,,,,,,,,,,,'quick' in [a.lower() for a in act_type] and @fields.child_age in act_age,filter_expression
+webhook.httpspt-goals-c.1,call_webhook,set_contact_field.filter_expressi.1,https://pt-goals-crisis-palestine-349333393514.europe-west1.run.app/get_ltp_activities_list,POST,Accept,application/json,Content-Type,application/json,"@(json(object(
+    ""filter_expression"", fields.filter_expression
+)))",,,,,Result
+set_contact_field.c_quick_act,save_value,webhook.httpspt-goals-c.1,,,,,,,,,,value;Success|variable;@results.result.category|type;has_only_text|name;Success,@webhook.text,c_quick_act
+msg.fail.1,send_message,webhook.httpspt-goals-c.1,,,,,,,,,,,fail,
+set_contact_field.filter_expressi.2,save_value,set_contact_field.c_quick_act,,,,,,,,msg.fail.1,,,'active' in [a.lower() for a in act_type] and @fields.child_age in act_age,filter_expression
+webhook.httpspt-goals-c.2,call_webhook,set_contact_field.filter_expressi.2,https://pt-goals-crisis-palestine-349333393514.europe-west1.run.app/get_ltp_activities_list,POST,Accept,application/json,Content-Type,application/json,"@(json(object(
+    ""filter_expression"", fields.filter_expression
+)))",,,,,Result
+set_contact_field.c_active_act,save_value,webhook.httpspt-goals-c.2,,,,,,,,,,value;Success|variable;@results.result.category|type;has_only_text|name;Success,@webhook.text,c_active_act
+msg.fail.2,send_message,webhook.httpspt-goals-c.2,,,,,,,,,,,fail,
+set_contact_field.filter_expressi.3,save_value,set_contact_field.c_active_act,,,,,,,,msg.fail.2,,,'calm' in [a.lower() for a in act_type] and @fields.child_age in act_age,filter_expression
+webhook.httpspt-goals-c.3,call_webhook,set_contact_field.filter_expressi.3,https://pt-goals-crisis-palestine-349333393514.europe-west1.run.app/get_ltp_activities_list,POST,Accept,application/json,Content-Type,application/json,"@(json(object(
+    ""filter_expression"", fields.filter_expression
+)))",,,,,Result
+set_contact_field.c_calm_act,save_value,webhook.httpspt-goals-c.3,,,,,,,,,,value;Success|variable;@results.result.category|type;has_only_text|name;Success,@webhook.text,c_calm_act
+msg.fail.3,send_message,webhook.httpspt-goals-c.3,,,,,,,,,,,fail,

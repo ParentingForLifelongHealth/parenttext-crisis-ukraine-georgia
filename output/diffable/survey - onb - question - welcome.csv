@@ -1,0 +1,7 @@
+row_id,type,edges.1.from,edges.2.from,message_text,edges.1.condition,save_name
+switch.fields_sq_onb_w,split_by_value,start,,@fields.sq_onb_welcome,,
+set_contact_field.sq_onb_welcome,save_value,switch.fields_sq_onb_w,,,value;NA|variable;@fields.sq_onb_welcome|type;has_only_phrase|name;is NA,sq_onb_welcome
+switch.1,split_by_value,set_contact_field.sq_onb_welcome,switch.fields_sq_onb_w,1,,
+set_run_result.dummy,save_flow_result,switch.1,,"Block can’t start with for loop, see issue #47",,dummy
+msg.Welcome_to_Pare,send_message,set_run_result.dummy,,Welcome to ParentText. Every parent everywhere needs support. We hope we can help. 💚,,
+set_contact_field.sq_onb_welcome_,save_value,msg.Welcome_to_Pare,,yes,,sq_onb_welcome_complete

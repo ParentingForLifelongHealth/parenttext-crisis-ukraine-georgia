@@ -1,0 +1,20 @@
+row_id,type,edges.1.from,edges.1.condition,message_text,save_name
+switch.fields_next_mod,split_by_value,start,,@fields.next_module_name,
+flow.interaction_-_c,start_new_flow,switch.fields_next_mod,value;care_for_yourself|variable;@fields.next_module_name|type;has_only_phrase|name;Care_For_Yourself,interaction - care_for_yourself,
+set_run_result.status,save_flow_result,flow.interaction_-_c,value;completed|,not_expired,status
+flow.interaction_-_h,start_new_flow,switch.fields_next_mod,value;help_children_cope|variable;@fields.next_module_name|type;has_only_phrase|name;Help_Children_Cope,interaction - help_children_cope,
+set_run_result.status.1,save_flow_result,flow.interaction_-_h,value;completed|,not_expired,status
+flow.interaction_-_m,start_new_flow,switch.fields_next_mod,value;make_a_routine|variable;@fields.next_module_name|type;has_only_phrase|name;Make_A_Routine,interaction - make_a_routine,
+set_run_result.status.2,save_flow_result,flow.interaction_-_m,value;completed|,not_expired,status
+flow.interaction_-_c.1,start_new_flow,switch.fields_next_mod,value;calm_encourage|variable;@fields.next_module_name|type;has_only_phrase|name;Calm_Encourage,interaction - calm_encourage,
+set_run_result.status.3,save_flow_result,flow.interaction_-_c.1,value;completed|,not_expired,status
+flow.interaction_-_p,start_new_flow,switch.fields_next_mod,value;prepare_to_travel|variable;@fields.next_module_name|type;has_only_phrase|name;Prepare_To_Travel,interaction - prepare_to_travel,
+set_run_result.status.4,save_flow_result,flow.interaction_-_p,value;completed|,not_expired,status
+flow.interaction_-_t,start_new_flow,switch.fields_next_mod,value;travel_safely|variable;@fields.next_module_name|type;has_only_phrase|name;Travel_Safely,interaction - travel_safely,
+set_run_result.status.5,save_flow_result,flow.interaction_-_t,value;completed|,not_expired,status
+flow.interaction_-_p.1,start_new_flow,switch.fields_next_mod,value;protect_sexual_violence|variable;@fields.next_module_name|type;has_only_phrase|name;Protect_Sexual_Violence,interaction - protect_sexual_violence,
+set_run_result.status.6,save_flow_result,flow.interaction_-_p.1,value;completed|,not_expired,status
+flow.interaction_-_w,start_new_flow,switch.fields_next_mod,value;when_someone_dies|variable;@fields.next_module_name|type;has_only_phrase|name;When_Someone_Dies,interaction - when_someone_dies,
+set_run_result.status.7,save_flow_result,flow.interaction_-_w,value;completed|,not_expired,status
+flow.interaction_-_b,start_new_flow,switch.fields_next_mod,value;building_strength|variable;@fields.next_module_name|type;has_only_phrase|name;Building_Strength,interaction - building_strength,
+set_run_result.status.8,save_flow_result,flow.interaction_-_b,value;completed|,not_expired,status

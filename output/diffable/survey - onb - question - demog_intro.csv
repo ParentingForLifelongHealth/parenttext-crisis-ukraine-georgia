@@ -1,0 +1,7 @@
+row_id,type,edges.1.from,edges.2.from,message_text,edges.1.condition,save_name
+switch.fields_sq_onb_d,split_by_value,start,,@fields.sq_onb_demogintro,,
+set_contact_field.sq_onb_demogint,save_value,switch.fields_sq_onb_d,,,value;NA|variable;@fields.sq_onb_demogintro|type;has_only_phrase|name;is NA,sq_onb_demogintro
+switch.1,split_by_value,set_contact_field.sq_onb_demogint,switch.fields_sq_onb_d,1,,
+set_run_result.dummy,save_flow_result,switch.1,,"Block can’t start with for loop, see issue #47",,dummy
+msg.Before_we_get_s,send_message,set_run_result.dummy,,"❔Before we get started, we have a few questions to make this journey personalised:",,
+set_contact_field.sq_onb_demogint.1,save_value,msg.Before_we_get_s,,yes,,sq_onb_demogintro_complete
