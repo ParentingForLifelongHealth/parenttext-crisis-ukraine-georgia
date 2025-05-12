@@ -1,7 +1,0 @@
-row_id,type,edges.1.from,edges.1.condition,message_text,save_name
-flow.survey_-_onb,start_new_flow,start,,survey - onb,
-switch.fields_s_onb_co,split_by_value,flow.survey_-_onb,value;completed|,@fields.s_onb_complete,
-set_contact_field.completed_onboa,save_value,switch.fields_s_onb_co,value;yes|variable;@fields.s_onb_complete|type;has_any_word|name;Yes,yes,completed_onboarding
-set_run_result.proceed,save_flow_result,set_contact_field.completed_onboa,,yes,proceed
-flow.set_up_prog_var,start_new_flow,set_run_result.proceed,,set_up_prog_var,
-flow.reset_revised_o,start_new_flow,switch.fields_s_onb_co,,reset_revised_onboarding,

@@ -1,8 +1,0 @@
-row_id,type,edges.1.from,message_text,save_name
-set_run_result.bugfix,save_flow_result,start,x,bugfix
-msg.You_have_comple,send_message,set_run_result.bugfix,"You have completed the programme. Well done!
-Remember, you can always return to ParentText to review these tips. Just type MENU.",
-msg.Was_ParentText_,send_message,msg.You_have_comple,"Was ParentText helpful? If so, share it with a friend. Just send this link: {insert link}",
-remove_contact_groups.in_program,remove_from_group,msg.Was_ParentText_,in program|,
-add_contact_groups.completed_progr,add_to_group,remove_contact_groups.in_program,completed program|,
-set_contact_field.completion_time,save_value,add_contact_groups.completed_progr,@(now()),completion_time
