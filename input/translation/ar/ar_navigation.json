@@ -24,8 +24,8 @@
     "note": ""
   },
   {
-    "SourceText": "{generic referrals}",
-    "text": "{generic referrals}",
+    "SourceText": "{generic_referrals}",
+    "text": "{generic_referrals}",
     "type": "text",
     "note": ""
   },
@@ -42,8 +42,8 @@
     "note": ""
   },
   {
-    "SourceText": "{health referrals}",
-    "text": "{health referrals}",
+    "SourceText": "{health_referrals}",
+    "text": "{health_referrals}",
     "type": "text",
     "note": ""
   },
@@ -84,8 +84,14 @@
     "note": ""
   },
   {
-    "SourceText": "{family referrals}",
-    "text": "{family referrals}",
+    "SourceText": "{family_referrals}",
+    "text": "{family_referrals}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "{child_protection}",
+    "text": "{child_protection}",
     "type": "text",
     "note": ""
   },
@@ -139,7 +145,7 @@
   },
   {
     "SourceText": "We are here to help. You've received @fields.c_n_mod_compl out of @fields.c_n_mod tips. Would you like to continue?",
-    "text": "نحنا هون عشان نساعدك. استقبلت @fields.c_n_mod_compl out of @fields.c_n_mod tips نصيحة. بدّك تكمل؟",
+    "text": "نحنا هون عشان نساعدك. حالياً استقبلت qqfields.c_n_mod_compl من أصل @fields.c_n_mod tips نصيحة. بدّك تكمل؟",
     "type": "text",
     "note": ""
   },
@@ -181,19 +187,25 @@
   },
   {
     "SourceText": "If you do not want to receive any more messages, please type \"EXIT\".",
-    "text": "لو ما بدّك تستقبل رسائل أكتر، الرجاء كتابة \"EXIT\".",
+    "text": "لو ما بدّك تستقبل رسائل أكتر، الرجاء كتابة \"خروج\".",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "If you made a mistake, please type \"BACK\".",
-    "text": "لو غلطت، الرجاء كتابة \"BACK\".",
+    "text": "لو غلطت، الرجاء كتابة \"رجوع\".",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "Thank you for participating. If you want to return to continue receiving tips, type HELLO.",
     "text": "شكرًا لمشاركتك. لو بدّك ترجع وتكمل استقبال النصائح، اكتب: مرحبا",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We are so glad you want to stick around! We will resume your progress tomorrow.",
+    "text": "nan",
     "type": "text",
     "note": ""
   },
@@ -289,7 +301,7 @@
   },
   {
     "SourceText": "You have completed @fields.n_s_modules_compl out of @fields.n_s_modules tips. Which of the following tips would you like to review?",
-    "text": "خلصت @fields.n_s_modules@ out of fields.n_s_modules_compltips   أي من النصائح التالية بدّك تراجع؟",
+    "text": "لقد أكملتَ @fields.n_s_modules_compl من أصل نصائح @fields.n_s_modules. أيٌّ من النصائح التالية ترغب في مراجعتها؟",
     "type": "text",
     "note": ""
   },
@@ -354,8 +366,26 @@
     "note": ""
   },
   {
-    "SourceText": "It’s a difficult moment for your family. I’m here today with a few tips to create small moments of connection with your child to give them the routine and stability you all need right now. Press 1 to continue with your registration.",
-    "text": "هادا الوقت صعب على عيلتك. أنا هون اليوم مع شوية نصائح عشان تخلق لحظات صغيرة للتواصل مع طفلك لتعطيه الروتين والاستقرار اللي كلكم بتحتاجوه. اضغط 1 عشان تكمّل تسجيلك.",
+    "SourceText": "It’s a difficult moment for your family. I’m here today with a few tips to create small moments of connection with your child to give them the routine and stability you all need right now.",
+    "text": "nan",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Press a number on your keypad:",
+    "text": "إضغط رقم على لوحة المفاتيح عندك:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "1. Continue with my registration",
+    "text": "nan",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "2. Remind me tomorrow",
+    "text": "nan",
     "type": "text",
     "note": ""
   },
@@ -366,14 +396,56 @@
     "note": ""
   },
   {
+    "SourceText": "1. Continue my initial questions",
+    "text": "nan",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "It looks like you started a tip, but didn't finish receiving all of the information. Would you like to finish it or start learning someting new?",
     "text": "شكلك بلّشت بنصيحة، بس ما خلّصت استلام كل المعلومات. بتحبّ تكمّل أو تبلّش إشي جديد؟",
     "type": "text",
     "note": ""
   },
   {
+    "SourceText": "1. Finish the previous tip",
+    "text": "nan",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "2. Receive a new tip",
+    "text": "nan",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "3. Remind me tomorrow",
+    "text": "nan",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "It looks like you started a parenting tip, but didn't finish receiving all of the information. What would you like to do?",
     "text": "شكلك بلّشت نصيحة تربوية بس ما خلصت استلام كل المعلومات. شو بتحب تعمل؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "1. Receive the remaining information",
+    "text": "nan",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "2. Remind me about this tomorrow",
+    "text": "nan",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "3. I've finished receiving all of the information that I want from this chatbot",
+    "text": "nan",
     "type": "text",
     "note": ""
   },
@@ -390,24 +462,6 @@
     "note": ""
   },
   {
-    "SourceText": "New tips are ready for you. Would you like to continue now?",
-    "text": "في نصيحة جديدة بإنتظارَك. جاهز تكمّل معنا؟",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "💛 We’re thinking of you today. There are simple things you can do to help your child cope. Would you like to learn about them?",
-    "text": "💛 إحنا عم منفكّر فيك اليوم. في أشياء بسيطة بتقدر تمارسها عشان تساعد أطفالك يتعاملوا مع الظروف. بتحب تتعرّف عليهم؟",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Press a number on your keypad:",
-    "text": "إضغط رقم على لوحة المفاتيح عندك:",
-    "type": "text",
-    "note": ""
-  },
-  {
     "SourceText": "1. Yes",
     "text": "١. نعم",
     "type": "text",
@@ -416,6 +470,18 @@
   {
     "SourceText": "2. No, remind me tomorrow.",
     "text": "٢. لا، الرجاء تذكيري غداً",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "New tips are ready for you. Would you like to continue now?",
+    "text": "في نصيحة جديدة بإنتظارَك. جاهز تكمّل معنا؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💛 We’re thinking of you today. There are simple things you can do to help your child cope. Would you like to learn about them?",
+    "text": "💛 إحنا عم منفكّر فيك اليوم. في أشياء بسيطة بتقدر تمارسها عشان تساعد أطفالك يتعاملوا مع الظروف. بتحب تتعرّف عليهم؟",
     "type": "text",
     "note": ""
   },
@@ -446,6 +512,12 @@
   {
     "SourceText": "Today’s tips can help you prepare to stay safe— Would you like to learn more?",
     "text": "نصائح اليوم رح تساعدك تاخد إحتياطات الأمان خلال السفر- بتحب تتعرّف عليهم؟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "2. No, remind me tomorrow",
+    "text": "nan",
     "type": "text",
     "note": ""
   },
@@ -607,13 +679,13 @@
   },
   {
     "SourceText": "*DAY @fields.curr_demo_day*",
-    "text": "*DAY @fields.curr_demo_day*",
+    "text": "يوم @fields.curr_demo_day",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "You completed the ParentText demo. Type RESET and then {FACSTART} to re-start from the beginning.",
-    "text": "أكملت العرض التجريبي الخاص بنصائح للوالدين. اكتب: إعادة تشغيل ,ثم {FACSTART} لإعادة التشغيل من البداية.",
+    "SourceText": "You completed the ParentText demo. Type {RESET} and then {FACSTART} to re-start from the beginning.",
+    "text": "nan",
     "type": "text",
     "note": ""
   },
@@ -632,691 +704,625 @@
   {
     "SourceText": "Yes",
     "text": "نعم",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "No",
     "text": "لا",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Local and international support",
     "text": "الدعم المحلي والدولي",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Medical services",
     "text": "الخِدْمَات الطبية",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Mental health support",
     "text": "دعم الصحة العقلية",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Family counselling services",
     "text": "خدمات الاستشارة العائلية",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Natural disasters",
     "text": "الكوارث الطبيعية",
-    "type": "text",
+    "type": "quick_replies",
+    "note": ""
+  },
+  {
+    "SourceText": "Child Protection",
+    "text": "nan",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Get other emergency contacts",
     "text": "الحصول على جهات اتصال أخرى للطوارئ",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Go to the Main Menu",
     "text": "انتقل إلى القائمة الرئيسة",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Exit menu",
     "text": "اخرج من القائمة",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "BACK",
     "text": "الرجوع",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "NEXT",
     "text": "التالي",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "A fun activity I can do with my child",
     "text": "نشاط ممتع ممكن أعمله مع طفلي",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Proceed to the next tips",
     "text": "انتقل إلى النصائح التالية",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Nothing. Let's continue tomorrow.",
     "text": "ما في إشي. يلا نكمل بكره.",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "nan",
     "text": "غير متوفر",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Another fun activity I can do with my child",
     "text": "نشاط ممتع تاني ممكن أعمله مع طفلي",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Continue with more tips tomorrow.",
     "text": "كمِّل مع نصائح أكترغداً.",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "View another activity idea",
     "text": "عرض فكرة نشاط تاني",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Go to Main Menu",
     "text": "انتقل إلى القائمة الرئيسية",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Something Quick",
     "text": "إشي سريع",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Something Active",
     "text": "إشي نشيط",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Something Calm",
     "text": "إشي هادي",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Now",
     "text": "هلا",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Tomorrow",
     "text": "غدًا",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Continue my registration",
-    "text": "متابعة التسجيل",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Remind me tomorrow",
-    "text": "الرجاء تذكيري غداً",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Continue my initial questions",
-    "text": "أكمل أسئلتي الأولية",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Finish the previous tip",
-    "text": "أكمل النصيحة السابقة",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Receive a new tip",
-    "text": "استلم نصيحة جديدة",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Receive the remaining information",
-    "text": "استلم المعلومات الباقية",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Remind me about this tomorrow",
-    "text": "الرجاء تذكيري بهاذا الأمرغداً",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "I've finished receiving all of the information that I want from this chatbot.",
-    "text": "خلصت استلام كل المعلومات اللي برغب فيها من روبوت الدردشة",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "No, remind me tomorrow.",
-    "text": "لا، الرجاء تذكيري غداً",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "1",
     "text": "1",
-    "type": "text",
+    "type": "quick_replies",
+    "note": ""
+  },
+  {
+    "SourceText": "2",
+    "text": "2",
+    "type": "quick_replies",
+    "note": ""
+  },
+  {
+    "SourceText": "3",
+    "text": "3",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Return to Menu",
     "text": "العودة إلى القائمة",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Review a different tip",
     "text": "مراجعة نصيحة مختلفة",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Review tips",
     "text": "مراجعة النصائح",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Change my settings",
     "text": "تغيير إعداداتي",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Invite a friend to ParentText",
     "text": "ادعُ صديق إلى برنامج نصائح للوالدين",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Get more help",
     "text": "احصل على مزيد من المساعدة",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Watch a video about ParentText",
     "text": "شاهد فيديو عن برنامج نصائح للوالدين",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Get the next tip",
     "text": "احصل على النصيحة التالية",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Nothing, let's continue tomorrow",
     "text": "ما في إشي، يلا نكمل بكره",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Change my profile",
     "text": "تغيير ملفي الشخصي",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Stop receiving the messages",
     "text": "وقف استلام الرسائل",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Return to Main Menu",
     "text": "العودة إلى القائمة الرئيسة",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Change my language",
     "text": "تغير اللغة",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Change the way I receive content",
     "text": "تغيير طريقة استلامي للمحتوى",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Change my gender",
     "text": "تغيير الجنس",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Get the next tip.",
     "text": "احصل على النصيحة التالية.",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "generic",
     "text": "عام",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "mental_health",
     "text": "الصحة_العقلية",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "health",
     "text": "الصحة",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "natural_disasters",
     "text": "الكوارث الطبيعية",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "help",
     "text": "المساعدة",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "menu",
     "text": "القائمة",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "play",
     "text": "تشغيل",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "stop",
     "text": "توقف",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "start",
     "text": "ابدأ",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "pause",
     "text": "توقف",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "yes y yeah yep",
     "text": "نعم حسنًا أوكي",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "no n nope nah",
     "text": "لا لأ",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "no n nope",
     "text": "لا لأ",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "local and international support",
     "text": "الدعم المحلي والدولي",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "medical services",
-    "text": "الخدمات الطبية",
-    "type": "text",
+    "text": "الخِدْمَات الطبية",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "mental health support",
     "text": "دعم الصحة العقلية",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "family counselling services",
     "text": "خدمات الاستشارة العائلية",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "natural disasters",
     "text": "الكوارث الطبيعية",
-    "type": "text",
+    "type": "arguments",
+    "note": ""
+  },
+  {
+    "SourceText": "child protection",
+    "text": "nan",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "get other emergency contacts",
     "text": "الحصول على جهات اتصال أخرى للطوارئ",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "go to the main menu",
     "text": "انتقل إلى القائمة الرئيسة",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "exit menu",
     "text": "اخرج من القائمة",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "yes",
     "text": "نعم",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "no",
     "text": "لا",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "exit",
     "text": "خروج",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "back",
     "text": "الرجوع",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "nothing. let's continue tomorrow.",
-    "text": "ما في إشي. يلا نكمّل بكره.",
-    "type": "text",
+    "text": "ما في إشي. يلا نكمل بكره.",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "a fun activity i can do with my child",
     "text": "نشاط ممتع ممكن أعمله مع طفلي",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "proceed to the next tips",
-    "text": "انتقل إلى النصيحة التالية",
-    "type": "text",
+    "text": "انتقل إلى النصائح التالية",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "na",
     "text": "غير متوفر",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "another fun activity i can do with my child",
     "text": "نشاط ممتع تاني ممكن أعمله مع طفلي",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "continue with more tips tomorrow.",
-    "text": "أكمل",
-    "type": "text",
+    "text": "كمِّل مع نصائح أكترغداً.",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "view another activity idea",
     "text": "عرض فكرة نشاط تاني",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "go to main menu",
     "text": "انتقل إلى القائمة الرئيسية",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "something quick",
     "text": "إشي سريع",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "something active",
     "text": "إشي نشيط",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "something calm",
     "text": "إشي هادي",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "now",
     "text": "هلا",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "tomorrow",
     "text": "غدًا",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
-    "SourceText": "continue my registration",
-    "text": "متابعة التسجيل",
-    "type": "text",
+    "SourceText": "1",
+    "text": "1",
+    "type": "arguments",
     "note": ""
   },
   {
-    "SourceText": "remind me tomorrow",
-    "text": "الرجاء تذكيري غداً",
-    "type": "text",
+    "SourceText": "2",
+    "text": "2",
+    "type": "arguments",
     "note": ""
   },
   {
-    "SourceText": "continue my initial questions",
-    "text": "كمّل أسئلتي الأولية",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "finish the previous tip",
-    "text": "كمِّل مع نصائح أكترغداً.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "receive a new tip",
-    "text": "استلم نصيحة جديدة",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "receive the remaining information",
-    "text": "استلم المعلومات الباقية",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "remind me about this tomorrow",
-    "text": "الرجاء تذكيري بهاذا الأمرغداً",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "i've finished receiving all of the information that i want from this chatbot.",
-    "text": "خلصت استلام كل المعلومات اللي برغب فيها من روبوت الدردشة",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "no, remind me tomorrow.",
-    "text": "لا، الرجاء تذكيري غداً",
-    "type": "text",
+    "SourceText": "3",
+    "text": "3",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "return to menu",
     "text": "العودة إلى القائمة",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "review a different tip",
     "text": "مراجعة نصيحة مختلفة",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "review tips",
     "text": "مراجعة النصائح",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "change my settings",
     "text": "تغيير إعداداتي",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "invite a friend to parenttext",
     "text": "ادعُ صديق إلى برنامج نصائح للوالدين",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "get more help",
     "text": "احصل على مزيد من المساعدة",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "watch a video about parenttext",
     "text": "شاهد فيديو عن برنامج نصائح للوالدين",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "get the next tip",
     "text": "احصل على النصيحة التالية",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "nothing, let's continue tomorrow",
     "text": "ما في إشي، يلا نكمل بكره",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "change my profile",
     "text": "تغيير ملفي الشخصي",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "stop receiving the messages",
     "text": "وقف استلام الرسائل",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "return to main menu",
     "text": "العودة إلى القائمة الرئيسة",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "change my language",
     "text": "تغير اللغة",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "change the way i receive content",
     "text": "تغيير طريقة استلامي للمحتوى",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "change my gender",
     "text": "تغيير الجنس",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "get the next tip.",
     "text": "احصل على النصيحة التالية.",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "yes y yeah yep ok",
     "text": "نعم حسنا أوكي",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   }
 ]

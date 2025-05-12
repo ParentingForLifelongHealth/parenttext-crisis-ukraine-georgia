@@ -6,6 +6,384 @@ Language: ara
 Total flows in JSON file: 261
 Total nodes with "quick replies": 240
 
-Total problem flows: 0
-Total problem nodes: 0
+Total problem flows: 9
+Total problem nodes: 12
+
+##### Translated quick replies contain some english words
+    Problem flow: 1
+    Flow ID: 817fa393-cffc-45e4-864b-93524a105b7a
+    Flow name: onboarding_question_with_opt - children_at_home
+
+        QR Node ID: f953e67d-bc52-4bd6-bd20-a215b92075b4
+        Arg Node ID: fa1c9ae4-a54c-453d-b98d-cba5415ab00b
+        Action text: How many children do you take care of?
+        Eng Quick replies:
+                none
+                one to three
+                more than four
+        Eng Arguments:
+                none  -  has_only_phrase
+                one to three  -  has_only_phrase
+                more than four  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+                2,2
+        -----
+        ara Quick replies:
+                none
+                one to three
+                more than four
+        ara Arguments:
+                لا شيء  -  has_only_phrase
+                من واحد لثلاثة  -  has_only_phrase
+                أكتر من أربعة  -  has_only_phrase
+        ara Links:
+                0,
+                1,
+                2,
+                 ,0
+                 ,1
+                 ,2
+
+    Problem flow: 2
+    Flow ID: b7b0db6f-c815-4391-8247-91c9d478783f
+    Flow name: onboarding_question_language - entry
+
+        QR Node ID: 7c5384ce-63e0-4b6c-aad3-9b01842b912b
+        Arg Node ID: 2bc03bfe-fae8-48d9-9b65-05fa4faf0ba7
+        Action text: Please select your language:; ; من فضلك ادخل اللغة
+        Eng Quick replies:
+                english
+                اللغة العربية
+        Eng Arguments:
+                english  -  has_only_phrase
+                اللغة العربية  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+        -----
+        ara Quick replies:
+                اللغة الإنجليزية
+                اللغة العربية
+        ara Arguments:
+                اللغة الإنجليزية  -  has_only_phrase
+                اللغة العربية  -  has_only_phrase
+        ara Links:
+                0,0
+                1,
+                 ,1
+
+    Problem flow: 3
+    Flow ID: 545562f5-a715-4fc6-9bbb-2cd30f403197
+    Flow name: safeguarding_redirect_to_topic_all
+
+        Node ID: 36b1c569-e32f-43c3-b76f-9566f355ad69
+        Fundamental conflict in arguments
+        ara Arguments:
+                عام  -  has_any_word
+                الصحة_العقلية  -  has_any_word
+                الصحة  -  has_any_word
+                الكوارث الطبيعية  -  has_any_word
+                المساعدة  -  has_any_word
+                القائمة  -  has_any_word
+                تشغيل  -  has_any_word
+                توقف  -  has_any_word
+                ابدأ  -  has_any_word
+                توقف  -  has_any_word
+
+    Problem flow: 4
+    Flow ID: 3eca6786-6f0a-4b81-8267-57b442431f3e
+    Flow name: safeguarding_redirect_to_topic_trigger
+
+        Node ID: cf96d0a5-8b2f-4690-a1ba-1063601092a4
+        Fundamental conflict in arguments
+        ara Arguments:
+                المساعدة  -  has_any_word
+                القائمة  -  has_any_word
+                تشغيل  -  has_any_word
+                توقف  -  has_any_word
+                توقف  -  has_any_word
+
+##### Translated quick replies contain some english words
+    Problem flow: 5
+    Flow ID: 89964bec-eeda-462a-9a1a-f867a1832622
+    Flow name: activity_offer - timed_programme
+
+        QR Node ID: 5c2cd42f-ffc3-4060-9d00-b6fd6c90764f
+        Arg Node ID: d60f5281-5a86-4aae-87d7-4c787c71ef81
+        Action text: What would you like now?
+        Eng Quick replies:
+                na
+                proceed to the next tips
+                nothing. let's continue tomorrow.
+        Eng Arguments:
+                nothing. let's continue tomorrow.  -  has_only_phrase
+                na  -  has_only_phrase
+                proceed to the next tips  -  has_only_phrase
+        Eng Links:
+                0,1
+                1,2
+                2,0
+        -----
+        ara Quick replies:
+                na
+                proceed to the next tips
+                nothing. let's continue tomorrow.
+        ara Arguments:
+                ما في إشي. يلا نكمل بكره.  -  has_only_phrase
+                غير متوفر  -  has_only_phrase
+                انتقل إلى النصائح التالية  -  has_only_phrase
+        ara Links:
+                0,
+                1,
+                2,
+                 ,0
+                 ,1
+                 ,2
+
+##### Translated quick replies contain some english words
+        QR Node ID: 39799d4d-e5d0-4973-93f4-c35bb5d028dc
+        Arg Node ID: ba673daf-f1c9-495b-82fa-b6d6a5ab05b5
+        Action text: What would you like now?
+        Eng Quick replies:
+                na
+                proceed to the next tips
+                nothing. let's continue tomorrow.
+        Eng Arguments:
+                nothing. let's continue tomorrow.  -  has_only_phrase
+                na  -  has_only_phrase
+                proceed to the next tips  -  has_only_phrase
+        Eng Links:
+                0,1
+                1,2
+                2,0
+        -----
+        ara Quick replies:
+                na
+                proceed to the next tips
+                nothing. let's continue tomorrow.
+        ara Arguments:
+                ما في إشي. يلا نكمل بكره.  -  has_only_phrase
+                غير متوفر  -  has_only_phrase
+                انتقل إلى النصائح التالية  -  has_only_phrase
+        ara Links:
+                0,
+                1,
+                2,
+                 ,0
+                 ,1
+                 ,2
+
+##### Translated quick replies contain some english words
+    Problem flow: 6
+    Flow ID: 2374ddee-916e-48f5-9e35-2173b0bf5816
+    Flow name: activity_offer - demo
+
+        QR Node ID: bf7bf4d4-24e5-4da5-a6ae-f7caf22528c1
+        Arg Node ID: 8a31494a-b498-4d09-8558-4f247ab16654
+        Action text: What would you like now?
+        Eng Quick replies:
+                na
+                proceed to the next tips
+                continue with more tips tomorrow.
+        Eng Arguments:
+                continue with more tips tomorrow.  -  has_only_phrase
+                na  -  has_only_phrase
+                proceed to the next tips  -  has_only_phrase
+        Eng Links:
+                0,1
+                1,2
+                2,0
+        -----
+        ara Quick replies:
+                na
+                proceed to the next tips
+                continue with more tips tomorrow.
+        ara Arguments:
+                كمِّل مع نصائح أكترغداً.  -  has_only_phrase
+                غير متوفر  -  has_only_phrase
+                انتقل إلى النصائح التالية  -  has_only_phrase
+        ara Links:
+                0,
+                1,
+                2,
+                 ,0
+                 ,1
+                 ,2
+
+##### Translated quick replies contain some english words
+        QR Node ID: c45c1d17-32f9-4451-8f1a-9345dcf083df
+        Arg Node ID: 18020418-68eb-4841-a3b6-97e5d8f19a6f
+        Action text: What would you like now?
+        Eng Quick replies:
+                na
+                proceed to the next tips
+                continue with more tips tomorrow.
+        Eng Arguments:
+                continue with more tips tomorrow.  -  has_only_phrase
+                na  -  has_only_phrase
+                proceed to the next tips  -  has_only_phrase
+        Eng Links:
+                0,1
+                1,2
+                2,0
+        -----
+        ara Quick replies:
+                na
+                proceed to the next tips
+                continue with more tips tomorrow.
+        ara Arguments:
+                كمِّل مع نصائح أكترغداً.  -  has_only_phrase
+                غير متوفر  -  has_only_phrase
+                انتقل إلى النصائح التالية  -  has_only_phrase
+        ara Links:
+                0,
+                1,
+                2,
+                 ,0
+                 ,1
+                 ,2
+
+##### Translated quick replies contain some english words
+    Problem flow: 7
+    Flow ID: 9753ce05-e3a9-4550-9385-b5ec8037cc26
+    Flow name: review_skills_menu
+
+        QR Node ID: b03dcced-d6cc-4dfa-ac4d-138aa50e66f3
+        Arg Node ID: da181cd8-7465-43ed-8440-ac39b09d052b
+        Action text: What would you like to do next?
+        Eng Quick replies:
+                na
+                return to menu
+                exit menu
+        Eng Arguments:
+                return to menu  -  has_only_phrase
+                na  -  has_only_phrase
+                exit menu  -  has_only_phrase
+        Eng Links:
+                0,1
+                1,0
+                2,2
+        -----
+        ara Quick replies:
+                na
+                return to menu
+                exit menu
+        ara Arguments:
+                العودة إلى القائمة  -  has_only_phrase
+                غير متوفر  -  has_only_phrase
+                اخرج من القائمة  -  has_only_phrase
+        ara Links:
+                0,
+                1,
+                2,
+                 ,0
+                 ,1
+                 ,2
+
+##### Translated quick replies contain some english words
+        QR Node ID: 843b9112-b370-422d-8a25-debb68df989c
+        Arg Node ID: c5dd7e3f-31e6-49dd-b768-2caf56b5bd2b
+        Action text: What would you like to do next?
+        Eng Quick replies:
+                review a different tip
+                na
+                return to menu
+                exit menu
+        Eng Arguments:
+                review a different tip  -  has_only_phrase
+                na  -  has_only_phrase
+                return to menu  -  has_only_phrase
+                exit menu  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+        -----
+        ara Quick replies:
+                review a different tip
+                na
+                return to menu
+                exit menu
+        ara Arguments:
+                مراجعة نصيحة مختلفة  -  has_only_phrase
+                غير متوفر  -  has_only_phrase
+                العودة إلى القائمة  -  has_only_phrase
+                اخرج من القائمة  -  has_only_phrase
+        ara Links:
+                0,
+                1,
+                2,
+                3,
+                 ,0
+                 ,1
+                 ,2
+                 ,3
+
+    Problem flow: 8
+    Flow ID: a09ea5ab-a549-4f3c-bfdf-f5f425984a58
+    Flow name: survey - onb - question - lang
+
+        QR Node ID: c5867da5-77cf-4b06-abb8-2f79b3587c94
+        Arg Node ID: ffdde463-7e30-45ff-bcc1-6d783f71a801
+        Action text: Please select your language:; ; من فضلك ادخل اللغة
+        Eng Quick replies:
+                english
+                اللغة العربية
+        Eng Arguments:
+                english  -  has_only_phrase
+                اللغة العربية  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+        -----
+        ara Quick replies:
+                اللغة الإنجليزية
+                اللغة العربية
+        ara Arguments:
+                اللغة الإنجليزية  -  has_only_phrase
+                اللغة العربية  -  has_only_phrase
+        ara Links:
+                0,0
+                1,
+                 ,1
+
+##### Translated quick replies contain some english words
+    Problem flow: 9
+    Flow ID: 63f1c075-9cbd-4084-b2fd-b3c1430a24f0
+    Flow name: survey - onb - question - children
+
+        QR Node ID: 7b5f3bac-d16b-4ac6-957b-467c5a29c0ae
+        Arg Node ID: f4f5750e-5ed2-4fb5-93d8-43d2aa757801
+        Action text: How many children do you take care of?
+        Eng Quick replies:
+                none
+                one to three
+                more than four
+        Eng Arguments:
+                none  -  has_only_phrase
+                one to three  -  has_only_phrase
+                more than four  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+                2,2
+        -----
+        ara Quick replies:
+                none
+                one to three
+                more than four
+        ara Arguments:
+                لا شيء  -  has_only_phrase
+                من واحد لثلاثة  -  has_only_phrase
+                أكتر من أربعة  -  has_only_phrase
+        ara Links:
+                0,
+                1,
+                2,
+                 ,0
+                 ,1
+                 ,2
 

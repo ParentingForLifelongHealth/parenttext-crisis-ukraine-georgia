@@ -6,11 +6,108 @@ Language: ara
 Total flows in JSON file: 261
 Total nodes with "quick replies": 240
 
-Total quick reply nodes missing some translation: 239
-Total arguments nodes missing some translation: 83
+Total quick reply nodes missing some translation: 23
+Total arguments nodes missing some translation: 0
 
-Total modified flows: 0
-Total modified nodes: 0
+Total modified flows: 3
+Total modified nodes: 3
 Total nodes not successfully fixed: 0
 ID of failed nodes: undefined
+
+    Problem flow: 1
+    Flow ID: b7b0db6f-c815-4391-8247-91c9d478783f
+    Flow name: onboarding_question_language - entry
+
+        QR Node ID: 7c5384ce-63e0-4b6c-aad3-9b01842b912b
+        Arg Node ID: 2bc03bfe-fae8-48d9-9b65-05fa4faf0ba7
+        Action text: Please select your language:; ; من فضلك ادخل اللغة
+        Eng Quick replies:
+                english
+                اللغة العربية
+        Eng Arguments:
+                english  -  has_only_phrase
+                اللغة العربية  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+        -----
+        ara Quick replies:
+                اللغة الإنجليزية
+                اللغة العربية
+        ara Old Arguments:
+                اللغة الإنجليزية  -  has_only_phrase
+                اللغة العربية  -  has_only_phrase
+        ara Old Links:
+                0,0
+                1,
+                 ,1
+
+        ara New Arguments:
+                اللغة الإنجليزية  -  has_only_phrase
+                اللغة العربية  -  has_only_phrase
+        ara New Links:
+                0,0
+                1,1
+
+    Problem flow: 2
+    Flow ID: a09ea5ab-a549-4f3c-bfdf-f5f425984a58
+    Flow name: survey - onb - question - lang
+
+        QR Node ID: c5867da5-77cf-4b06-abb8-2f79b3587c94
+        Arg Node ID: ffdde463-7e30-45ff-bcc1-6d783f71a801
+        Action text: Please select your language:; ; من فضلك ادخل اللغة
+        Eng Quick replies:
+                english
+                اللغة العربية
+        Eng Arguments:
+                english  -  has_only_phrase
+                اللغة العربية  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+        -----
+        ara Quick replies:
+                اللغة الإنجليزية
+                اللغة العربية
+        ara Old Arguments:
+                اللغة الإنجليزية  -  has_only_phrase
+                اللغة العربية  -  has_only_phrase
+        ara Old Links:
+                0,0
+                1,
+                 ,1
+
+        ara New Arguments:
+                اللغة الإنجليزية  -  has_only_phrase
+                اللغة العربية  -  has_only_phrase
+        ara New Links:
+                0,0
+                1,1
+
+    Problem flow: 3
+    Flow ID: ade704f6-f8af-4c75-9bcf-51ef0ea234af
+    Flow name: survey - base1 - question - baseline_intro_1
+
+        QR Node ID: 390c34a9-f4c0-40df-ba42-8d20b10839d5
+        Arg Node ID: 2a46e51d-7da4-4cbc-b9fc-3fbde40c8ed2
+        Action text: We’ll ask 3 quick questions first 💬; This helps us share tips that are right for families like yours 💔🕊️
+        Eng Quick replies:
+                next
+        Eng Arguments:
+                next  -  has_only_phrase
+        Eng Links:
+                0,0
+        -----
+        ara Quick replies:
+                nan
+        ara Old Arguments:
+                التالي  -  has_only_phrase
+        ara Old Links:
+                0,
+                 ,0
+
+        ara New Arguments:
+                nan  -  has_only_phrase
+        ara New Links:
+                0,0
 

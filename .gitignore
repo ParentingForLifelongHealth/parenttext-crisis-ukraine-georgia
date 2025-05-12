@@ -1,4 +1,6 @@
 # Intermediary output files
+temp/
+output/
 
 #credentials files
 credentials.json

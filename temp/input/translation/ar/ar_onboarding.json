@@ -126,8 +126,8 @@
     "note": ""
   },
   {
-    "SourceText": "Press YES if you understand and want to receive ParentText.. Type 'EXIT' if you do not wish to participate.",
-    "text": "اضغط نعم إذا فهمت وبدك تستلم نصائح للوالدين. اكتب 'خروج' إذا ما بدك تشارك.",
+    "SourceText": "Press YES if you understand and want to receive ParentText. Type 'EXIT' if you do not wish to participate.",
+    "text": "nan",
     "type": "text",
     "note": ""
   },
@@ -174,381 +174,399 @@
     "note": ""
   },
   {
+    "SourceText": "It looks like this is not a good time. Please type 1 if you'd like to continue.",
+    "text": "nan",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Are you sure you do not want to get these messages? If you do not want to receive any more messages, please press NO. If you made a mistake, please press BACK and choose another option.",
+    "text": "nan",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "Text / Images",
     "text": "نص/ صور",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Audio",
     "text": "ملف صوتي",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Woman",
     "text": "امرأة",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Man",
     "text": "رجل",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "nan",
     "text": "لا شيء",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "One to three",
     "text": "من واحد لثلاثة",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "More than four",
     "text": "أكتر من أربعة",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "I want the tips",
     "text": "بدي النصائح",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "I do not want the tips",
     "text": "ما بدي النصائح",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Jordan",
     "text": "الأردن",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Gaza",
     "text": "غزة",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "West Bank",
     "text": "الضفة الغربية",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Lebanon",
     "text": "لبنان",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Egypt",
     "text": "مصر",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Syria",
     "text": "سوريا",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Yemen",
     "text": "اليمن",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Other",
     "text": "أخرى",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Living in a camp or shelter",
     "text": "عايش في مُخيّم أو مأوى",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Living in a house or apartment",
     "text": "عايش في بيت أو شقة",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Moving around often",
     "text": "عم بغيّر مكاني كتير",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Prefer not to say",
     "text": "بفضّل ما أجاوب",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Under 16 years old",
     "text": "أقل من 16 سنة",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "16-19 years old",
     "text": "من 16 إلى 19 سنة",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "20-35 years old",
     "text": "من 20 إلى 35 سنة",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Over 35 years old",
     "text": "أكتر من 35 سنة",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "English",
     "text": "اللغة الإنجليزية",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "اللغة العربية",
     "text": "اللغة العربية",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Arabic",
     "text": "اللغة العربية",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "YES",
     "text": "نعم",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "BACK",
     "text": "الرجوع",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "NEXT",
     "text": "التالي",
-    "type": "text",
+    "type": "quick_replies",
+    "note": ""
+  },
+  {
+    "SourceText": "NO",
+    "text": "لا",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "text / images",
-    "text": "نص / صور",
-    "type": "text",
+    "text": "نص/ صور",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "audio",
     "text": "ملف صوتي",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "woman",
     "text": "امرأة",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "man",
     "text": "رجل",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "none",
     "text": "لا شيء",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "one to three",
     "text": "من واحد لثلاثة",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "more than four",
     "text": "أكتر من أربعة",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "i want the tips",
     "text": "بدي النصائح",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "i do not want the tips",
     "text": "ما بدي النصائح",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "jordan",
     "text": "الأردن",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "gaza",
     "text": "غزة",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "west bank",
     "text": "الضفة الغربية",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "lebanon",
     "text": "لبنان",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "egypt",
     "text": "مصر",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "syria",
     "text": "سوريا",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "yemen",
     "text": "اليمن",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "other",
     "text": "أخرى",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "living in a camp or shelter",
     "text": "عايش في مُخيّم أو مأوى",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "living in a house or apartment",
     "text": "عايش في بيت أو شقة",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "moving around often",
     "text": "عم بغيّر مكاني كتير",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "prefer not to say",
     "text": "بفضّل ما أجاوب",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "under 16 years old",
     "text": "أقل من 16 سنة",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "16-19 years old",
     "text": "من 16 إلى 19 سنة",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "20-35 years old",
     "text": "من 20 إلى 35 سنة",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "over 35 years old",
     "text": "أكتر من 35 سنة",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "english",
-    "text": "اللغة الانجليزية",
-    "type": "text",
+    "text": "اللغة الإنجليزية",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "اللغة العربية",
     "text": "اللغة العربية",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "arabic",
     "text": "اللغة العربية",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "yes",
     "text": "نعم",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "exit",
     "text": "خروج",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "no",
     "text": "لا",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "back",
     "text": "الرجوع",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   }
 ]

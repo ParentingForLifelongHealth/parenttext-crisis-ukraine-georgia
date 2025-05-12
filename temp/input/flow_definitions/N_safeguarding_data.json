@@ -322,7 +322,7 @@
       {
         "ID": "child_protection",
         "referrals": "{child_protection}",
-        "option_name": ""
+        "option_name": "Child Protection "
       }
     ],
     "safeguarding_help_data": [

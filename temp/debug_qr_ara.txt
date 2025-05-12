@@ -9,43 +9,43 @@ onboarding_question_with_opt - gender*************************************
 
 onboarding_question_with_opt - children_at_home*************************************
 
-These tips are designed for those who look after children. Would you still like to receive the tips so you can share the advice with friends and family?
+هالنصائح مصممة للأشخاص اللي بيرعوا الأطفال. هل لسى بتحب تستلم النصائح لتقدر تشاركها مع أصدقائك وعيلتك؟
 
 اضغط على رقم على لوحة المفاتيح الخاصة بك:
-1. I want the tips
-2. I do not want the tips
+1. بدي النصائح
+2. ما بدي النصائح
 
 ‮
 
 
 onboarding_question_with_opt - location*************************************
 
-This is a very difficult and dangerous time for you and your family. These tips might be different from what you need right now. What would you like to do?
+هاي الفترة كتير صعبة وخطرة عليك إنت وعيلتك. وممكن هاي النصائح تكون مختلفة عن اللي إنت محتاجه بهالوقت. إنت شو حابب تعمل؟
 
 اضغط على رقم على لوحة المفاتيح الخاصة بك:
-1. I want the tips
-2. I do not want the tips
+1. بدي النصائح
+2. ما بدي النصائح
 
 ‮
 
-This is a very difficult and dangerous time for you and your family. These tips might be different from what you need right now. What would you like to do?
+هاي الفترة كتير صعبة وخطرة عليك إنت وعيلتك. وممكن هاي النصائح تكون مختلفة عن اللي إنت محتاجه بهالوقت. إنت شو حابب تعمل؟
 
 اضغط على رقم على لوحة المفاتيح الخاصة بك:
-1. I want the tips
-2. I do not want the tips
+1. بدي النصائح
+2. ما بدي النصائح
 
 ‮
 
 
 onboarding_question_with_opt - situation*************************************
 
-What is your current living situation?
+شو وضعك السكني الحالي؟
 
 اضغط على رقم على لوحة المفاتيح الخاصة بك:
-1. Living in a camp or shelter
-2. Living in a house or apartment
-3. Moving around often
-4. Prefer not to say
+1. عايش في مُخيّم أو مأوى
+2. عايش في بيت أو شقة
+3. عم بغيّر مكاني كتير
+4. بفضّل ما أجاوب
 
 ‮
 
@@ -160,31 +160,32 @@ safeguarding_entry - natural_disasters*************************************
 
 safeguarding_help*************************************
 
-It looks like you are facing an emergency. Can you please tell us what kind of assistance you need?
+يبدو إنك بتواجه حالة طارئة. بتقدر تحكيلنا شو نوع المساعدة اللي بتحتاجها؟
 
 اضغط على رقم على لوحة المفاتيح الخاصة بك:
-1. Local and international support
-2. Medical services
-3. Mental health support
-4. Family counselling services
-5. Natural disasters
+1. الدعم المحلي والدولي
+2. الخِدْمَات الطبية
+3. دعم الصحة العقلية
+4. خدمات الاستشارة العائلية
+5. الكوارث الطبيعية
+6. nan
 
 ‮
 
-What would you like to do?
+شو بدّك تختار تعمل؟
 
 اضغط على رقم على لوحة المفاتيح الخاصة بك:
-1. Get other emergency contacts
-2. Go to the Main Menu
-3. Exit menu
+1. الحصول على جهات اتصال أخرى للطوارئ
+2. انتقل إلى القائمة الرئيسة
+3. اخرج من القائمة
 
 ‮
 
-What would you like to do?
+شو بدّك تختار تعمل؟
 
 اضغط على رقم على لوحة المفاتيح الخاصة بك:
-1. Get other emergency contacts
-2. Exit menu
+1. الحصول على جهات اتصال أخرى للطوارئ
+2. اخرج من القائمة
 
 ‮
 
@@ -320,12 +321,12 @@ make_options_wrapper - choose_skill_to_review***********************************
 
 activity_offer - timed_programme*************************************
 
-What would you like now?
+شو بتحتاج هلا؟
 
 اضغط على رقم على لوحة المفاتيح الخاصة بك:
-1. A fun activity I can do with my child
-2. Proceed to the next tips
-3. Nothing. Let's continue tomorrow.
+1. نشاط ممتع ممكن أعمله مع طفلي
+2. انتقل إلى النصائح التالية
+3. ما في إشي. يلا نكمل بكره.
 
 ‮
 
@@ -337,6 +338,9 @@ What would you like now?
 3. Nothing. Let's continue tomorrow.
 
 ‮
+ما في إشي. يلا نكمل بكره. - NO MATCHING QR 
+غير متوفر - NO MATCHING QR 
+انتقل إلى النصائح التالية - NO MATCHING QR 
 
 What would you like now?
 
@@ -346,24 +350,27 @@ What would you like now?
 3. Nothing. Let's continue tomorrow.
 
 ‮
+ما في إشي. يلا نكمل بكره. - NO MATCHING QR 
+غير متوفر - NO MATCHING QR 
+انتقل إلى النصائح التالية - NO MATCHING QR 
 
-What would you like now?
+شو بتحتاج هلا؟
 
 اضغط على رقم على لوحة المفاتيح الخاصة بك:
-1. Another fun activity I can do with my child
-2. Nothing. Let's continue tomorrow.
+1. نشاط ممتع تاني ممكن أعمله مع طفلي
+2. ما في إشي. يلا نكمل بكره.
 
 ‮
 
 
 activity_offer - demo*************************************
 
-What would you like now?
+شو بتحتاج هلا؟
 
 اضغط على رقم على لوحة المفاتيح الخاصة بك:
-1. A fun activity I can do with my child
-2. Proceed to the next tips
-3. Continue with more tips tomorrow.
+1. نشاط ممتع ممكن أعمله مع طفلي
+2. انتقل إلى النصائح التالية
+3. كمِّل مع نصائح أكترغداً.
 
 ‮
 
@@ -375,6 +382,9 @@ What would you like now?
 3. Continue with more tips tomorrow.
 
 ‮
+كمِّل مع نصائح أكترغداً. - NO MATCHING QR 
+غير متوفر - NO MATCHING QR 
+انتقل إلى النصائح التالية - NO MATCHING QR 
 
 What would you like now?
 
@@ -384,24 +394,27 @@ What would you like now?
 3. Continue with more tips tomorrow.
 
 ‮
+كمِّل مع نصائح أكترغداً. - NO MATCHING QR 
+غير متوفر - NO MATCHING QR 
+انتقل إلى النصائح التالية - NO MATCHING QR 
 
-What would you like now?
+شو بتحتاج هلا؟
 
 اضغط على رقم على لوحة المفاتيح الخاصة بك:
-1. View another activity idea
-2. Nothing. Let's continue tomorrow.
+1. عرض فكرة نشاط تاني
+2. ما في إشي. يلا نكمل بكره.
 
 ‮
 
 
 activity_offer - menu*************************************
 
-What would you like to do?
+شو بدّك تختار تعمل؟
 
 اضغط على رقم على لوحة المفاتيح الخاصة بك:
-1. View another activity idea
-2. Exit menu
-3. Go to Main Menu
+1. عرض فكرة نشاط تاني
+2. اخرج من القائمة
+3. انتقل إلى القائمة الرئيسية
 
 ‮
 
@@ -507,66 +520,66 @@ share*************************************
 
 review_skills_menu*************************************
 
-What would you like to do next?
+هلا شو حابب تعمل؟
 
 اضغط على رقم على لوحة المفاتيح الخاصة بك:
-1. Review a different tip
-2. Return to Menu
-3. Exit menu
+1. مراجعة نصيحة مختلفة
+2. العودة إلى القائمة
+3. اخرج من القائمة
 
 ‮
 
 
 menu - main*************************************
 
-What would you like to do?
+شو بدّك تختار تعمل؟
 
 اضغط على رقم على لوحة المفاتيح الخاصة بك:
-1. Review tips
-2. Change my settings
-3. Invite a friend to ParentText
-4. Get more help
-5. Watch a video about ParentText
-6. Get the next tip
-7. A fun activity I can do with my child
-8. Nothing, let's continue tomorrow
+1. مراجعة النصائح
+2. تغيير إعداداتي
+3. ادعُ صديق إلى برنامج نصائح للوالدين
+4. احصل على مزيد من المساعدة
+5. شاهد فيديو عن برنامج نصائح للوالدين
+6. احصل على النصيحة التالية
+7. نشاط ممتع ممكن أعمله مع طفلي
+8. ما في إشي، يلا نكمل بكره
 
 ‮
 
 
 menu - settings*************************************
 
-What would you like to do?
+شو بدّك تختار تعمل؟
 
 اضغط على رقم على لوحة المفاتيح الخاصة بك:
-1. Change my profile
-2. Stop receiving the messages
-3. Return to Main Menu
+1. تغيير ملفي الشخصي
+2. وقف استلام الرسائل
+3. العودة إلى القائمة الرئيسة
 
 ‮
 
 
 menu - settings_profile*************************************
 
-What would you like change?
+شو اللي بدّك تغيره؟
 
 اضغط على رقم على لوحة المفاتيح الخاصة بك:
-1. Change my language
-2. Change the way I receive content
-3. Change my gender
-4. Return to Main Menu
+1. تغير اللغة
+2. تغيير طريقة استلامي للمحتوى
+3. تغيير الجنس
+4. العودة إلى القائمة الرئيسة
 
 ‮
 
 
 menu - return_or_exit*************************************
 
-What would you like to do next?
+هلا شو حابب تعمل؟
 
 اضغط على رقم على لوحة المفاتيح الخاصة بك:
-1. Get the next tip.
-2. Nothing. Let's continue tomorrow.
-3. Return to Main Menu
+1. احصل على النصيحة التالية.
+2. ما في إشي. يلا نكمل بكره.
+3. العودة إلى القائمة الرئيسة
 
 ‮
 
@@ -852,11 +865,11 @@ survey - onb - question - children*************************************
 
 survey - onb - question - no_children*************************************
 
-These tips are designed for those who look after children. Would you still like to receive the tips so you can share the advice with friends and family?
+هالنصائح مصممة للأشخاص اللي بيرعوا الأطفال. هل لسى بتحب تستلم النصائح لتقدر تشاركها مع أصدقائك وعيلتك؟
 
 اضغط على رقم على لوحة المفاتيح الخاصة بك:
-1. I want the tips
-2. I do not want the tips
+1. بدي النصائح
+2. ما بدي النصائح
 
 ‮
 
@@ -866,24 +879,24 @@ survey - onb - question - location*************************************
 
 survey - onb - question - location_excluded*************************************
 
-This is a very difficult and dangerous time for you and your family. These tips might be different from what you need right now. What would you like to do?
+هاي الفترة كتير صعبة وخطرة عليك إنت وعيلتك. وممكن هاي النصائح تكون مختلفة عن اللي إنت محتاجه بهالوقت. إنت شو حابب تعمل؟
 
 اضغط على رقم على لوحة المفاتيح الخاصة بك:
-1. I want the tips
-2. I do not want the tips
+1. بدي النصائح
+2. ما بدي النصائح
 
 ‮
 
 
 survey - onb - question - situation*************************************
 
-What is your current living situation?
+شو وضعك السكني الحالي؟
 
 اضغط على رقم على لوحة المفاتيح الخاصة بك:
-1. Living in a camp or shelter
-2. Living in a house or apartment
-3. Moving around often
-4. Prefer not to say
+1. عايش في مُخيّم أو مأوى
+2. عايش في بيت أو شقة
+3. عم بغيّر مكاني كتير
+4. بفضّل ما أجاوب
 
 ‮
 
@@ -935,12 +948,12 @@ survey - dem - question - demographic_intro*************************************
 
 survey - dem - question - displacement_status*************************************
 
-What is your current living situation?
+شو وضعك السكني الحالي؟
 
 اضغط على رقم على لوحة المفاتيح الخاصة بك:
-1. Living in a camp or shelter
-2. Living in a house or apartment
-3. Moving around often
+1. عايش في مُخيّم أو مأوى
+2. عايش في بيت أو شقة
+3. عم بغيّر مكاني كتير
 
 ‮
 
@@ -962,14 +975,14 @@ survey - feed - question - feedback_intro*************************************
 
 survey - feed - question - review*************************************
 
-Did these parenting tips help you and your family during war, displacement or other tough times?
+هل نصائح التربية هاي ساعدتك إنت وعيلتك خلال الحرب أو التهجير أو الأوقات الصعبة؟
 
 اضغط على رقم على لوحة المفاتيح الخاصة بك:
-1. Yes, ALL of the tips helped
-2. Yes, MANY of the tips helped
-3. Yes, a FEW of the tips helped
-4. NONE of the tips helped
-0. Prefer not to answer
+1. نعم، كل النصائح كانت مفيدة
+2. نعم، كتير من النصائح كانت مفيدة
+3. نعم، قليل من النصائح كانت مفيدة
+4. ما في ولا نصيحة فادتني
+0. بفضّل ما أجاوب
 
 ‮
 

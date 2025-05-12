@@ -745,6 +745,11 @@
     "type": "text"
   },
   {
+    "SourceText": "{child_protection}",
+    "text": "{child_protection}",
+    "type": "text"
+  },
+  {
     "SourceText": "What would you like to do?",
     "text": "What would you like to do?",
     "type": "text"
@@ -2562,6 +2567,12 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
+    "SourceText": "Child Protection",
+    "text": "Child Protection",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
     "SourceText": "Get other emergency contacts",
     "text": "Get other emergency contacts",
     "type": "quick_replies",
@@ -3242,6 +3253,12 @@
   {
     "SourceText": "natural disasters",
     "text": "natural disasters",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "child protection",
+    "text": "child protection",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },

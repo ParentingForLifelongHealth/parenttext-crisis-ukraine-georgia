@@ -164,421 +164,421 @@
   {
     "SourceText": "NEXT",
     "text": "التالي",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Not at all",
     "text": "أبدًا",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Some days",
     "text": "بعض الأيام",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "More than half the days",
     "text": "أكتر من نص الأيام",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Nearly every day",
     "text": "كل يوم تقريبًا",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Prefer not to answer",
     "text": "بفضّل ما أجاوب",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "0 days",
     "text": "ولا يوم",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "1 day",
     "text": "يوم واحد",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "2 days",
     "text": "يومين",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "3 days",
     "text": "3 أيام",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "4 days",
     "text": "4 أيام",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "5 days",
     "text": "5 أيام",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "6 days",
     "text": "6 أيام",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "7 days",
     "text": "7 أيام",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Yes",
     "text": "نعم",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "No",
     "text": "لا",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Living in a camp or shelter",
     "text": "عايش في مُخيّم أو مأوى",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Living in a house or apartment",
     "text": "عايش في بيت أو شقة",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Moving around often",
     "text": "عم بغيّر مكاني كتير",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Palestinian",
     "text": "فلسطيني",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Lebanese",
     "text": "لبناني",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Syrian",
     "text": "سوري",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Jordanian",
     "text": "أردني",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Yemeni",
     "text": "يمني",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Other",
     "text": "بلد تاني",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "My whole life",
     "text": "حياتي كلها",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Less than 1 year",
     "text": "أقل من عام واحد",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "1-5 years",
     "text": "من 1 إلى 5 أعوام",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "5-10 years",
     "text": "من 5 إلى 10 أعوام",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "More than 10 years",
     "text": "أكتر من 10 أعوام",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Not displaced",
     "text": "غير مُهجَّر",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Yes, ALL of the tips helped",
     "text": "نعم، كل النصائح كانت مفيدة",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Yes, MANY of the tips helped",
     "text": "نعم، كتير من النصائح كانت مفيدة",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "Yes, a FEW of the tips helped",
     "text": "نعم، قليل من النصائح كانت مفيدة",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "NONE of the tips helped",
     "text": "ما في ولا نصيحة فادتني",
-    "type": "text",
+    "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "next",
     "text": "التالي",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "not at all",
     "text": "أبدًا",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "some days",
     "text": "بعض الأيام",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "more than half the days",
     "text": "أكتر من نص الأيام",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "nearly every day",
     "text": "كل يوم تقريبًا",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "prefer not to answer",
     "text": "بفضّل ما أجاوب",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "0 days",
     "text": "ولا يوم",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "1 day",
     "text": "يوم واحد",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "2 days",
     "text": "يومين",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "3 days",
     "text": "3 أيام",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "4 days",
     "text": "4 أيام",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "5 days",
     "text": "5 أيام",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "6 days",
     "text": "6 أيام",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "7 days",
     "text": "7 أيام",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "yes",
     "text": "نعم",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "no",
     "text": "لا",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "living in a camp or shelter",
     "text": "عايش في مُخيّم أو مأوى",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "living in a house or apartment",
     "text": "عايش في بيت أو شقة",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "moving around often",
     "text": "عم بغيّر مكاني كتير",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "palestinian",
     "text": "فلسطيني",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "lebanese",
     "text": "لبناني",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "syrian",
     "text": "سوري",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "jordanian",
     "text": "أردني",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "yemeni",
     "text": "يمني",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "other",
     "text": "بلد تاني",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "my whole life",
     "text": "حياتي كلها",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "less than 1 year",
     "text": "أقل من عام واحد",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "1-5 years",
     "text": "من 1 إلى 5 أعوام",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "5-10 years",
     "text": "من 5 إلى 10 أعوام",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "more than 10 years",
     "text": "أكتر من 10 أعوام",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "not displaced",
     "text": "غير مُهجَّر",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "yes, all of the tips helped",
     "text": "نعم، كل النصائح كانت مفيدة",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "yes, many of the tips helped",
     "text": "نعم، كتير من النصائح كانت مفيدة",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "yes, a few of the tips helped",
     "text": "نعم، قليل من النصائح كانت مفيدة",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   },
   {
     "SourceText": "none of the tips helped",
     "text": "ما في ولا نصيحة فادتني",
-    "type": "text",
+    "type": "arguments",
     "note": ""
   }
 ]
