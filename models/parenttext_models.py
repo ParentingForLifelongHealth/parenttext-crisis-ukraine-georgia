@@ -9,4 +9,4 @@ class JoiningTriggerModel(DataRowModel):
     groups: list[str] = []
     cap: str = ""
     location: str = ""
-    set_location: str = "no"
+    variables: List[VariableModel] = []
