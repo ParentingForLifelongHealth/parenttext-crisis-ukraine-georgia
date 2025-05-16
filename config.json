@@ -12,6 +12,7 @@
     "output_split_number": 1,
     "sheet_names" : {
         "T_survey": "1dewoAzGyWAIljHK5KnL3TNP8g5pz0Vt6Lux2O6rycYU",
+        "T_trial": "1BifL5eSoEo3b7WS8KsrnXDYg3t36yYLqzr75Y8V9Vhw",
         "deployment_localised_sheets" : "1tLDsUe-NxOxpxOBuTJmopOnP9dOcmLVHjO2YQxGxe28",
 
         "N_onboarding_data" : "1tC8BcP32nE7Bt5sRKAsfx0_69bfjsslOtvaAjSEaQ1A",
@@ -21,7 +22,7 @@
         "N_delivery_data_response" : "1Z396_UL_n-Bw1W5gNxmdE9pN35PI2yrezQS-yXE3muo",
         "N_menu_data_response" : "10LlNXD7rQk0vDEBkMve59pVfqBM_KI39dEeIhZgFVVg",
         
-        "surveys": "1qpara2udvGN3wTGQLfmrEFeVIe9Ei3pi8SAAZDphqgU",
+        "C_surveys": "1qpara2udvGN3wTGQLfmrEFeVIe9Ei3pi8SAAZDphqgU",
 
         "ab_testing_sheet_ID" : "1kr9z6TIRHD0apskM1qDQEVzY2CMBBMBc4NYd9a3Bsxs",
         "eng_edits_sheet_ID" : "1Ab8H_s26EuOiS4nZ6HGADjD4CZw55586LL66fl8tEWI",
@@ -36,6 +37,7 @@
             "subformat": "google_sheets",
             "files_list": [
                 "T_survey",
+                "T_trial",
                 "N_onboarding_data",
                 "C_ltp_activities",
                 "C_modules_all_ages",
@@ -43,7 +45,7 @@
                 "N_delivery_data_response",
                 "N_menu_data_response",
                 "deployment_localised_sheets",
-                "surveys"
+                "C_surveys"
             ]
         },
         "edits_pretranslation": {
@@ -91,7 +93,7 @@
             "sources" : [
                 {
                     "key": "ara",
-                    "path": "excel_files/safeguarding crisis.xlsx"
+                    "location": "1-gk4ffnK4FAcJi49PyYunBZMTMU1UMja"
                 }
             ]
         },
