@@ -36,8 +36,8 @@
     "note": ""
   },
   {
-    "SourceText": "{mental_health referrals}",
-    "text": "{mental_health referrals}",
+    "SourceText": "{mental_health_referrals}",
+    "text": "{mental_health_referrals}",
     "type": "text",
     "note": ""
   },
@@ -48,8 +48,8 @@
     "note": ""
   },
   {
-    "SourceText": "{natural_disasters referrals}",
-    "text": "{natural_disasters referrals}",
+    "SourceText": "{natural_disasters_referrals}",
+    "text": "{natural_disasters_referrals}",
     "type": "text",
     "note": ""
   },
@@ -90,8 +90,8 @@
     "note": ""
   },
   {
-    "SourceText": "{child_protection}",
-    "text": "{child_protection}",
+    "SourceText": "{child_protection_referrals}",
+    "text": "{child_protection_referrals}",
     "type": "text",
     "note": ""
   },
@@ -133,7 +133,7 @@
   },
   {
     "SourceText": "If you ever want to receive these tips in the future just type HELLO.",
-    "text": "لو بدّك تستقبل هاي النصائح بالمستقبل اكتب:  مرحبا",
+    "text": "لو بدّك تستقبل هاي النصائح بالمستقبل اكتب:  **مرحبا**",
     "type": "text",
     "note": ""
   },
@@ -145,13 +145,13 @@
   },
   {
     "SourceText": "We are here to help. You've received @fields.c_n_mod_compl out of @fields.c_n_mod tips. Would you like to continue?",
-    "text": "نحنا هون عشان نساعدك. حالياً استقبلت qqfields.c_n_mod_compl من أصل @fields.c_n_mod tips نصيحة. بدّك تكمل؟",
+    "text": "نحنا هون عشان نساعدك. حالياً استقبلت @fields.c_n_mod_compl من أصل @fields.c_n_mod tips نصيحة. بدّك تكمل؟",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "That's okay. If you ever decide to come back, type HELLO.",
-    "text": "تمام. لو قررت ترجع اكتب: مرحبا.",
+    "text": "تمام. لو قررت ترجع اكتب: **مرحبا**.",
     "type": "text",
     "note": ""
   },
@@ -187,25 +187,25 @@
   },
   {
     "SourceText": "If you do not want to receive any more messages, please type \"EXIT\".",
-    "text": "لو ما بدّك تستقبل رسائل أكتر، الرجاء كتابة \"خروج\".",
+    "text": "لو ما بدّك تستقبل رسائل أكتر، الرجاء كتابة **\"خروج\"**.",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "If you made a mistake, please type \"BACK\".",
-    "text": "لو غلطت، الرجاء كتابة \"رجوع\".",
+    "text": "لو غلطت، الرجاء كتابة **\"رجوع\"**.",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "Thank you for participating. If you want to return to continue receiving tips, type HELLO.",
-    "text": "شكرًا لمشاركتك. لو بدّك ترجع وتكمل استقبال النصائح، اكتب: مرحبا",
+    "text": "شكرًا لمشاركتك. لو بدّك ترجع وتكمل استقبال النصائح، اكتب: **مرحبا**",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "We are so glad you want to stick around! We will resume your progress tomorrow.",
-    "text": "nan",
+    "text": "إحنا سعيدين فيك لرغبتك بالإستمرار معنا! رح نكمّل معك رحلتك في التقدّم بكرا.",
     "type": "text",
     "note": ""
   },
@@ -241,12 +241,12 @@
   },
   {
     "SourceText": "Let’s get started. Press NEXT to begin.",
-    "text": "يلا نبلش. اضغط : التالي عشان تبدأ.",
+    "text": "يلا نبلش. اضغط **التالي** عشان تبدأ.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "nan",
+    "SourceText": "NA",
     "text": "غير متوفر",
     "type": "text",
     "note": ""
@@ -367,7 +367,7 @@
   },
   {
     "SourceText": "It’s a difficult moment for your family. I’m here today with a few tips to create small moments of connection with your child to give them the routine and stability you all need right now.",
-    "text": "nan",
+    "text": "هادا الوقت صعب على عيلتك. أنا هون اليوم مع شوية نصائح عشان تخلق لحظات صغيرة للتواصل مع طفلك لتعطيه الروتين والاستقرار اللي",
     "type": "text",
     "note": ""
   },
@@ -379,13 +379,13 @@
   },
   {
     "SourceText": "1. Continue with my registration",
-    "text": "nan",
+    "text": "١.الإستمرار في التسجيل",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "2. Remind me tomorrow",
-    "text": "nan",
+    "text": "٢. الرجاء تذكيري غداً",
     "type": "text",
     "note": ""
   },
@@ -397,7 +397,7 @@
   },
   {
     "SourceText": "1. Continue my initial questions",
-    "text": "nan",
+    "text": "١.متابعة أسألتي الأولى",
     "type": "text",
     "note": ""
   },
@@ -409,19 +409,19 @@
   },
   {
     "SourceText": "1. Finish the previous tip",
-    "text": "nan",
+    "text": "١.تكميل نصيحتي السابقة",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "2. Receive a new tip",
-    "text": "nan",
+    "text": "٢.إستقبال نصيحة جديدة",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "3. Remind me tomorrow",
-    "text": "nan",
+    "text": "٣. الرجاء تذكيري غداً",
     "type": "text",
     "note": ""
   },
@@ -433,19 +433,13 @@
   },
   {
     "SourceText": "1. Receive the remaining information",
-    "text": "nan",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "2. Remind me about this tomorrow",
-    "text": "nan",
+    "text": "١. إستقبال المعلومات المتبقية",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "3. I've finished receiving all of the information that I want from this chatbot",
-    "text": "nan",
+    "text": "٣. لقد إستقبلت كل المعلومات التي أرغب فيها من برنامج المحادثة هذا",
     "type": "text",
     "note": ""
   },
@@ -468,7 +462,7 @@
     "note": ""
   },
   {
-    "SourceText": "2. No, remind me tomorrow.",
+    "SourceText": "2. No, remind me tomorrow",
     "text": "٢. لا، الرجاء تذكيري غداً",
     "type": "text",
     "note": ""
@@ -512,12 +506,6 @@
   {
     "SourceText": "Today’s tips can help you prepare to stay safe— Would you like to learn more?",
     "text": "نصائح اليوم رح تساعدك تاخد إحتياطات الأمان خلال السفر- بتحب تتعرّف عليهم؟",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "2. No, remind me tomorrow",
-    "text": "nan",
     "type": "text",
     "note": ""
   },
@@ -685,13 +673,13 @@
   },
   {
     "SourceText": "You completed the ParentText demo. Type {RESET} and then {FACSTART} to re-start from the beginning.",
-    "text": "nan",
+    "text": "لقد أكملت العرض التوضيحي لنصائح للوالدين. أكتب {RESET} من ثم {FACSTART} لإعادة التشغيل من البداية.",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "There are @(fields.c_n_mod - fields.c_n_mod_compl) more tips.",
-    "text": "في كمان نصائح في@(fields.c_n_mod - fields.c_n_mod_compl)",
+    "text": "في كمان نصائح في @(fields.c_n_mod - fields.c_n_mod_compl)",
     "type": "text",
     "note": ""
   },
@@ -745,7 +733,7 @@
   },
   {
     "SourceText": "Child Protection",
-    "text": "nan",
+    "text": "حماية الطفل",
     "type": "quick_replies",
     "note": ""
   },
@@ -798,7 +786,7 @@
     "note": ""
   },
   {
-    "SourceText": "nan",
+    "SourceText": "NA",
     "text": "غير متوفر",
     "type": "quick_replies",
     "note": ""
@@ -949,7 +937,7 @@
   },
   {
     "SourceText": "Change my language",
-    "text": "تغير اللغة",
+    "text": "تغيير اللغة",
     "type": "quick_replies",
     "note": ""
   },
@@ -1081,7 +1069,7 @@
   },
   {
     "SourceText": "child protection",
-    "text": "nan",
+    "text": "حماية الطفل",
     "type": "arguments",
     "note": ""
   },
@@ -1322,6 +1310,60 @@
   {
     "SourceText": "yes y yeah yep ok",
     "text": "نعم حسنا أوكي",
+    "type": "arguments",
+    "note": ""
+  },
+  {
+    "SourceText": "Your current media setting is Text / Images.",
+    "text": "",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Your current media setting is Audio.",
+    "text": "",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thanks for reaching out 🤍 It really shows how much you care about your children. Right now, the programme is full, but we’ve added you to the waiting list. As soon as a spot opens up, we’ll let you know.",
+    "text": "",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Proceed to the next tip",
+    "text": "",
+    "type": "quick_replies",
+    "note": ""
+  },
+  {
+    "SourceText": "Get another tip",
+    "text": "",
+    "type": "quick_replies",
+    "note": ""
+  },
+  {
+    "SourceText": "Arabic",
+    "text": "اللغة العربية",
+    "type": "quick_replies",
+    "note": ""
+  },
+  {
+    "SourceText": "proceed to the next tip",
+    "text": "",
+    "type": "arguments",
+    "note": ""
+  },
+  {
+    "SourceText": "get another tip",
+    "text": "",
+    "type": "arguments",
+    "note": ""
+  },
+  {
+    "SourceText": "arabic",
+    "text": "اللغة العربية",
     "type": "arguments",
     "note": ""
   }

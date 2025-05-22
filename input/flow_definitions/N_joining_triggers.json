@@ -1,0 +1,261 @@
+{
+  "meta": {
+    "version": "0.1.0"
+  },
+  "sheets": {
+    "JoiningTriggers": [
+      {
+        "ID": "testers",
+        "Trigger (en)": "test",
+        "Trigger (ar)": "",
+        "Experience (user group)": "digital",
+        "Recruitment (user group)": "",
+        "Additional (user group)": "",
+        "Included in Reach? ": "",
+        "Cap Users At": "",
+        "Location, if applicable": "",
+        "Description": ""
+      },
+      {
+        "ID": "support",
+        "Trigger (en)": "support",
+        "Trigger (ar)": "سند",
+        "Experience (user group)": "digital",
+        "Recruitment (user group)": "SANADAK",
+        "Additional (user group)": "",
+        "Included in Reach? ": "reach",
+        "Cap Users At": "2400",
+        "Location, if applicable": "",
+        "Description": "SANADAK/World Evangelical Alliance/MENA Evangelical Alliance "
+      },
+      {
+        "ID": "strengthening",
+        "Trigger (en)": "strengthening",
+        "Trigger (ar)": "دعم",
+        "Experience (user group)": "digital",
+        "Recruitment (user group)": "Schools",
+        "Additional (user group)": "",
+        "Included in Reach? ": "reach",
+        "Cap Users At": "800",
+        "Location, if applicable": "Jordan",
+        "Description": "3 different schools in Jordan"
+      },
+      {
+        "ID": "family",
+        "Trigger (en)": "family",
+        "Trigger (ar)": "عائلة",
+        "Experience (user group)": "digital",
+        "Recruitment (user group)": "UNRWA",
+        "Additional (user group)": "",
+        "Included in Reach? ": "reach",
+        "Cap Users At": "500",
+        "Location, if applicable": "",
+        "Description": "UNRWA school"
+      },
+      {
+        "ID": "children",
+        "Trigger (en)": "children",
+        "Trigger (ar)": "أطفال",
+        "Experience (user group)": "digital",
+        "Recruitment (user group)": "Caritas",
+        "Additional (user group)": "",
+        "Included in Reach? ": "reach",
+        "Cap Users At": "100",
+        "Location, if applicable": "Jordan",
+        "Description": "Caritas Jordan"
+      },
+      {
+        "ID": "caregivers",
+        "Trigger (en)": "caregivers",
+        "Trigger (ar)": "الرعاية",
+        "Experience (user group)": "digital",
+        "Recruitment (user group)": "Together",
+        "Additional (user group)": "",
+        "Included in Reach? ": "reach",
+        "Cap Users At": "200",
+        "Location, if applicable": "Syria",
+        "Description": "Together NGO"
+      },
+      {
+        "ID": "enlightening",
+        "Trigger (en)": "enlightening",
+        "Trigger (ar)": "إستنارة",
+        "Experience (user group)": "digital",
+        "Recruitment (user group)": "Anar",
+        "Additional (user group)": "",
+        "Included in Reach? ": "reach",
+        "Cap Users At": "500",
+        "Location, if applicable": "State of Palestine",
+        "Description": "Anar for Empowerment and Psychosocial Support, Palestine"
+      },
+      {
+        "ID": "tips",
+        "Trigger (en)": "tips",
+        "Trigger (ar)": "نصائح",
+        "Experience (user group)": "digital",
+        "Recruitment (user group)": "WVI",
+        "Additional (user group)": "",
+        "Included in Reach? ": "reach",
+        "Cap Users At": "500",
+        "Location, if applicable": "Jordan",
+        "Description": "World Vision, Jordan office, with primary reach among Syrian refugees"
+      },
+      {
+        "ID": "share",
+        "Trigger (en)": "share",
+        "Trigger (ar)": "شارك",
+        "Experience (user group)": "digital",
+        "Recruitment (user group)": "Social Share",
+        "Additional (user group)": "",
+        "Included in Reach? ": "reach",
+        "Cap Users At": "500",
+        "Location, if applicable": "",
+        "Description": ""
+      }
+    ],
+    "content_index": [
+      {
+        "type": "data_sheet",
+        "sheet_name": "joining_triggers_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "JoiningTriggerModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "cap_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "GlobalVariableModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      }
+    ],
+    "joining_triggers_data": [
+      {
+        "ID": "testers",
+        "triggers": "test",
+        "groups": "digital",
+        "cap": "",
+        "location": ""
+      },
+      {
+        "ID": "support",
+        "triggers": "support;سند",
+        "groups": "digital;SANADAK;reach",
+        "cap": "2400",
+        "location": ""
+      },
+      {
+        "ID": "strengthening",
+        "triggers": "strengthening;دعم",
+        "groups": "digital;Schools;reach",
+        "cap": "800",
+        "location": "Jordan"
+      },
+      {
+        "ID": "family",
+        "triggers": "family;عائلة",
+        "groups": "digital;UNRWA;reach",
+        "cap": "500",
+        "location": ""
+      },
+      {
+        "ID": "children",
+        "triggers": "children;أطفال",
+        "groups": "digital;Caritas;reach",
+        "cap": "100",
+        "location": "Jordan"
+      },
+      {
+        "ID": "caregivers",
+        "triggers": "caregivers;الرعاية",
+        "groups": "digital;Together;reach",
+        "cap": "200",
+        "location": "Syria"
+      },
+      {
+        "ID": "enlightening",
+        "triggers": "enlightening;إستنارة",
+        "groups": "digital;Anar;reach",
+        "cap": "500",
+        "location": "State of Palestine"
+      },
+      {
+        "ID": "tips",
+        "triggers": "tips;نصائح",
+        "groups": "digital;WVI;reach",
+        "cap": "500",
+        "location": "Jordan"
+      },
+      {
+        "ID": "share",
+        "triggers": "share;شارك",
+        "groups": "digital;Social Share;reach",
+        "cap": "500",
+        "location": ""
+      }
+    ],
+    "cap_data": [
+      {
+        "ID": "testers",
+        "var_key": "n_testers",
+        "var_value": ""
+      },
+      {
+        "ID": "support",
+        "var_key": "n_support",
+        "var_value": "2400"
+      },
+      {
+        "ID": "strengthening",
+        "var_key": "n_strengthening",
+        "var_value": "800"
+      },
+      {
+        "ID": "family",
+        "var_key": "n_family",
+        "var_value": "500"
+      },
+      {
+        "ID": "children",
+        "var_key": "n_children",
+        "var_value": "100"
+      },
+      {
+        "ID": "caregivers",
+        "var_key": "n_caregivers",
+        "var_value": "200"
+      },
+      {
+        "ID": "enlightening",
+        "var_key": "n_enlightening",
+        "var_value": "500"
+      },
+      {
+        "ID": "tips",
+        "var_key": "n_tips",
+        "var_value": "500"
+      },
+      {
+        "ID": "share",
+        "var_key": "n_share",
+        "var_value": "500"
+      }
+    ]
+  }
+}

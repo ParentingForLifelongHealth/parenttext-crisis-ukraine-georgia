@@ -93,6 +93,21 @@
         "tags.2": "",
         "tags.3": "",
         "tags.4": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "menu_question_language_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "OnboardingQuestionWithOptionsModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": "",
+        "tags.4": ""
       }
     ],
     "menu_data": [
@@ -257,9 +272,9 @@
       },
       {
         "ID": "share",
-        "msg": "To invite someone to join, share this link!\n{insert link}",
+        "msg": "To invite someone to join, share this link!\n{share link}",
         "next_button_option": "",
-        "metadata.description": "message for sharing link to join ParentText with other caregiver. Do not change the placeholder {insert link}"
+        "metadata.description": "message for sharing link to join ParentText with other caregiver. Do not change the placeholder {share link}"
       }
     ],
     "settings_profile_data": [
@@ -268,15 +283,15 @@
         "current_info_msg": "Your current media setting is",
         "missing.msg": "You didn't provide this info.",
         "update_inquiry": "Would you like to change it?",
-        "update_var_flow": "onboarding_question_with_opt - media",
+        "update_var_flow": "\nsurvey - onb - question - media",
         "update_prog_var_flow": "",
         "confirmation_msg": "",
         "variable": "@fields.type_of_media",
         "missing.value": "",
-        "var.1.val": "high",
-        "var.1.alias": "Text, Images, and Videos",
-        "var.2.val": "low",
-        "var.2.alias": "Text and Images Only",
+        "var.1.val": "low",
+        "var.1.alias": "Text / Images",
+        "var.2.val": "medim",
+        "var.2.alias": "Audio",
         "var.3.val": "",
         "var.3.alias": "",
         "var.4.val": "",
@@ -289,8 +304,8 @@
         "current_info_msg": "You told us that you are a",
         "missing.msg": "You didn't tell us if you are a woman or a man. ",
         "update_inquiry": "Would you like to update your gender?",
-        "update_var_flow": "onboarding_question_with_opt - gender",
-        "update_prog_var_flow": "update_attachment_paths",
+        "update_var_flow": "\nsurvey - onb - question - gender",
+        "update_prog_var_flow": "",
         "confirmation_msg": "",
         "variable": "@fields.gender",
         "missing.value": "no",
@@ -326,6 +341,19 @@
         "var.4.alias": "",
         "var.5.val": "",
         "var.5.alias": ""
+      }
+    ],
+    "menu_question_language_data": [
+      {
+        "ID": "menu",
+        "question": "Please select your language:",
+        "image": "",
+        "options.1.text": "English",
+        "options.1.value": "eng",
+        "options.1.alias": "eng",
+        "options.2.text": "Arabic",
+        "options.2.value": "ara",
+        "options.2.alias": "ara"
       }
     ]
   }

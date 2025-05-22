@@ -31,7 +31,7 @@
   },
   {
     "SourceText": "Over the last week, how often have you been bothered by little interest or pleasure in doing things?",
-    "text": "بالأسبوع الماضي، كم مرّة حسيت بضيق لأنك ما بدك تعمل إشي أو مش مستمتع؟",
+    "text": "بالأسبوع الماضي، كم مرّة حسيت بضيق لأنك ما بدك تعمل إشي أو مش مستمتع بللي بتعمله؟",
     "type": "text",
     "note": ""
   },
@@ -61,7 +61,7 @@
   },
   {
     "SourceText": "How many days in the past week did you do something to keep your child(ren) safe, such as make sure they don't spend time alone with unknown adults/children or walk home alone outside after dark?",
-    "text": "كم يوم بالأسبوع الماضي عملت إشي لتحافظ على أمان طفلك (أطفالك)، زي إنَّك ما تخليهم يقضوا وقت لحالهم مع ناس غريبة أو ما يرجعوا لحالهم للبيت بعد العتمة؟",
+    "text": "كم يوم بالأسبوع الماضي عملت إشي لتحافظ على أمان طفلك (أطفالك)، زي إنَّك ما تخليهم يقضوا وقت لحالهم مع ناس او اطفال ما بتعرفهم ,وما يرجعوا لحالهم للبيت بعد العتمة؟",
     "type": "text",
     "note": ""
   },
@@ -361,7 +361,7 @@
   },
   {
     "SourceText": "Yes, a FEW of the tips helped",
-    "text": "نعم، قليل من النصائح كانت مفيدة",
+    "text": "نعم، قليل  من النصائح كانت مفيدة",
     "type": "quick_replies",
     "note": ""
   },
@@ -579,6 +579,18 @@
     "SourceText": "none of the tips helped",
     "text": "ما في ولا نصيحة فادتني",
     "type": "arguments",
+    "note": ""
+  },
+  {
+    "SourceText": "Just 2 more quick questions 💬",
+    "text": "",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "\"We will now ask you to answer 5 quick questions 📝",
+    "text": "",
+    "type": "text",
     "note": ""
   }
 ]

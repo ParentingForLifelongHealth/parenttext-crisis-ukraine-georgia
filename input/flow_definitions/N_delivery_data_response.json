@@ -154,7 +154,7 @@
       {
         "ID": "final_completion",
         "msg": "You have completed the programme. Well done!\nRemember, you can always return to ParentText to review these tips. Just type {MENU}.",
-        "extra_msg": "Was ParentText helpful? If so, share it with a friend. Just send this link: {insert link}"
+        "extra_msg": "Was ParentText helpful? If so, share it with a friend. Just send this link: {share link}"
       }
     ],
     "make_options_wrapper_data": [
@@ -347,7 +347,7 @@
       },
       {
         "ID": "start_started_mod_or_later_one",
-        "question": "It looks like you started a parenting tip, but didn't finish receiving all of the information. What would you like to do?\n\nPress a number on your keypad: \n1. Receive the remaining information\n2. Remind me about this tomorrow\n3. I've finished receiving all of the information that I want from this chatbot",
+        "question": "It looks like you started a parenting tip, but didn't finish receiving all of the information. What would you like to do?\n\nPress a number on your keypad: \n1. Receive the remaining information\n2. Remind me tomorrow\n3. I've finished receiving all of the information that I want from this chatbot",
         "webhook_template_name": "",
         "webhook_template_args": "",
         "options.1.text": "1",
@@ -365,7 +365,7 @@
       },
       {
         "ID": "start_started_mod_or_later_multiple",
-        "question": "It looks like you have started, but not finished, @fields.c_n_mod_started tips. What would you like to do?\n\nPress a number on your keypad: \n1. Receive the remaining information\n2. Remind me about this tomorrow\n3. I've finished receiving all of the information that I want from this chatbot",
+        "question": "It looks like you have started, but not finished, @fields.c_n_mod_started tips. What would you like to do?\n\nPress a number on your keypad: \n1. Receive the remaining information\n2. Remind me tomorrow\n3. I've finished receiving all of the information that I want from this chatbot",
         "webhook_template_name": "",
         "webhook_template_args": "",
         "options.1.text": "1",
@@ -383,7 +383,7 @@
       },
       {
         "ID": "first_module_intro",
-        "question": "You and your family are facing a challenging time. ParentText provides tips on how you can support your child during this crisis. Would you like to recieve your first tips now?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow.",
+        "question": "You and your family are facing a challenging time. ParentText provides tips on how you can support your child during this crisis. Would you like to recieve your first tips now?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
         "webhook_template_name": "",
         "webhook_template_args": "",
         "options.1.text": "1",
@@ -401,7 +401,7 @@
       },
       {
         "ID": "daily_interaction",
-        "question": "New tips are ready for you. Would you like to continue now?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow.",
+        "question": "New tips are ready for you. Would you like to continue now?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
         "webhook_template_name": "",
         "webhook_template_args": "",
         "options.1.text": "1",
@@ -419,7 +419,7 @@
       },
       {
         "ID": "help_children_cope",
-        "question": "💛 We’re thinking of you today. There are simple things you can do to help your child cope. Would you like to learn about them? \n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow.",
+        "question": "💛 We’re thinking of you today. There are simple things you can do to help your child cope. Would you like to learn about them? \n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
         "webhook_template_name": "",
         "webhook_template_args": "",
         "options.1.text": "1",
@@ -437,7 +437,7 @@
       },
       {
         "ID": "make_a_routine",
-        "question": "✨ Today’s tips can help your child feel more safe. Would you like to learn more? \n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow.",
+        "question": "✨ Today’s tips can help your child feel more safe. Would you like to learn more? \n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
         "webhook_template_name": "",
         "webhook_template_args": "",
         "options.1.text": "1",
@@ -455,7 +455,7 @@
       },
       {
         "ID": "calm_encourage",
-        "question": "Today’s tips offer you some ways you can stay calm and also encourage your children during times of uncertainty 🌱. \nWould you like to receive them?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow.",
+        "question": "Today’s tips offer you some ways you can stay calm and also encourage your children during times of uncertainty 🌱. \nWould you like to receive them?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
         "webhook_template_name": "",
         "webhook_template_args": "",
         "options.1.text": "1",
@@ -570,7 +570,7 @@
         "accept.child": "A fun activity I can do with my child",
         "accept.teen": "NA",
         "accept.baby": "NA",
-        "other_option": "Proceed to the next tips",
+        "other_option": "Proceed to the next tip",
         "other_flow": "new_day_goal_content",
         "refuse": "Nothing. Let's continue tomorrow.",
         "refuse_msg": "Alright. I will share more tips tomorrow. ",
@@ -579,9 +579,9 @@
         "next_refuse": "Nothing. Let's continue tomorrow.",
         "next_refuse_msg": "OK, see you tomorrow.",
         "next_refuse_flow": "",
-        "next_other_opt": "",
+        "next_other_opt": "Get another tip",
         "next_other_msg": "",
-        "next_other_flow": ""
+        "next_other_flow": "new_day_goal_content"
       },
       {
         "ID": "demo",
@@ -590,7 +590,7 @@
         "accept.child": "A fun activity I can do with my child",
         "accept.teen": "NA",
         "accept.baby": "NA",
-        "other_option": "Proceed to the next tips",
+        "other_option": "Proceed to the next tip",
         "other_flow": "new_day_goal_content",
         "refuse": "Continue with more tips tomorrow. ",
         "refuse_msg": "Alright. I will share more tips tomorrow. ",
@@ -599,9 +599,9 @@
         "next_refuse": "Nothing. Let's continue tomorrow.",
         "next_refuse_msg": "OK, see you tomorrow.",
         "next_refuse_flow": "",
-        "next_other_opt": "",
+        "next_other_opt": "Get another tip",
         "next_other_msg": "",
-        "next_other_flow": ""
+        "next_other_flow": "new_day_goal_content"
       },
       {
         "ID": "menu",

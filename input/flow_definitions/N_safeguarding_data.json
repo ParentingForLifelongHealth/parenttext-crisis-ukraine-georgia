@@ -306,7 +306,7 @@
       },
       {
         "ID": "mental_health",
-        "referrals": "{mental_health referrals}",
+        "referrals": "{mental_health_referrals}",
         "option_name": "Mental health support"
       },
       {
@@ -316,12 +316,12 @@
       },
       {
         "ID": "natural_disasters",
-        "referrals": "{natural_disasters referrals}",
+        "referrals": "{natural_disasters_referrals}",
         "option_name": "Natural disasters"
       },
       {
         "ID": "child_protection",
-        "referrals": "{child_protection}",
+        "referrals": "{child_protection_referrals}",
         "option_name": "Child Protection "
       }
     ],

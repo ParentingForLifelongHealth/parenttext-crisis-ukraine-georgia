@@ -6,66 +6,6 @@
     "content_index": [
       {
         "type": "data_sheet",
-        "sheet_name": "onboarding_messages",
-        "data_sheet": "",
-        "data_row_id": "",
-        "new_name": "",
-        "data_model": "SingleMessageModel",
-        "template_arguments": "",
-        "status": "",
-        "tags.1": "",
-        "tags.2": ""
-      },
-      {
-        "type": "data_sheet",
-        "sheet_name": "onboarding_question_with_opt_data",
-        "data_sheet": "",
-        "data_row_id": "",
-        "new_name": "",
-        "data_model": "OnboardingQuestionWithOptionsModel",
-        "template_arguments": "",
-        "status": "",
-        "tags.1": "",
-        "tags.2": ""
-      },
-      {
-        "type": "data_sheet",
-        "sheet_name": "onboarding_question_language_data",
-        "data_sheet": "",
-        "data_row_id": "",
-        "new_name": "",
-        "data_model": "OnboardingQuestionWithOptionsModel",
-        "template_arguments": "",
-        "status": "",
-        "tags.1": "",
-        "tags.2": ""
-      },
-      {
-        "type": "data_sheet",
-        "sheet_name": "consent_data",
-        "data_sheet": "",
-        "data_row_id": "",
-        "new_name": "",
-        "data_model": "SingleMessageModel",
-        "template_arguments": "",
-        "status": "",
-        "tags.1": "",
-        "tags.2": ""
-      },
-      {
-        "type": "data_sheet",
-        "sheet_name": "onboarding_input_number",
-        "data_sheet": "",
-        "data_row_id": "",
-        "new_name": "",
-        "data_model": "OnboardingQuestionRangeModel",
-        "template_arguments": "",
-        "status": "",
-        "tags.1": "",
-        "tags.2": ""
-      },
-      {
-        "type": "data_sheet",
         "sheet_name": "onboarding_survey",
         "data_sheet": "",
         "data_row_id": "",
@@ -89,15 +29,15 @@
         "tags.2": ""
       },
       {
-        "type": "create_flow",
-        "sheet_name": "set_contact_language",
+        "type": "data_sheet",
+        "sheet_name": "joining_messages",
         "data_sheet": "",
         "data_row_id": "",
         "new_name": "",
-        "data_model": "",
+        "data_model": "SingleMessageModel",
         "template_arguments": "",
         "status": "",
-        "tags.1": "survey",
+        "tags.1": "",
         "tags.2": ""
       }
     ],
@@ -106,7 +46,7 @@
         "ID": "lang",
         "type": "multiple_choice",
         "messages.1.text": "Please select your language:\n\nمن فضلك ادخل اللغة",
-        "messages.1.image": "https://firebasestorage.googleapis.com/v0/b/idems-media-recorder.appspot.com/o/project%2FPLH%2Fsubproject%2FParentText_v2%2Fdeployment%2FGlobal%2FresourceGroup%2Fimage%2Funiversal%2Fparenttext_logo.png?alt=media&token=09fbdf89-e9c8-4d06-bf14-4c480a3a869a",
+        "messages.1.image": "https://firebasestorage.googleapis.com/v0/b/idems-media-recorder.appspot.com/o/project%2FPLH%2Fsubproject%2FParentText_v2%2Fdeployment%2FCrisisPalestine%2FresourceGroup%2Flogo%2Fparenttext_logo.png?alt=media&token=564e8157-5885-49f2-b9c8-254c22f1aa4d",
         "messages.1.video": "",
         "skipoption.text": "",
         "skipoption.choice": "",
@@ -170,6 +110,10 @@
         "postprocessing.flow": "set_contact_language",
         "postprocessing.assignments.1.variable": "lang code",
         "postprocessing.assignments.1.value": "@answer",
+        "postprocessing.assignments.2.variable": "",
+        "postprocessing.assignments.2.value": "",
+        "postprocessing.assignments.3.variable": "",
+        "postprocessing.assignments.3.value": "",
         "expiration.message": ""
       },
       {
@@ -240,6 +184,10 @@
         "postprocessing.flow": "",
         "postprocessing.assignments.1.variable": "",
         "postprocessing.assignments.1.value": "",
+        "postprocessing.assignments.2.variable": "",
+        "postprocessing.assignments.2.value": "",
+        "postprocessing.assignments.3.variable": "",
+        "postprocessing.assignments.3.value": "",
         "expiration.message": ""
       },
       {
@@ -310,6 +258,10 @@
         "postprocessing.flow": "",
         "postprocessing.assignments.1.variable": "",
         "postprocessing.assignments.1.value": "",
+        "postprocessing.assignments.2.variable": "",
+        "postprocessing.assignments.2.value": "",
+        "postprocessing.assignments.3.variable": "",
+        "postprocessing.assignments.3.value": "",
         "expiration.message": ""
       },
       {
@@ -380,6 +332,10 @@
         "postprocessing.flow": "",
         "postprocessing.assignments.1.variable": "",
         "postprocessing.assignments.1.value": "",
+        "postprocessing.assignments.2.variable": "",
+        "postprocessing.assignments.2.value": "",
+        "postprocessing.assignments.3.variable": "",
+        "postprocessing.assignments.3.value": "",
         "expiration.message": ""
       },
       {
@@ -450,6 +406,10 @@
         "postprocessing.flow": "",
         "postprocessing.assignments.1.variable": "",
         "postprocessing.assignments.1.value": "",
+        "postprocessing.assignments.2.variable": "",
+        "postprocessing.assignments.2.value": "",
+        "postprocessing.assignments.3.variable": "",
+        "postprocessing.assignments.3.value": "",
         "expiration.message": ""
       },
       {
@@ -512,14 +472,18 @@
         "stop.conditions.1.condition.variable": "@answer",
         "stop.conditions.1.condition.value": "exit",
         "stop.conditions.1.condition.type": "has_only_phrase",
-        "stop.conditions.1.message": "That's okay. If you decide you want these tips later, type HELLO. ",
+        "stop.conditions.1.message": "That's okay. If you decide you want these tips later, type {joining_trigger}. ",
         "back.condition.variable": "",
         "back.condition.value": "",
         "back.condition.type": "",
         "back.rowid": "",
-        "postprocessing.flow": "",
-        "postprocessing.assignments.1.variable": "",
-        "postprocessing.assignments.1.value": "",
+        "postprocessing.flow": "update_consent_vars",
+        "postprocessing.assignments.1.variable": "consent",
+        "postprocessing.assignments.1.value": "@(if(fields.@answerid=\"yes\",\"yes\",\"no\"))",
+        "postprocessing.assignments.2.variable": "completed consent",
+        "postprocessing.assignments.2.value": "@(if(fields.@answerid=\"yes\",\"yes\",\"no\"))",
+        "postprocessing.assignments.3.variable": "",
+        "postprocessing.assignments.3.value": "",
         "expiration.message": ""
       },
       {
@@ -590,6 +554,10 @@
         "postprocessing.flow": "",
         "postprocessing.assignments.1.variable": "",
         "postprocessing.assignments.1.value": "",
+        "postprocessing.assignments.2.variable": "",
+        "postprocessing.assignments.2.value": "",
+        "postprocessing.assignments.3.variable": "",
+        "postprocessing.assignments.3.value": "",
         "expiration.message": ""
       },
       {
@@ -660,6 +628,10 @@
         "postprocessing.flow": "",
         "postprocessing.assignments.1.variable": "",
         "postprocessing.assignments.1.value": "",
+        "postprocessing.assignments.2.variable": "",
+        "postprocessing.assignments.2.value": "",
+        "postprocessing.assignments.3.variable": "",
+        "postprocessing.assignments.3.value": "",
         "expiration.message": ""
       },
       {
@@ -728,8 +700,12 @@
         "back.condition.type": "",
         "back.rowid": "",
         "postprocessing.flow": "",
-        "postprocessing.assignments.1.variable": "",
-        "postprocessing.assignments.1.value": "",
+        "postprocessing.assignments.1.variable": "type of media",
+        "postprocessing.assignments.1.value": "@answer",
+        "postprocessing.assignments.2.variable": "",
+        "postprocessing.assignments.2.value": "",
+        "postprocessing.assignments.3.variable": "",
+        "postprocessing.assignments.3.value": "",
         "expiration.message": ""
       },
       {
@@ -798,8 +774,12 @@
         "back.condition.type": "",
         "back.rowid": "",
         "postprocessing.flow": "",
-        "postprocessing.assignments.1.variable": "",
-        "postprocessing.assignments.1.value": "",
+        "postprocessing.assignments.1.variable": "over sixteen",
+        "postprocessing.assignments.1.value": "@(if(fields.@answerid=\"Under 16 years old\",\"no\",\"yes\"))",
+        "postprocessing.assignments.2.variable": "opt in base",
+        "postprocessing.assignments.2.value": "@(if(fields.@answerid=\"Under 16 years old\",\"NA\",\"\"))",
+        "postprocessing.assignments.3.variable": "opt in end",
+        "postprocessing.assignments.3.value": "@(if(fields.@answerid=\"Under 16 years old\",\"NA\",\"\"))",
         "expiration.message": ""
       },
       {
@@ -815,10 +795,10 @@
         "relevant.1.value": "",
         "relevant.1.type": "",
         "choices.1.text": "Woman",
-        "choices.1.value": "woman",
+        "choices.1.value": "female",
         "choices.1.show": "",
         "choices.2.text": "Man",
-        "choices.2.value": "man",
+        "choices.2.value": "male",
         "choices.2.show": "",
         "choices.3.text": "",
         "choices.3.value": "",
@@ -868,8 +848,12 @@
         "back.condition.type": "",
         "back.rowid": "",
         "postprocessing.flow": "",
-        "postprocessing.assignments.1.variable": "",
-        "postprocessing.assignments.1.value": "",
+        "postprocessing.assignments.1.variable": "gender",
+        "postprocessing.assignments.1.value": "@answer",
+        "postprocessing.assignments.2.variable": "attachment gender",
+        "postprocessing.assignments.2.value": "@(if(fields.@answerid=\"male\",\"male\",\"female\"))",
+        "postprocessing.assignments.3.variable": "voiceover audio path",
+        "postprocessing.assignments.3.value": "@(fields.path & \"voiceover/resourceType/audio/gender/\" & fields.attachment_gender & \"/language/\" & contact.language & \"/\")",
         "expiration.message": ""
       },
       {
@@ -940,6 +924,10 @@
         "postprocessing.flow": "",
         "postprocessing.assignments.1.variable": "",
         "postprocessing.assignments.1.value": "",
+        "postprocessing.assignments.2.variable": "",
+        "postprocessing.assignments.2.value": "",
+        "postprocessing.assignments.3.variable": "",
+        "postprocessing.assignments.3.value": "",
         "expiration.message": ""
       },
       {
@@ -1002,7 +990,7 @@
         "stop.conditions.1.condition.variable": "@answer",
         "stop.conditions.1.condition.value": "no tips",
         "stop.conditions.1.condition.type": "has_only_phrase",
-        "stop.conditions.1.message": "Thank you for your time.",
+        "stop.conditions.1.message": "Thank you for your time. If you decide you want these tips later, type {joining_trigger}. ",
         "back.condition.variable": "",
         "back.condition.value": "",
         "back.condition.type": "",
@@ -1010,6 +998,10 @@
         "postprocessing.flow": "",
         "postprocessing.assignments.1.variable": "",
         "postprocessing.assignments.1.value": "",
+        "postprocessing.assignments.2.variable": "",
+        "postprocessing.assignments.2.value": "",
+        "postprocessing.assignments.3.variable": "",
+        "postprocessing.assignments.3.value": "",
         "expiration.message": ""
       },
       {
@@ -1078,8 +1070,12 @@
         "back.condition.type": "",
         "back.rowid": "",
         "postprocessing.flow": "",
-        "postprocessing.assignments.1.variable": "",
-        "postprocessing.assignments.1.value": "",
+        "postprocessing.assignments.1.variable": "location",
+        "postprocessing.assignments.1.value": "@answer",
+        "postprocessing.assignments.2.variable": "",
+        "postprocessing.assignments.2.value": "",
+        "postprocessing.assignments.3.variable": "",
+        "postprocessing.assignments.3.value": "",
         "expiration.message": ""
       },
       {
@@ -1142,7 +1138,7 @@
         "stop.conditions.1.condition.variable": "@answer",
         "stop.conditions.1.condition.value": "no tips",
         "stop.conditions.1.condition.type": "has_only_phrase",
-        "stop.conditions.1.message": "That's okay. If you decide you want these tips later, type HELLO. ",
+        "stop.conditions.1.message": "That's okay. If you decide you want these tips later, type {joining_trigger}. ",
         "back.condition.variable": "",
         "back.condition.value": "",
         "back.condition.type": "",
@@ -1150,6 +1146,10 @@
         "postprocessing.flow": "",
         "postprocessing.assignments.1.variable": "",
         "postprocessing.assignments.1.value": "",
+        "postprocessing.assignments.2.variable": "",
+        "postprocessing.assignments.2.value": "",
+        "postprocessing.assignments.3.variable": "",
+        "postprocessing.assignments.3.value": "",
         "expiration.message": ""
       },
       {
@@ -1220,6 +1220,10 @@
         "postprocessing.flow": "",
         "postprocessing.assignments.1.variable": "",
         "postprocessing.assignments.1.value": "",
+        "postprocessing.assignments.2.variable": "",
+        "postprocessing.assignments.2.value": "",
+        "postprocessing.assignments.3.variable": "",
+        "postprocessing.assignments.3.value": "",
         "expiration.message": ""
       },
       {
@@ -1290,345 +1294,18 @@
         "postprocessing.flow": "",
         "postprocessing.assignments.1.variable": "",
         "postprocessing.assignments.1.value": "",
+        "postprocessing.assignments.2.variable": "",
+        "postprocessing.assignments.2.value": "",
+        "postprocessing.assignments.3.variable": "",
+        "postprocessing.assignments.3.value": "",
         "expiration.message": ""
       }
     ],
-    "consent_data": [
+    "joining_messages": [
       {
-        "ID": "intro",
-        "msg": "The tips you will receive in this programme have been developed with support from Sanadak, Anar for Empowerment and Psychosocial Support, World Without Orphans, and Parenting for Lifelong Health.",
+        "ID": "waiting_list",
+        "msg": "Thanks for reaching out 🤍 It really shows how much you care about your children. Right now, the programme is full, but we’ve added you to the waiting list. As soon as a spot opens up, we’ll let you know.",
         "metadata.description": ""
-      },
-      {
-        "ID": "info",
-        "msg": "🧡 You are a great parent. Thank you for joining us. \n\n✅ Participating in ParentText is optional.\n✅ We won’t ever ask for your name. Anything you share is safe, private, and anonymous.\n✅Your anonymous information may also be shared with others working to help families like yours build strength and hope in tough times. All your information will be private and can’t be linked back to you.\n❌You can stop when you want. Just type {STOP}",
-        "metadata.description": "{STOP} placeholder: do not edit\n{consent_link} placeholder: do not edit"
-      },
-      {
-        "ID": "info_consent",
-        "msg": "ParentText Terms and Conditions are available here: {consent_link}. ",
-        "metadata.description": ""
-      },
-      {
-        "ID": "agree_instructions",
-        "msg": "Press YES if you understand and want to receive ParentText. Type 'EXIT' if you do not wish to participate.",
-        "metadata.description": "YES needs to be consistent with \"yes_option\"\nEXIT needs to be consistent with \"exit_option\""
-      },
-      {
-        "ID": "yes_option",
-        "msg": "YES",
-        "metadata.description": "needs to be consistent with \"agree_instructions\""
-      },
-      {
-        "ID": "exit_option",
-        "msg": "EXIT",
-        "metadata.description": "needs to be consistent with \"agree_instructions\""
-      },
-      {
-        "ID": "exit_message",
-        "msg": "Are you sure you do not want to get these messages? If you do not want to receive any more messages, please type NO. If you made a mistake, please press BACK and choose another option.",
-        "metadata.description": "BACK needs to be consistent with \"back_option\"\nNO needs to be consistent with \"stop_option\""
-      },
-      {
-        "ID": "back_option",
-        "msg": "BACK",
-        "metadata.description": "needs to be consistent with \"exit_message\""
-      },
-      {
-        "ID": "stop_option",
-        "msg": "NO",
-        "metadata.description": "needs to be consistent with \"exit_message\""
-      },
-      {
-        "ID": "goodbye_msg",
-        "msg": "That's okay. If you decide you want these tips later, type HELLO. ",
-        "metadata.description": "HELLO can be anything"
-      },
-      {
-        "ID": "agreement_thanks",
-        "msg": "Thank you! 🤲 We hope these tips will help you build strength and hope for you and your family. ",
-        "metadata.description": ""
-      }
-    ],
-    "onboarding_question_with_opt_data": [
-      {
-        "ID": "media",
-        "question": "❔Before we get started, we have a few questions to make this journey personalised:\n\n📲 How would you prefer to receive content —through mostly text / images or with audio guides?",
-        "image": "",
-        "variable": "type of media",
-        "options.1.text": "Text / Images",
-        "options.1.value": "low",
-        "options.2.text": "Audio",
-        "options.2.value": "medium",
-        "options.3.text": "",
-        "options.3.value": "",
-        "options.4.text": "",
-        "options.4.value": "",
-        "options.5.text": "",
-        "options.5.value": "",
-        "options.6.text": "",
-        "options.6.value": "",
-        "options.7.text": "",
-        "options.7.value": "",
-        "options.8.text": "",
-        "options.8.value": "",
-        "excluded_values": "",
-        "confirm_question": "",
-        "proceed_opt": "",
-        "stop_opt": "",
-        "stop_message": ""
-      },
-      {
-        "ID": "gender",
-        "question": "Are you a WOMAN or MAN?",
-        "image": "",
-        "variable": "gender",
-        "options.1.text": "Woman",
-        "options.1.value": "woman",
-        "options.2.text": "Man",
-        "options.2.value": "man",
-        "options.3.text": "",
-        "options.3.value": "",
-        "options.4.text": "",
-        "options.4.value": "",
-        "options.5.text": "",
-        "options.5.value": "",
-        "options.6.text": "",
-        "options.6.value": "",
-        "options.7.text": "",
-        "options.7.value": "",
-        "options.8.text": "",
-        "options.8.value": "",
-        "excluded_values": "",
-        "confirm_question": "",
-        "proceed_opt": "",
-        "stop_opt": "",
-        "stop_message": ""
-      },
-      {
-        "ID": "children_at_home",
-        "question": "How many children do you take care of? ",
-        "image": "",
-        "variable": "num_children",
-        "options.1.text": "None",
-        "options.1.value": "0",
-        "options.2.text": "One to three",
-        "options.2.value": "1-3",
-        "options.3.text": "More than four",
-        "options.3.value": "4+",
-        "options.4.text": "",
-        "options.4.value": "",
-        "options.5.text": "",
-        "options.5.value": "",
-        "options.6.text": "",
-        "options.6.value": "",
-        "options.7.text": "",
-        "options.7.value": "",
-        "options.8.text": "",
-        "options.8.value": "",
-        "excluded_values": "None",
-        "confirm_question": "These tips are designed for those who look after children. Would you still like to receive the tips so you can share the advice with friends and family? ",
-        "proceed_opt": "I want the tips",
-        "stop_opt": "I do not want the tips",
-        "stop_message": "Thank you for your time."
-      },
-      {
-        "ID": "location",
-        "question": "📍 Where are you located?",
-        "image": "",
-        "variable": "location",
-        "options.1.text": "Jordan",
-        "options.1.value": "Jordan",
-        "options.2.text": "Gaza",
-        "options.2.value": "Gaza",
-        "options.3.text": "West Bank",
-        "options.3.value": "West Bank",
-        "options.4.text": "Lebanon",
-        "options.4.value": "Lebanon",
-        "options.5.text": "Egypt",
-        "options.5.value": "Egypt",
-        "options.6.text": "Syria",
-        "options.6.value": "Syria",
-        "options.7.text": "Yemen",
-        "options.7.value": "Yemen",
-        "options.8.text": "Other",
-        "options.8.value": "Other",
-        "excluded_values": "Gaza|West Bank",
-        "confirm_question": "This is a very difficult and dangerous time for you and your family. These tips might be different from what you need right now. What would you like to do? ",
-        "proceed_opt": "I want the tips",
-        "stop_opt": "I do not want the tips",
-        "stop_message": "That's okay. If you decide you want these tips later, type HELLO. "
-      },
-      {
-        "ID": "situation",
-        "question": "What is your current living situation?",
-        "image": "",
-        "variable": "situation",
-        "options.1.text": "Living in a camp or shelter",
-        "options.1.value": "camp",
-        "options.2.text": "Living in a house or apartment",
-        "options.2.value": "home",
-        "options.3.text": "Moving around often",
-        "options.3.value": "on_the_move",
-        "options.4.text": "Prefer not to say",
-        "options.4.value": "no",
-        "options.5.text": "",
-        "options.5.value": "",
-        "options.6.text": "",
-        "options.6.value": "",
-        "options.7.text": "",
-        "options.7.value": "",
-        "options.8.text": "",
-        "options.8.value": "",
-        "excluded_values": "",
-        "confirm_question": "",
-        "proceed_opt": "",
-        "stop_opt": "",
-        "stop_message": ""
-      },
-      {
-        "ID": "age",
-        "question": "How old are you?",
-        "image": "",
-        "variable": "age",
-        "options.1.text": "Under 16 years old",
-        "options.1.value": "Under 16 years old",
-        "options.2.text": "16-19 years old",
-        "options.2.value": "16-19 years old",
-        "options.3.text": "20-35 years old",
-        "options.3.value": "20-35 years old",
-        "options.4.text": "Over 35 years old",
-        "options.4.value": "Over 35 years old",
-        "options.5.text": "",
-        "options.5.value": "",
-        "options.6.text": "",
-        "options.6.value": "",
-        "options.7.text": "",
-        "options.7.value": "",
-        "options.8.text": "",
-        "options.8.value": "",
-        "excluded_values": "",
-        "confirm_question": "",
-        "proceed_opt": "",
-        "stop_opt": "",
-        "stop_message": ""
-      }
-    ],
-    "onboarding_messages": [
-      {
-        "ID": "onboarding_welcome_msg",
-        "msg": "Welcome to ParentText. Every parent everywhere needs support. We hope we can help. 💚",
-        "next_button_option": "",
-        "metadata.description": "first message after language selection (if present)"
-      },
-      {
-        "ID": "orientation",
-        "msg": "Thanks for answering our questions. We're ready to get started. 💚\nTo start, you can watch this video to learn about ParentText. ",
-        "next_button_option": "NEXT",
-        "metadata.description": "message with onboarding video"
-      }
-    ],
-    "onboarding_question_language_data": [
-      {
-        "ID": "entry",
-        "question": "Please select your language:\n\nمن فضلك ادخل اللغة",
-        "image": "https://firebasestorage.googleapis.com/v0/b/idems-media-recorder.appspot.com/o/project%2FPLH%2Fsubproject%2FParentText_v2%2Fdeployment%2FGlobal%2FresourceGroup%2Fimage%2Funiversal%2Fparenttext_logo.png?alt=media&token=09fbdf89-e9c8-4d06-bf14-4c480a3a869a",
-        "options.1.text": "English",
-        "options.1.value": "eng",
-        "options.1.alias": "eng",
-        "options.2.text": "اللغة العربية",
-        "options.2.value": "ara",
-        "options.2.alias": "ara"
-      },
-      {
-        "ID": "menu",
-        "question": "Please select your language:",
-        "image": "",
-        "options.1.text": "English",
-        "options.1.value": "eng",
-        "options.1.alias": "eng",
-        "options.2.text": "Arabic",
-        "options.2.value": "ara",
-        "options.2.alias": "ara"
-      }
-    ],
-    "onboarding_input_number": [
-      {
-        "ID": "children_at_home",
-        "question": "How many children do you take care of? ",
-        "variable": "children at home",
-        "grouping_variable": "",
-        "lower_bound": "0",
-        "low_error_msg": "I'm sorry. I don't understand. Please enter a number 0-30.",
-        "low_confirm_question": "",
-        "low_stop_opt": "",
-        "low_go_back_opt": "",
-        "low_stop_message": "",
-        "upper_bound": "30",
-        "up_error_msg": "I'm sorry. I don't understand. Please enter a number 0-30.",
-        "up_confirm_question": "",
-        "up_stop_opt": "",
-        "up_go_back_opt": "",
-        "up_stop_message": "",
-        "general_error_msg": "I'm sorry. I don't understand. Please enter a number 0-30.",
-        "ranges.1.limit": "",
-        "ranges.1.var_value": "",
-        "ranges.2.limit": "",
-        "ranges.2.var_value": "",
-        "ranges.3.limit": "",
-        "ranges.3.var_value": ""
-      }
-    ],
-    "set_contact_language": [
-      {
-        "row_id": "",
-        "type": "set_contact_language",
-        "from": "",
-        "loop_variable": "",
-        "condition": "",
-        "condition_var": "",
-        "condition_type": "",
-        "condition_name": "",
-        "include_if": "",
-        "message_text": "@fields.lang_code",
-        "save_name": "",
-        "data_sheet": "",
-        "data_row_id": "",
-        "choices.1": "",
-        "choices.2": "",
-        "image": "",
-        "audio": "",
-        "video": "",
-        "obj_name": "",
-        "obj_id": "",
-        "node_name": "",
-        "_nodeId": "",
-        "no_response": ""
-      },
-      {
-        "row_id": "",
-        "type": "save_value",
-        "from": "",
-        "loop_variable": "",
-        "condition": "",
-        "condition_var": "",
-        "condition_type": "",
-        "condition_name": "",
-        "include_if": "",
-        "message_text": "@fields.lang_code",
-        "save_name": "attachment language",
-        "data_sheet": "",
-        "data_row_id": "",
-        "choices.1": "",
-        "choices.2": "",
-        "image": "",
-        "audio": "",
-        "video": "",
-        "obj_name": "",
-        "obj_id": "",
-        "node_name": "",
-        "_nodeId": "",
-        "no_response": ""
       }
     ]
   }
