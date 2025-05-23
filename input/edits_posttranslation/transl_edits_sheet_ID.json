@@ -926,7 +926,7 @@
         "node_identifier": "Regex:.*{HELP}.*",
         "original": "{HELP}",
         "language": "ara",
-        "replacement": "المساعدة"
+        "replacement": "*المساعدة*"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -935,7 +935,7 @@
         "node_identifier": "Regex:.*{MENU}.*",
         "original": "{MENU}",
         "language": "ara",
-        "replacement": "القائمة "
+        "replacement": "*القائمة *"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -944,7 +944,7 @@
         "node_identifier": "Regex:.*{PLAY}.*",
         "original": "{PLAY}",
         "language": "ara",
-        "replacement": "أنشطة"
+        "replacement": "*أنشطة*"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -953,7 +953,7 @@
         "node_identifier": "Regex:.*{STOP}.*",
         "original": "{STOP}",
         "language": "ara",
-        "replacement": "إِنهاء"
+        "replacement": "*إِنهاء*"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -962,7 +962,7 @@
         "node_identifier": "Regex:.*{START}.*",
         "original": "{START}",
         "language": "ara",
-        "replacement": "ابدأ"
+        "replacement": "*ابدأ*"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -971,7 +971,7 @@
         "node_identifier": "Regex:.*{PAUSE}.*",
         "original": "{PAUSE}",
         "language": "ara",
-        "replacement": "استراحة"
+        "replacement": "*استراحة*"
       }
     ],
     "urls": [
