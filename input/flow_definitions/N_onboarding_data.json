@@ -110,8 +110,8 @@
         "postprocessing.flow": "set_contact_language",
         "postprocessing.assignments.1.variable": "lang code",
         "postprocessing.assignments.1.value": "@answer",
-        "postprocessing.assignments.2.variable": "",
-        "postprocessing.assignments.2.value": "",
+        "postprocessing.assignments.2.variable": "completed language",
+        "postprocessing.assignments.2.value": "yes",
         "postprocessing.assignments.3.variable": "",
         "postprocessing.assignments.3.value": "",
         "expiration.message": ""

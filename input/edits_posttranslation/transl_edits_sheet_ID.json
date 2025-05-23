@@ -977,7 +977,7 @@
     "urls": [
       {
         "type_of_edit": "replace_bit_of_text",
-        "flow_id": "share",
+        "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{share link}.*",
         "change": "{share link}",
@@ -988,7 +988,7 @@
     "urls_transl": [
       {
         "type_of_edit": "replace_bit_of_text",
-        "flow_id": "share",
+        "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{share link}.*",
         "original": "{share link}",
