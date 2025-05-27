@@ -352,36 +352,6 @@
         "tags.3": ""
       },
       {
-        "type": "template_definition",
-        "sheet_name": "split_by_id_template",
-        "data_sheet": "",
-        "data_row_id": "",
-        "new_name": "",
-        "data_model": "",
-        "template_arguments": "arguments;sheet|",
-        "operation": "",
-        "status": "",
-        "group": "",
-        "tags.1": "",
-        "tags.2": "",
-        "tags.3": ""
-      },
-      {
-        "type": "create_flow",
-        "sheet_name": "split_by_id_template",
-        "data_sheet": "split_by_id_data",
-        "data_row_id": "goal_completion_time",
-        "new_name": "",
-        "data_model": "",
-        "template_arguments": "goal_data",
-        "operation": "",
-        "status": "",
-        "group": "",
-        "tags.1": "delivery",
-        "tags.2": "",
-        "tags.3": ""
-      },
-      {
         "type": "create_flow",
         "sheet_name": "split_by_id_template",
         "data_sheet": "split_by_id_data",

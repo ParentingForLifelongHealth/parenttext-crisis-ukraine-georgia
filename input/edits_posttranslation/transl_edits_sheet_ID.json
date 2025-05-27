@@ -548,7 +548,7 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{child_protection_referraks}.*",
+        "node_identifier": "Regex:.*{child_protection_referrals}.*",
         "change": "{child_protection_referrals}",
         "condition_var": "",
         "category": "Refugees and Asylum Information from UNHCR (https://help.unhcr.org/)"
@@ -983,6 +983,15 @@
         "change": "{share link}",
         "condition_var": "",
         "category": "https://wa.me/972593019642/?text=SHARE"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{consent_link}.*",
+        "change": "{consent_link}",
+        "condition_var": "",
+        "category": ""
       }
     ],
     "urls_transl": [
@@ -994,6 +1003,15 @@
         "original": "{share link}",
         "language": "ara",
         "replacement": "https://wa.me/972593019642/?text=شارك"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{consent_link}.*",
+        "original": "{consent_link}",
+        "language": "ara",
+        "replacement": ""
       }
     ],
     "joining_triggers_add_group": [
