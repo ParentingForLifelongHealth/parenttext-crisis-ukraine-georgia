@@ -991,7 +991,7 @@
         "node_identifier": "Regex:.*{consent_link}.*",
         "change": "{consent_link}",
         "condition_var": "",
-        "category": ""
+        "category": "https://bit.ly/4kFhNt5"
       }
     ],
     "urls_transl": [

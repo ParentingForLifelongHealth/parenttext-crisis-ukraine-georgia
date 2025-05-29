@@ -5,7 +5,7 @@
     },
     "parents": {
         "base": {
-            "location": "https://github.com/IDEMSInternational/parenttext-crisis-base/archive/refs/tags/v1.0.13.zip"
+            "location": "https://github.com/IDEMSInternational/parenttext-crisis-base/archive/refs/tags/v1.0.14.zip"
         }
     },
     "flows_outputbasename": "parenttext_all",

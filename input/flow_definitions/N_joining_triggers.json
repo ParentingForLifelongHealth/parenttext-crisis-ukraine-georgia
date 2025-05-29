@@ -151,63 +151,81 @@
         "triggers": "test",
         "groups": "digital",
         "cap": "",
-        "location": ""
+        "location": "",
+        "variables.1.name": "",
+        "variables.1.value": ""
       },
       {
         "ID": "support",
         "triggers": "support;سند",
         "groups": "digital;SANADAK;reach",
         "cap": "2400",
-        "location": ""
+        "location": "",
+        "variables.1.name": "",
+        "variables.1.value": ""
       },
       {
         "ID": "strengthening",
         "triggers": "strengthening;دعم",
         "groups": "digital;Schools;reach",
         "cap": "800",
-        "location": "Jordan"
+        "location": "Jordan",
+        "variables.1.name": "",
+        "variables.1.value": ""
       },
       {
         "ID": "family",
         "triggers": "family;عائلة",
         "groups": "digital;UNRWA;reach",
         "cap": "500",
-        "location": ""
+        "location": "",
+        "variables.1.name": "",
+        "variables.1.value": ""
       },
       {
         "ID": "children",
         "triggers": "children;أطفال",
         "groups": "digital;Caritas;reach",
         "cap": "100",
-        "location": "Jordan"
+        "location": "Jordan",
+        "variables.1.name": "",
+        "variables.1.value": ""
       },
       {
         "ID": "caregivers",
         "triggers": "caregivers;الرعاية",
         "groups": "digital;Together;reach",
         "cap": "200",
-        "location": "Syria"
+        "location": "Syria",
+        "variables.1.name": "",
+        "variables.1.value": ""
       },
       {
         "ID": "enlightening",
         "triggers": "enlightening;إستنارة",
         "groups": "digital;Anar;reach",
         "cap": "500",
-        "location": "State of Palestine"
+        "location": "State of Palestine",
+        "variables.1.name": "",
+        "variables.1.value": ""
       },
       {
         "ID": "tips",
         "triggers": "tips;نصائح",
         "groups": "digital;WVI;reach",
         "cap": "500",
-        "location": "Jordan"
+        "location": "Jordan",
+        "variables.1.name": "",
+        "variables.1.value": ""
       },
       {
         "ID": "share",
         "triggers": "share;شارك",
         "groups": "digital;Social Share;reach",
         "cap": "500",
-        "location": ""
+        "location": "",
+        "variables.1.name": "",
+        "variables.1.value": ""
       }
     ],
     "cap_data": [

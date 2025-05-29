@@ -7,7 +7,7 @@
   },
   {
     "SourceText": "Please select your language:",
-    "text": "يُرجى اختيار لغتك:",
+    "text": "Please select your language:",
     "type": "text",
     "note": ""
   },
@@ -169,7 +169,7 @@
   },
   {
     "SourceText": "English",
-    "text": "اللغة الإنجليزية",
+    "text": "English",
     "type": "quick_replies",
     "note": ""
   },
