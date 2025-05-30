@@ -1011,7 +1011,7 @@
         "node_identifier": "Regex:.*{consent_link}.*",
         "original": "{consent_link}",
         "language": "ara",
-        "replacement": ""
+        "replacement": "https://bit.ly/4kFhNt5"
       }
     ],
     "joining_triggers_add_group": [
