@@ -104,6 +104,30 @@
             "files_list": [
                 "1TJ1YVSu87ubc5GvGea2hfRh4v234OyJUccQnZ90VUP4"
             ]
+        },
+        "media_assets": {
+            "mappings": {
+                "Language": {
+                    "Arabic": "ara"
+                },
+                "Caregiver Gender": {
+                    "F": "female",
+                    "M": "male"
+                }
+            },
+            "path_template": [
+                "{{ format | title }}",
+                "{{ (annotations['Caregiver Gender'] or '') | title }}",
+                "{{ (language or '') | title }}",
+                "{{ name }}"
+            ],
+            "storage": {
+                "system": "canto",
+                "location": "T9GUJ",
+                "annotations": {
+                    "site_base_url": "https://parentingforlifelonghealth.canto.com"
+                }
+            }
         }
     },
     "steps": [
