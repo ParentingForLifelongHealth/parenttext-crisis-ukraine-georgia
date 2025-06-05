@@ -1081,7 +1081,7 @@
       {
         "ID": "location_excluded",
         "type": "multiple_choice",
-        "messages.1.text": "This is a very difficult and dangerous time for you and your family. These tips might be different from what you need right now. What would you like to do? ",
+        "messages.1.text": "This is a very difficult time for you and your family. We are glad you are here. You may need more support than just these tips, but we hope these tips can help even just a little. \n\nWhat would you like to do?",
         "messages.1.image": "",
         "messages.1.video": "",
         "skipoption.text": "",

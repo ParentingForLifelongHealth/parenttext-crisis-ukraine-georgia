@@ -293,6 +293,18 @@
         "text": "🌿 Building strength in tough times starts with simple steps. Would you like to learn how to promote good behaviors and stay strong together?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
         "ara": "🌿  تجميع قوانا في الأوقات الصعبة فيه تحدّي كبير بس بيطلّب منّا خطوات بسيطة. بتحب تتعرّف على خطوات بتساعدك إنت و أطفالك تشجعوا السلوكيات الإجابية و تحافظوا على قوّتكم مع بعض؟\n\nإضغط رقم على لوحة المفاتيح عندك:\n1. نعم\n2. لا، الرجاء تذكيري غداً",
         "vars": ""
+      },
+      {
+        "ID": "no_response",
+        "text": "This time is difficult. It doesn't seem like you have the time for the these tips right now. When you are ready to keep going, press 1.",
+        "ara": "هاد وقت صعب. يبدو إنه ما عندك وقت للنصائح هلا. لما تكون جاهز تكمّل، اضغط 1.",
+        "vars": ""
+      },
+      {
+        "ID": "1month",
+        "text": "Can you believe it’s been a month? ⏳\nWe’d love to check in and see how you’re doing ❤️. It’ll take less than 5 minutes.\nIs now a good time? 🙂\n\nPress a number on your keypad: \n1. Yes\n2. No",
+        "ara": "",
+        "vars": ""
       }
     ],
     "interaction_data": [
