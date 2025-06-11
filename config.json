@@ -13,6 +13,7 @@
     "sheet_names": {
         "T_survey": "1dewoAzGyWAIljHK5KnL3TNP8g5pz0Vt6Lux2O6rycYU",
         "T_trial": "1BifL5eSoEo3b7WS8KsrnXDYg3t36yYLqzr75Y8V9Vhw",
+
         "deployment_localised_sheets" : "1tLDsUe-NxOxpxOBuTJmopOnP9dOcmLVHjO2YQxGxe28",
 
         "N_onboarding_data": "1tC8BcP32nE7Bt5sRKAsfx0_69bfjsslOtvaAjSEaQ1A",
@@ -104,30 +105,6 @@
             "files_list": [
                 "1TJ1YVSu87ubc5GvGea2hfRh4v234OyJUccQnZ90VUP4"
             ]
-        },
-        "media_assets": {
-            "mappings": {
-                "Language": {
-                    "Arabic": "ara"
-                },
-                "Caregiver Gender": {
-                    "F": "female",
-                    "M": "male"
-                }
-            },
-            "path_template": [
-                "{{ format | title }}",
-                "{{ (annotations['Caregiver Gender'] or '') | title }}",
-                "{{ (language or '') | title }}",
-                "{{ name }}"
-            ],
-            "storage": {
-                "system": "canto",
-                "location": "T9GUJ",
-                "annotations": {
-                    "site_base_url": "https://parentingforlifelonghealth.canto.com"
-                }
-            }
         }
     },
     "steps": [
@@ -196,7 +173,7 @@
             "id": "safeguarding",
             "type": "safeguarding",
             "sources": ["safeguarding"],
-            "redirect_flow_names": "[\"safeguarding_redirect_to_topic_all\", \"safeguarding_redirect_to_topic_start\", \"safeguarding_redirect_to_topic_trigger\"]"
+            "redirect_flow_names": "[\"safeguarding_redirect_to_topic_all\", \"safeguarding_redirect_to_topic_start\", \"safeguarding_redirect_to_topic_trigger\", \"study_safeguarding_redirect_to_topic\"]"
         }
     ]
 }

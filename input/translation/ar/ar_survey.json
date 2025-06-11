@@ -169,7 +169,7 @@
   },
   {
     "SourceText": "Not at all",
-    "text": "أبدًا",
+    "text": "ولا مرة",
     "type": "quick_replies",
     "note": ""
   },
@@ -626,6 +626,30 @@
   {
     "SourceText": "Thank you for your answers. ❤️",
     "text": "شكرًا لك على إجابتك.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We have 8 quick questions. Your answers help us make these tips better for parents and children finding strength and hope during war, displacement, and other tough times.",
+    "text": "عنا ٨ أسئلة سريعة. إجاباتك بتساعدنا نطور هالنصايح للأهل والأولاد اللي عم يلاقوا قوة وأمل وقت الحرب، النزوح، والأوقات الصعبة.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Can you believe it’s been a month? ⏳",
+    "text": "بتصدق إنه صار شهر؟ ⏳",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We’d love to check in and see how you’re doing ❤️. It’ll take less than 5 minutes.",
+    "text": "حابين نطمن عليك ونشوف كيف حالك ❤️ رح ياخد منك أقل من ٥ دقايق.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Is now a good time? 🙂",
+    "text": "هل هلأ وقت مناسب؟ 🙂",
     "type": "text",
     "note": ""
   }

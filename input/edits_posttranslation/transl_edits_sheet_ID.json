@@ -187,7 +187,7 @@
         "category:West Bank": "{mental_health_referrals west bank}",
         "condition:West Bank": "west bank",
         "condition_type:West Bank": "has_only_phrase",
-        "category:Syria": "{mental_health_referrals}",
+        "category:Syria": "{mental_health_referrals syria}",
         "condition:Syria": "syria",
         "condition_type:Syria": "has_only_phrase",
         "category:Lebanon": "{mental_health_referrals lebanon}",
@@ -344,7 +344,7 @@
         "node_identifier": "Regex:.*{natural_disasters_referrals jordan}.*",
         "change": "{natural_disasters_referrals jordan}",
         "condition_var": "",
-        "category": "Jordan Hashemite Charity Organization - +962 6 553 2311 - https://jhco.org.jo\n\nJordan Red Crescent - +962 6 567 0230 - https://jrcrelief.org\n\nAltibbi - +962 6 400 1111 - https://www.altibbi.com \n\nFind A Helpline - https://findahelpline.com"
+        "category": "Jordan Hashemite Charity Organization - +962 6 552 3190 - https://jhco.org.jo\n\nJordan Red Crescent - +962 6 477 3141 - https://jrcrelief.org\n\nAltibbi - +962 6 400 1111 - https://www.altibbi.com \n\nFind A Helpline - https://findahelpline.com"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -353,7 +353,7 @@
         "node_identifier": "Regex:.*{mental_health_referrals}.*",
         "change": "{mental_health_referrals}",
         "condition_var": "",
-        "category": "Psychological Support Hotline (UNRWA): 06-5821000 Website: www.unrwa.org\n\nAltibbi - +962 6 400 1111 - https://www.altibbi.com\n\nFind A Helpline - https://findahelpline.com"
+        "category": "Psychological Support Hotline (UNRWA): 06-580 9100 Website: www.unrwa.org\n\nAltibbi - +962 6 400 1111 - https://www.altibbi.com\n\nFind A Helpline - https://findahelpline.com"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -363,6 +363,15 @@
         "change": "{mental_health_referrals west bank}",
         "condition_var": "",
         "category": " Women’s Psychological and Social Counseling Hotline: 1800-600-606 (psychological and legal support)\nWebsite: www.mosa.pna.ps - Palestine\n\n"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{mental_health_referrals syria}.*",
+        "change": "{mental_health_referrals syria}",
+        "condition_var": "",
+        "category": "\nSyrian Arab Red Crescent (Psychological Counseling): +963 944 868 444\n\nUNICEF (Support for children and youth): +963 11 611 3366\n\nSave the Children - Psychological Support for Children: +963 11 334 5555\n\nAltibbi - +962 6 400 1111 - https://www.altibbi.com\n\nFind A Helpline - https://findahelpline.com"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -389,7 +398,7 @@
         "node_identifier": "Regex:.*{mental_health_referrals egypt}.*",
         "change": "{mental_health_referrals egypt}",
         "condition_var": "",
-        "category": "PSTIC Egypt - 0111 086 6333 - https://help.unhcr.org/egypt/en/partners/pstic/"
+        "category": "PSTIC Egypt - 0111 086 6333 - https://help.unhcr.org/egypt/en/partners/pstic/\n\n16328: National Hotline for Mental Health, Egypt"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -434,7 +443,7 @@
         "node_identifier": "Regex:.*{health_referrals jordan}.*",
         "change": "{health_referrals jordan}",
         "condition_var": "",
-        "category": "IMC Jordan - +962 6 582 8820 - https://internationalmedicalcorps.org/country/jordan/"
+        "category": "IMC Jordan - +962 6 568 3253 - https://internationalmedicalcorps.org/country/jordan/"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -479,7 +488,7 @@
         "node_identifier": "Regex:.*{generic_referrals jordan}.*",
         "change": "{generic_referrals jordan}",
         "condition_var": "",
-        "category": "Police: 911\n\nCaritas Jordan: +962 6 462 6260 - https://caritasjordan.org.jo\n\nJordanian Women’s Union: 06-5675721 (Provides support for women, including legal aid and shelter)\nWebsite: www.jwu.org.jo\n\nAbuse & domestic violence helplines in Jordan (findahelpline.com)\n\nTamkeen Fields for Aid - +962 6 568 1112 - https://tamkeen-jo.org\n\nARDD - +962 6 461 7272 - https://ardd-jo.org"
+        "category": "Police: 911\n\nCaritas Jordan: +962 6 463 9032 - https://caritasjordan.org.jo\n\nJordanian Women’s Union: 06-5675721 (Provides support for women, including legal aid and shelter)\nWebsite: www.jwu.org.jo\n\nAbuse & domestic violence helplines in Jordan (findahelpline.com)\n\nTamkeen Fields for Aid - +962 6 553 9501 - https://tamkeen-jo.org\n\nARDD - +962 6 461 7277 - https://ardd-jo.org"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -524,7 +533,7 @@
         "node_identifier": "Regex:.*{family_referrals jordan}.*",
         "change": "{family_referrals jordan}",
         "condition_var": "",
-        "category": "Family Protection Hotline: 110\n\nFamily and Juvenile Protection Department (Ministry of Interior): +962 6 581 5826 \n\nNational Council for Family Affairs: +962 6 5544667 /8\nWebsite: www.ncfa.org.jo \n\nJordan River Foundation  - https://jordanriver.jo\n\nIFH – King Hussein Foundation - +962 6 552 7780 - https://kinghusseinfoundation.org"
+        "category": "Family Protection Hotline: 110\n\nFamily and Juvenile Protection Department (Ministry of Interior): +962 6 581 5826 \n\nNational Council for Family Affairs: +962 6 5544667 /8\nWebsite: www.ncfa.org.jo \n\nJordan River Foundation  - https://jordanriver.jo\n\nIFH – King Hussein Foundation - +962 6 477 1841 - https://kinghusseinfoundation.org"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -578,7 +587,7 @@
         "node_identifier": "Regex:.*{child_protection_referrals jordan}.*",
         "change": "{child_protection_referrals jordan}",
         "condition_var": "",
-        "category": "Save the Children Jordan - +962 6 565 6749 - https://savethechildren.org.jo"
+        "category": "Save the Children Jordan - +962 6 567 0241 - https://savethechildren.org.jo"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -596,7 +605,7 @@
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{natural_disasters_referrals}.*",
-        "original": "{natural_disasters_referrals}",
+        "": "{natural_disasters_referrals}",
         "language": "ara",
         "replacement": "معلومات عن اللاجئين واللجوء من المفوضية السامية للأمم المتحدة لشؤون اللاجئي (https://help.unhcr.org/ar)"
       },
@@ -605,7 +614,7 @@
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{natural_disasters_referrals yemen}.*",
-        "original": "{natural_disasters_referrals}",
+        "": "{natural_disasters_referrals}",
         "language": "ara",
         "replacement": "منظمة كير – اليمن - https://www.care.org/our-work/where-we-work/yemen/"
       },
@@ -614,25 +623,25 @@
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{natural_disasters_referrals jordan}.*",
-        "original": "{natural_disasters_referrals}",
+        "": "{natural_disasters_referrals}",
         "language": "ara",
-        "replacement": "الهيئة الخيرية الأردنية الهاشمية - +962 6 553 2311 - https://jhco.org.jo\n\nالهلال الأحمر الأردني - +962 6 567 0230 - https://jrcrelief.org\n\nالطبي - +962 6 400 1111 - https://www.altibbi.com\n\nدليل خطوط المساعدة - https://findahelpline.com"
+        "replacement": "الهيئة الخيرية الأردنية الهاشمية - 3190  552 6 962+ - https://jhco.org.jo\n\nالهلال الأحمر الأردني - 3141 477 6 962+ - https://jrcrelief.org\n\nالطبي - 1111  400 6 962+ - https://www.altibbi.com\n\nدليل خطوط المساعدة - https://findahelpline.com"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{mental_health_referrals}.*",
-        "original": "{mental_health_referrals}",
+        "": "{mental_health_referrals}",
         "language": "ara",
-        "replacement": "الخط الساخن للدعم النفسي (الأونروا): 06-5821000 الموقع الإلكتروني: https://www.unrwa.org\n\nالطبي - +962 6 400 1111 - https://www.altibbi.com\n\nدليل خطوط المساعدة - https://findahelpline.com"
+        "replacement": "الخط الساخن للدعم النفسي (الأونروا): 9100  580 6 962+ الموقع الإلكتروني: https://www.unrwa.org\n\nالطبي - 1111  400 6 962+ - https://www.altibbi.com\n\nدليل خطوط المساعدة - https://findahelpline.com"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{mental_health_referrals west bank}.*",
-        "original": "{mental_health_referrals}",
+        "": "{mental_health_referrals}",
         "language": "ara",
         "replacement": "الخط الساخن لمركز المرأة للإرشاد النفسي والاجتماعي: 606-600-1800 (دعم نفسي وقانوني) الموقع الإلكتروني: http://www.mosa.pna.ps - فلسطين"
       },
@@ -640,8 +649,17 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
+        "node_identifier": "Regex:.*{mental_health_referrals syria}.*",
+        "": "{mental_health_referrals}",
+        "language": "ara",
+        "replacement": "الهلال الأحمر السوري (استشارات نفسية   444  868 944 963+\n\nاليونيسف (دعم للأطفال واليافعين): 3366  611 11 963+\n\nمنظمة إنقاذ الطفل - الدعم النفسي للأطفال 5555  334 11 963+\n\n\nالطبي -  1111  400 6 962+ - https://www.altibbi.com\n\n\n\nدليل خطوط المساعدة - https://findahelpline.com"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
         "node_identifier": "Regex:.*{mental_health_referrals lebanon}.*",
-        "original": "{mental_health_referrals}",
+        "": "{mental_health_referrals}",
         "language": "ara",
         "replacement": "اللجنة الطبية الدولية – لبنان - +961 1 447 447 - https://internationalmedicalcorps.org/country/lebanon/"
       },
@@ -650,7 +668,7 @@
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{mental_health_referrals gaza}.*",
-        "original": "{mental_health_referrals}",
+        "": "{mental_health_referrals}",
         "language": "ara",
         "replacement": "الخط الساخن لمركز المرأة للإرشاد النفسي والاجتماعي: 606-600-1800 (دعم نفسي وقانوني) الموقع الإلكتروني: http://www.mosa.pna.ps - فلسطين"
       },
@@ -659,16 +677,16 @@
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{mental_health_referrals egypt}.*",
-        "original": "{mental_health_referrals}",
+        "": "{mental_health_referrals}",
         "language": "ara",
-        "replacement": "معهد الخدمات النفسية والاجتماعية-مصر - 0111 086 6333 - https://help.unhcr.org/egypt/en/partners/pstic/"
+        "replacement": "معهد الخدمات النفسية والاجتماعية-مصر - 0111 086 6333 - https://help.unhcr.org/egypt/en/partners/pstic\n\n16328: الخط الساخن الوطني للصحة النفسية، مصر"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{health_referrals}.*",
-        "original": "{health_referrals}",
+        "": "{health_referrals}",
         "language": "ara",
         "replacement": "معلومات عن اللاجئين واللجوء من المفوضية السامية للأمم المتحدة لشؤون اللاجئي (https://help.unhcr.org/ar)"
       },
@@ -677,7 +695,7 @@
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{health_referrals yemen}.*",
-        "original": "{health_referrals}",
+        "": "{health_referrals}",
         "language": "ara",
         "replacement": "اللجنة الطبية الدولية – اليمن - +967 1 234 567 - https://internationalmedicalcorps.org/country/yemen/"
       },
@@ -686,7 +704,7 @@
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{health_referrals west bank}.*",
-        "original": "{health_referrals}",
+        "": "{health_referrals}",
         "language": "ara",
         "replacement": "برنامج غزة للصحة النفسية - +970 8 264 1511 - https://www.gcmhp.org"
       },
@@ -695,25 +713,25 @@
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{health_referrals syria}.*",
-        "original": "{health_referrals}",
+        "": "{health_referrals}",
         "language": "ara",
-        "replacement": "الجمعية الطبية السورية الأمريكية - +1 469 983 9393 -https://uossm.us"
+        "replacement": "الجمعية الطبية السورية الأمريكية -  9393  983 469 1+ -https://uossm.us"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{health_referrals jordan}.*",
-        "original": "{health_referrals}",
+        "": "{health_referrals}",
         "language": "ara",
-        "replacement": "اللجنة الطبية الدولية – الأردن - +962 6 582 8820 - https://internationalmedicalcorps.org/country/jordan/"
+        "replacement": "اللجنة الطبية الدولية – الأردن - 3253  568 6 962+ - https://internationalmedicalcorps.org/country/jordan"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{health_referrals gaza}.*",
-        "original": "{health_referrals}",
+        "": "{health_referrals}",
         "language": "ara",
         "replacement": "برنامج غزة للصحة النفسية - +970 8 264 1511 - https://www.gcmhp.org"
       },
@@ -722,7 +740,7 @@
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{generic_referrals}.*",
-        "original": "{generic_referrals}",
+        "": "{generic_referrals}",
         "language": "ara",
         "replacement": "معلومات عن اللاجئين واللجوء من المفوضية السامية للأمم المتحدة لشؤون اللاجئي (https://help.unhcr.org/ar)"
       },
@@ -731,7 +749,7 @@
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{generic_referrals yemen}.*",
-        "original": "{generic_referrals}",
+        "": "{generic_referrals}",
         "language": "ara",
         "replacement": "المفوضية – اليمن +967 1 469 771 - https://help.unhcr.org/yemen/"
       },
@@ -740,7 +758,7 @@
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{generic_referrals west bank}.*",
-        "original": "{generic_referrals}",
+        "": "{generic_referrals}",
         "language": "ara",
         "replacement": "الشرطة: 100 - فلسطين\n\nخط سوا - 121 - https://sawa.ps/ \n\nمركز الإرشاد والتدريب للمرأة: 2966761-02 (دعم نفسي وقانوني للنساء المعنفات) - فلسطين\n\nجمعية المرأة العاملة الفلسطينية للتنمية – الخط الساخن: 404-404-1800\nالموقع الإلكتروني: www.pwwsd.org"
       },
@@ -749,16 +767,16 @@
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{generic_referrals jordan}.*",
-        "original": "{generic_referrals}",
+        "": "{generic_referrals}",
         "language": "ara",
-        "replacement": "الشرطة: 911 - الأردن\n\nكاريتاس الأردن +962 6 462 6260 https://caritasjordan.org.jo\n\nاتحاد المرأة الأردنية: 065675721 (يقدم الدعم القانوني والمأوى للنساء) الموقع الإلكتروني: http://www.jwu.org.jo\n\nخطوط المساعدة للعنف الأسري في الأردن: findahelpline.com\n\nتمكين - +962 6 568 1112 - https://tamkeen-jo.org\n\nالنهضة العربية للديمقراطية والتنمية - +962 6 461 7272 - https://ardd-jo.org"
+        "replacement": "الشرطة: 911 - الأردن\n\nكاريتاس الأردن 9032  463 6 962+ https://caritasjordan.org.jo\n\nاتحاد المرأة الأردنية: 60143  795 7 962+ (يقدم الدعم القانوني والمأوى للنساء) الموقع الإلكتروني: http://www.jwu.org.jo\n\nخطوط المساعدة للعنف الأسري في الأردن: findahelpline.com\n\nتمكين - 9501  553 6 962+ - https://tamkeen-jo.org\n\nالنهضة العربية للديمقراطية والتنمية -7277  461 6 962+ - https://ardd-jo.org"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{generic_referrals gaza}.*",
-        "original": "{generic_referrals}",
+        "": "{generic_referrals}",
         "language": "ara",
         "replacement": "الشرطة: 100 - فلسطين\n\nخط سوا - 121 - https://sawa.ps/ \n\nمركز الإرشاد والتدريب للمرأة: 2966761-02 (دعم نفسي وقانوني للنساء المعنفات) - فلسطين\n\nجمعية المرأة العاملة الفلسطينية للتنمية – الخط الساخن: 404-404-1800\nالموقع الإلكتروني: www.pwwsd.org"
       },
@@ -767,7 +785,7 @@
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{generic_referrals egypt}.*",
-        "original": "{generic_referrals}",
+        "": "{generic_referrals}",
         "language": "ara",
         "replacement": "معلومات عن اللاجئين واللجوء من المفوضية السامية للأمم المتحدة لشؤون اللاجئي (https://help.unhcr.org/ar)\n\nالمجلس القومي للمرأة – مصر: البريد الإلكتروني: info@ncw.gov.eg؛ الموقع الإلكتروني: http://ncw.gov.eg؛ صفحة فيسبوك: https://www.facebook.com/ncwegyptpage؛ إنستجرام: @wcoegypt\n\n15115: خط المساعدة للمرأة – مصر"
       },
@@ -776,7 +794,7 @@
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{family_referrals}.*",
-        "original": "{family_referrals}",
+        "": "{family_referrals}",
         "language": "ara",
         "replacement": "معلومات عن اللاجئين واللجوء من المفوضية السامية للأمم المتحدة لشؤون اللاجئي (https://help.unhcr.org/ar)"
       },
@@ -785,7 +803,7 @@
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{family_referrals west bank}.*",
-        "original": "{family_referrals}",
+        "": "{family_referrals}",
         "language": "ara",
         "replacement": "الخط الساخن لحماية المرأة والطفل (وزارة التنمية الاجتماعية): 121 - فلسطين"
       },
@@ -794,16 +812,16 @@
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{family_referrals jordan}.*",
-        "original": "{family_referrals}",
+        "": "{family_referrals}",
         "language": "ara",
-        "replacement": "الخط الساخن لحماية الأسرة: 110 (مفتوح على مدار الساعة وطوال أيام الأسبوع) - الأردن\n\nإدارة حماية الأسرة والأحداث (وزارة الداخلية): 0096265815826 - الأردن\n\nالمجلس الوطني لشؤون الأسرة: 0096265544667 /8 الموقع الإلكتروني: http://www.ncfa.org.jo - الأردن\n\nمؤسسة نهر الأردن  - https://jordanriver.jo\n\n\nمعهد العناية بصحة الأسرة - +962 6 552 7780 - https://kinghusseinfoundation.org"
+        "replacement": "الخط الساخن لحماية الأسرة: 110 (مفتوح على مدار الساعة وطوال أيام الأسبوع) - الأردن\n\nإدارة حماية الأسرة والأحداث (وزارة الداخلية): 0096265815826 - الأردن\n\nالمجلس الوطني لشؤون الأسرة:   0096265544668 ,0096265544667  الموقع الإلكتروني: http://www.ncfa.org.jo - الأردن\n\nمؤسسة نهر الأردن  - https://jordanriver.jo\n\n\nمعهد العناية بصحة الأسرة - 1841  477 6 962+ - https://kinghusseinfoundation.org"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{family_referrals gaza}.*",
-        "original": "{family_referrals}",
+        "": "{family_referrals}",
         "language": "ara",
         "replacement": "الخط الساخن لحماية المرأة والطفل (وزارة التنمية الاجتماعية): 121 - فلسطين"
       },
@@ -812,7 +830,7 @@
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{family_referrals egypt}.*",
-        "original": "{family_referrals}",
+        "": "{family_referrals}",
         "language": "ara",
         "replacement": "16000: خط المساعدة للأطفال – مصر"
       },
@@ -820,8 +838,8 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{child_protection_referraks}.*",
-        "original": "{child_protection_referrals}",
+        "node_identifier": "Regex:.*{child_protection_referrals}.*",
+        "": "{child_protection_referrals}",
         "language": "ara",
         "replacement": "معلومات عن اللاجئين واللجوء من المفوضية السامية للأمم المتحدة لشؤون اللاجئي (https://help.unhcr.org/ar)"
       },
@@ -830,7 +848,7 @@
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{child_protection_referrals west bank}.*",
-        "original": "{child_protection_referrals}",
+        "": "{child_protection_referrals}",
         "language": "ara",
         "replacement": "وور تشايلد – فلسطين - +31 20 422 7777 - https://www.warchild.net/country-opt/"
       },
@@ -839,7 +857,7 @@
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{child_protection_referrals lebanon}.*",
-        "original": "{child_protection_referrals}",
+        "": "{child_protection_referrals}",
         "language": "ara",
         "replacement": "اليونيسف – لبنان - +961 1 607 400 - https://www.unicef.org/lebanon"
       },
@@ -848,7 +866,7 @@
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{child_protection_referrals jordan}.*",
-        "original": "{child_protection_referrals}",
+        "": "{child_protection_referrals}",
         "language": "ara",
         "replacement": "منظمة إنقاذ الطفولة – الأردن - +962 6 565 6749 - https://savethechildren.org.jo"
       },
@@ -857,7 +875,7 @@
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{child_protection_referrals gaza}.*",
-        "original": "{child_protection_referrals}",
+        "": "{child_protection_referrals}",
         "language": "ara",
         "replacement": "وور تشايلد – فلسطين - +31 20 422 7777 - https://www.warchild.net/country-opt/"
       }
@@ -991,7 +1009,7 @@
         "node_identifier": "Regex:.*{consent_link}.*",
         "change": "{consent_link}",
         "condition_var": "",
-        "category": "https://bit.ly/4kFhNt5"
+        "category": "https://bit.ly/4jU90CY"
       }
     ],
     "urls_transl": [

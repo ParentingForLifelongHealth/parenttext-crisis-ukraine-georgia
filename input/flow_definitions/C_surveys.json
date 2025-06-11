@@ -109,6 +109,19 @@
         "tags.2": ""
       },
       {
+        "type": "data_sheet",
+        "sheet_name": "1month_survey_messages",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "SingleMessageModel",
+        "operation": "",
+        "template_arguments": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": ""
+      },
+      {
         "type": "survey",
         "sheet_name": "",
         "data_sheet": "survey_data_baseline_1",
@@ -2386,7 +2399,7 @@
         "ID": "followup_intro",
         "type": "intro",
         "tags": "f1",
-        "messages": "We have 8 quick questions. Your answers help us make these tips better for parents and children finding strength and hope during war, displacement, and other tough times. ",
+        "messages": "We have 8 quick questions. Your answers help us make these tips better for parents and children finding strength and hope during war, displacement, and other tough times.",
         "variable": "",
         "relevant.1.variable": "@fields.over_sixteen",
         "relevant.1.value": "yes",
@@ -3093,6 +3106,20 @@
         "expiration.message": ""
       }
     ],
+    "1month_survey_messages": [
+      {
+        "ID": "survey_after_expiring",
+        "msg": "Welcome back!"
+      },
+      {
+        "ID": "expiration_msg",
+        "msg": "It looks like this is not a good time. Please type 1 if you'd like to continue."
+      },
+      {
+        "ID": "restart_tomorrow",
+        "msg": "You will continue with your progress tomorrow."
+      }
+    ],
     "survey_push_interaction_data": [
       {
         "ID": "1month",
@@ -3105,7 +3132,7 @@
         "options.2.text": "2",
         "options.2.proceed_result_value": "",
         "options.2.stop_message": "That's okay.",
-        "wa_template_ID": "1_month_survey",
+        "wa_template_ID": "1month",
         "wa_template_vars.1": "",
         "wa_template_vars.2": ""
       }
