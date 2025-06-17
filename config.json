@@ -5,7 +5,7 @@
     },
     "parents": {
         "base": {
-            "location": "https://github.com/IDEMSInternational/parenttext-crisis-base/archive/refs/tags/v1.1.0.zip"
+            "location": "https://github.com/IDEMSInternational/parenttext-crisis-base/archive/refs/tags/v1.1.1.zip"
         }
     },
     "flows_outputbasename": "parenttext_all",
@@ -104,6 +104,31 @@
             "files_list": [
                 "1TJ1YVSu87ubc5GvGea2hfRh4v234OyJUccQnZ90VUP4"
             ]
+        },
+        "media_assets": {
+            "format": "media_assets",
+            "mappings": {
+                "Language": {
+                    "Arabic": "ara"
+                },
+                "Caregiver Gender": {
+                    "F": "female",
+                    "M": "male"
+                }
+            },
+            "path_template": [
+                "{{ format | title }}",
+                "{{ (annotations['Caregiver Gender'] or '') | title }}",
+                "{{ (language or '') | title }}",
+                "{{ name }}"
+            ],
+            "storage": {
+                "system": "canto",
+                "location": "T9GUJ",
+                "annotations": {
+                    "site_base_url": "https://parentingforlifelonghealth.canto.com"
+                }
+            }
         }
     },
     "steps": [
