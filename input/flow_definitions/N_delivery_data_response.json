@@ -594,9 +594,6 @@
         "refuse_flow": "",
         "next_offer_msg": "What would you like now?",
         "next_accept": "Another fun activity I can do with my child",
-        "next_refuse": "Nothing. Let's continue tomorrow.",
-        "next_refuse_msg": "OK, see you tomorrow.",
-        "next_refuse_flow": "",
         "next_other_opt": "Get another tip",
         "next_other_msg": "",
         "next_other_flow": "new_day_goal_content"
@@ -615,9 +612,6 @@
         "refuse_flow": "",
         "next_offer_msg": "What would you like now?",
         "next_accept": "View another activity idea",
-        "next_refuse": "Nothing. Let's continue tomorrow.",
-        "next_refuse_msg": "OK, see you tomorrow.",
-        "next_refuse_flow": "",
         "next_other_opt": "Get another tip",
         "next_other_msg": "",
         "next_other_flow": "new_day_goal_content"
@@ -636,9 +630,6 @@
         "refuse_flow": "",
         "next_offer_msg": "What would you like to do?",
         "next_accept": "View another activity idea",
-        "next_refuse": "Exit menu",
-        "next_refuse_msg": "",
-        "next_refuse_flow": "exit_menu",
         "next_other_opt": "Go to Main Menu",
         "next_other_msg": "",
         "next_other_flow": "menu - main"

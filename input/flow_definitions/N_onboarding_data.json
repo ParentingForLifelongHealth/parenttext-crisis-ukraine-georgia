@@ -114,6 +114,8 @@
         "postprocessing.assignments.2.value": "yes",
         "postprocessing.assignments.3.variable": "",
         "postprocessing.assignments.3.value": "",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
         "expiration.message": ""
       },
       {
@@ -188,6 +190,8 @@
         "postprocessing.assignments.2.value": "",
         "postprocessing.assignments.3.variable": "",
         "postprocessing.assignments.3.value": "",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
         "expiration.message": ""
       },
       {
@@ -262,6 +266,8 @@
         "postprocessing.assignments.2.value": "",
         "postprocessing.assignments.3.variable": "",
         "postprocessing.assignments.3.value": "",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
         "expiration.message": ""
       },
       {
@@ -336,6 +342,8 @@
         "postprocessing.assignments.2.value": "",
         "postprocessing.assignments.3.variable": "",
         "postprocessing.assignments.3.value": "",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
         "expiration.message": ""
       },
       {
@@ -410,6 +418,8 @@
         "postprocessing.assignments.2.value": "",
         "postprocessing.assignments.3.variable": "",
         "postprocessing.assignments.3.value": "",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
         "expiration.message": ""
       },
       {
@@ -484,6 +494,8 @@
         "postprocessing.assignments.2.value": "@(if(fields.@answerid=\"yes\",\"yes\",\"no\"))",
         "postprocessing.assignments.3.variable": "",
         "postprocessing.assignments.3.value": "",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
         "expiration.message": ""
       },
       {
@@ -558,6 +570,8 @@
         "postprocessing.assignments.2.value": "",
         "postprocessing.assignments.3.variable": "",
         "postprocessing.assignments.3.value": "",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
         "expiration.message": ""
       },
       {
@@ -632,6 +646,8 @@
         "postprocessing.assignments.2.value": "",
         "postprocessing.assignments.3.variable": "",
         "postprocessing.assignments.3.value": "",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
         "expiration.message": ""
       },
       {
@@ -706,6 +722,8 @@
         "postprocessing.assignments.2.value": "",
         "postprocessing.assignments.3.variable": "",
         "postprocessing.assignments.3.value": "",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
         "expiration.message": ""
       },
       {
@@ -780,6 +798,8 @@
         "postprocessing.assignments.2.value": "@(if(fields.@answerid=\"Under 16 years old\",\"NA\",\"\"))",
         "postprocessing.assignments.3.variable": "opt in end",
         "postprocessing.assignments.3.value": "@(if(fields.@answerid=\"Under 16 years old\",\"NA\",\"\"))",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
         "expiration.message": ""
       },
       {
@@ -854,6 +874,8 @@
         "postprocessing.assignments.2.value": "@(if(fields.@answerid=\"male\",\"male\",\"female\"))",
         "postprocessing.assignments.3.variable": "voiceover audio path",
         "postprocessing.assignments.3.value": "@(fields.path & \"voiceover/resourceType/audio/gender/\" & fields.attachment_gender & \"/language/\" & contact.language & \"/\")",
+        "postprocessing.assignments.4.variable": "voiceover video path",
+        "postprocessing.assignments.4.value": "@(fields.path & \"voiceover/resourceType/video/gender/\" & fields.attachment_gender & \"/language/\" & contact.language & \"/\")",
         "expiration.message": ""
       },
       {
@@ -928,6 +950,8 @@
         "postprocessing.assignments.2.value": "",
         "postprocessing.assignments.3.variable": "",
         "postprocessing.assignments.3.value": "",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
         "expiration.message": ""
       },
       {
@@ -1002,6 +1026,8 @@
         "postprocessing.assignments.2.value": "",
         "postprocessing.assignments.3.variable": "",
         "postprocessing.assignments.3.value": "",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
         "expiration.message": ""
       },
       {
@@ -1076,6 +1102,8 @@
         "postprocessing.assignments.2.value": "",
         "postprocessing.assignments.3.variable": "",
         "postprocessing.assignments.3.value": "",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
         "expiration.message": ""
       },
       {
@@ -1150,6 +1178,8 @@
         "postprocessing.assignments.2.value": "",
         "postprocessing.assignments.3.variable": "",
         "postprocessing.assignments.3.value": "",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
         "expiration.message": ""
       },
       {
@@ -1224,6 +1254,8 @@
         "postprocessing.assignments.2.value": "",
         "postprocessing.assignments.3.variable": "",
         "postprocessing.assignments.3.value": "",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
         "expiration.message": ""
       },
       {
@@ -1298,6 +1330,8 @@
         "postprocessing.assignments.2.value": "",
         "postprocessing.assignments.3.variable": "",
         "postprocessing.assignments.3.value": "",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
         "expiration.message": ""
       }
     ],

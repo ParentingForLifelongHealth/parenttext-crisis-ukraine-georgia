@@ -352,6 +352,11 @@
         "metadata.description": ""
       },
       {
+        "ID": "next_tip_opt",
+        "msg": "Get another tip",
+        "metadata.description": ""
+      },
+      {
         "ID": "farewell",
         "msg": "We hope this was helpful. You can access this information at any time by typing {HELP}. ",
         "metadata.description": ""

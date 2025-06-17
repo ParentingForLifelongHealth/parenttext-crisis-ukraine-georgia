@@ -953,7 +953,7 @@
         "node_identifier": "Regex:.*{MENU}.*",
         "original": "{MENU}",
         "language": "ara",
-        "replacement": "*القائمة *"
+        "replacement": "*القائمة*"
       },
       {
         "type_of_edit": "replace_bit_of_text",
