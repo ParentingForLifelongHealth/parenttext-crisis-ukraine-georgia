@@ -200,7 +200,7 @@
       },
       {
         "ID": "instructions",
-        "msg": "Please type {MENU} to access resources and review previous tips, {PLAY} to receive a playful activity you can complete with your child, or {HELP} to access additional support resources.",
+        "msg": "Please type {MENU} to access resources and review previous tips, {PLAY} to receive a playful activity you can complete with your child, {PAUSE} to take a pause with us, or {HELP} to access additional support resources.",
         "metadata.description": ""
       },
       {
@@ -352,6 +352,11 @@
         "metadata.description": ""
       },
       {
+        "ID": "next_tip_opt",
+        "msg": "Get another tip",
+        "metadata.description": ""
+      },
+      {
         "ID": "farewell",
         "msg": "We hope this was helpful. You can access this information at any time by typing {HELP}. ",
         "metadata.description": ""
@@ -372,7 +377,7 @@
     "uncaught_message_flow_data": [
       {
         "ID": "instructions",
-        "msg": "I don't understand your message.\nPlease type {MENU} to access resources and review previous tips, {PLAY} to receive a playful activity you can complete with your child, or {HELP} to access additional support resources.",
+        "msg": "Please type {MENU} to access resources and review previous tips, {PLAY} to receive a playful activity you can complete with your child, {PAUSE} to take a pause with us, or {HELP} to access additional support resources.",
         "metadata.description": ""
       },
       {

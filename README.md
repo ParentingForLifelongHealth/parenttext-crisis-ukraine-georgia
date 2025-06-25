@@ -34,7 +34,9 @@ These steps need to be followed if you want to run the pipeline from the command
 ## Run
 
 ```
-python -m parenttext_pipeline.cli pull_data compile_flows
+python -m parenttext_pipeline.cli pull_data 
+
+python -m parenttext_pipeline.cli compile_flows
 ```
 
 The main script that contains the full process to produce RapidPro flows from the relevant Google Sheets. It reads configuration settings from the 'config.py' file, so any adjustments should be made in that file. That file contains information on what the various inputs mean. There is also an authoritative explanation of the [available pipeline configuration settings][1] in the repository for the general ParentText Pipeline.
@@ -42,3 +44,14 @@ The main script that contains the full process to produce RapidPro flows from th
 
 [1]: https://github.com/IDEMSInternational/parenttext-pipeline/blob/main/docs/configuration.md
 [2]: https://github.com/IDEMSInternational/parenttext-crisis/actions/workflows/main.yaml
+
+## Download Media
+
+The config.json file has been set up to point to the PLH media repo on canto, so from this repo you can quickly download all the Palestine relevant media
+Use the command below where the 'destination dir'is a local folder 
+
+```
+python -m parenttext.canto <destination_dir>
+
+```
+

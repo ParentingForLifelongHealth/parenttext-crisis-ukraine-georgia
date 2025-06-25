@@ -5,30 +5,29 @@
     },
     "parents": {
         "base": {
-            "location": "https://github.com/IDEMSInternational/parenttext-crisis-base/archive/refs/tags/v1.0.12.zip"
+            "location": "https://github.com/IDEMSInternational/parenttext-crisis-base/archive/refs/tags/v1.1.1.zip"
         }
     },
     "flows_outputbasename": "parenttext_all",
     "output_split_number": 1,
-    "sheet_names" : {
-        "T_survey": "1dewoAzGyWAIljHK5KnL3TNP8g5pz0Vt6Lux2O6rycYU",
+    "sheet_names": {
+        
         "T_trial": "1BifL5eSoEo3b7WS8KsrnXDYg3t36yYLqzr75Y8V9Vhw",
+
         "deployment_localised_sheets" : "1tLDsUe-NxOxpxOBuTJmopOnP9dOcmLVHjO2YQxGxe28",
 
-        "N_onboarding_data" : "1tC8BcP32nE7Bt5sRKAsfx0_69bfjsslOtvaAjSEaQ1A",
-        "C_ltp_activities" :"1IwBHNx8zh-xg7Jk5KdcO4VM-FospCj3H3OizYG-kkuw",
-        "C_modules_all_ages" : "1bQSvjyDCJ-WzvGn-ct9hwWWRlO1arkAJZTdsKO9z2_c",
-        "N_safeguarding_data" : "1lRez9sBgmhoDHareah7b9VaHXoQIF-6w14Sgub0cTc8",
-        "N_delivery_data_response" : "1Z396_UL_n-Bw1W5gNxmdE9pN35PI2yrezQS-yXE3muo",
-        "N_menu_data_response" : "10LlNXD7rQk0vDEBkMve59pVfqBM_KI39dEeIhZgFVVg",
-        
-        
+        "N_onboarding_data": "1tC8BcP32nE7Bt5sRKAsfx0_69bfjsslOtvaAjSEaQ1A",
+        "C_ltp_activities":"1IwBHNx8zh-xg7Jk5KdcO4VM-FospCj3H3OizYG-kkuw",
+        "C_modules_all_ages": "1bQSvjyDCJ-WzvGn-ct9hwWWRlO1arkAJZTdsKO9z2_c",
+        "N_safeguarding_data": "1lRez9sBgmhoDHareah7b9VaHXoQIF-6w14Sgub0cTc8",
+        "N_delivery_data_response": "1Z396_UL_n-Bw1W5gNxmdE9pN35PI2yrezQS-yXE3muo",
+        "N_menu_data_response": "10LlNXD7rQk0vDEBkMve59pVfqBM_KI39dEeIhZgFVVg",
         "C_surveys": "1qpara2udvGN3wTGQLfmrEFeVIe9Ei3pi8SAAZDphqgU",
         "N_joining_triggers": "1iIzHXOO0kPY_jVGnIePOmJfdvAvH1T_VQ5jObTXonNc",
 
-        "ab_testing_sheet_ID" : "1kr9z6TIRHD0apskM1qDQEVzY2CMBBMBc4NYd9a3Bsxs",
-        "eng_edits_sheet_ID" : "1Ab8H_s26EuOiS4nZ6HGADjD4CZw55586LL66fl8tEWI",
-        "transl_edits_sheet_ID" : "1mLhOShV8jTC6nITO0rPA1t4f6N4PfUUddJR7nRj7vy4"
+        "ab_testing_sheet_ID": "1kr9z6TIRHD0apskM1qDQEVzY2CMBBMBc4NYd9a3Bsxs",
+        "eng_edits_sheet_ID": "1Ab8H_s26EuOiS4nZ6HGADjD4CZw55586LL66fl8tEWI",
+        "transl_edits_sheet_ID": "1mLhOShV8jTC6nITO0rPA1t4f6N4PfUUddJR7nRj7vy4"
     },
     "sources": {
         "flow_definitions": {
@@ -38,7 +37,6 @@
             "format": "sheets",
             "subformat": "google_sheets",
             "files_list": [
-                "T_survey",
                 "T_trial",
                 "N_onboarding_data",
                 "C_ltp_activities",
@@ -100,17 +98,41 @@
                 }
             ]
         },
-        
-        "goals_api": {   
+        "goals_api": {
             "format": "sheets",
             "subformat": "google_sheets",
             "files_list": [
                 "1TJ1YVSu87ubc5GvGea2hfRh4v234OyJUccQnZ90VUP4"
             ]
+        },
+        "media_assets": {
+            "format": "media_assets",
+            "mappings": {
+                "Language": {
+                    "Arabic": "ara"
+                },
+                "Caregiver Gender": {
+                    "F": "female",
+                    "M": "male"
+                }
+            },
+            "path_template": [
+                "{{ format | title }}",
+                "{{ (annotations['Caregiver Gender'] or '') | title }}",
+                "{{ (language or '') | title }}",
+                "{{ name }}"
+            ],
+            "storage": {
+                "system": "canto",
+                "location": "T9GUJ",
+                "annotations": {
+                    "site_base_url": "https://parentingforlifelonghealth.canto.com"
+                }
+            }
         }
     },
     "steps": [
-        {   
+        {
             "id": "create_flows",
             "type": "create_flows",
             "models_module": "models.parenttext_models",
@@ -123,7 +145,7 @@
             "sources": ["expiration_times"],
             "default_expiration_time": 1440
         },
-        {   
+        {
             "id": "edits_pretranslation",
             "type": "edits",
             "sources": ["edits_pretranslation"]
@@ -140,7 +162,7 @@
             "id": "extract_texts_for_translators",
             "type": "extract_texts_for_translators"
         },
-        {   
+        {
             "id": "translation",
             "type": "translation",
             "sources": ["translation"],
@@ -148,7 +170,7 @@
                 {"language": "ara", "code": "ar"}
             ]
         },
-        {   
+        {
             "id": "edits_posttranslation",
             "type": "edits",
             "sources": ["edits_posttranslation"]
@@ -171,11 +193,11 @@
             "sources": ["qr_treatment"],
             "qr_treatment": "reformat_palestine"
         },
-        {   
+        {
             "id": "safeguarding",
             "type": "safeguarding",
             "sources": ["safeguarding"],
-            "redirect_flow_names": "[\"safeguarding_redirect_to_topic_all\", \"safeguarding_redirect_to_topic_start\", \"safeguarding_redirect_to_topic_trigger\"]"
+            "redirect_flow_names": "[\"safeguarding_redirect_to_topic_all\", \"safeguarding_redirect_to_topic_start\", \"safeguarding_redirect_to_topic_trigger\", \"study_safeguarding_redirect_to_topic\"]"
         }
     ]
 }

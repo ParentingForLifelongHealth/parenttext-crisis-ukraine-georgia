@@ -46,14 +46,14 @@
         "ID": "lang",
         "type": "multiple_choice",
         "messages.1.text": "Please select your language:\n\nمن فضلك ادخل اللغة",
-        "messages.1.image": "https://firebasestorage.googleapis.com/v0/b/idems-media-recorder.appspot.com/o/project%2FPLH%2Fsubproject%2FParentText_v2%2Fdeployment%2FCrisisPalestine%2FresourceGroup%2Flogo%2Fparenttext_logo.png?alt=media&token=564e8157-5885-49f2-b9c8-254c22f1aa4d",
+        "messages.1.image": "",
         "messages.1.video": "",
         "skipoption.text": "",
         "skipoption.choice": "",
         "skipoption.value": "",
-        "relevant.1.variable": "",
-        "relevant.1.value": "",
-        "relevant.1.type": "",
+        "relevant.1.variable": "@fields.joining_trigger_id",
+        "relevant.1.value": "testers",
+        "relevant.1.type": "has_any_word",
         "choices.1.text": "English",
         "choices.1.value": "eng",
         "choices.1.show": "",
@@ -114,13 +114,15 @@
         "postprocessing.assignments.2.value": "yes",
         "postprocessing.assignments.3.variable": "",
         "postprocessing.assignments.3.value": "",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
         "expiration.message": ""
       },
       {
         "ID": "welcome",
         "type": "intro",
         "messages.1.text": "Welcome to ParentText. Every parent everywhere needs support. We hope we can help. 💚",
-        "messages.1.image": "",
+        "messages.1.image": "https://firebasestorage.googleapis.com/v0/b/idems-media-recorder.appspot.com/o/project%2FPLH%2Fsubproject%2FParentText_v2%2Fdeployment%2FCrisisPalestine%2FresourceGroup%2Flogo%2Fparenttext_logo.png?alt=media&token=564e8157-5885-49f2-b9c8-254c22f1aa4d",
         "messages.1.video": "",
         "skipoption.text": "",
         "skipoption.choice": "",
@@ -188,6 +190,8 @@
         "postprocessing.assignments.2.value": "",
         "postprocessing.assignments.3.variable": "",
         "postprocessing.assignments.3.value": "",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
         "expiration.message": ""
       },
       {
@@ -262,6 +266,8 @@
         "postprocessing.assignments.2.value": "",
         "postprocessing.assignments.3.variable": "",
         "postprocessing.assignments.3.value": "",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
         "expiration.message": ""
       },
       {
@@ -336,6 +342,8 @@
         "postprocessing.assignments.2.value": "",
         "postprocessing.assignments.3.variable": "",
         "postprocessing.assignments.3.value": "",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
         "expiration.message": ""
       },
       {
@@ -410,6 +418,8 @@
         "postprocessing.assignments.2.value": "",
         "postprocessing.assignments.3.variable": "",
         "postprocessing.assignments.3.value": "",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
         "expiration.message": ""
       },
       {
@@ -484,6 +494,8 @@
         "postprocessing.assignments.2.value": "@(if(fields.@answerid=\"yes\",\"yes\",\"no\"))",
         "postprocessing.assignments.3.variable": "",
         "postprocessing.assignments.3.value": "",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
         "expiration.message": ""
       },
       {
@@ -558,6 +570,8 @@
         "postprocessing.assignments.2.value": "",
         "postprocessing.assignments.3.variable": "",
         "postprocessing.assignments.3.value": "",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
         "expiration.message": ""
       },
       {
@@ -632,6 +646,8 @@
         "postprocessing.assignments.2.value": "",
         "postprocessing.assignments.3.variable": "",
         "postprocessing.assignments.3.value": "",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
         "expiration.message": ""
       },
       {
@@ -706,6 +722,8 @@
         "postprocessing.assignments.2.value": "",
         "postprocessing.assignments.3.variable": "",
         "postprocessing.assignments.3.value": "",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
         "expiration.message": ""
       },
       {
@@ -780,6 +798,8 @@
         "postprocessing.assignments.2.value": "@(if(fields.@answerid=\"Under 16 years old\",\"NA\",\"\"))",
         "postprocessing.assignments.3.variable": "opt in end",
         "postprocessing.assignments.3.value": "@(if(fields.@answerid=\"Under 16 years old\",\"NA\",\"\"))",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
         "expiration.message": ""
       },
       {
@@ -854,6 +874,8 @@
         "postprocessing.assignments.2.value": "@(if(fields.@answerid=\"male\",\"male\",\"female\"))",
         "postprocessing.assignments.3.variable": "voiceover audio path",
         "postprocessing.assignments.3.value": "@(fields.path & \"voiceover/resourceType/audio/gender/\" & fields.attachment_gender & \"/language/\" & contact.language & \"/\")",
+        "postprocessing.assignments.4.variable": "voiceover video path",
+        "postprocessing.assignments.4.value": "@(fields.path & \"voiceover/resourceType/video/gender/\" & fields.attachment_gender & \"/language/\" & contact.language & \"/\")",
         "expiration.message": ""
       },
       {
@@ -928,6 +950,8 @@
         "postprocessing.assignments.2.value": "",
         "postprocessing.assignments.3.variable": "",
         "postprocessing.assignments.3.value": "",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
         "expiration.message": ""
       },
       {
@@ -1002,6 +1026,8 @@
         "postprocessing.assignments.2.value": "",
         "postprocessing.assignments.3.variable": "",
         "postprocessing.assignments.3.value": "",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
         "expiration.message": ""
       },
       {
@@ -1076,12 +1102,14 @@
         "postprocessing.assignments.2.value": "",
         "postprocessing.assignments.3.variable": "",
         "postprocessing.assignments.3.value": "",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
         "expiration.message": ""
       },
       {
         "ID": "location_excluded",
         "type": "multiple_choice",
-        "messages.1.text": "This is a very difficult and dangerous time for you and your family. These tips might be different from what you need right now. What would you like to do? ",
+        "messages.1.text": "This is a very difficult time for you and your family. We are glad you are here. You may need more support than just these tips, but we hope these tips can help even just a little. \n\nWhat would you like to do?",
         "messages.1.image": "",
         "messages.1.video": "",
         "skipoption.text": "",
@@ -1150,6 +1178,8 @@
         "postprocessing.assignments.2.value": "",
         "postprocessing.assignments.3.variable": "",
         "postprocessing.assignments.3.value": "",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
         "expiration.message": ""
       },
       {
@@ -1224,6 +1254,8 @@
         "postprocessing.assignments.2.value": "",
         "postprocessing.assignments.3.variable": "",
         "postprocessing.assignments.3.value": "",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
         "expiration.message": ""
       },
       {
@@ -1298,6 +1330,8 @@
         "postprocessing.assignments.2.value": "",
         "postprocessing.assignments.3.variable": "",
         "postprocessing.assignments.3.value": "",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
         "expiration.message": ""
       }
     ],

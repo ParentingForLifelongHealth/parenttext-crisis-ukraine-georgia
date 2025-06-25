@@ -7,7 +7,7 @@
   },
   {
     "SourceText": "Please select your language:",
-    "text": "يُرجى اختيار لغتك:",
+    "text": "Please select your language:",
     "type": "text",
     "note": ""
   },
@@ -55,7 +55,7 @@
   },
   {
     "SourceText": "✅Your anonymous information may also be shared with others working to help families like yours build strength and hope in tough times. All your information will be private and can’t be linked back to you.",
-    "text": "✅ معلوماتك المجهولة ممكن يتم مشاركتها مع اللي بيشتغلوا لمساعدة عائلات زي عائلتك لبناء القوة والأمل في الأوقات الصعبة. كل معلوماتك رح تكون خاصة وما رح يقدر حدا يربطها فيك.",
+    "text": "✅ إجاباتك مجهولة الهوية ممكن يتم مشاركتها مع اللي بيشتغلوا لمساعدة عائلات زي عائلتك لبناء القوة والأمل في الأوقات الصعبة. كل معلوماتك رح تكون خاصة وما رح يقدر حدا يربطها فيك.",
     "type": "text",
     "note": ""
   },
@@ -97,7 +97,7 @@
   },
   {
     "SourceText": "❔Before we get started, we have a few questions to make this journey personalised:",
-    "text": "❔قبل ما نبدأ، في عنّا شوية أسئلة لحتى نخصّص هالرحلة إلك:",
+    "text": "❤️ قبل ما نبدأ، في عنّا شوية أسئلة لحتى نخصّص هالرحلة إلك:",
     "type": "text",
     "note": ""
   },
@@ -127,7 +127,7 @@
   },
   {
     "SourceText": "These tips are designed for those who look after children. Would you still like to receive the tips so you can share the advice with friends and family?",
-    "text": "هاي النصائح مصممة للأشخاص اللي بيرعوا الأطفال. هل لسى بتحب تستلم النصائح لتقدر تشاركها مع أصدقائك وعيلتك؟",
+    "text": "هاي النصائح مصممة للأشخاص اللي يقومون برعاية الأطفال. هل لسى بتحب تستلم النصائح لتقدر تشاركها مع أصدقائك وعيلتك؟",
     "type": "text",
     "note": ""
   },
@@ -145,7 +145,7 @@
   },
   {
     "SourceText": "This is a very difficult and dangerous time for you and your family. These tips might be different from what you need right now. What would you like to do?",
-    "text": "هاي الفترة كتير صعبة وخطرة عليك إنت وعيلتك. وممكن هاي النصائح تكون مختلفة عن اللي إنت محتاجه بهالوقت. إنت شو حابب تعمل؟",
+    "text": "هاي الفترة كتير صعبة وخطرة عليك إنت وعيلتك. وممكن هاي النصائح تكون مختلفة عن اللي إنت محتاجه بهالوقت. هل تريد أن تطلع على النصائح؟",
     "type": "text",
     "note": ""
   },
@@ -169,7 +169,7 @@
   },
   {
     "SourceText": "English",
-    "text": "اللغة الإنجليزية",
+    "text": "English",
     "type": "quick_replies",
     "note": ""
   },
@@ -247,7 +247,7 @@
   },
   {
     "SourceText": "None",
-    "text": "لا شيء",
+    "text": "لا يوجد",
     "type": "quick_replies",
     "note": ""
   },
@@ -265,13 +265,13 @@
   },
   {
     "SourceText": "I want the tips",
-    "text": "بدي النصائح",
+    "text": "أريد النصائح",
     "type": "quick_replies",
     "note": ""
   },
   {
     "SourceText": "I do not want the tips",
-    "text": "ما بدي النصائح",
+    "text": "لا أريد النصائح",
     "type": "quick_replies",
     "note": ""
   },
@@ -537,6 +537,12 @@
     "SourceText": "prefer not to say",
     "text": "بفضّل ما أجاوب",
     "type": "arguments",
+    "note": ""
+  },
+  {
+    "SourceText": "This is a very difficult time for you and your family. We are glad you are here. You may need more support than just these tips, but we hope these tips can help even just a little.",
+    "text": "منعرف إنو هالوقت كتير صعب عليك وعلى عيلتك، وإحنا مبسوطين إنك هون. يمكن تحتاج دعم أكبر من هالنصائح، بس منتمنّى إنها تساعدك ولو شوي. هل بتحب تطلع على النصائح؟",
+    "type": "text",
     "note": ""
   }
 ]
