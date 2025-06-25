@@ -5,7 +5,7 @@
     },
     "parents": {
         "base": {
-            "location": "https://github.com/IDEMSInternational/parenttext-crisis-base/archive/refs/tags/v1.1.1.zip"
+            "location": "https://github.com/IDEMSInternational/parenttext-crisis-base/archive/refs/tags/v1.1.2.zip"
         }
     },
     "flows_outputbasename": "parenttext_all",
@@ -17,14 +17,14 @@
         "C_surveys": "18OZwZ2QyPUn8oLmVtKGe7_bSXe2u_8GAot5RPS701Ic",
 
         "deployment_localised_sheets" : "1HlvQRgcymKKPJUJHGTt9a6EzC684wglfK71Ig0d4QAE",
-        "transl_edits_sheet_ID": "1qt92bbwb--7FKS1a7s5J_bLUAfXmH00XESrdvuW6g0w"
+        "transl_edits_sheet_ID": "1qt92bbwb--7FKS1a7s5J_bLUAfXmH00XESrdvuW6g0w",
         "ab_testing_sheet_ID": "13Ms2qRgZW8tWCZIdXPlKlrwe9Csf-BczEV3kTwjHdHE",
         "N_joining_triggers": "1_3_U5cN9Iu0JbgqyiGB2eco6VZCGqH8GZjQHeOhCfk0",
        
         "N_delivery_data_response": "1b4WE-kM1R4gNHYSrjKKUucllKc-OnV8BKaZm1xdkCRo",
         "N_menu_data_response": "1t9gNxY2kVuA0UeiNi-m_kbyWJlTF5IZU7kd2bfe-WU8",
         "N_onboarding_data": "15DFrNora9dYQ7tP7TwbKeT8uDzOa4Rlv2vdMkqb8cI8",
-        "N_safeguarding_data": "1msIWsescxwU07UEPwLO3Q4PJqkrD29tn1m6K5BgW3qo",
+        "N_safeguarding_data": "1msIWsescxwU07UEPwLO3Q4PJqkrD29tn1m6K5BgW3qo"
         
     },
     "sources": {
