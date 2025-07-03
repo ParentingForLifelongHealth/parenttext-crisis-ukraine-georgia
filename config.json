@@ -26,7 +26,7 @@
         "N_onboarding_data": "15DFrNora9dYQ7tP7TwbKeT8uDzOa4Rlv2vdMkqb8cI8",
         "N_safeguarding_data": "1msIWsescxwU07UEPwLO3Q4PJqkrD29tn1m6K5BgW3qo",
 
-        "WVI_general_cofig": "1ymsldKSGGpImiQhHOigtc0hQD2paNOc5gHkdu-n4wrw"
+        "WVI_general_config": "1ymsldKSGGpImiQhHOigtc0hQD2paNOc5gHkdu-n4wrw"
         
     },
     "sources": {
@@ -37,7 +37,7 @@
             "format": "sheets",
             "subformat": "google_sheets",
             "files_list": [
-                "WVI_general_cofig",
+                "WVI_general_config",
                 "N_onboarding_data",
                 "C_ltp_activities",
                 "C_modules_all_ages",
