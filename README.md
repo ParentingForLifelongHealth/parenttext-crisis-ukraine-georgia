@@ -44,14 +44,3 @@ The main script that contains the full process to produce RapidPro flows from th
 
 [1]: https://github.com/IDEMSInternational/parenttext-pipeline/blob/main/docs/configuration.md
 [2]: https://github.com/IDEMSInternational/parenttext-crisis/actions/workflows/main.yaml
-
-## Download Media
-
-The config.json file has been set up to point to the PLH media repo on canto, so from this repo you can quickly download all the Palestine relevant media
-Use the command below where the 'destination dir'is a local folder 
-
-```
-python -m parenttext.canto <destination_dir>
-
-```
-
