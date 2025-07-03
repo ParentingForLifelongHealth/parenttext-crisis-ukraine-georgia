@@ -207,103 +207,103 @@
       {
         "ID": "unfinished_onboarding",
         "text": "It’s a difficult moment for your family. I’m here today with a few tips to create small moments of connection with your child to give them the routine and stability you all need right now. \n\nPress a number on your keypad: \n1. Continue with my registration\n2. Remind me tomorrow",
-        "ara": "هادا الوقت صعب على عيلتك. أنا هون اليوم مع شوية نصائح عشان تخلق لحظات صغيرة للتواصل مع طفلك لتعطيه الروتين والاستقرار اللي\n\nإضغط رقم على لوحة المفاتيح عندك:\n1.الإستمرار في التسجيل\n2. الرجاء تذكيري غداً",
+        "lan": "",
         "vars": ""
       },
       {
-        "ID": "unfinished_baseline_2",
+        "ID": "unfinished_baseline",
         "text": "It looks like you started answering some baseline questions but didn't get a chance to finish. Would you like to continue now and then we can move onto the tips?\n\nPress a number on your keypad: \n1. Continue my initial questions\n2. Remind me tomorrow",
-        "ara": "شكلك بلشت تجاوب على شوية أسئلة أساسية بس ما كمّلت. بدّك تكمّل هلا وبعدين ننتقل للنصائح؟\n\nإضغط رقم على لوحة المفاتيح عندك:\n1.متابعة أسألتي الأولى\n2. الرجاء تذكيري غداً",
+        "lan": "",
         "vars": ""
       },
       {
         "ID": "complete_start_module",
         "text": "It looks like you started a tip, but didn't finish receiving all of the information. Would you like to finish it or start learning someting new?\n\nPress a number on your keypad: \n1. Finish the previous tip\n2. Receive a new tip\n3. Remind me tomorrow",
-        "ara": "شكلك بلّشت بنصيحة، بس ما خلّصت استلام كل المعلومات. بتحبّ تكمّل أو تبلّش إشي جديد؟\n\nإضغط رقم على لوحة المفاتيح عندك:\n1.تكميل نصيحتي السابقة\n2.إستقبال نصيحة جديدة\n3. الرجاء تذكيري غداً",
+        "lan": "",
         "vars": ""
       },
       {
         "ID": "start_started_mod_or_later_one",
         "text": "It looks like you started a parenting tip, but didn't finish receiving all of the information. What would you like to do?\n\nPress a number on your keypad: \n1. Receive the remaining information\n2. Remind me tomorrow\n3. I've finished receiving all of the information that I want from this chatbot",
-        "ara": "شكلك بلّشت نصيحة تربوية بس ما خلصت استلام كل المعلومات. شو بتحب تعمل؟\n\nإضغط رقم على لوحة المفاتيح عندك:\n1. إستقبال المعلومات المتبقية\n2. الرجاء تذكيري غداً\n3. لقد إستقبلت كل المعلومات التي أرغب فيها من برنامج المحادثة هذا",
+        "lan": "",
         "vars": ""
       },
       {
-        "ID": "start_started_mod_or_later_multiple_2",
+        "ID": "start_started_mod_or_later_multiple",
         "text": "It looks like you have started, but not finished, {{1}} tips. What would you like to do?\n\nPress a number on your keypad: \n1. Receive the remaining information\n2. Remind me tomorrow\n3. I've finished receiving all of the information that I want from this chatbot",
-        "ara": "مبيّن إنك بلّشت بس ما خلّصت، {{1}} النصائح. شو حابب تعمل؟\n\nإضغط رقم على لوحة المفاتيح عندك:\n1. إستقبال المعلومات المتبقية\n2. الرجاء تذكيري غداً\n3. لقد إستقبلت كل المعلومات التي أرغب فيها من برنامج المحادثة هذا",
-        "vars": "{{1}}eng = 2\n{{1}}ara = 2"
+        "lan": "",
+        "vars": "{{1}}eng = 2\n"
       },
       {
         "ID": "first_module_intro",
         "text": "You and your family are facing a challenging time. ParentText provides tips on how you can support your child during this crisis. Would you like to recieve your first tips now?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
-        "ara": "إنت و عيلتك عم بتمرّوا بوقت صعب. نصائح للوالدين بتوفّرلك نصائح عن كيف ممكن تدعم أطفالك بهيك أوقات. بتحب تستقبل النصائح الأولى؟\n\nإضغط رقم على لوحة المفاتيح عندك:\n1. نعم\n2. لا، الرجاء تذكيري غداً",
+        "lan": "",
         "vars": ""
       },
       {
         "ID": "daily_interaction",
         "text": "New tips are ready for you. Would you like to continue now?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
-        "ara": "في نصيحة جديدة بإنتظارَك. جاهز تكمّل معنا؟\n\nإضغط رقم على لوحة المفاتيح عندك:\n1. نعم\n2. لا، الرجاء تذكيري غداً",
+        "lan": "",
         "vars": ""
       },
       {
         "ID": "help_children_cope",
         "text": "💛 We’re thinking of you today. There are simple things you can do to help your child cope. Would you like to learn about them? \n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
-        "ara": "💛 إحنا عم منفكّر فيك اليوم. في أشياء بسيطة بتقدر تمارسها عشان تساعد أطفالك يتعاملوا مع الظروف. بتحب تتعرّف عليهم؟\n\nإضغط رقم على لوحة المفاتيح عندك:\n1. نعم\n2. لا، الرجاء تذكيري غداً",
+        "lan": "",
         "vars": ""
       },
       {
         "ID": "make_a_routine",
         "text": "✨ Today’s tips can help your child feel more safe. Would you like to learn more? \n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
-        "ara": "✨نصائح اليوم بتعرّفك كيف ممكن تساعد أطفالك يحسّوا بأمان. بتحب تتعرّف عليهم؟\n\nإضغط رقم على لوحة المفاتيح عندك:\n1. نعم\n2. لا، الرجاء تذكيري غداً",
+        "lan": "",
         "vars": ""
       },
       {
         "ID": "calm_encourage",
         "text": "Today’s tips offer you some ways you can stay calm and also encourage your children during times of uncertainty 🌱. \nWould you like to receive them?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
-        "ara": "نصائح اليوم بتوفرّلك طرق تساعدك في تهدئة نفسك و بنفس الوقت تشجّع أطفالك في أوقات الحيرة وعدم الوضوح🌱.\nبتحب تُحصُل عليهم؟\n\nإضغط رقم على لوحة المفاتيح عندك:\n1. نعم\n2. لا، الرجاء تذكيري غداً",
+        "lan": "",
         "vars": ""
       },
       {
         "ID": "prepare_to_travel",
         "text": "🧡 Planning to travel with your child soon?\nToday’s tips can help you prepare to stay safe— Would you like to learn more?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
-        "ara": "🧡 عم بتخطط تسافر مع أطفالك قريباً؟\nنصائح اليوم رح تساعدك تاخد إحتياطات الأمان خلال السفر- بتحب تتعرّف عليهم؟\n\nإضغط رقم على لوحة المفاتيح عندك:\n1. نعم\n2. لا، الرجاء تذكيري غداً",
+        "lan": "",
         "vars": ""
       },
       {
         "ID": "travel_safely",
         "text": "💛 In stressful moments, even simple actions can help keep your child safe and close. Today’s tips share how to stay connected and calm when traveling.\nWould you like to receive them?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
-        "ara": "💛 أفعال بسيطة بتساعد تخلّي طفلك قريب و آمن في الأوقات الصعبة و اللي فيها تحدّي.\nنصائح اليوم بتشاركك طرق عشان تساعدك تحافظ على هدوئك و تخلّي طفلك بعلاقة قريبة منّك خلال السفر.\nبتحب تُحصُل عليهم؟\n\nإضغط رقم على لوحة المفاتيح عندك:\n1. نعم\n2. لا، الرجاء تذكيري غداً",
+        "lan": "",
         "vars": ""
       },
       {
         "ID": "protect_sexual_violence",
         "text": "💡 Many parents are having quiet talks with their children about staying safe. Today’s tips explain how to keep your child safe from harassment in a calm, age-appropriate way.\n\nWould you like to receive them?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
-        "ara": "💡 كتير من الأهالي عم يحكوا مع أطفالهم على إنفراد عن الحذر و الإبتعاد عن الخطر. نصائح اليوم بعرّفوك كيف توعّي طفلك عن خطر التحرّش بطريقة هادية و مناسبة لعمره عشان تحميه و يضلّ آمن.\n \nبتحب تُحصُل عليهم؟\n\nإضغط رقم على لوحة المفاتيح عندك:\n1. نعم\n2. لا، الرجاء تذكيري غداً",
+        "lan": "",
         "vars": ""
       },
       {
         "ID": "when_someone_dies",
         "text": "🕊️ In war and other tough times, children notice more than we think. Today’s tips help you talk to your child about death so they can feel safer, less confused, and more supported. Would you like to receive the tips?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
-        "ara": "🕊️ الأطفال عندهم وعي و إدراك أكتر من ما منتصوّر سواء في الحرب أو الأوقات الصعبة. نصائح اليوم بستاعدك تحكي مع طفلك عن الموت عشان تطمّنه، يحسّ بالأمان و تخفف من حيرته. بتحب تُحصُل عليهم؟\n\nإضغط رقم على لوحة المفاتيح عندك:\n1. نعم\n2. لا، الرجاء تذكيري غداً",
+        "lan": "",
         "vars": ""
       },
       {
         "ID": "building_strength",
         "text": "🌿 Building strength in tough times starts with simple steps. Would you like to learn how to promote good behaviors and stay strong together?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
-        "ara": "🌿  تجميع قوانا في الأوقات الصعبة فيه تحدّي كبير بس بيطلّب منّا خطوات بسيطة. بتحب تتعرّف على خطوات بتساعدك إنت و أطفالك تشجعوا السلوكيات الإجابية و تحافظوا على قوّتكم مع بعض؟\n\nإضغط رقم على لوحة المفاتيح عندك:\n1. نعم\n2. لا، الرجاء تذكيري غداً",
+        "lan": "",
         "vars": ""
       },
       {
         "ID": "no_response",
         "text": "This time is difficult. It doesn't seem like you have the time for the these tips right now. When you are ready to keep going, press 1.",
-        "ara": "هاد وقت صعب. يبدو إنه ما عندك وقت للنصائح هلا. لما تكون جاهز تكمّل، اضغط 1.",
+        "lan": "",
         "vars": ""
       },
       {
         "ID": "1month",
         "text": "Can you believe it’s been a month? ⏳\nWe’d love to check in and see how you’re doing ❤️. It’ll take less than 5 minutes.\nIs now a good time? 🙂\n\nPress a number on your keypad: \n1. Yes\n2. No",
-        "ara": "بتصدق إنه صار شهر؟ ⏳\nحابين نطمن عليك ونشوف كيف حالك ❤️ رح ياخد منك أقل من ٥ دقايق.\nهل هلأ وقت مناسب؟ 🙂\n\nإضغط رقم على لوحة المفاتيح عندك:\n1. نعم\n2. لا، الرجاء تذكيري غداً",
+        "lan": "",
         "vars": ""
       }
     ],
