@@ -45,26 +45,13 @@
       },
       {
         "type": "data_sheet",
-        "sheet_name": "take_a_pause",
+        "sheet_name": "take_a_pause_data",
         "data_sheet": "",
         "data_row_id": "",
         "new_name": "",
         "data_model": "PlhContentModel",
         "template_arguments": "",
         "operation": "",
-        "status": "",
-        "tags.1": "",
-        "tags.2": ""
-      },
-      {
-        "type": "data_sheet",
-        "sheet_name": "take_a_pause",
-        "data_sheet": "",
-        "data_row_id": "",
-        "new_name": "take_a_pause_data",
-        "data_model": "",
-        "template_arguments": "",
-        "operation": "filter|expression;(ID!=\"box_breathing\")",
         "status": "",
         "tags.1": "",
         "tags.2": ""
@@ -394,7 +381,7 @@
         "attached_single_doc": ""
       }
     ],
-    "take_a_pause": [
+    "take_a_pause_data": [
       {
         "ID": "breath_body_awareness",
         "introduction.msg_list": "Before we begin, let's take a pause together. Remember, this is something you can do whenever you are feeling stressed. ",
