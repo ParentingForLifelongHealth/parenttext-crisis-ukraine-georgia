@@ -783,6 +783,21 @@
         "tags.1": "delivery",
         "tags.2": "",
         "tags.3": ""
+      },
+      {
+        "type": "ignore_row",
+        "sheet_name": "share",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
       }
     ],
     "onboarding_survey_wrapper": [
