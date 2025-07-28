@@ -1299,7 +1299,7 @@
         "block.1.name": "introduction_next",
         "block.1.tracker_tot": "",
         "block.1.has_tracker": "",
-        "block.2.name": "video",
+        "block.2.name": "multimedia_video_audio",
         "block.2.tracker_tot": "",
         "block.2.has_tracker": "",
         "block.3.name": "congratulations_next",
@@ -1321,7 +1321,7 @@
       {
         "ID": "pause_review",
         "review": "yes",
-        "block.1.name": "video",
+        "block.1.name": "multimedia_video_audio",
         "block.1.tracker_tot": "",
         "block.1.has_tracker": "",
         "block.2.name": "",

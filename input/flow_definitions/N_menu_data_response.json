@@ -110,7 +110,7 @@
         "options.3.flow": "safeguarding_help",
         "options.4.text": "A fun activity I can do with my child",
         "options.4.flow": "activity_offer - menu",
-        "options.5.text": "Watch a video about ParentText",
+        "options.5.text": "Watch a video about {prog_name}",
         "options.5.flow": "menu_parenttext_instructions",
         "options.6.text": "Change my settings        ",
         "options.6.flow": "menu - settings",

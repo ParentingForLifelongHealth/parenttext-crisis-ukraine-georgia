@@ -7,6 +7,13 @@
       {
         "flow_type": "flow_editing",
         "flow_name": "",
+        "sheet_name": "referrals_add_location",
+        "status": "released",
+        "order": "0"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
         "sheet_name": "referrals_eng",
         "status": "released",
         "order": "1"
@@ -111,15 +118,21 @@
         "replacement": "*"
       }
     ],
-    "referrals_eng": [
+    "referrals_add_location": [
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{natural_disasters_referrals}.*",
         "change": "{natural_disasters_referrals}",
-        "condition_var": "",
-        "category": ""
+        "condition_var": "@fields.location",
+        "category": "{natural_disasters_referrals}",
+        "category:Ukraine": "{natural_disasters_referrals ukraine}",
+        "condition:Ukraine": "ukraine",
+        "condition_type:Ukraine": "has_only_phrase",
+        "category:Georgia": "{natural_disasters_referrals georgia}",
+        "condition:Gaza": "georgia",
+        "condition_type:Gaza": "has_only_phrase"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -127,8 +140,14 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{mental_health_referrals}.*",
         "change": "{mental_health_referrals}",
-        "condition_var": "",
-        "category": ""
+        "condition_var": "@fields.location",
+        "category": "{mental_health_referrals}",
+        "category:Ukraine": "{mental_health_referrals ukraine}",
+        "condition:Ukraine": "ukraine",
+        "condition_type:Ukraine": "has_only_phrase",
+        "category:Georgia": "{mental_health_referrals georgia}",
+        "condition:Gaza": "georgia",
+        "condition_type:Gaza": "has_only_phrase"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -136,8 +155,14 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{health_referrals}.*",
         "change": "{health_referrals}",
-        "condition_var": "",
-        "category": ""
+        "condition_var": "@fields.location",
+        "category": "{health_referrals}",
+        "category:Ukraine": "{health_referrals ukraine}",
+        "condition:Ukraine": "ukraine",
+        "condition_type:Ukraine": "has_only_phrase",
+        "category:Georgia": "{health_referrals georgia}",
+        "condition:Gaza": "georgia",
+        "condition_type:Gaza": "has_only_phrase"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -145,8 +170,14 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{generic_referrals}.*",
         "change": "{generic_referrals}",
-        "condition_var": "",
-        "category": ""
+        "condition_var": "@fields.location",
+        "category": "{generic_referrals}",
+        "category:Ukraine": "{generic_referrals ukraine}",
+        "condition:Ukraine": "ukraine",
+        "condition_type:Ukraine": "has_only_phrase",
+        "category:Georgia": "{generic_referrals georgia}",
+        "condition:Gaza": "georgia",
+        "condition_type:Gaza": "has_only_phrase"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -154,8 +185,14 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{family_referrals}.*",
         "change": "{family_referrals}",
-        "condition_var": "",
-        "category": ""
+        "condition_var": "@fields.location",
+        "category": "{family_referrals}",
+        "category:Ukraine": "{family_referrals ukraine}",
+        "condition:Ukraine": "ukraine",
+        "condition_type:Ukraine": "has_only_phrase",
+        "category:Georgia": "{family_referrals georgia}",
+        "condition:Gaza": "georgia",
+        "condition_type:Gaza": "has_only_phrase"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -163,8 +200,124 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{child_protection_referrals}.*",
         "change": "{child_protection_referrals}",
+        "condition_var": "@fields.location",
+        "category": "{child_protection_referrals}",
+        "category:Ukraine": "{child_protection_referrals ukraine}",
+        "condition:Ukraine": "ukraine",
+        "condition_type:Ukraine": "has_only_phrase",
+        "category:Georgia": "{child_protection_referrals georgia}",
+        "condition:Gaza": "georgia",
+        "condition_type:Gaza": "has_only_phrase"
+      }
+    ],
+    "referrals_eng": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{natural_disasters_referrals ukraine}.*",
+        "change": "{natural_disasters_referrals ukraine}",
         "condition_var": "",
-        "category": ""
+        "category": "Add english referral here"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{mental_health_referrals ukraine}.*",
+        "change": "{mental_health_referrals ukraine}",
+        "condition_var": "",
+        "category": "Add english referral here"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{health_referrals ukraine}.*",
+        "change": "{health_referrals ukraine}",
+        "condition_var": "",
+        "category": "Add english referral here"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{generic_referrals ukraine}.*",
+        "change": "{generic_referrals ukraine}",
+        "condition_var": "",
+        "category": "Add english referral here"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{family_referrals ukraine}.*",
+        "change": "{family_referrals ukraine}",
+        "condition_var": "",
+        "category": "Add english referral here"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{child_protection_referrals ukraine}.*",
+        "change": "{child_protection_referrals ukraine}",
+        "condition_var": "",
+        "category": "Add english referral here"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{natural_disasters_referrals georgia}.*",
+        "change": "{natural_disasters_referrals georgia}",
+        "condition_var": "",
+        "category": "Add english referral here"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{mental_health_referrals georgia}.*",
+        "change": "{mental_health_referrals georgia}",
+        "condition_var": "",
+        "category": "Add english referral here"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{health_referrals georgia}.*",
+        "change": "{health_referrals georgia}",
+        "condition_var": "",
+        "category": "Add english referral here"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{generic_referrals georgia}.*",
+        "change": "{generic_referrals georgia}",
+        "condition_var": "",
+        "category": "Add english referral here"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{family_referrals georgia}.*",
+        "change": "{family_referrals georgia}",
+        "condition_var": "",
+        "category": "Add english referral here"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{child_protection_referrals georgia}.*",
+        "change": "{child_protection_referrals georgia}",
+        "condition_var": "",
+        "category": "Add english referral here"
       }
     ],
     "referrals_transl": [
@@ -172,64 +325,109 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{natural_disasters_referrals}.*",
-        "original": "{natural_disasters_referrals}",
-        "language": "lan",
-        "replacement": ""
+        "node_identifier": "Regex:.*{natural_disasters_referrals ukraine}.*",
+        "original": "{natural_disasters_referrals ukraine}",
+        "language": "ukr",
+        "replacement": "Add translated referral here"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{mental_health_referrals}.*",
-        "original": "{mental_health_referrals}",
-        "language": "lan",
-        "replacement": ""
+        "node_identifier": "Regex:.*{mental_health_referrals ukraine}.*",
+        "original": "{mental_health_referrals ukraine}",
+        "language": "ukr",
+        "replacement": "Add translated referral here"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{health_referrals}.*",
-        "original": "{health_referrals}",
-        "language": "lan",
-        "replacement": ""
+        "node_identifier": "Regex:.*{health_referrals ukraine}.*",
+        "original": "{health_referrals ukraine}",
+        "language": "ukr",
+        "replacement": "Add translated referral here"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{generic_referrals}.*",
-        "original": "{generic_referrals}",
-        "language": "lan",
-        "replacement": ""
+        "node_identifier": "Regex:.*{generic_referrals ukraine}.*",
+        "original": "{generic_referrals ukraine}",
+        "language": "ukr",
+        "replacement": "Add translated referral here"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{family_referrals}.*",
-        "original": "{family_referrals}",
-        "language": "lan",
-        "replacement": ""
+        "node_identifier": "Regex:.*{family_referrals ukraine}.*",
+        "original": "{family_referrals ukraine}",
+        "language": "ukr",
+        "replacement": "Add translated referral here"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{child_protection_referrals}.*",
-        "original": "{child_protection_referrals}",
-        "language": "lan",
-        "replacement": ""
+        "node_identifier": "Regex:.*{child_protection_referrals ukraine}.*",
+        "original": "{child_protection_referrals ukraine}",
+        "language": "ukr",
+        "replacement": "Add translated referral here"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{child_protection_referrals jordan}.*",
-        "original": "{child_protection_referrals}",
-        "language": "ara",
-        "replacement": "منظمة إنقاذ الطفولة – الأردن - +962 6 565 6749 - https://savethechildren.org.jo"
+        "node_identifier": "Regex:.*{natural_disasters_referrals georgia}.*",
+        "original": "{natural_disasters_referrals georgia}",
+        "language": "ukr",
+        "replacement": "Add translated referral here"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{mental_health_referrals georgia}.*",
+        "original": "{mental_health_referrals georgia}",
+        "language": "ukr",
+        "replacement": "Add translated referral here"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{health_referrals georgia}.*",
+        "original": "{health_referrals georgia}",
+        "language": "ukr",
+        "replacement": "Add translated referral here"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{generic_referrals georgia}.*",
+        "original": "{generic_referrals georgia}",
+        "language": "ukr",
+        "replacement": "Add translated referral here"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{family_referrals georgia}.*",
+        "original": "{family_referrals georgia}",
+        "language": "ukr",
+        "replacement": "Add translated referral here"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{child_protection_referrals georgia}.*",
+        "original": "{child_protection_referrals georgia}",
+        "language": "ukr",
+        "replacement": "Add translated referral here"
       }
     ],
     "triggers_eng": [
@@ -485,10 +683,21 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*ParentText.*",
+        "node_identifier": "Regex:.*{prog_name}.*",
         "original": "ParentText",
-        "language": "lan",
-        "replacement": ""
+        "language": "ukr",
+        "replacement": "Батьківська опора"
+      }
+    ],
+    "parenttext_name_eng": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{prog_name}.*",
+        "change": "{share link}",
+        "condition_var": "",
+        "category": "Batkivska Opora"
       }
     ]
   }
