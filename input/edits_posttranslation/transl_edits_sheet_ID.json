@@ -68,6 +68,13 @@
         "order": "1"
       },
       {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "parenttext_name_eng",
+        "status": "released",
+        "order": "1"
+      },
+      {
         "flow_type": "translation_editing",
         "flow_name": "",
         "sheet_name": "parenttext_name_transl",
@@ -114,7 +121,7 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*",
         "original": "**",
-        "language": "lan",
+        "language": "ukr",
         "replacement": "*"
       }
     ],
@@ -493,8 +500,8 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{HELP}.*",
         "original": "{HELP}",
-        "language": "",
-        "replacement": ""
+        "language": "ukr",
+        "replacement": "Add translation"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -502,8 +509,8 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{MENU}.*",
         "original": "{MENU}",
-        "language": "",
-        "replacement": ""
+        "language": "ukr",
+        "replacement": "Add translation"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -511,8 +518,8 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{PLAY}.*",
         "original": "{PLAY}",
-        "language": "",
-        "replacement": ""
+        "language": "ukr",
+        "replacement": "Add translation"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -520,8 +527,8 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{STOP}.*",
         "original": "{STOP}",
-        "language": "",
-        "replacement": ""
+        "language": "ukr",
+        "replacement": "Add translation"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -529,8 +536,8 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{START}.*",
         "original": "{START}",
-        "language": "",
-        "replacement": ""
+        "language": "ukr",
+        "replacement": "Add translation"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -538,8 +545,8 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{PAUSE}.*",
         "original": "{PAUSE}",
-        "language": "",
-        "replacement": ""
+        "language": "ukr",
+        "replacement": "Add translation"
       }
     ],
     "urls": [
@@ -550,7 +557,7 @@
         "node_identifier": "Regex:.*{share link}.*",
         "change": "{share link}",
         "condition_var": "",
-        "category": ""
+        "category": "Add url"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -559,7 +566,7 @@
         "node_identifier": "Regex:.*{consent_link}.*",
         "change": "{consent_link}",
         "condition_var": "",
-        "category": ""
+        "category": "Add url"
       }
     ],
     "urls_transl": [
@@ -569,8 +576,8 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{share link}.*",
         "original": "{share link}",
-        "language": "",
-        "replacement": ""
+        "language": "ukr",
+        "replacement": "add url"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -578,8 +585,8 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{consent_link}.*",
         "original": "{consent_link}",
-        "language": "",
-        "replacement": ""
+        "language": "ukr",
+        "replacement": "add url"
       }
     ],
     "joining_triggers_add_group": [
@@ -647,7 +654,7 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{joining_trigger}.*",
         "change": "{joining_trigger}",
-        "language": "lan",
+        "language": "ukr",
         "replacement": "test"
       },
       {
@@ -656,8 +663,8 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{joining_trigger_group_a}.*",
         "change": "{joining_trigger}",
-        "language": "lan",
-        "replacement": ""
+        "language": "ukr",
+        "replacement": "TEST_GROUP_A"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -665,8 +672,8 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{joining_trigger_group_b}.*",
         "change": "{joining_trigger}",
-        "language": "lan",
-        "replacement": ""
+        "language": "ukr",
+        "replacement": "TEST_GROUP_B"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -674,8 +681,8 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{joining_trigger_group_c}.*",
         "change": "{joining_trigger}",
-        "language": "lan",
-        "replacement": ""
+        "language": "ukr",
+        "replacement": "TEST_GROUP_C"
       }
     ],
     "parenttext_name_transl": [
@@ -684,7 +691,7 @@
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{prog_name}.*",
-        "original": "ParentText",
+        "original": "{prog_name}",
         "language": "ukr",
         "replacement": "Батьківська опора"
       }
@@ -695,7 +702,7 @@
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{prog_name}.*",
-        "change": "{share link}",
+        "change": "{prog_name}",
         "condition_var": "",
         "category": "Batkivska Opora"
       }
