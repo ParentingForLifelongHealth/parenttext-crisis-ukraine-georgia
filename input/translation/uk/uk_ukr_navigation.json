@@ -1,1 +1,68 @@
-[]
+[
+  {
+    "SourceText": "Would you like to go back to the previous messages?",
+    "text": "Бажаєте повернутися до попередніх повідомлень?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That's okay. Type {HELP} at any time if you would like the details of emergency services or other hotlines.",
+    "text": "Добре. В будь-який момент наберіть {HELP}, якщо хочете отримати інформацію про служби екстреної допомоги або інші гарячі лінії.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Sorry, I don't understand what you mean.",
+    "text": "Вибачте, я не розумію, що ви маєте на увазі.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Here are some services that might be able to help:",
+    "text": "Ось деякі служби, які можуть вам допомогти:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "{generic_referrals}",
+    "text": "{generic_referrals}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Type {HELP} at any time if you would like the details of emergency services or other hotlines. Remember everything you say will be completely private!",
+    "text": "В будь-який момент наберіть {HELP}, якщо хочете отримати інформацію про служби екстреної допомоги або інші гарячі лінії. Пам’ятайте, що все, що ви скажете, залишиться повністю конфіденційним!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "{mental_health_referrals}",
+    "text": "{mental_health_referrals}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "{health_referrals}",
+    "text": "{health_referrals}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "{natural_disasters_referrals}",
+    "text": "{natural_disasters_referrals}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Would you like information about local and international resources available to help you right now?",
+    "text": "Бажаєте отримати інформацію про місцеві та міжнародні ресурси, які можуть допомогти вам прямо зараз?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Do you need some support with an emotional issue?",
+    "text": "Потрібна допомога з емоційними труднощами?",
+    "type": "text",
+    "note": ""
+  }
+]

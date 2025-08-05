@@ -587,16 +587,16 @@
         "accept.child": "A fun activity I can do with my child",
         "accept.teen": "NA",
         "accept.baby": "NA",
-        "other_option": "Proceed to the next tip",
-        "other_flow": "new_day_goal_content",
+        "other_option": "",
+        "other_flow": "",
         "refuse": "Nothing. Let's continue tomorrow.",
         "refuse_msg": "Alright. I will share more tips tomorrow. ",
         "refuse_flow": "",
         "next_offer_msg": "What would you like now?",
         "next_accept": "Another fun activity I can do with my child",
-        "next_other_opt": "Get another tip",
+        "next_other_opt": "",
         "next_other_msg": "",
-        "next_other_flow": "new_day_goal_content"
+        "next_other_flow": ""
       },
       {
         "ID": "demo",
@@ -605,16 +605,16 @@
         "accept.child": "A fun activity I can do with my child",
         "accept.teen": "NA",
         "accept.baby": "NA",
-        "other_option": "Proceed to the next tip",
-        "other_flow": "new_day_goal_content",
+        "other_option": "",
+        "other_flow": "",
         "refuse": "Continue with more tips tomorrow. ",
         "refuse_msg": "Alright. I will share more tips tomorrow. ",
         "refuse_flow": "",
         "next_offer_msg": "What would you like now?",
         "next_accept": "View another activity idea",
-        "next_other_opt": "Get another tip",
+        "next_other_opt": "",
         "next_other_msg": "",
-        "next_other_flow": "new_day_goal_content"
+        "next_other_flow": ""
       },
       {
         "ID": "menu",
