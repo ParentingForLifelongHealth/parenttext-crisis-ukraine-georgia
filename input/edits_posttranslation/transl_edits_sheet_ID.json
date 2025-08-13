@@ -42,14 +42,28 @@
       {
         "flow_type": "flow_editing",
         "flow_name": "",
-        "sheet_name": "wa_bold_eng",
+        "sheet_name": "tel_bold_eng",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "bold_eng_urn",
         "status": "released",
         "order": "1"
       },
       {
         "flow_type": "translation_editing",
         "flow_name": "",
-        "sheet_name": "wa_bold_transl",
+        "sheet_name": "tel_bold_transl",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "translation_editing",
+        "flow_name": "",
+        "sheet_name": "bold_transl_urn",
         "status": "released",
         "order": "1"
       },
@@ -101,6 +115,53 @@
         "sheet_name": "joining_triggers_transl",
         "status": "released",
         "order": "1"
+      }
+    ],
+    "tel_bold_eng": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*\\*\\*.*",
+        "change": "**",
+        "condition_var": "",
+        "category": "*"
+      }
+    ],
+    "tel_bold_transl": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*\\*\\*.*",
+        "original": "*",
+        "language": "ukr",
+        "replacement": "**"
+      }
+    ],
+    "bold_eng_urn": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*\\*.*",
+        "change": "*",
+        "condition_var": "@(urn_parts(contact.urn).scheme)",
+        "category": "*",
+        "category:telegram": "**",
+        "condition:telegram": "telegram",
+        "condition_type:telegram": "has_only_phrase"
+      }
+    ],
+    "bold_transl_urn": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*\\*\\*.*",
+        "original": "*",
+        "language": "ukr",
+        "replacement": "**"
       }
     ],
     "wa_bold_eng": [
@@ -501,7 +562,7 @@
         "node_identifier": "Regex:.*{HELP}.*",
         "original": "{HELP}",
         "language": "ukr",
-        "replacement": "Add translation"
+        "replacement": "Add translation "
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -510,7 +571,7 @@
         "node_identifier": "Regex:.*{MENU}.*",
         "original": "{MENU}",
         "language": "ukr",
-        "replacement": "Add translation"
+        "replacement": "Add translation "
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -519,7 +580,7 @@
         "node_identifier": "Regex:.*{PLAY}.*",
         "original": "{PLAY}",
         "language": "ukr",
-        "replacement": "Add translation"
+        "replacement": "Add translation "
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -528,7 +589,7 @@
         "node_identifier": "Regex:.*{STOP}.*",
         "original": "{STOP}",
         "language": "ukr",
-        "replacement": "Add translation"
+        "replacement": "Add translation "
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -537,7 +598,7 @@
         "node_identifier": "Regex:.*{START}.*",
         "original": "{START}",
         "language": "ukr",
-        "replacement": "Add translation"
+        "replacement": "Add translation "
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -546,7 +607,7 @@
         "node_identifier": "Regex:.*{PAUSE}.*",
         "original": "{PAUSE}",
         "language": "ukr",
-        "replacement": "Add translation"
+        "replacement": "Add translation "
       }
     ],
     "urls": [
