@@ -19,7 +19,7 @@
         "deployment_localised_sheets" : "1ksMlDplXLu8aUz9vqatzN2ZjXMgFaoXiMmpYFV0TSD0",
         "transl_edits_sheet_ID": "1wRE03AY61LBeCawvtCgudYZ7KAvR9f-Wl46jE1_gdeI",
         "ab_testing_sheet_ID": "1uwsgZAhcAXQL0EBj9o2Pzf3Avhj7LPnthlA8uiPydxI",
-        "N_joining_triggers": "1_3_U5cN9Iu0JbgqyiGB2eco6VZCGqH8GZjQHeOhCfk0",
+        "N_joining_triggers": "1qAxQzPWstxG2JvTPwefwb6bsusaLT925VTbTKYc5MQs",
        
         "N_delivery_data_response": "1i3puoL9482g-kxsh6Lolx7MHofguED8I2MI-GkpefrA",
         "N_menu_data_response": "1D0YiqPKb97suNZ6CBtld6mTLv76EnHxOdDK0rAWlzp8",
@@ -94,7 +94,7 @@
             "sources" : [
                 {
                     "key": "ukr",
-                    "location": "1mrSKtsQoXYLMowNh816jUVnqjrdBq6of"
+                    "location": "1L_2ovbPNnVIWvw39nd7WHWOiKiSct-bj"
                 }
             ]
         }
