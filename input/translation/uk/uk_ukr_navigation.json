@@ -64,5 +64,1217 @@
     "text": "Потрібна допомога з емоційними труднощами?",
     "type": "text",
     "note": ""
+  },
+  {
+    "SourceText": "Are you currently experiencing a health issue?",
+    "text": "Чи маєте ви наразі якісь проблеми зі здоров’ям?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Do you have an emergency?",
+    "text": "Чи маєте ви зараз невідкладну потребу в допомозі?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It looks like you are facing an emergency. Can you please tell us what kind of assistance you need?",
+    "text": "Схоже, ви зіткнулися з чимось невідкладним. Будь ласка, повідомте, яка саме підтримка вам потрібна.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "{family_referrals}",
+    "text": "{family_referrals}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "{child_protection_referrals}",
+    "text": "{child_protection_referrals}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What would you like to do?",
+    "text": "Що ви плануєте робити далі?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We hope this was helpful. You can access this information at any time by typing {HELP}.",
+    "text": "Сподіваємося, це було корисно для вас. Ви можете отримати доступ до цієї інформації у будь-який час, ввівши:{HELP}.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Welcome back!",
+    "text": "Дякуємо, що знову з нами!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You are already part of {prog_name}",
+    "text": "Ви вже є учасником {prog_name}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Please type {MENU} to access resources and review previous tips, {PLAY} to receive a playful activity you can complete with your child, {PAUSE} to take a pause with us, or {HELP} to access additional support resources.",
+    "text": "Щоб отримати доступ до ресурсів і переглянути попередні поради, наберіть {MENU}. Хочете весело провести час із дитиною — введіть {PLAY}. Потрібна хвилинка перепочинку — оберіть {PAUSE}.\nА якщо шукаєте додаткову підтримку — натисніть {HELP}.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You have already received all of the avilable tips. Type {MENU} to review previous tips.",
+    "text": "Ви вже отримали всі доступні поради. Наберіть {MENU}, щоб переглянути попередні.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Welcome back to {prog_name}.",
+    "text": "Приємно бачити вас знову в {prog_name}.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Are you sure you want to stop receiving tips?",
+    "text": "Ви впевнені, що хочете припинити отримувати поради?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "If you do not want to receive any more messages, please type \"EXIT\".",
+    "text": "Якщо ви більше не хочете отримувати повідомлення, будь ласка, введіть «ВИХІД».",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "If you made a mistake, please type \"BACK\".",
+    "text": "Якщо ви помилилися, будь ласка, введіть «НАЗАД».",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for participating. If you want to return to continue receiving tips, type HELLO. ",
+    "text": "Дякуємо за участь! Якщо ви хочете повернутися й знову отримувати поради, введіть «ПРИВІТ». ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We hope to see you again soon.",
+    "text": "Сподіваємося скоро знову вас побачити.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We are so glad you want to stick around! We will resume your progress tomorrow.",
+    "text": "Раді, що ви вирішили залишитися з нами! Продовжимо завтра.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "This feature will be available once you have completed registration. It won’t take long. Please continue your progress!",
+    "text": "Ця функція стане доступною, щойно ви завершите реєстрацію. Це не займе багато часу. Будь ласка, продовжуйте!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "The menu will be available once you have completed registration. It won’t take long. Please continue your progress!",
+    "text": "Меню стане доступним після завершення реєстрації. Це не займе багато часу. Будь ласка, продовжуйте!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for taking a pause with me today.",
+    "text": "Дякуємо, що виділили час на перепочинок.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "In this program, you will receive @fields.c_n_mod tips. Your first tip is \"@results.name\".",
+    "text": "У цій програмі ви отримаєте @fields.c_n_mod поради. Ваша перша порада — \"@results.name\".",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "fail",
+    "text": "помилка",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Let’s get started. Press NEXT to begin.",
+    "text": "Почнемо! Натисніть «ДАЛІ», щоб розпочати.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "NA",
+    "text": "NA",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "The tips you haven't finished are:",
+    "text": "Ще не отримані поради:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "@(text_slice(results.message_options,3)).",
+    "text": "@(text_slice(results.message_options,3)).",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Which tip would you like to receive?",
+    "text": "Яку пораду ви хотіли б отримати?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "@results.message_options",
+    "text": "@results.message_options",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "You haven't received any tips yet.",
+    "text": "Поки що ви не отримували порад.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You have received the following tips:",
+    "text": "Ви отримали такі поради:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Would you like to review it?",
+    "text": "Бажаєте переглянути її?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That's okay. You can come back here at any time to review it.",
+    "text": "Все гаразд. Ви можете повернутися сюди в будь-який час, щоб переглянути її.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You have completed @fields.n_s_modules_compl out of @fields.n_s_modules tips. Which of the following tips would you like to review?",
+    "text": "Ви пройшли @fields.n_s_modules_compl із @fields.n_s_modules порад. Яку з наступних порад ви хочете переглянути?",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "@(word_count(fields.s_modules_compl) +1). Return to Main Menu",
+    "text": "@(word_count(fields.s_modules_compl) +1). Повернутися до Головного Меню",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated. @results.count is a number (counter for list)"
+  },
+  {
+    "SourceText": "What would you like now?",
+    "text": "Що б ви хотіли зробити зараз?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Alright. I will share more tips tomorrow.",
+    "text": "Добре, я поділюся з вами новими порадами вже завтра.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What kind of activity do you want to try with your child?",
+    "text": "Що цікавого хотіли б зробити разом із дитиною?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Do you want to begin now or tomorrow?",
+    "text": "Бажаєте почати зараз чи завтра?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Great, see you tomorrow!",
+    "text": "Чудово, до зустрічі завтра!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You’ve completed the programme – well done!",
+    "text": "Ви завершили програму — вітаємо!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Remember, you can always return to {prog_name} to review any of the tips. Just type {MENU}.",
+    "text": "Пам’ятайте, ви завжди можете повернутися до {prog_name}, щоб переглянути будь-які поради. Просто наберіть {MENU}.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We’ll check in with you in a month to see how you’re doing. Your feedback helps us make sure these tips truly support families like yours 🙂",
+    "text": "Через місяць ми знову зв’яжемося з вами, щоб дізнатися, як у вас справи. Ваші відгуки дуже важливі для нас — вони допомагають робити поради ще кращими.🙂",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Was {prog_name} helpful? If so, share it with a friend. Just send this link: {share link}",
+    "text": "Чи була {prog_name} корисною для вас?Якщо так, поділіться нею з другом. Просто надішліть це посилання: {share link}\n",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It’s a difficult moment for your family. I’m here today with a few tips to create small moments of connection with your child to give them the routine and stability you all need right now. ",
+    "text": "Це непростий час для вашої родини. Сьогодні я хочу поділитися кількома порадами, які допоможуть забезпечити рутину й стабільність, які зараз так потрібні усім.\n",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Press a number on your keypad: ",
+    "text": "Оберіть цифру: ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "1. Continue with my registration",
+    "text": "1. Продовжити реєстрацію",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "2. Remind me tomorrow",
+    "text": "2. Нагадати мені завтра",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "OK, see you tomorrow.",
+    "text": "Добре, до зустрічі завтра.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It looks like you started answering some baseline questions but didn't get a chance to finish. Would you like to continue now and then we can move onto the tips?",
+    "text": "Схоже, ви почали відповідати на кілька початкових запитань, але не встигли завершити. Хотіли б продовжити зараз, а потім перейти до порад?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "1. Continue my initial questions",
+    "text": "1. Продовжити з першими запитаннями",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It looks like you started a tip, but didn't finish receiving all of the information. Would you like to finish it or start learning someting new?",
+    "text": "Схоже, ви почали перегляд поради, але не встигли ознайомитися з усією інформацією. Бажаєте завершити її чи почати дізнаватися щось нове?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "1. Finish the previous tip",
+    "text": "1. Завершити попередній урок",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "2. Receive a new tip",
+    "text": "2. Отримати нову пораду",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "3. Remind me tomorrow",
+    "text": "3. Нагадати мені завтра",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It looks like you started a parenting tip, but didn't finish receiving all of the information. What would you like to do?",
+    "text": "Виглядає, що ви почали читати пораду для батьків, але не завершили. Що б ви хотіли зробити?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "1. Receive the remaining information",
+    "text": "1. Отримати решту інформації",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "3. I've finished receiving all of the information that I want from this chatbot",
+    "text": "3. Я завершив(ла) отримувати всю необхідну інформацію від цього чатбота",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It looks like you have started, but not finished, @fields.c_n_mod_started tips. What would you like to do?",
+    "text": "Схоже, ви почали, але не завершили @fields.c_n_mod_started поради. Що б ви хотіли зробити?",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "You and your family are facing a challenging time. {prog_name} provides tips on how you can support your child during this crisis. Would you like to recieve your first tips now?",
+    "text": "Ваша родина переживає складний період.  {prog_name} допоможе вам підтримати дитину під час цієї кризи. Бажаєте отримати перші поради просто зараз?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "1. Yes",
+    "text": "1. Так",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "2. No, remind me tomorrow",
+    "text": "2. Ні, нагадайте мені завтра",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "New tips are ready for you. Would you like to continue now?",
+    "text": "Нові поради чекають. Бажаєте продовжити зараз?\n",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💛 We’re thinking of you today. There are simple things you can do to help your child cope. Would you like to learn about them? ",
+    "text": "💛 Ми сьогодні подумки з вами. Є прості речі, які можуть допомогти вашій дитині впоратися з труднощами. Хочете дізнатися більше про них?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✨ Today’s tips can help your child feel more safe. Would you like to learn more? ",
+    "text": "✨Сьогоднішні поради допоможуть вашій дитині відчути себе в безпеці. Бажаєте дізнатися більше? ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Today’s tips offer you some ways you can stay calm and also encourage your children during times of uncertainty 🌱. ",
+    "text": "Сьогоднішні поради підкажуть, як зберігати спокій і підтримувати дітей у непрості часи 🌱. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Would you like to receive them?",
+    "text": "Бажаєте їх отримати?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🧡 Planning to travel with your child soon?",
+    "text": "🧡Плануєте невдовзі подорож із дитиною?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Today’s tips can help you prepare to stay safe— Would you like to learn more?",
+    "text": "Сьогоднішні поради допоможуть вам підготуватися й залишатися в безпеці. Хочете дізнатися більше?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💛 In stressful moments, even simple actions can help keep your child safe and close. Today’s tips share how to stay connected and calm when traveling.",
+    "text": "💛 У стресові моменти навіть прості дії можуть допомогти зберегти дитину в безпеці та поруч. Сьогоднішні поради розкажуть, як залишатися спокійними й зберігати зв’язок із дитиною під час подорожей.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💡 Many parents are having quiet talks with their children about staying safe. Today’s tips explain how to keep your child safe from harassment in a calm, age-appropriate way.",
+    "text": "💡 Багато батьків спокійно говорять з дітьми про безпеку. У сьогоднішніх порадах ви дізнаєтеся, як у доступний і спокійний спосіб навчити дитину захищати себе.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🕊️ In war and other tough times, children notice more than we think. Today’s tips help you talk to your child about death so they can feel safer, less confused, and more supported. Would you like to receive the tips?",
+    "text": "🕊️ Під час війни та в інші непрості часи діти помічають більше, ніж ми думаємо. Сьогоднішні поради допоможуть вам поговорити з дитиною про смерть — щоб вона почувалася в більшій безпеці, краще розуміла ситуацію й відчувала підтримку.\nХочете отримати ці поради?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌿 Building strength in tough times starts with simple steps. Would you like to learn how to promote good behaviors and stay strong together?",
+    "text": "🌿 Справлятися з труднощами легше, коли починати з простого. Хочете дізнатися, як підтримувати добру поведінку та бути сильними разом?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "This time is difficult. It doesn't seem like you have the time for the these tips right now. When you are ready to keep going, press 1.",
+    "text": "Зараз непростий час. Схоже, у вас немає можливості переглядати поради. Коли будете готові продовжити — натисніть 1.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We hope this was helpful! You can access the Main Menu at any time by typing {MENU}.",
+    "text": "Сподіваємося, це було корисно! Ви можете будь-коли повернутися до головного меню, ввівши {MENU}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What would you like to do next?",
+    "text": "Що б ви хотіли зробити далі?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We hope this was helpful. You can access the Main Menu at any time by typing {MENU}.",
+    "text": "Сподіваємося, це було корисно! Ви можете будь-коли повернутися до головного меню, ввівши {MENU}.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You've reached the end of today's tip. Well done for caring for your child during this challenging time.",
+    "text": "Ви завершили сьогоднішню пораду. Ваша турбота про дитину в цей непростий час дуже важлива.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What would you like change?",
+    "text": "Що б ви хотіли змінити?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Your current media setting is Text / Images.",
+    "text": "Ваш поточний режим відображення — текст і зображення.\n",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Your current media setting is Audio.",
+    "text": "Ваш поточний режим відображення — аудіо.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Your current media setting is",
+    "text": "Ваш поточний режим відображення",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You didn't provide this info.",
+    "text": "Ви не надали цю інформацію.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Would you like to change it?",
+    "text": "Бажаєте це змінити?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You didn't tell us if you are a woman or a man.",
+    "text": "Ви не вказали, чи ви жінка чи чоловік.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are a Woman.",
+    "text": "Ви вказали, що ви - жінка.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are a Man.",
+    "text": "Ви вказали, що ви - чоловік.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are a",
+    "text": "Ви вказали, що ви",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Would you like to update your gender?",
+    "text": "Бажаєте оновити інформацію про вашу стать?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "*DAY @fields.curr_demo_day*",
+    "text": "*DAY @fields.curr_demo_day*",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "You completed the ParentText demo. Type {RESET} and then {FACSTART} to re-start from the beginning.",
+    "text": "Ви завершили демонстрацію ParentText. Наберіть {RESET}, а потім {FACSTART}, щоб почати спочатку.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "There are @(fields.c_n_mod - fields.c_n_mod_compl) more tips.",
+    "text": "Тут @(fields.c_n_mod - fields.c_n_mod_compl) більше порад.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "There is one more tip.",
+    "text": "Ще одна порада для вас.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thanks for reaching out 🤍 It really shows how much you care about your children. Right now, the programme is full, but we’ve added you to the waiting list. As soon as a spot opens up, we’ll let you know.",
+    "text": "Дякуємо, що звернулися 🤍 Це справді свідчить про вашу турботу про дітей. Наразі програма заповнена, але ми додали вас до списку очікування. Щойно з’явиться вільне місце, ми повідомимо вас.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Welcome back to {prog_name}!",
+    "text": "Раді бачити вас знову у {prog_name}!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You have not given consent to participate in this programme. Would you like to participate?",
+    "text": "Ви ще не надали згоду на участь у цій програмі. Чи бажаєте взяти участь?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "If you ever want to receive these tips in the future just type HELLO. ",
+    "text": "Якщо колись захочете знову отримувати ці поради, просто введіть HELLO. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We are here to help. You've received @fields.c_n_mod_compl out of @fields.c_n_mod tips. Would you like to continue?",
+    "text": "Ми тут, щоб допомогти. Ви отримали @fields.c_n_mod_compl із @fields.c_n_mod  порад. Бажаєте продовжити?",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "That's okay. If you ever decide to come back, type HELLO. ",
+    "text": "Гаразд. Якщо вирішите повернутися, просто введіть HELLO.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We hope to see you again soon, and we wish you a happy and peaceful day!",
+    "text": "Сподіваємося скоро вас знову побачити й бажаємо вам щасливого та спокійного дня!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Yes",
+    "text": "Так",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "No",
+    "text": "Ні",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Local and international support",
+    "text": "Місцева та міжнародна підтримка",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Medical services",
+    "text": "Медичні послуги",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Mental health support",
+    "text": "Підтримка психічного здоров’я",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Family counselling services",
+    "text": "Сімейна консультація",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Natural disasters",
+    "text": "Стихійні лиха",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Child Protection",
+    "text": "Захист дітей",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Get other emergency contacts",
+    "text": "Отримати інші екстрені контакти",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Get another tip",
+    "text": "Отримати ще одну пораду",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Go to the Main Menu",
+    "text": "Перейти до Головного Меню",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Exit menu",
+    "text": "Вийти з Меню",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "BACK",
+    "text": "НАЗАД",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "NEXT",
+    "text": "ДАЛІ",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "A fun activity I can do with my child",
+    "text": "Весела активність для спільного часу з дитиною",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Nothing. Let's continue tomorrow.",
+    "text": "Нічого, продовжимо завтра.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "NA",
+    "text": "NA",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Another fun activity I can do with my child",
+    "text": "Ще одна цікава активність для спільного часу з дитиною",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Continue with more tips tomorrow.",
+    "text": "Продовжимо з новими порадами завтра.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "View another activity idea",
+    "text": "Переглянути іншу ідею для заняття",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Go to Main Menu",
+    "text": "Перейти до Головного Меню",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Something Quick",
+    "text": "Щось швидке",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Something Active",
+    "text": "Щось Активне",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Something Calm",
+    "text": "Щось спокійне",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Now",
+    "text": "Зараз",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Tomorrow",
+    "text": "Завтра",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "1",
+    "text": "1",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "2",
+    "text": "2",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "3",
+    "text": "3",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Return to Menu",
+    "text": "Повернутися до Меню",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Review a different tip",
+    "text": "Переглянути іншу пораду",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Review tips",
+    "text": "Переглянути поради",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Get the next tip",
+    "text": "Отримати наступну пораду",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Get more help",
+    "text": "Отримати більше допомоги",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Watch a video about {prog_name}",
+    "text": "Переглянути відео про {prog_name}",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Change my settings",
+    "text": "Змінити налаштування",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Nothing, let's continue tomorrow",
+    "text": "Нічого, продовжимо завтра",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Change my profile",
+    "text": "Змінити налаштування мого профілю",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Stop receiving the messages",
+    "text": "Не отримувати більше повідомлення",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Return to Main Menu",
+    "text": "Повернутися до Меню",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Change the way I receive content",
+    "text": "Змінити спосіб отримання інформації",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Change my gender",
+    "text": "Змінити стать",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "@fields.c_n_mod_started",
+    "text": "@fields.c_n_mod_started",
+    "type": "variables",
+    "note": ""
+  },
+  {
+    "SourceText": "generic",
+    "text": "загальне",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "mental_health",
+    "text": "психічне здоров’я",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "health",
+    "text": "здоров’я",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "natural_disasters",
+    "text": "стихійні лиха",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "help",
+    "text": "допомога",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "menu",
+    "text": "меню",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "play",
+    "text": "грати",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "stop",
+    "text": "стоп",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "start",
+    "text": "старт",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "pause",
+    "text": "пауза",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes y yeah yep",
+    "text": "так",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "no n nope nah",
+    "text": "ні",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "no n nope",
+    "text": "ні",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "local and international support",
+    "text": "місцева та міжнародна підтримка",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "medical services",
+    "text": "медичні послуги",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "mental health support",
+    "text": "підтримка психічного здоров’я",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "family counselling services",
+    "text": "сімейна консультація",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "natural disasters",
+    "text": "стихійні лиха",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "child protection",
+    "text": "захист дітей",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "get other emergency contacts",
+    "text": "отримати інші екстрені контакти",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "go to the main menu",
+    "text": "перейти до головного меню",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "get another tip",
+    "text": "отримати ще одну пораду",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "exit menu",
+    "text": "вийти з меню",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "exit",
+    "text": "вихід",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "back",
+    "text": "назад",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "no",
+    "text": "ні",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes",
+    "text": "так",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "nothing. let's continue tomorrow.",
+    "text": "нічого. продовжимо завтра.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "a fun activity i can do with my child",
+    "text": "весела активність для спільного часу з дитиною",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "na",
+    "text": "na",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "another fun activity i can do with my child",
+    "text": "ще одна цікава активність для спільного часу з дитиною",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "continue with more tips tomorrow.",
+    "text": "продовжимо з новими порадами завтра.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "view another activity idea",
+    "text": "переглянути іншу ідею для заняття",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "go to main menu",
+    "text": "перейти до головного меню",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "something quick",
+    "text": "щось швидке",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "something active",
+    "text": "щось активне",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "something calm",
+    "text": "щось спокійне",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "now",
+    "text": "зараз",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "tomorrow",
+    "text": "завтра",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "1",
+    "text": "1",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "2",
+    "text": "2",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "3",
+    "text": "3",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "return to menu",
+    "text": "повернутися до меню",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "review a different tip",
+    "text": "переглянути іншу пораду",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "review tips",
+    "text": "переглянути поради",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "get the next tip",
+    "text": "отримати наступну пораду",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "get more help",
+    "text": "отримати більше допомоги",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "watch a video about {prog_name}",
+    "text": "переглянути відео про{prog_name}",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "change my settings",
+    "text": "змінити налаштування",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "nothing, let's continue tomorrow",
+    "text": "нічого, продовжимо завтра",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "change my profile",
+    "text": "змінити налаштування мого профілю",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "stop receiving the messages",
+    "text": "не отримувати більше повідомлення",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "return to main menu",
+    "text": "повернутись до головного меню",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "change the way i receive content",
+    "text": "змінити спосіб отримання інформації",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "change my gender",
+    "text": "змінити стать",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "test",
+    "text": "тест",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "trigger_a",
+    "text": "слово_а",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "trigger_b",
+    "text": "слово_b",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "trigger_c",
+    "text": "слово_c",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
   }
 ]

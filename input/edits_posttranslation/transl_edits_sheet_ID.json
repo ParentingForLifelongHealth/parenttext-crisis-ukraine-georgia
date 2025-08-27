@@ -42,30 +42,16 @@
       {
         "flow_type": "flow_editing",
         "flow_name": "",
-        "sheet_name": "tel_bold_eng",
+        "sheet_name": "bold_eng",
         "status": "released",
-        "order": "1"
-      },
-      {
-        "flow_type": "flow_editing",
-        "flow_name": "",
-        "sheet_name": "bold_eng_urn",
-        "status": "released",
-        "order": "1"
+        "order": "0"
       },
       {
         "flow_type": "translation_editing",
         "flow_name": "",
-        "sheet_name": "tel_bold_transl",
+        "sheet_name": "bold_transl",
         "status": "released",
-        "order": "1"
-      },
-      {
-        "flow_type": "translation_editing",
-        "flow_name": "",
-        "sheet_name": "bold_transl_urn",
-        "status": "released",
-        "order": "1"
+        "order": "0"
       },
       {
         "flow_type": "flow_editing",
@@ -99,25 +85,25 @@
         "flow_type": "flow_editing",
         "flow_name": "",
         "sheet_name": "joining_triggers_add_group",
-        "status": "released",
+        "status": "draft",
         "order": "0"
       },
       {
         "flow_type": "flow_editing",
         "flow_name": "",
         "sheet_name": "joining_triggers_eng",
-        "status": "released",
+        "status": "draft",
         "order": "1"
       },
       {
         "flow_type": "translation_editing",
         "flow_name": "",
         "sheet_name": "joining_triggers_transl",
-        "status": "released",
+        "status": "draft",
         "order": "1"
       }
     ],
-    "tel_bold_eng": [
+    "bold_eng": [
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
@@ -128,59 +114,12 @@
         "category": "*"
       }
     ],
-    "tel_bold_transl": [
+    "bold_transl": [
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*\\*\\*.*",
-        "original": "*",
-        "language": "ukr",
-        "replacement": "**"
-      }
-    ],
-    "bold_eng_urn": [
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*\\*.*",
-        "change": "*",
-        "condition_var": "@(urn_parts(contact.urn).scheme)",
-        "category": "*",
-        "category:telegram": "**",
-        "condition:telegram": "telegram",
-        "condition_type:telegram": "has_only_phrase"
-      }
-    ],
-    "bold_transl_urn": [
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*\\*\\*.*",
-        "original": "*",
-        "language": "ukr",
-        "replacement": "**"
-      }
-    ],
-    "wa_bold_eng": [
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*",
-        "change": "**",
-        "condition_var": "",
-        "category": "*"
-      }
-    ],
-    "wa_bold_transl": [
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*",
         "original": "**",
         "language": "ukr",
         "replacement": "*"
@@ -193,14 +132,14 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{natural_disasters_referrals}.*",
         "change": "{natural_disasters_referrals}",
-        "condition_var": "@fields.location",
-        "category": "{natural_disasters_referrals}",
+        "condition_var": "@fields.country",
+        "category": "{natural_disasters_referrals ukraine}",
         "category:Ukraine": "{natural_disasters_referrals ukraine}",
         "condition:Ukraine": "ukraine",
         "condition_type:Ukraine": "has_only_phrase",
         "category:Georgia": "{natural_disasters_referrals georgia}",
-        "condition:Gaza": "georgia",
-        "condition_type:Gaza": "has_only_phrase"
+        "condition:Georgia": "georgia",
+        "condition_type:Georgia": "has_only_phrase"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -208,14 +147,14 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{mental_health_referrals}.*",
         "change": "{mental_health_referrals}",
-        "condition_var": "@fields.location",
-        "category": "{mental_health_referrals}",
+        "condition_var": "@fields.country",
+        "category": "{mental_health_referrals ukraine}",
         "category:Ukraine": "{mental_health_referrals ukraine}",
         "condition:Ukraine": "ukraine",
         "condition_type:Ukraine": "has_only_phrase",
         "category:Georgia": "{mental_health_referrals georgia}",
-        "condition:Gaza": "georgia",
-        "condition_type:Gaza": "has_only_phrase"
+        "condition:Georgia": "georgia",
+        "condition_type:Georgia": "has_only_phrase"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -223,14 +162,14 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{health_referrals}.*",
         "change": "{health_referrals}",
-        "condition_var": "@fields.location",
-        "category": "{health_referrals}",
+        "condition_var": "@fields.country",
+        "category": "{health_referrals ukraine}",
         "category:Ukraine": "{health_referrals ukraine}",
         "condition:Ukraine": "ukraine",
         "condition_type:Ukraine": "has_only_phrase",
         "category:Georgia": "{health_referrals georgia}",
-        "condition:Gaza": "georgia",
-        "condition_type:Gaza": "has_only_phrase"
+        "condition:Georgia": "georgia",
+        "condition_type:Georgia": "has_only_phrase"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -238,14 +177,14 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{generic_referrals}.*",
         "change": "{generic_referrals}",
-        "condition_var": "@fields.location",
-        "category": "{generic_referrals}",
+        "condition_var": "@fields.country",
+        "category": "{generic_referrals ukraine}",
         "category:Ukraine": "{generic_referrals ukraine}",
         "condition:Ukraine": "ukraine",
         "condition_type:Ukraine": "has_only_phrase",
         "category:Georgia": "{generic_referrals georgia}",
-        "condition:Gaza": "georgia",
-        "condition_type:Gaza": "has_only_phrase"
+        "condition:Georgia": "georgia",
+        "condition_type:Georgia": "has_only_phrase"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -253,14 +192,14 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{family_referrals}.*",
         "change": "{family_referrals}",
-        "condition_var": "@fields.location",
-        "category": "{family_referrals}",
+        "condition_var": "@fields.country",
+        "category": "{family_referrals ukraine}",
         "category:Ukraine": "{family_referrals ukraine}",
         "condition:Ukraine": "ukraine",
         "condition_type:Ukraine": "has_only_phrase",
         "category:Georgia": "{family_referrals georgia}",
-        "condition:Gaza": "georgia",
-        "condition_type:Gaza": "has_only_phrase"
+        "condition:Georgia": "georgia",
+        "condition_type:Georgia": "has_only_phrase"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -268,14 +207,14 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{child_protection_referrals}.*",
         "change": "{child_protection_referrals}",
-        "condition_var": "@fields.location",
-        "category": "{child_protection_referrals}",
+        "condition_var": "@fields.country",
+        "category": "{child_protection_referrals ukraine}",
         "category:Ukraine": "{child_protection_referrals ukraine}",
         "condition:Ukraine": "ukraine",
         "condition_type:Ukraine": "has_only_phrase",
         "category:Georgia": "{child_protection_referrals georgia}",
-        "condition:Gaza": "georgia",
-        "condition_type:Gaza": "has_only_phrase"
+        "condition:Georgia": "georgia",
+        "condition_type:Georgia": "has_only_phrase"
       }
     ],
     "referrals_eng": [
@@ -286,7 +225,7 @@
         "node_identifier": "Regex:.*{natural_disasters_referrals ukraine}.*",
         "change": "{natural_disasters_referrals ukraine}",
         "condition_var": "",
-        "category": "Add english referral here"
+        "category": "For immediate crisis response (fires, floods, storms):\nState Emergency Service of Ukraine (SES)\n📞 101\nWhatsApp +380 67 678 5917\nEmergency alerts and rescue coordination.\n\n**Regional Civil Protection Services (ODA)**\nLocal emergency planning and support - contact your regional administration website. All regional administration websites are listed at [here](https://komsamovr.rada.gov.ua/news/korysn\\_resurs/79880.html)"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -295,7 +234,7 @@
         "node_identifier": "Regex:.*{mental_health_referrals ukraine}.*",
         "change": "{mental_health_referrals ukraine}",
         "condition_var": "",
-        "category": "Add english referral here"
+        "category": "If you need emotional support, psychological care, or help accessing services, contact. Consultations are provided anonymously, confidentially, and free of charge.\n\nThe All-Ukrainian mental health program \"How are you?\" is aimed at building a high-quality system of providing services in the field of psychosocial support and developing a culture of caring for mental health.\n🔗 [About program](https://howareu.com/)\n🔗 [Self-help](https://howareu.com/self-help)\n🔗 [All hotlines](https://howareu.com/hot-lines)\n🔗 [Mental Health & Psychosocial Services Materials](https://howareu.com/materials)\n🔗 [Free educational platform](https://howareu.com/mainpage_course)\n[Telegram](https://t.me/howareu_program)\n\n\n**Teenergizer** is a movement for Eastern European teens offering free, anonymous online support. Talk to psychologists or peer counselors about anything—first sex, bullying, HIV, or anything on your mind. No judgment. Just help. We’re here for you.🔗 https://teenergizer.org/consultations/ \n📧 info@teenergizer.org\n📍 12 Borisoglebskaya street, office 4. Kyiv, Ukraine.\n WhatsApp: +38 096 596 24 96\n\n**Mental Help** is an online platform for free professional psychological assistance, created as part of USAID’s Health System Sustainability Project, run by the Pact organization.\n🔗 [Website](mentalhelp.com.ua)\n\n\n**List of free \"hotlines\" operating in Ukraine:**\n\nNational Psychological Association hotline \n📞 0 800 100 102 (from 10:00 to 20:00 daily)\n\nInternational Organization for Migration emotional support hotline\n📞 0 800 211 444 (from 10:00 to 20:00)\n\nInternational Humanitarian Organization \"Person in Need\" hotline\n📞 0 800 210 160\n\nNational Suicide Prevention and Mental Health Support Hotline Lifeline Ukraine\n📞 7333 (available 24/7)"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -304,7 +243,7 @@
         "node_identifier": "Regex:.*{health_referrals ukraine}.*",
         "change": "{health_referrals ukraine}",
         "condition_var": "",
-        "category": "Add english referral here"
+        "category": " If you or your family need medical help, medication, or social assistance, the services below are available to you:\n\n**Ministry of Health**\n📞 0 800 60 20 19\n📍 01601, Kyiv, vul. Hrushevskoho, 7\n📧 info@moz.gov.ua\n🔗[Website](https://moz.gov.ua/en)\n\n**Kyiv City Center for Psychiatric and Psychological Crisis Assistance hotlines**\n📞 (044) 456 17 02\n📞 (044) 456 17 25"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -313,7 +252,7 @@
         "node_identifier": "Regex:.*{generic_referrals ukraine}.*",
         "change": "{generic_referrals ukraine}",
         "condition_var": "",
-        "category": "Add english referral here"
+        "category": "**Ministry of Internal Affairs of Ukraine (Migration Service)**\n_Main government authority for asylum procedures and registration._\n📍 10 Bohomoltsia St, Kyiv, Ukraine\n📞 +380 44 256 11 11\n [Telegram](https://t.me/mvs_ukraine)  \n🔗 [Website](https://mvs.gov.ua/en) \n📧 pgmia@mvs.gov.ua\n_If you are seeking asylum or need refugee registration, contact this office._\n\n**Ukrainian Parliament Commissioner for Human Rights (Ombudsman)**\n_Constitutional institution safeguarding human rights including refugee protection. If you feel your rights are violated, call here._ \n📍 01008, Kyiv, 21/8, Instytutska St.\n📞  0800-50-17-20\n📞  044-299-74-08\n🔗 [Website](https://ombudsman.gov.ua/en)\n📧 hotline@ombudsman.gov.ua (__exclusively for electronic appeals and lawyer inquiries__)\n\n\n**Right to Protection (R2P**\n_Ukrainian NGO, UNHCR partner, providing free legal aid to refugees, asylum seekers, IDPs, stateless persons. For free legal consultations, document assistance, court representation._ \n\n📍 21/16 Hryhoriy Skovoroda St, Kyiv\n📞 +38 044 337 17 62; \nWhatsApp/Viber: +38 093 038 95 62\n📧 complaint@r2p.org.ua\n🔗[Website](https://r2p.org.ua/en/category/napriamy-diialnosti)\n\n**UNHCR Ukraine**\n_Main UN agency for refugee support and protection. Call for guidance on asylum, protection, referrals._ \n📍 Eurasia BC, 75 Zhylyanska St., Kyiv 01032, Ukraine \n__For Internally Displaced Persons, War-Affected People, and Returnees__\n📞 Hotline: 0-800-307-711 (Mon-Fri, 9:00-18:00) \n📧 UNHCRUkraine@DonbasSOS.org\n_Due to the high volume of requests and security situation, responses may take some time._\n__For Refugees and Asylum Seekers__\n📞 UNHCR Ukraine Hotline: 0-800-307-711 (Mon-Fri, 9:00-18:00) \n📧 ukrkiprt@unhcr.org \n🔗[Website] (https://www.unhcr.org/ua/en)\n\n**IOM Ukraine**\n__International Organization for Migration supports migration management, voluntary return, and IDPs. Contact for relocation, return assistance, migration/legal support.__ \n📍8 Mykhailivska Street, Kyiv, Ukraine, 01001\n📞 0 800 215 015, Monday-Friday, 9 a.m. - 5 p.m.  \n📞 (044) 568-50-15 | Fax: (044) 568-50-16 \n📧 SMUKRcfm@iom.int\n🔗[Website](https://ukraine.iom.int/)\n\n**National Committee**\nUkrainian Red Cross Society\n_Provides humanitarian aid, first aid, tracing services, psychosocial support. For free legal consultations, document assistance, court representation. For emergency relief, tracing separated family members, mental health help._\n📍 01024, Kyiv, Yevhena Chykalenka St., 30\n📞 0 800 332 656\n📧 national@redcross.org.ua\n🔗 [Website](https://redcross.org.ua/en/)"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -322,16 +261,7 @@
         "node_identifier": "Regex:.*{family_referrals ukraine}.*",
         "change": "{family_referrals ukraine}",
         "condition_var": "",
-        "category": "Add english referral here"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{child_protection_referrals ukraine}.*",
-        "change": "{child_protection_referrals ukraine}",
-        "condition_var": "",
-        "category": "Add english referral here"
+        "category": "**Support line for veterans and their family members from the Ukrainian Veterans Foundation (operates 24/7)**\n📞 0 800 33 20 29 \n\n**La Strada-Ukraine** \nNational hotline for the prevention of domestic violence, human trafficking and gender discrimination (operates 24/7)\n📞 0 800 500 335 (from landline) or 116 123 (from mobile)\nCalls are free, anonymous, confidential.\n\n**Government hotline**\n📞 1547"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -340,7 +270,7 @@
         "node_identifier": "Regex:.*{natural_disasters_referrals georgia}.*",
         "change": "{natural_disasters_referrals georgia}",
         "condition_var": "",
-        "category": "Add english referral here"
+        "category": "The services below can help keep you and your family safe and informed in case of a natural disaster: \n **Public Safety Command Center (112)**  \nEmergency response for any type of crisis or disaster.  \n📞 *Emergency number: 112*  \n📱 *Mobile App: **112Georgia***  \n- Free and available on Android and iOS  \n- Shares your exact location with emergency services  \n- Available in Georgian, English, Russian, Armenian, and Azerbaijani  \n⚠️ *False or hoax calls are illegal and punishable by law.*\n\n\n**National Environment Agency**  \nProvides official information on weather conditions, natural hazards, and environmental updates.  \n📍 150 Davit Aghmashenebeli Ave, 0112, Tbilisi\n📞 +995 32 243 95 03 / +995 32 243 95 10"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -349,7 +279,7 @@
         "node_identifier": "Regex:.*{mental_health_referrals georgia}.*",
         "change": "{mental_health_referrals georgia}",
         "condition_var": "",
-        "category": "Add english referral here"
+        "category": "If you need emotional support, help finding services, or assistance with daily life, the organizations below are here for you: \n\n**Georgian Centre for the Psychosocial and Medical Rehabilitation of Torture Victims (GCRT)**  \nOffers psychosocial and medical help to all Ukrainian refugees in Georgia.  \nServices include:  \n- Social worker and psychologist consultations  \n- Medical referrals and examinations  \n- Legal service referrals  \n- Medical and psychological forensic evaluations  \n- Hotline support  \n\n📍 9 Veriko Anjaparidze St, Tbilisi, 0179  \n📞 +995 032 2 22 06 89 / +995 577 12 68 68 / +995 577 22 68 68  \n🖥️ Remote consultations available from anywhere in Georgia\n\n\n\n**World Vision Multi-Service Centre**  \nCommunity centers supporting refugees and stateless people with:  \n- Information on rights and services in Georgia  \n- Social worker support and group activities  \n- Job search assistance and skills development  \n- Psychosocial support  \n\n📍 Tbilisi: 67b Zhiuli Shartava St  \n📍 Batumi: 40 Giorgi Mazniashvili St  \n📞 Hotline: +995 577 04 56 45  \n🖥️ Remote consultations available from anywhere in Georgia"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -358,7 +288,7 @@
         "node_identifier": "Regex:.*{health_referrals georgia}.*",
         "change": "{health_referrals georgia}",
         "condition_var": "",
-        "category": "Add english referral here"
+        "category": " If you or your family need medical help, medication, or social assistance, the services below are available to you:\n **Ministry of Internally Displaced Persons from the Occupied Territories, Health, Labour and Social Affairs of Georgia**  \nMain government body for health, labour, and social support.  \n📍 144 Akaki Tsereteli Ave, Tbilisi* \n📞 Hotline: 1505 / +995 32 2 51 00 26\n\n\n**Internally Displaced Persons, Ecomigrants and Livelihood Agency**  \nRuns the **State Program for Supporting the Integration of Foreigners Living in Georgia**, offering:  \n- Medical services  \n- Medication support (up to 1,500 GEL)  \nFor people with international protection (asylum seekers, refugees, humanitarian status holders, and stateless persons).  \n\n📍 *15a Mikheil Tamarashvili St, 0186, Tbilisi*  \n📞 *Hotline: +995 32 2 51 00 26*\n\n\n **In Case of Emergency**  \nPublic Safety Command Center*\n📞 Emergency number: 112"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -367,7 +297,7 @@
         "node_identifier": "Regex:.*{generic_referrals georgia}.*",
         "change": "{generic_referrals georgia}",
         "condition_var": "",
-        "category": "Add english referral here"
+        "category": "**The Division of International Protection of the Migration Department of the Ministry of Internal Affairs of Georgia**\nMain State authority responsible for asylum procedures and registering asylum-seekers\nAddress: 16, Mikheil Gakhokidze street, 0182, Tbilisi, Georgia \nPhone: +995 598 08 00 97 \n\n**Public Defender of Georgia (Ombudsman)**\nA constitutional institution, which supervises the potection of human rights and freedoms within its jurisdiction on the territory of Georgia.\nAddress: 150, Davit Agmashenebeli Avenue, 0112, Tbilisi, Georgia\nHotline: 1481 (functional 24/7)\n\n**Legal Aid Service of Georgia (LAS)** \nThe entity under public law, which provides legal consultations, prepares legal documents and provides court representation for free.\nAddress: Tbilisi Legal Aid Bureau: 14, Tamar Mepe Avenue, 0112, Tbilisi, Georgia.\nContact information: (+995 32) 292 00 55\n\n**The office of the United Nations Hight Commissioner for Refugees (UNHCR)** \nThe main national organization working on refugees and asylum procedures in Georgia.\nAddress: 2a, Aleksandre Kazbegi Avenue, 0160, Tbilisi, Georgia.\nHotline: (+995) 577 415 610\n\n**International Organization for Migration (IOM)** \nThe international organization, which supports state agencies in development of national migration related management systems. IOM provides assistance in voluntary return, also for persons in detention.\nAddress: 12, Tengiz Abuladze 1st Lane (Dead End), 0162, Tbilisi, Georgia\nHotline: (+995 32) 2 91 43 61\n\n**NGO Rights Georgia**\nThis is the partner of UNHCR providing free legal assistance to asylum-seekers and refugees  and stateless individuals in Georgia. \nLegal counseling on various legal issues, including international protection and border crossing; residence permits; state assistance for Ukrainians living in Georgia; labor disputes; rent agreements; gender-based violence, etc. \nAddress: 11a Akaki Gakhokidze Street, 0160, Tbilisi, Georgia\nHotline: (+995) 593 111 405; (+995) 555 10 73 00 "
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -376,16 +306,7 @@
         "node_identifier": "Regex:.*{family_referrals georgia}.*",
         "change": "{family_referrals georgia}",
         "condition_var": "",
-        "category": "Add english referral here"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{child_protection_referrals georgia}.*",
-        "change": "{child_protection_referrals georgia}",
-        "condition_var": "",
-        "category": "Add english referral here"
+        "category": "If you’ve come to Georgia with your family, there is help available. From financial assistance and housing to language and educational programs, these services are here to support you as you rebuild your life:\n\n **State Financial Assistance for Ukrainian Refugees**  \nUnder Government Decree #1254 (extended until July 2025), financial support is available for Ukrainian refugees in Georgia.  \nSupport includes:  \n- **300 GEL per family + 45 GEL per person**  \n- 10 days of emergency accommodation for new arrivals after 15 July (and continued support if assessed as vulnerable)  \n- Families already receiving aid will continue to receive it until **1 July 2025** without reassessment  \n\n📞 *Hotline for emergency accommodation: 1505 (Ministry of Health)*  \n🗂️ *Register for financial aid at the nearest Social Services Agency office*\n\n\n**Happy Space Tbilisi**  \n📍 111 Dimitri Uznadze St, Tbilisi\n📞 +995 577 25 90 16  \n\n**Happy Space Batumi**  \n📍 72 Takaishvili St, Batumi  \n📞 +995 577 65 73 02\n\n\n **Free Georgian Language and Civic Education Courses**  \nOffered by the Internally Displaced Persons, Ecomigrants and Livelihood Agency  \n- Free for asylum seekers, refugees, humanitarian status holders, and stateless persons  \n- Civic education classes to help with integration  \n- Ages 16+, register anytime  \n- Online and in-person classes available  \n📍 Face-to-face: 15a Mikheil Tamarashvili St, 0186, Tbilisi  \n📞 +995 555 000 119 / +995 511 142 384 / (032) 2 14 02 42  \n📧 info@idp.gov.ge\n\n**Funding for Sports, Arts, and Educational Courses (Under Age 18)**  \nIf you're under 18 and have refugee, humanitarian, or stateless status:  \n- You can apply for funding up to **1,500 GEL per year** for courses  \n- Applies to sports, creative, and educational activities  \n- Monthly payments made directly to the institution  \n📍 Apply at the agency’s office or by post (forms available at [www.idp.moh.gov.ge](http://www.idp.moh.gov.ge)) \n📧 info@idp.gov.ge*  \n📞 *+995 511 14 23 84*  \n;\n**Agency Addresses:**  \n- Tbilisi: 15a M. Tamarashvili St.  \n- Gori: 1 Sameba St.  \n- Rustavi: 20 Kostava St.  \n- Kutaisi: 27 Ir. Abashidze Ave.  \n- Zugdidi: 106 D. Aghmashenebeli St.\n\n **Temporary Reception Centre for Asylum Seekers**  \nShelter for vulnerable asylum seekers provided by the Ministry of Internal Affairs.  \n- Located in **Village Martkopi**, near Tbilisi  \n- Separate blocks for families, women, and single men  \n- Facilities include a play area, football field, internet room, and Georgian language classes  \n📍 Apply via the Division of International Protection  \n📍 16 Mikheil Gakhokidze St, 0182, Tbilisi\n📞 +995 598 08 00 97  \n📧 dipi@mia.gov.ge"
       }
     ],
     "referrals_transl": [
@@ -650,26 +571,6 @@
         "replacement": "add url"
       }
     ],
-    "joining_triggers_add_group": [
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{joining_trigger}.*",
-        "change": "{joining_trigger}",
-        "condition_var": "@fields.joining_trigger_id",
-        "category": "{joining_trigger}",
-        "category:group_a": "{joining_trigger_group_a}",
-        "condition:group_a": "group_a",
-        "condition_type:group_a": "has_only_phrase",
-        "category:group_b": "{joining_trigger_group_b}",
-        "condition:group_b": "group_b",
-        "condition_type:group_b": "has_only_phrase",
-        "category:group_c": "{joining_trigger_group_c}",
-        "condition:group_c": "group_c",
-        "condition_type:group_c": "has_only_phrase"
-      }
-    ],
     "joining_triggers_eng": [
       {
         "type_of_edit": "replace_bit_of_text",
@@ -706,6 +607,26 @@
         "change": "{joining_trigger_group_c}",
         "condition_var": "",
         "category": "TEST_GROUP_C"
+      }
+    ],
+    "joining_triggers_add_group": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger}.*",
+        "change": "{joining_trigger}",
+        "condition_var": "@fields.joining_trigger_id",
+        "category": "{joining_trigger}",
+        "category:group_a": "{joining_trigger_group_a}",
+        "condition:group_a": "group_a",
+        "condition_type:group_a": "has_only_phrase",
+        "category:group_b": "{joining_trigger_group_b}",
+        "condition:group_b": "group_b",
+        "condition_type:group_b": "has_only_phrase",
+        "category:group_c": "{joining_trigger_group_c}",
+        "condition:group_c": "group_c",
+        "condition_type:group_c": "has_only_phrase"
       }
     ],
     "joining_triggers_transl": [
@@ -755,6 +676,15 @@
         "original": "{prog_name}",
         "language": "ukr",
         "replacement": "Батьківська опора"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*ParentText.*",
+        "original": "ParentText",
+        "language": "ukr",
+        "replacement": "Батьківська опора"
       }
     ],
     "parenttext_name_eng": [
@@ -765,7 +695,16 @@
         "node_identifier": "Regex:.*{prog_name}.*",
         "change": "{prog_name}",
         "condition_var": "",
-        "category": "Batkivska Opora"
+        "category": "Батьківська опора"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*ParentText.*",
+        "change": "ParentText",
+        "condition_var": "",
+        "category": "Батьківська опора"
       }
     ]
   }

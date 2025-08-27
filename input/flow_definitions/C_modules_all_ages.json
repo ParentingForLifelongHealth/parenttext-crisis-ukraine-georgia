@@ -429,7 +429,7 @@
         "introduction.msg_list": "In times of crisis, children may carry big worries. If they are also being bullied at school or nearby, it can hurt their well-being. ",
         "importance.msg_list": "This lesson will help you notice signs of bullying & support your child with care. \nEven in difficult times, your support can help your child feel safe and strong. 💛",
         "tips.intro": "Here are 5️⃣things you can do to help your child stay safe from harm:",
-        "tips.next_button": "Sp",
+        "tips.next_button": "",
         "tips.message.1.text": "1️⃣ **SPEND ONE-ON-ONE TIME **\n\nThe more time you spend together, the easier it is for your child to speak up.\n\n🗣️ Ask how their day was\n\n❤️ Ask how they’re feeling\n\n📅 Make one-on-one time a habit\n\n🤗 Listen without rushing\n\n🙋‍♀️ Remind them they can always come to you",
         "tips.message.1.image": "",
         "tips.message.2.text": "2️⃣** EXPLAIN BULLYING**\nChildren can speak up when they understand bullying.\n\n📚 Teach them it means hurting someone on purpose\n\n💬 Talk about words, actions, and online harm\n\n🧭 Say it can happen to anyone\n\n🗣️ Encourage them to speak up\n\n🧡 Let them know you’re there",
@@ -463,7 +463,7 @@
       {
         "ID": "cyberbullying",
         "module_name": "Keeping your child safe from online bullying",
-        "pause_id": "loving_kindness",
+        "pause_id": "loving_kindness meditation",
         "survey_start_id": "end1",
         "survey_end_id": "",
         "introduction.msg_list": "In hard times, children often use phones or the internet to play, learn, or talk to others. But sometimes, children can also be bullied online. \nThey might send hurtful messages, share embarrassing pictures, or pretend to be someone else.",

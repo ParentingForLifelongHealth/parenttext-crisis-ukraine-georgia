@@ -3,62 +3,305 @@
     "version": "0.1.0"
   },
   "sheets": {
+    "READ THIS": [
+      {
+        "x": ""
+      },
+      {
+        "x": ""
+      },
+      {
+        "x": "This is a unique id for each start word. Do not edit this column"
+      },
+      {
+        "x": "A clear explanation of what the start word does and who it is for. Proposed by PLH for your review & suggestions. "
+      },
+      {
+        "x": "Write the start word in English "
+      },
+      {
+        "x": "Write the start word in your local language"
+      },
+      {
+        "x": "Select hybrid if a facilitator is supporting the user experience in any way — whether in person or remotely (e.g. via phone calls, WhatsApp guidance, or in-person sessions). Example: Parents are introduced to the chatbot by a facilitator during an in-person group session or receive onboarding support via WhatsApp group call. \n\nSelect digital if there is no facilitator support at all — parents engage with the chatbot completely on their own through remote channels. Example: Parents click a link shared in a public WhatsApp group and start using the chatbot without any assistance."
+      },
+      {
+        "x": "This field identifies how the user was recruited or introduced to the chatbot. It determines how data will be filtered on dashboards or used for disaggregation (e.g. by partner, pathway, or wave).\n        •        If a single partner has multiple recruitment pathways (such as CFS sessions, WhatsApp campaigns, or hotline referrals), create a unique start word for each pathway.\n        •        In the Description column, briefly explain the recruitment method for that start word (e.g. “Wave 1 parents recruited through CFS Dnipro sessions”).\n\nPLH will use this field to assign the correct user group tags for dashboard filtering."
+      },
+      {
+        "x": "Ignore this field "
+      },
+      {
+        "x": "Do not edit this column"
+      },
+      {
+        "x": "This is the maximum number of users allowed to enter the chatbot through this start word.\n        •        Once this number is reached, new users will be placed on a waiting list and will receive a message letting them know the chatbot is full for now.\n        •        If we see that some parents have dropped out during implementation, the cap can be increased to allow more users in.\n        •        When the cap is raised, the chatbot will automatically send a message to those on the waiting list, inviting them to begin.\n\nTo increase the cap during implementation, please reach out to Deepali."
+      },
+      {
+        "x": "Only applicable if you are working with multiple partners. Ignore for WVI"
+      },
+      {
+        "x": ""
+      },
+      {
+        "x": "Once the chatbot is ready, a link will be added here for the chatbot with the start word pre-entered.\nThis link can be shared directly with users or field staff to ensure they enter the correct version of the chatbot.\nThis helps reduce user error and ensures clean data by routing people through the correct entry point. The team can copy and share these links with the relevant on-the-ground staff once available."
+      },
+      {
+        "x": ""
+      },
+      {
+        "x": ""
+      },
+      {
+        "x": ""
+      },
+      {
+        "x": ""
+      },
+      {
+        "x": ""
+      }
+    ],
     "JoiningTriggers": [
       {
-        "ID": "testers",
-        "Trigger (en)": "test",
+        "ID": "test_en_ukr",
+        "Description": "Joining trigger for testers who do not speak Ukrainian: This Joining trigger initiates the English version of the chatbot for Ukraine, which is only available for internal testing by the PLH and IDEMS teams. It is not visible or accessible to end users.",
+        "Trigger (en)": "test_ukr",
         "Trigger (lan)": "",
-        "Link (en)": "",
-        "Link (lan)": "",
         "Experience (user group)": "digital",
-        "Recruitment (user group)": "",
+        "Recruitment (user group)": "testers",
         "Additional (user group)": "",
         "Included in Reach? ": "",
+        "Country": "Ukraine",
         "Cap Users At": "",
-        "Location, if applicable": "",
-        "Description": ""
+        "Location": "",
+        "Link (en)": "",
+        "Link (lan)": ""
       },
       {
-        "ID": "group_a",
-        "Trigger (en)": "trigger_a",
+        "ID": "test_en_ge",
+        "Description": "Joining trigger for testers who do not speak Ukrainian: This Joining trigger initiates the English version of the chatbot for Georgia, which is only available for internal testing by the PLH and IDEMS teams. It is not visible or accessible to end users.",
+        "Trigger (en)": "test_ge",
         "Trigger (lan)": "",
-        "Link (en)": "",
-        "Link (lan)": "",
         "Experience (user group)": "digital",
-        "Recruitment (user group)": "Group_A",
+        "Recruitment (user group)": "testers",
         "Additional (user group)": "",
-        "Included in Reach? ": "reach",
-        "Cap Users At": "1000",
-        "Location, if applicable": "",
-        "Description": ""
+        "Included in Reach? ": "",
+        "Country": "Georgia",
+        "Cap Users At": "",
+        "Location": "",
+        "Link (en)": "",
+        "Link (lan)": ""
       },
       {
-        "ID": "group_b",
-        "Trigger (en)": "trigger_b",
-        "Trigger (lan)": "",
-        "Link (en)": "",
-        "Link (lan)": "",
+        "ID": "test_ukr",
+        "Description": "Joining trigger for testers only and initates the chatbot in Ukrainian for Ukraine. If you are not a caregiver and are testing the chatbot, please use this Joining trigger to use the chatbot. This helps ensure that real user data is not mixed with test data.",
+        "Trigger (en)": "",
+        "Trigger (lan)": "тест_укр",
         "Experience (user group)": "digital",
-        "Recruitment (user group)": "Group_B",
+        "Recruitment (user group)": "testers",
         "Additional (user group)": "",
-        "Included in Reach? ": "reach",
-        "Cap Users At": "1000",
-        "Location, if applicable": "",
-        "Description": ""
+        "Included in Reach? ": "",
+        "Country": "Ukraine",
+        "Cap Users At": "",
+        "Location": "",
+        "Link (en)": "",
+        "Link (lan)": ""
       },
       {
-        "ID": "group_c",
-        "Trigger (en)": "trigger_c",
-        "Trigger (lan)": "",
-        "Link (en)": "",
-        "Link (lan)": "",
+        "ID": "test_ge",
+        "Description": "Joining trigger for testers only and initates the chatbot in Ukrainian for Georgia. If you are not a caregiver and are testing the chatbot, please use this Joining trigger to use the chatbot. This helps ensure that real user data is not mixed with test data.",
+        "Trigger (en)": "",
+        "Trigger (lan)": "тест_ge",
         "Experience (user group)": "digital",
-        "Recruitment (user group)": "Group_C",
+        "Recruitment (user group)": "testers",
+        "Additional (user group)": "",
+        "Included in Reach? ": "",
+        "Country": "Georgia",
+        "Cap Users At": "",
+        "Location": "",
+        "Link (en)": "",
+        "Link (lan)": ""
+      },
+      {
+        "ID": "ge_wave_1_1",
+        "Description": "Joining trigger for parents in Georgia who are part of wave 1 and recruited from Happy Spaces",
+        "Trigger (en)": "Chat",
+        "Trigger (lan)": "чат",
+        "Experience (user group)": "hybrid",
+        "Recruitment (user group)": "Wave 1: Georgia",
         "Additional (user group)": "",
         "Included in Reach? ": "reach",
-        "Cap Users At": "1000",
-        "Location, if applicable": "",
-        "Description": ""
+        "Country": "Georgia",
+        "Cap Users At": "190",
+        "Location": "Georgia",
+        "Link (en)": "",
+        "Link (lan)": ""
+      },
+      {
+        "ID": "ge_wave_1_2",
+        "Description": "Joining trigger for parents in Georgia who are part of wave 1 and recruited from schools",
+        "Trigger (en)": "Care",
+        "Trigger (lan)": "турбота",
+        "Experience (user group)": "digital",
+        "Recruitment (user group)": "Wave 1: Georgia",
+        "Additional (user group)": "",
+        "Included in Reach? ": "reach",
+        "Country": "Georgia",
+        "Cap Users At": "60",
+        "Location": "Georgia",
+        "Link (en)": "",
+        "Link (lan)": ""
+      },
+      {
+        "ID": "ge_wave_2_1",
+        "Description": "Joining trigger for parents in Georgia who are part of wave 2 and recruited from Happy Spaces",
+        "Trigger (en)": "Bot",
+        "Trigger (lan)": "Бот",
+        "Experience (user group)": "hybrid",
+        "Recruitment (user group)": "Wave 2: Georgia",
+        "Additional (user group)": "",
+        "Included in Reach? ": "reach",
+        "Country": "Georgia",
+        "Cap Users At": "190",
+        "Location": "Georgia",
+        "Link (en)": "",
+        "Link (lan)": ""
+      },
+      {
+        "ID": "ge_wave_2_2",
+        "Description": "Joining trigger for parents in Georgia who are part of wave 2 and recruited from schools",
+        "Trigger (en)": "Support",
+        "Trigger (lan)": "Опора",
+        "Experience (user group)": "digital",
+        "Recruitment (user group)": "Wave 2: Georgia",
+        "Additional (user group)": "",
+        "Included in Reach? ": "reach",
+        "Country": "Georgia",
+        "Cap Users At": "60",
+        "Location": "Georgia",
+        "Link (en)": "",
+        "Link (lan)": ""
+      },
+      {
+        "ID": "ukr_wave_1_1",
+        "Description": "Joining trigger for parents in CFS in Dnipro who are part of wave 1",
+        "Trigger (en)": "Hope",
+        "Trigger (lan)": "Надія",
+        "Experience (user group)": "hybrid",
+        "Recruitment (user group)": "Wave 1: Ukraine",
+        "Additional (user group)": "",
+        "Included in Reach? ": "reach",
+        "Country": "Ukraine",
+        "Cap Users At": "75",
+        "Location": "Dnipro, Ukraine",
+        "Link (en)": "",
+        "Link (lan)": ""
+      },
+      {
+        "ID": "ukr_wave_1_2",
+        "Description": "Joining trigger for parents in CFS in Zaporizhzhia who are part of wave 1",
+        "Trigger (en)": "Strength",
+        "Trigger (lan)": "Сила",
+        "Experience (user group)": "hybrid",
+        "Recruitment (user group)": "Wave 1: Ukraine",
+        "Additional (user group)": "",
+        "Included in Reach? ": "reach",
+        "Country": "Ukraine",
+        "Cap Users At": "75",
+        "Location": "Zaporizhzhia, Ukraine",
+        "Link (en)": "",
+        "Link (lan)": ""
+      },
+      {
+        "ID": "ukr_wave_1_3",
+        "Description": "Joining trigger for parents in MT in Dnipro oblast who are part of wave 1",
+        "Trigger (en)": "Unity",
+        "Trigger (lan)": "Єдність",
+        "Experience (user group)": "hybrid",
+        "Recruitment (user group)": "Wave 1: Ukraine",
+        "Additional (user group)": "",
+        "Included in Reach? ": "reach",
+        "Country": "Ukraine",
+        "Cap Users At": "50",
+        "Location": "Dnipro oblast, Ukraine",
+        "Link (en)": "",
+        "Link (lan)": ""
+      },
+      {
+        "ID": "ukr_wave_1_4",
+        "Description": "Joining trigger for parents in MT in Zaporizhzhia oblast who are part of wave 1",
+        "Trigger (en)": "Peace",
+        "Trigger (lan)": "Мир",
+        "Experience (user group)": "hybrid",
+        "Recruitment (user group)": "Wave 1: Ukraine",
+        "Additional (user group)": "",
+        "Included in Reach? ": "reach",
+        "Country": "Ukraine",
+        "Cap Users At": "50",
+        "Location": "Zaporizhzhia oblast, Ukraine",
+        "Link (en)": "",
+        "Link (lan)": ""
+      },
+      {
+        "ID": "ukr_wave_2_1",
+        "Description": "Joining trigger for parents in CFS in Dnipro who are part of wave 2",
+        "Trigger (en)": "Freedom",
+        "Trigger (lan)": "Воля",
+        "Experience (user group)": "hybrid",
+        "Recruitment (user group)": "Wave 2: Ukraine",
+        "Additional (user group)": "",
+        "Included in Reach? ": "reach",
+        "Country": "Ukraine",
+        "Cap Users At": "75",
+        "Location": "Dnipro, Ukraine",
+        "Link (en)": "",
+        "Link (lan)": ""
+      },
+      {
+        "ID": "ukr_wave_2_2",
+        "Description": "Joining trigger for parents in CFS in Zaporizhzhia who are part of wave 2",
+        "Trigger (en)": "Glory",
+        "Trigger (lan)": "Слава",
+        "Experience (user group)": "hybrid",
+        "Recruitment (user group)": "Wave 2: Ukraine",
+        "Additional (user group)": "",
+        "Included in Reach? ": "reach",
+        "Country": "Ukraine",
+        "Cap Users At": "75",
+        "Location": "Zaporizhzhia, Ukraine",
+        "Link (en)": "",
+        "Link (lan)": ""
+      },
+      {
+        "ID": "ukr_wave_2_3",
+        "Description": "Joining trigger for parents in MT in Dnipro oblast who are part of wave 2",
+        "Trigger (en)": "Together",
+        "Trigger (lan)": "Разом",
+        "Experience (user group)": "hybrid",
+        "Recruitment (user group)": "Wave 2: Ukraine",
+        "Additional (user group)": "",
+        "Included in Reach? ": "reach",
+        "Country": "Ukraine",
+        "Cap Users At": "50",
+        "Location": "Dnipro oblast, Ukraine",
+        "Link (en)": "",
+        "Link (lan)": ""
+      },
+      {
+        "ID": "ukr_wave_2_4",
+        "Description": "Joining trigger for parents in MT in Zaporizhzhia oblast who are part of wave 2",
+        "Trigger (en)": "Trust",
+        "Trigger (lan)": "Довіра",
+        "Experience (user group)": "hybrid",
+        "Recruitment (user group)": "Wave 2: Ukraine",
+        "Additional (user group)": "",
+        "Included in Reach? ": "reach",
+        "Country": "Ukraine",
+        "Cap Users At": "50",
+        "Location": "Zaporizhzhia oblast, Ukraine",
+        "Link (en)": "",
+        "Link (lan)": ""
       }
     ],
     "content_index": [
@@ -95,54 +338,262 @@
     ],
     "joining_triggers_data": [
       {
-        "ID": "testers",
-        "triggers": "test",
-        "groups": "digital",
+        "ID": "test_en_ukr",
+        "triggers": "test_ukr",
+        "groups": "digital;testers;Ukraine",
+        "location": "",
         "cap": "",
-        "location": ""
+        "variables.1.name": "",
+        "variables.1.value": "",
+        "variables.2.name": "country",
+        "variables.2.value": "Ukraine"
       },
       {
-        "ID": "group_a",
-        "triggers": "trigger_a",
-        "groups": "digital;Group_A;reach",
-        "cap": "1000",
-        "location": ""
+        "ID": "test_en_ge",
+        "triggers": "test_ge",
+        "groups": "digital;testers;Georgia",
+        "location": "",
+        "cap": "",
+        "variables.1.name": "displacement",
+        "variables.1.value": "currently living abroad (whether temporarily or permanently)",
+        "variables.2.name": "country",
+        "variables.2.value": "Georgia"
       },
       {
-        "ID": "group_b",
-        "triggers": "trigger_b",
-        "groups": "digital;Group_B;reach",
-        "cap": "1000",
-        "location": ""
+        "ID": "test_ukr",
+        "triggers": "тест_укр",
+        "groups": "digital;testers;Ukraine",
+        "location": "",
+        "cap": "",
+        "variables.1.name": "",
+        "variables.1.value": "",
+        "variables.2.name": "country",
+        "variables.2.value": "Ukraine"
       },
       {
-        "ID": "group_c",
-        "triggers": "trigger_c",
-        "groups": "digital;Group_C;reach",
-        "cap": "1000",
-        "location": ""
+        "ID": "test_ge",
+        "triggers": "тест_ge",
+        "groups": "digital;testers;Georgia",
+        "location": "",
+        "cap": "",
+        "variables.1.name": "displacement",
+        "variables.1.value": "currently living abroad (whether temporarily or permanently)",
+        "variables.2.name": "country",
+        "variables.2.value": "Georgia"
+      },
+      {
+        "ID": "ge_wave_1_1",
+        "triggers": "Chat;чат",
+        "groups": "hybrid;Wave 1: Georgia;reach;Georgia",
+        "location": "Georgia",
+        "cap": "190",
+        "variables.1.name": "displacement",
+        "variables.1.value": "currently living abroad (whether temporarily or permanently)",
+        "variables.2.name": "country",
+        "variables.2.value": "Georgia"
+      },
+      {
+        "ID": "ge_wave_1_2",
+        "triggers": "Care;турбота",
+        "groups": "digital;Wave 1: Georgia;reach;Georgia",
+        "location": "Georgia",
+        "cap": "60",
+        "variables.1.name": "displacement",
+        "variables.1.value": "currently living abroad (whether temporarily or permanently)",
+        "variables.2.name": "country",
+        "variables.2.value": "Georgia"
+      },
+      {
+        "ID": "ge_wave_2_1",
+        "triggers": "Bot;Бот",
+        "groups": "hybrid;Wave 2: Georgia;reach;Georgia",
+        "location": "Georgia",
+        "cap": "190",
+        "variables.1.name": "displacement",
+        "variables.1.value": "currently living abroad (whether temporarily or permanently)",
+        "variables.2.name": "country",
+        "variables.2.value": "Georgia"
+      },
+      {
+        "ID": "ge_wave_2_2",
+        "triggers": "Support;Опора",
+        "groups": "digital;Wave 2: Georgia;reach;Georgia",
+        "location": "Georgia",
+        "cap": "60",
+        "variables.1.name": "displacement",
+        "variables.1.value": "currently living abroad (whether temporarily or permanently)",
+        "variables.2.name": "country",
+        "variables.2.value": "Georgia"
+      },
+      {
+        "ID": "ukr_wave_1_1",
+        "triggers": "Hope;Надія",
+        "groups": "hybrid;Wave 1: Ukraine;reach;Ukraine",
+        "location": "Dnipro, Ukraine",
+        "cap": "75",
+        "variables.1.name": "",
+        "variables.1.value": "",
+        "variables.2.name": "country",
+        "variables.2.value": "Ukraine"
+      },
+      {
+        "ID": "ukr_wave_1_2",
+        "triggers": "Strength;Сила",
+        "groups": "hybrid;Wave 1: Ukraine;reach;Ukraine",
+        "location": "Zaporizhzhia, Ukraine",
+        "cap": "75",
+        "variables.1.name": "",
+        "variables.1.value": "",
+        "variables.2.name": "country",
+        "variables.2.value": "Ukraine"
+      },
+      {
+        "ID": "ukr_wave_1_3",
+        "triggers": "Unity;Єдність",
+        "groups": "hybrid;Wave 1: Ukraine;reach;Ukraine",
+        "location": "Dnipro oblast, Ukraine",
+        "cap": "50",
+        "variables.1.name": "",
+        "variables.1.value": "",
+        "variables.2.name": "country",
+        "variables.2.value": "Ukraine"
+      },
+      {
+        "ID": "ukr_wave_1_4",
+        "triggers": "Peace;Мир",
+        "groups": "hybrid;Wave 1: Ukraine;reach;Ukraine",
+        "location": "Zaporizhzhia oblast, Ukraine",
+        "cap": "50",
+        "variables.1.name": "",
+        "variables.1.value": "",
+        "variables.2.name": "country",
+        "variables.2.value": "Ukraine"
+      },
+      {
+        "ID": "ukr_wave_2_1",
+        "triggers": "Freedom;Воля",
+        "groups": "hybrid;Wave 2: Ukraine;reach;Ukraine",
+        "location": "Dnipro, Ukraine",
+        "cap": "75",
+        "variables.1.name": "",
+        "variables.1.value": "",
+        "variables.2.name": "country",
+        "variables.2.value": "Ukraine"
+      },
+      {
+        "ID": "ukr_wave_2_2",
+        "triggers": "Glory;Слава",
+        "groups": "hybrid;Wave 2: Ukraine;reach;Ukraine",
+        "location": "Zaporizhzhia, Ukraine",
+        "cap": "75",
+        "variables.1.name": "",
+        "variables.1.value": "",
+        "variables.2.name": "country",
+        "variables.2.value": "Ukraine"
+      },
+      {
+        "ID": "ukr_wave_2_3",
+        "triggers": "Together;Разом",
+        "groups": "hybrid;Wave 2: Ukraine;reach;Ukraine",
+        "location": "Dnipro oblast, Ukraine",
+        "cap": "50",
+        "variables.1.name": "",
+        "variables.1.value": "",
+        "variables.2.name": "country",
+        "variables.2.value": "Ukraine"
+      },
+      {
+        "ID": "ukr_wave_2_4",
+        "triggers": "Trust;Довіра",
+        "groups": "hybrid;Wave 2: Ukraine;reach;Ukraine",
+        "location": "Zaporizhzhia oblast, Ukraine",
+        "cap": "50",
+        "variables.1.name": "",
+        "variables.1.value": "",
+        "variables.2.name": "country",
+        "variables.2.value": "Ukraine"
       }
     ],
     "cap_data": [
       {
-        "ID": "testers",
-        "var_key": "n_testers",
+        "ID": "test_en_ukr",
+        "var_key": "n_test_en_ukr",
         "var_value": ""
       },
       {
-        "ID": "group_a",
-        "var_key": "n_group_a",
-        "var_value": "1000"
+        "ID": "test_en_ge",
+        "var_key": "n_test_en_ge",
+        "var_value": ""
       },
       {
-        "ID": "group_b",
-        "var_key": "n_group_b",
-        "var_value": "1000"
+        "ID": "test_ukr",
+        "var_key": "n_test_ukr",
+        "var_value": ""
       },
       {
-        "ID": "group_c",
-        "var_key": "n_group_c",
-        "var_value": "1000"
+        "ID": "test_ge",
+        "var_key": "n_test_ge",
+        "var_value": ""
+      },
+      {
+        "ID": "ge_wave_1_1",
+        "var_key": "n_ge_wave_1_1",
+        "var_value": "190"
+      },
+      {
+        "ID": "ge_wave_1_2",
+        "var_key": "n_ge_wave_1_2",
+        "var_value": "60"
+      },
+      {
+        "ID": "ge_wave_2_1",
+        "var_key": "n_ge_wave_2_1",
+        "var_value": "190"
+      },
+      {
+        "ID": "ge_wave_2_2",
+        "var_key": "n_ge_wave_2_2",
+        "var_value": "60"
+      },
+      {
+        "ID": "ukr_wave_1_1",
+        "var_key": "n_ukr_wave_1_1",
+        "var_value": "75"
+      },
+      {
+        "ID": "ukr_wave_1_2",
+        "var_key": "n_ukr_wave_1_2",
+        "var_value": "75"
+      },
+      {
+        "ID": "ukr_wave_1_3",
+        "var_key": "n_ukr_wave_1_3",
+        "var_value": "50"
+      },
+      {
+        "ID": "ukr_wave_1_4",
+        "var_key": "n_ukr_wave_1_4",
+        "var_value": "50"
+      },
+      {
+        "ID": "ukr_wave_2_1",
+        "var_key": "n_ukr_wave_2_1",
+        "var_value": "75"
+      },
+      {
+        "ID": "ukr_wave_2_2",
+        "var_key": "n_ukr_wave_2_2",
+        "var_value": "75"
+      },
+      {
+        "ID": "ukr_wave_2_3",
+        "var_key": "n_ukr_wave_2_3",
+        "var_value": "50"
+      },
+      {
+        "ID": "ukr_wave_2_4",
+        "var_key": "n_ukr_wave_2_4",
+        "var_value": "50"
       }
     ]
   }

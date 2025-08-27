@@ -318,11 +318,6 @@
         "ID": "natural_disasters",
         "referrals": "{natural_disasters_referrals}",
         "option_name": "Natural disasters"
-      },
-      {
-        "ID": "child_protection",
-        "referrals": "{child_protection_referrals}",
-        "option_name": "Child Protection "
       }
     ],
     "safeguarding_help_data": [

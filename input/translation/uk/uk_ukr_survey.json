@@ -1,0 +1,596 @@
+[
+  {
+    "SourceText": "It looks like this is not a good time. Please type 1 if you'd like to continue.",
+    "text": "Здається, зараз не найкращий момент. Натисніть 1, якщо хочете продовжити.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You will continue with your progress tomorrow.",
+    "text": "Продовжимо завтра.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Can you believe it’s been a month? ⏳",
+    "text": "Уявіть собі — вже минув цілий місяць!⏳ ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We’d love to check in and see how you’re doing ❤️. It’ll take less than 5 minutes.",
+    "text": "Ми б дуже хотіли дізнатися, як у вас справи ❤️Це займе менше ніж 5 хвилин.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Is now a good time? 🙂",
+    "text": "Чи зручно зараз? 🙂",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Press a number on your keypad: ",
+    "text": "Натисніть цифру на клавіатурі: ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "1. Yes",
+    "text": "1. Так",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "2. No",
+    "text": "2. Ні",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That's okay.",
+    "text": "Все гаразд.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Sorry, I don't understand what you mean.",
+    "text": "Вибачте, я не розумію, що ви маєте на увазі.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We’ll ask 3 quick questions first 💬",
+    "text": "Спершу - 3 короткі запитання 💬",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "This helps us share tips that are right for families like yours ❤️ 🕊️",
+    "text": "Завдяки питанням ми зможемо ділитися саме тими порадами, які надихають і підтримують сім’ї, як ваша ❤️🕊️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Parenting is so important. How many days in the past week did you play with your children, help them learn something new, or talk with your children about how they’re doing?",
+    "text": "Батьківство — це справді важливо. Скільки днів за останній тиждень ви гралися з дітьми, допомагали їм вчити щось нове або просто говорили з ними про їхні справи?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You’re doing what you can, and that matters 💛, every small moment of connection counts 💪.",
+    "text": "Те, що ви робите — вже багато 💛. Навіть найменші моменти зв’язку з дитиною справді важливі 💪.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s wonderful to hear 🌟💖, your time and care make a big difference in your child’s life.",
+    "text": "Приємно це чути! 🌟💖 Ваша турбота і час мають величезне значення для вашої дитини.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s completely okay 💙, we’re here to support you, no matter where you’re at 💫🤝",
+    "text": "Це абсолютно нормально 💙. Ми поруч, щоб підтримати вас, незалежно від того, на якому етапі ви зараз 💫🤝",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We know life can be stressful. Over the last week, how often did you feel nervous, anxious or on edge?",
+    "text": "Ми розуміємо, що іноді буває важко. Як часто цього тижня ви відчували стрес або внутрішнє напруження?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s great to hear 💛Thank you for sharing ☀️",
+    "text": "Раді це чути 💛 Дякуємо, що поділилися ☀️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for sharing 💙 We’re sorry to hear life has been stressful, and hope we can help 🤝",
+    "text": "Дякуємо за вашу відвертість 💙\nШкода, що вам довелося пройти через це. Ми поруч і готові підтримати 🤝",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay 💙, no need to share more than you want to 🙏",
+    "text": "Це абсолютно нормально 💙 Діліться тільки тим, чим готові поділитися зараз 🙏",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Over the past week, how often were you not able to stop or control worrying?",
+    "text": "Як часто за останній тиждень вам було важко зупинити хвилювання або контролювати тривогу?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "So glad to hear you’re feeling free from worry 💫  Thank you for taking a moment with us 🙏",
+    "text": "Раді чути, що вам вдалося уникнути тривоги 💫Дякуємо, що знайшли хвилинку для нас 🙏",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you again for sharing with us 💛 Worry can be so difficult, and we hope ParentText can help.",
+    "text": "Щиро дякуємо, що поділилися 💛Тривога може дуже виснажувати, ми сподіваємось, що ця інформація стане вам у пригоді.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "No problem! Thank you for taking a moment with us 🙏",
+    "text": "Все гаразд! Дякуємо, що приділили нам трохи часу 🙏",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Finally, we’d like to ask 5 more questions before your first tip!",
+    "text": "І наостанок — ще 5 коротких запитань перед першою порадою!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It’ll take only 2 minutes ⏱️,  and your answers help make these tips better for you and other families 💛",
+    "text": "Це займе лише 2 хвилини ⏱️Ваші відповіді допоможуть зробити поради ще кориснішими  для вас та інших родин.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Would you like to continue?",
+    "text": "Бажаєте продовжити?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "How many days in the past week did you feel hopeful, purposeful, or like you have meaning?",
+    "text": "Протягом минулого тижня, скільки днів ви відчували себе сповненими надії, у вас була мета чи розуміння власного сенсу?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It’s okay if those feelings were rare this week. Some weeks are heavier than others 🙏",
+    "text": "Все гаразд, якщо цього тижня надія з’являлася нечасто. Деколи бувають складніші періоди 🙏",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s encouraging to hear 💛 Hope is a powerful ☀️",
+    "text": "Раді це чути 💛Надія — це велика сила ☀️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s encouraging to hear 💛 Hope is a powerful strength ☀️",
+    "text": "Раді це чути 💛Надія — це внутрішня сила ☀️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Prefer not to answer: That’s completely fine 💙 Thank you for taking a moment with this question 🙏",
+    "text": "Не хочете відповідати? Це абсолютно нормально 💙Дякуємо, що все ж приділили увагу цьому запитанню 🙏",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Your role as a parent is so important.  How many days in the past week did you know who your children were spending time with (both in person or online)?",
+    "text": "Ваша роль батька чи матері дуже важлива. Скільки днів за останній тиждень ви знали, з ким ваші діти проводили час (особисто чи онлайн)?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It’s understandable if this was hard to do recently. Even small moments of checking in can matter 🌱",
+    "text": "Розуміємо, що це могло бути непросто останнім часом. Навіть найменша увага і підтримка справді важливі 🌱",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That kind of care and attention makes a big difference 💛 You’re helping your children stay safe and connected 🌟",
+    "text": "Саме така турбота й увага справді змінюють багато 💛Ви допомагаєте дітям почуватися захищеними🌟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s completely okay 💙 Thank you for taking the time to reflect 🙏",
+    "text": "Це абсолютно нормально 💙Дякуємо, що знайшли час подумати про це 🙏",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We know life can be difficult. Over the last week, how often have you been bothered by little interest or pleasure in doing things?",
+    "text": "Розуміємо, що бувають складні моменти.\nЯк часто за минулий тиждень ви відчували, що втрачаєте інтерес або задоволення від улюблених справ?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s great to hear ✨",
+    "text": "Раді це чути✨",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for sharing. We know these feelings can be difficult, and we hope we can help 🙏",
+    "text": "Щиро дякуємо за вашу відвертість. Ми знаємо, що це нелегко, і хочемо бути вам підтримкою 🙏",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s completely okay 💙 Thank you for taking a moment with this 🙏",
+    "text": "Це цілком нормально 💙Дякуємо, що знайшли хвилинку відповісти 🙏",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Over the last week, how often have you been bothered by feeling down, depressed, or hopeless?",
+    "text": "Як часто за останній тиждень ви відчували сум чи безнадію?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s wonderful to hear 🌿",
+    "text": "Раді чути🌿",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That sounds really hard 💛 We are sorry things have been difficult, and we hope we can help 🙏",
+    "text": "Розуміємо, як це складно 💛 Нам шкода, що ви переживаєте важкі часи, і ми хочемо бути поруч і підтримати вас 🙏",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s completely okay 💙 No pressure to share more than you want to 🙏",
+    "text": "Це абсолютно нормально 💙 Діліться тільки тим, чим вам зручно 🙏",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Final question! We know parenting can be stressful, especially at times when children misbehave 🙏",
+    "text": "Ось і останнє запитання! Знаємо, що виховання буває нелегким, особливо у моменти, коли діти неслухняні 🙏",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "How many days in the past week did you speak calmly with your children, when you were upset with them?",
+    "text": "За останній тиждень скільки разів ви змогли спокійно поговорити з дітьми, хоч і були роздратовані?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you so much again for answering 💛 We hope ParentText strengthens you and your children!",
+    "text": "Ще раз щиро дякуємо за ваші відповіді 💛Сподіваємося, ця інформація допомагає вам і вашим дітям ставати сильнішими!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Lastly, today we want to ask 2 questions to make these tips better for others 🎉",
+    "text": "І наостанок — сьогодні ми хочемо задати 2 питання, щоб зробити ці поради ще кориснішими🎉",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Did these parenting tips help you and your family?",
+    "text": "Чи стали ці поради корисними для вас і вашої сім’ї?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "From using these tips, have you reached out to a trusted friend, family member, person, organisation, or helpline for support?",
+    "text": "Після порад ви зверталися по допомогу до когось із близьких, друзів чи організацій?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thanks for your responses! You will help make ParentText better for families 🎉See you back for another tip soon.",
+    "text": "Дякуємо за ваші відповіді!\nВи допомагаєте зробити ParentText кращим для інших сімей 🎉\nДо зустрічі з новою порадою!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you so much for participating in these tips! You are so brave and such an amazing caregiver.",
+    "text": "Дякуємо, що скористалися цими порадами! Ви дуже сильні, і ваша турбота надзвичайно важлива для ваших дітей.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Today you will receive your final tips. First, we have 3 questions to ask about how you and your children are doing. ❤️",
+    "text": "Сьогодні ви отримаєте останні поради. Але спершу у нас є 3 запитання про те, як ви та ваші діти почуваєтеся ❤️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for your answers. ❤️",
+    "text": "Дякуємо за відповіді ❤️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We have 8 quick questions. Your answers help us make these tips better for parents and children finding strength and hope during tough times.",
+    "text": "У нас є 8 коротких запитань. Ваші відповіді допоможуть зробити ці поради кращими для батьків і дітей, які шукають підтримку та надію в складні часи.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You’re doing what you can, and that matters 💛, every small moment of connection counts 💪",
+    "text": "Ви робите все, що можете, і це важливо 💛 Кожна мить разом — це крок вперед 💪",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "1",
+    "text": "1",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "2",
+    "text": "2",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "NEXT",
+    "text": "NEXT",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "0 days",
+    "text": "0 днів",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "1 day",
+    "text": "1 день",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "2 days",
+    "text": "2 дні",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "3 days",
+    "text": "3 дні",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "4 days",
+    "text": "4 дні",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "5 days",
+    "text": "5 днів",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "6 days",
+    "text": "6 днів",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "7 days",
+    "text": "7 днів",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Prefer not to answer",
+    "text": "Не хочу відповідати",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Not at all",
+    "text": "Жодного дня",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Some days",
+    "text": "Декілька днів",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "More than half the days",
+    "text": "Більшість днів тижня",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Nearly every day",
+    "text": "Майже щодня",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Yes",
+    "text": "Так",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "No",
+    "text": "Ні",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Yes, ALL of the tips helped",
+    "text": "Так, всі поради допомогли",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Yes, MANY of the tips helped",
+    "text": "Так, БІЛЬШІСТЬ порад допомогло",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Yes, a FEW of the tips helped",
+    "text": "Так, ДЕКІЛЬКА порад допомогли",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "NONE of the tips helped",
+    "text": "ЖОДНА порада не була корисною",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "1",
+    "text": "1",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "2",
+    "text": "2",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "0 days",
+    "text": "0 днів",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "1 day",
+    "text": "1 день",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "2 days",
+    "text": "2 дні",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "3 days",
+    "text": "3 дні",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "4 days",
+    "text": "4 дні",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "5 days",
+    "text": "5 днів",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "6 days",
+    "text": "6 днів",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "7 days",
+    "text": "7 днів",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "prefer not to answer",
+    "text": "не хочу відповідати",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "not at all",
+    "text": "жодного дня",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "some days",
+    "text": "декілька днів",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "more than half the days",
+    "text": "більшість днів тижня",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "nearly every day",
+    "text": "майже щодня",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes",
+    "text": "так",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "no",
+    "text": "ні",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes, all of the tips helped",
+    "text": "так, всі поради корисні",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes, many of the tips helped",
+    "text": "так, більшість порад корисні",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes, a few of the tips helped",
+    "text": "так, декілька порад корисні",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "none of the tips helped",
+    "text": "жодна порада не була корисною",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  }
+]
