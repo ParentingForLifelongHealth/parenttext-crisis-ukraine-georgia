@@ -149,12 +149,44 @@
         "tags.4": ""
       }
     ],
+    "delivery_messages": [
+      {
+        "ID": "activity_handler",
+        "msg": "What kind of activity do you want to try with your child?",
+        "next_button_option": "",
+        "metadata.description": "message for choosing which type of activity to do. Types in \"activity_type_data\""
+      },
+      {
+        "ID": "hook_message",
+        "msg": "This time is difficult. It doesn't seem like you have the time for the these tips right now. When you are ready to keep going, press 1. ",
+        "next_button_option": "1",
+        "metadata.description": "hook message sent after 3 days of no response from the user. Needs to be aligned with whatsapp template \"no_response\". 1 can be replaced by anything (anything typed in the chat will work anyway)"
+      },
+      {
+        "ID": "first_selection_intro",
+        "msg": "NA",
+        "next_button_option": "",
+        "metadata.description": ""
+      },
+      {
+        "ID": "pregoal_checkin_wrapper",
+        "msg": "Let’s get started. Press NEXT to begin.",
+        "next_button_option": "NEXT",
+        "metadata.description": "message received before the first module. It has a NEXT button, where NEXT can be replaced by anything  (anything typed in the chat will work anyway)"
+      },
+      {
+        "ID": "new_day_content_completed_programme",
+        "msg": "You’ve completed the {prog_name} – well done! There are no new tips available, but you can always review any of the completed tips by selecting option 1 in the {MENU}",
+        "next_button_option": "",
+        "metadata.description": ""
+      }
+    ],
     "show_options_wrapper_data": [],
     "congrats_data": [
       {
         "ID": "final_completion",
         "msg": "You’ve completed the programme – well done!\nRemember, you can always return to {prog_name} to review any of the tips. Just type {MENU}.\n\nWe’ll check in with you in a month to see how you’re doing. Your feedback helps us make sure these tips truly support families like yours 🙂",
-        "extra_msg": "Was {prog_name} helpful? If so, share it with a friend. Just send this link: {share link}"
+        "extra_msg": ""
       }
     ],
     "make_options_wrapper_data": [
@@ -162,10 +194,10 @@
         "ID": "start_started_module_daily",
         "list_var": "fields.c_mod_started",
         "print_type": "module",
-        "n_max_opt": "11",
+        "n_max_opt": "12",
         "msg_no_options.message": "NA",
         "msg_no_options.image": "",
-        "msg_one_option.message": "The tips you haven't finished are: ",
+        "msg_one_option.message": "The tip you haven't finished is: ",
         "msg_one_option.question": "",
         "msg_one_option.affirmative": "",
         "msg_one_option.negative": "",
@@ -177,9 +209,9 @@
       },
       {
         "ID": "choose_skill_to_review",
-        "list_var": "fields.s_modules_compl",
+        "list_var": "join(reverse(split(fields.s_modules_compl,\" \")), \" \")",
         "print_type": "module",
-        "n_max_opt": "11",
+        "n_max_opt": "12",
         "msg_no_options.message": "You haven't received any tips yet. ",
         "msg_no_options.image": "",
         "msg_one_option.message": "You have received the following tips:",
@@ -508,7 +540,7 @@
       },
       {
         "ID": "keep_children_safe",
-        "question": "💛 Keeping kids safe can feel overwhelming, but a clear plan helps. Today's tip shows you imple ways to help your child feel safe and supported in uncertain times. \n\nWould you like to continue now?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
+        "question": "💛 Keeping kids safe can feel overwhelming, but a clear plan helps. Today's tip shows you simple ways to help your child feel safe and supported in uncertain times. \n\nWould you like to continue now?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
         "webhook_template_name": "",
         "webhook_template_args": "",
         "options.1.text": "1",
@@ -678,32 +710,6 @@
         "next_other_opt": "Go to Main Menu",
         "next_other_msg": "",
         "next_other_flow": "menu - main"
-      }
-    ],
-    "delivery_messages": [
-      {
-        "ID": "activity_handler",
-        "msg": "What kind of activity do you want to try with your child?",
-        "next_button_option": "",
-        "metadata.description": "message for choosing which type of activity to do. Types in \"activity_type_data\""
-      },
-      {
-        "ID": "hook_message",
-        "msg": "This time is difficult. It doesn't seem like you have the time for the these tips right now. When you are ready to keep going, press 1. ",
-        "next_button_option": "1",
-        "metadata.description": "hook message sent after 3 days of no response from the user. Needs to be aligned with whatsapp template \"no_response\". 1 can be replaced by anything (anything typed in the chat will work anyway)"
-      },
-      {
-        "ID": "first_selection_intro",
-        "msg": "NA",
-        "next_button_option": "",
-        "metadata.description": ""
-      },
-      {
-        "ID": "pregoal_checkin_wrapper",
-        "msg": "Let’s get started. Press NEXT to begin.",
-        "next_button_option": "NEXT",
-        "metadata.description": "message received before the first module. It has a NEXT button, where NEXT can be replaced by anything  (anything typed in the chat will work anyway)"
       }
     ],
     "completion_tracker_data": [

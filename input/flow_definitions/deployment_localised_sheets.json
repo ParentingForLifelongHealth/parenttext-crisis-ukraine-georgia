@@ -168,6 +168,21 @@
         "tags.1": "trigger",
         "tags.2": "",
         "tags.3": ""
+      },
+      {
+        "type": "create_flow",
+        "sheet_name": "lang_wrapper",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "demo_ltp_activity_ukr",
+        "data_model": "",
+        "template_arguments": "ukr;demo_ltp_activity",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "ltp_activity",
+        "tags.2": "",
+        "tags.3": ""
       }
     ],
     "testing_triggers": [
@@ -267,7 +282,7 @@
         "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
         "child_gender": "male|female",
         "name.eng": "Protect our Children from Sexual Violence",
-        "name.ukr": "Як захистити дитину від сексуального насильства "
+        "name.ukr": "Як захистити дитину від сексуального насильства"
       },
       {
         "ID": "keep_children_safe",
@@ -276,7 +291,7 @@
         "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
         "child_gender": "male|female",
         "name.eng": "Keep Children Safe",
-        "name.ukr": "Як подбати про безпеку дитини "
+        "name.ukr": "Як подбати про безпеку дитини"
       },
       {
         "ID": "travel_safely",
@@ -321,7 +336,7 @@
         "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
         "child_gender": "male|female",
         "name.eng": "Keeping your child safe from online bullying",
-        "name.ukr": "Як захистити дитину від онлайн-цькування"
+        "name.ukr": "Як захистити дитину від цькування"
       }
     ],
     "goal_topic_link": [
@@ -508,7 +523,7 @@
     ],
     "local_default_contact_fields_data": [
       {
-        "ID": "deployment_name",
+        "ID": "deployment",
         "name": "deployment",
         "value": "CrisisUkraineGeorgia"
       }

@@ -90,12 +90,6 @@
     "note": ""
   },
   {
-    "SourceText": "{child_protection_referrals}",
-    "text": "{child_protection_referrals}",
-    "type": "text",
-    "note": ""
-  },
-  {
     "SourceText": "What would you like to do?",
     "text": "Що ви плануєте робити далі?",
     "type": "text",
@@ -444,50 +438,14 @@
     "note": ""
   },
   {
-    "SourceText": "💛 We’re thinking of you today. There are simple things you can do to help your child cope. Would you like to learn about them? ",
-    "text": "💛 Ми сьогодні подумки з вами. Є прості речі, які можуть допомогти вашій дитині впоратися з труднощами. Хочете дізнатися більше про них?",
-    "type": "text",
-    "note": ""
-  },
-  {
     "SourceText": "✨ Today’s tips can help your child feel more safe. Would you like to learn more? ",
     "text": "✨Сьогоднішні поради допоможуть вашій дитині відчути себе в безпеці. Бажаєте дізнатися більше? ",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "Today’s tips offer you some ways you can stay calm and also encourage your children during times of uncertainty 🌱. ",
-    "text": "Сьогоднішні поради підкажуть, як зберігати спокій і підтримувати дітей у непрості часи 🌱. ",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Would you like to receive them?",
-    "text": "Бажаєте їх отримати?",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "🧡 Planning to travel with your child soon?",
-    "text": "🧡Плануєте невдовзі подорож із дитиною?",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Today’s tips can help you prepare to stay safe— Would you like to learn more?",
-    "text": "Сьогоднішні поради допоможуть вам підготуватися й залишатися в безпеці. Хочете дізнатися більше?",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "💛 In stressful moments, even simple actions can help keep your child safe and close. Today’s tips share how to stay connected and calm when traveling.",
-    "text": "💛 У стресові моменти навіть прості дії можуть допомогти зберегти дитину в безпеці та поруч. Сьогоднішні поради розкажуть, як залишатися спокійними й зберігати зв’язок із дитиною під час подорожей.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "💡 Many parents are having quiet talks with their children about staying safe. Today’s tips explain how to keep your child safe from harassment in a calm, age-appropriate way.",
-    "text": "💡 Багато батьків спокійно говорять з дітьми про безпеку. У сьогоднішніх порадах ви дізнаєтеся, як у доступний і спокійний спосіб навчити дитину захищати себе.",
+    "SourceText": "💛 We’re thinking of you today. There are simple things you can do to help your child cope. Would you like to learn about them? ",
+    "text": "💛 Ми сьогодні подумки з вами. Є прості речі, які можуть допомогти вашій дитині впоратися з труднощами. Хочете дізнатися більше про них?",
     "type": "text",
     "note": ""
   },
@@ -498,8 +456,20 @@
     "note": ""
   },
   {
-    "SourceText": "🌿 Building strength in tough times starts with simple steps. Would you like to learn how to promote good behaviors and stay strong together?",
-    "text": "🌿 Справлятися з труднощами легше, коли починати з простого. Хочете дізнатися, як підтримувати добру поведінку та бути сильними разом?",
+    "SourceText": "💡 Many parents are having quiet talks with their children about staying safe. Today’s tips explain how to keep your child safe from harassment in a calm, age-appropriate way.",
+    "text": "💡 Багато батьків спокійно говорять з дітьми про безпеку. У сьогоднішніх порадах ви дізнаєтеся, як у доступний і спокійний спосіб навчити дитину захищати себе.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Would you like to receive them?",
+    "text": "Бажаєте їх отримати?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💛 In stressful moments, even simple actions can help keep your child safe and close. Today’s tips share how to stay connected and calm when traveling.",
+    "text": "💛 У стресові моменти навіть прості дії можуть допомогти зберегти дитину в безпеці та поруч. Сьогоднішні поради розкажуть, як залишатися спокійними й зберігати зв’язок із дитиною під час подорожей.",
     "type": "text",
     "note": ""
   },
@@ -708,12 +678,6 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "Child Protection",
-    "text": "Захист дітей",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
     "SourceText": "Get other emergency contacts",
     "text": "Отримати інші екстрені контакти",
     "type": "quick_replies",
@@ -870,12 +834,6 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "Watch a video about {prog_name}",
-    "text": "Переглянути відео про {prog_name}",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
     "SourceText": "Change my settings",
     "text": "Змінити налаштування",
     "type": "quick_replies",
@@ -1028,12 +986,6 @@
   {
     "SourceText": "natural disasters",
     "text": "стихійні лиха",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "child protection",
-    "text": "захист дітей",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
@@ -1206,12 +1158,6 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "watch a video about {prog_name}",
-    "text": "переглянути відео про{prog_name}",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
     "SourceText": "change my settings",
     "text": "змінити налаштування",
     "type": "arguments",
@@ -1250,30 +1196,6 @@
   {
     "SourceText": "change my gender",
     "text": "змінити стать",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "test",
-    "text": "тест",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "trigger_a",
-    "text": "слово_а",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "trigger_b",
-    "text": "слово_b",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "trigger_c",
-    "text": "слово_c",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   }

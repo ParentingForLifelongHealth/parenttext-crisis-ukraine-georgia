@@ -279,7 +279,7 @@
         "node_identifier": "Regex:.*{mental_health_referrals georgia}.*",
         "change": "{mental_health_referrals georgia}",
         "condition_var": "",
-        "category": "If you need emotional support, help finding services, or assistance with daily life, the organizations below are here for you: \n\n**Georgian Centre for the Psychosocial and Medical Rehabilitation of Torture Victims (GCRT)**  \nOffers psychosocial and medical help to all Ukrainian refugees in Georgia.  \nServices include:  \n- Social worker and psychologist consultations  \n- Medical referrals and examinations  \n- Legal service referrals  \n- Medical and psychological forensic evaluations  \n- Hotline support  \n\n📍 9 Veriko Anjaparidze St, Tbilisi, 0179  \n📞 +995 032 2 22 06 89 / +995 577 12 68 68 / +995 577 22 68 68  \n🖥️ Remote consultations available from anywhere in Georgia\n\n\n\n**World Vision Multi-Service Centre**  \nCommunity centers supporting refugees and stateless people with:  \n- Information on rights and services in Georgia  \n- Social worker support and group activities  \n- Job search assistance and skills development  \n- Psychosocial support  \n\n📍 Tbilisi: 67b Zhiuli Shartava St  \n📍 Batumi: 40 Giorgi Mazniashvili St  \n📞 Hotline: +995 577 04 56 45  \n🖥️ Remote consultations available from anywhere in Georgia"
+        "category": "If you need emotional support, help finding services, or assistance with daily life, the organizations below are here for you: \n\n**Georgian Centre for the Psychosocial and Medical Rehabilitation of Torture Victims (GCRT)**  \nOffers psychosocial and medical help to all Ukrainian refugees in Georgia.  \nServices include:  \n- Social worker and psychologist consultations  \n- Medical referrals and examinations  \n- Legal service referrals  \n- Medical and psychological forensic evaluations  \n- Hotline support  \n\n📍 9 Veriko Anjaparidze St, Tbilisi, 0179  \n📞 +995 032 2 22 06 89 / +995 577 12 68 68 / +995 577 22 68 68  \n🖥️ Remote consultations available from anywhere in Georgia\n\n**World Vision Multi-Service Centre**  \nCommunity centers supporting refugees and stateless people with:  \n- Information on rights and services in Georgia  \n- Social worker support and group activities  \n- Job search assistance and skills development  \n- Psychosocial support  \n\n📍 Tbilisi: 67b Zhiuli Shartava St  \n📍 Batumi: 40 Giorgi Mazniashvili St  \n📞 Hotline: +995 577 04 56 45  \n🖥️ Remote consultations available from anywhere in Georgia"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -288,7 +288,7 @@
         "node_identifier": "Regex:.*{health_referrals georgia}.*",
         "change": "{health_referrals georgia}",
         "condition_var": "",
-        "category": " If you or your family need medical help, medication, or social assistance, the services below are available to you:\n **Ministry of Internally Displaced Persons from the Occupied Territories, Health, Labour and Social Affairs of Georgia**  \nMain government body for health, labour, and social support.  \n📍 144 Akaki Tsereteli Ave, Tbilisi* \n📞 Hotline: 1505 / +995 32 2 51 00 26\n\n\n**Internally Displaced Persons, Ecomigrants and Livelihood Agency**  \nRuns the **State Program for Supporting the Integration of Foreigners Living in Georgia**, offering:  \n- Medical services  \n- Medication support (up to 1,500 GEL)  \nFor people with international protection (asylum seekers, refugees, humanitarian status holders, and stateless persons).  \n\n📍 *15a Mikheil Tamarashvili St, 0186, Tbilisi*  \n📞 *Hotline: +995 32 2 51 00 26*\n\n\n **In Case of Emergency**  \nPublic Safety Command Center*\n📞 Emergency number: 112"
+        "category": " If you or your family need medical help, medication, or social assistance, the services below are available to you:\n **Ministry of Internally Displaced Persons from the Occupied Territories, Health, Labour and Social Affairs of Georgia**  \nMain government body for health, labour, and social support.  \n📍 144 Akaki Tsereteli Ave, Tbilisi* \n📞 Hotline: 1505 / +995 32 2 51 00 26\n\n\n**Internally Displaced Persons, Ecomigrants and Livelihood Agency**  \nRuns the State Program for Supporting the Integration of Foreigners Living in Georgia, offering:  \n- Medical services  \n- Medication support (up to 1,500 GEL)  \nFor people with international protection (asylum seekers, refugees, humanitarian status holders, and stateless persons).  \n\n📍 15a Mikheil Tamarashvili St, 0186, Tbilisi \n📞 Hotline: +995 32 2 51 00 26\n\n\n **In Case of Emergency**  \nPublic Safety Command Center\n📞 Emergency number: 112"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -306,7 +306,7 @@
         "node_identifier": "Regex:.*{family_referrals georgia}.*",
         "change": "{family_referrals georgia}",
         "condition_var": "",
-        "category": "If you’ve come to Georgia with your family, there is help available. From financial assistance and housing to language and educational programs, these services are here to support you as you rebuild your life:\n\n **State Financial Assistance for Ukrainian Refugees**  \nUnder Government Decree #1254 (extended until July 2025), financial support is available for Ukrainian refugees in Georgia.  \nSupport includes:  \n- **300 GEL per family + 45 GEL per person**  \n- 10 days of emergency accommodation for new arrivals after 15 July (and continued support if assessed as vulnerable)  \n- Families already receiving aid will continue to receive it until **1 July 2025** without reassessment  \n\n📞 *Hotline for emergency accommodation: 1505 (Ministry of Health)*  \n🗂️ *Register for financial aid at the nearest Social Services Agency office*\n\n\n**Happy Space Tbilisi**  \n📍 111 Dimitri Uznadze St, Tbilisi\n📞 +995 577 25 90 16  \n\n**Happy Space Batumi**  \n📍 72 Takaishvili St, Batumi  \n📞 +995 577 65 73 02\n\n\n **Free Georgian Language and Civic Education Courses**  \nOffered by the Internally Displaced Persons, Ecomigrants and Livelihood Agency  \n- Free for asylum seekers, refugees, humanitarian status holders, and stateless persons  \n- Civic education classes to help with integration  \n- Ages 16+, register anytime  \n- Online and in-person classes available  \n📍 Face-to-face: 15a Mikheil Tamarashvili St, 0186, Tbilisi  \n📞 +995 555 000 119 / +995 511 142 384 / (032) 2 14 02 42  \n📧 info@idp.gov.ge\n\n**Funding for Sports, Arts, and Educational Courses (Under Age 18)**  \nIf you're under 18 and have refugee, humanitarian, or stateless status:  \n- You can apply for funding up to **1,500 GEL per year** for courses  \n- Applies to sports, creative, and educational activities  \n- Monthly payments made directly to the institution  \n📍 Apply at the agency’s office or by post (forms available at [www.idp.moh.gov.ge](http://www.idp.moh.gov.ge)) \n📧 info@idp.gov.ge*  \n📞 *+995 511 14 23 84*  \n;\n**Agency Addresses:**  \n- Tbilisi: 15a M. Tamarashvili St.  \n- Gori: 1 Sameba St.  \n- Rustavi: 20 Kostava St.  \n- Kutaisi: 27 Ir. Abashidze Ave.  \n- Zugdidi: 106 D. Aghmashenebeli St.\n\n **Temporary Reception Centre for Asylum Seekers**  \nShelter for vulnerable asylum seekers provided by the Ministry of Internal Affairs.  \n- Located in **Village Martkopi**, near Tbilisi  \n- Separate blocks for families, women, and single men  \n- Facilities include a play area, football field, internet room, and Georgian language classes  \n📍 Apply via the Division of International Protection  \n📍 16 Mikheil Gakhokidze St, 0182, Tbilisi\n📞 +995 598 08 00 97  \n📧 dipi@mia.gov.ge"
+        "category": "If you’ve come to Georgia with your family, there is help available. From financial assistance and housing to language and educational programs, these services are here to support you as you rebuild your life:\n\n **State Financial Assistance for Ukrainian Refugees**  \nUnder Government Decree #1254 (extended until July 2025), financial support is available for Ukrainian refugees in Georgia.  \nSupport includes:  \n- 300 GEL per family + 45 GEL per person\n- 10 days of emergency accommodation for new arrivals after 15 July (and continued support if assessed as vulnerable)  \n- Families already receiving aid will continue to receive it until 1 July 2025 without reassessment  \n\n📞 *Hotline for emergency accommodation*: 1505 (Ministry of Health) \n🗂️ Register for financial aid at the nearest Social Services Agency office\n\n**Happy Space Tbilisi**  \n📍 111 Dimitri Uznadze St, Tbilisi\n📞 +995 577 25 90 16  \n\n**Happy Space Batumi**  \n📍 72 Takaishvili St, Batumi  \n📞 +995 577 65 73 02\n\n **Free Georgian Language and Civic Education Courses**  \nOffered by the Internally Displaced Persons, Ecomigrants and Livelihood Agency  \n- Free for asylum seekers, refugees, humanitarian status holders, and stateless persons  \n- Civic education classes to help with integration  \n- Ages 16+, register anytime  \n- Online and in-person classes available  \n📍 Face-to-face: 15a Mikheil Tamarashvili St, 0186, Tbilisi  \n📞 +995 555 000 119 / +995 511 142 384 / (032) 2 14 02 42  \n📧 info@idp.gov.ge\n\n**Funding for Sports, Arts, and Educational Courses (Under Age 18)**  \nIf you're under 18 and have refugee, humanitarian, or stateless status:  \n- You can apply for funding up to 1,500 GEL per year for courses  \n- Applies to sports, creative, and educational activities  \n- Monthly payments made directly to the institution  \n📍 Apply at the agency’s office or by post (forms available at www.idp.moh.gov.ge) \n📧 info@idp.gov.ge\n📞 +995 511 14 23 84\n\n**Agency Addresses:**  \n- Tbilisi: 15a M. Tamarashvili St.  \n- Gori: 1 Sameba St.  \n- Rustavi: 20 Kostava St.  \n- Kutaisi: 27 Ir. Abashidze Ave.  \n- Zugdidi: 106 D. Aghmashenebeli St.\n\n **Temporary Reception Centre for Asylum Seekers**  \nShelter for vulnerable asylum seekers provided by the Ministry of Internal Affairs.  \n- Located in Village Martkopi, near Tbilisi  \n- Separate blocks for families, women, and single men  \n- Facilities include a play area, football field, internet room, and Georgian language classes  \n📍 Apply via the Division of International Protection  \n📍 16 Mikheil Gakhokidze St, 0182, Tbilisi\n📞 +995 598 08 00 97  \n📧 dipi@mia.gov.ge"
       }
     ],
     "referrals_transl": [
@@ -571,6 +571,53 @@
         "replacement": "add url"
       }
     ],
+    "joining_triggers_add_group": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger}.*",
+        "change": "{joining_trigger}",
+        "condition_var": "@fields.joining_trigger_id",
+        "category": "{joining_trigger}",
+        "category:ge_wave_1_1": "{joining_trigger_ge_wave_1_1}",
+        "condition:ge_wave_1_1": "Chat",
+        "condition_type:ge_wave_1_1": "has_only_phrase",
+        "category:ge_wave_1_2": "{joining_trigger_ge_wave_1_2}",
+        "condition:ge_wave_1_2": "Care",
+        "condition_type:ge_wave_1_2": "has_only_phrase",
+        "category:ge_wave_2_1": "{joining_trigger_ge_wave_2_1}",
+        "condition:ge_wave_2_1": "Bot",
+        "condition_type:ge_wave_2_1": "has_only_phrase",
+        "category:ge_wave_2_2": "{joining_trigger_ge_wave_2_2}",
+        "condition:ge_wave_2_2": "Support",
+        "condition_type:ge_wave_2_2": "has_only_phrase",
+        "category:ukr_wave_1_1": "{joining_trigger_ukr_wave_1_1}",
+        "condition:ukr_wave_1_1": "Hope",
+        "condition_type:ukr_wave_1_1": "has_only_phrase",
+        "category:ukr_wave_1_2": "{joining_trigger_ukr_wave_1_2}",
+        "condition:ukr_wave_1_2": "Strength",
+        "condition_type:ukr_wave_1_2": "has_only_phrase",
+        "category:ukr_wave_1_3": "{joining_trigger_ukr_wave_1_3}",
+        "condition:ukr_wave_1_3": "Unity",
+        "condition_type:ukr_wave_1_3": "has_only_phrase",
+        "category:ukr_wave_1_4": "{joining_trigger_ukr_wave_1_4}",
+        "condition:ukr_wave_1_4": "Peace",
+        "condition_type:ukr_wave_1_4": "has_only_phrase",
+        "category:ukr_wave_2_1": "{joining_trigger_ukr_wave_2_1}",
+        "condition:ukr_wave_2_1": "Freedom",
+        "condition_type:ukr_wave_2_1": "has_only_phrase",
+        "category:ukr_wave_2_2": "{joining_trigger_ukr_wave_2_2}",
+        "condition:ukr_wave_2_2": "Glory",
+        "condition_type:ukr_wave_2_2": "has_only_phrase",
+        "category:ukr_wave_2_3": "{joining_trigger_ukr_wave_2_3}",
+        "condition:ukr_wave_2_3": "Together",
+        "condition_type:ukr_wave_2_3": "has_only_phrase",
+        "category:ukr_wave_2_4": "{joining_trigger_ukr_wave_2_4}",
+        "condition:ukr_wave_2_4": "Trust",
+        "condition_type:ukr_wave_2_4": "has_only_phrase"
+      }
+    ],
     "joining_triggers_eng": [
       {
         "type_of_edit": "replace_bit_of_text",
@@ -585,48 +632,109 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{joining_trigger_group_a}.*",
-        "change": "{joining_trigger_group_a}",
+        "node_identifier": "Regex:.*{joining_trigger_ge_wave_1_1}.*",
+        "change": "{joining_trigger_ge_wave_1_1}",
         "condition_var": "",
-        "category": "TEST_GROUP_A"
+        "category": "Chat"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{joining_trigger_group_b}.*",
-        "change": "{joining_trigger_group_b}",
+        "node_identifier": "Regex:.*{joining_trigger_ge_wave_1_2}.*",
+        "change": "{joining_trigger_ge_wave_1_2}",
         "condition_var": "",
-        "category": "TEST_GROUP_B"
+        "category": "Care"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{joining_trigger_group_c}.*",
-        "change": "{joining_trigger_group_c}",
+        "node_identifier": "Regex:.*{joining_trigger_ge_wave_2_1}.*",
+        "change": "{joining_trigger_ge_wave_2_1}",
         "condition_var": "",
-        "category": "TEST_GROUP_C"
-      }
-    ],
-    "joining_triggers_add_group": [
+        "category": "Bot"
+      },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{joining_trigger}.*",
-        "change": "{joining_trigger}",
-        "condition_var": "@fields.joining_trigger_id",
-        "category": "{joining_trigger}",
-        "category:group_a": "{joining_trigger_group_a}",
-        "condition:group_a": "group_a",
-        "condition_type:group_a": "has_only_phrase",
-        "category:group_b": "{joining_trigger_group_b}",
-        "condition:group_b": "group_b",
-        "condition_type:group_b": "has_only_phrase",
-        "category:group_c": "{joining_trigger_group_c}",
-        "condition:group_c": "group_c",
-        "condition_type:group_c": "has_only_phrase"
+        "node_identifier": "Regex:.*{joining_trigger_ge_wave_2_2}.*",
+        "change": "{joining_trigger_ge_wave_2_2}",
+        "condition_var": "",
+        "category": "Support"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_1_1}.*",
+        "change": "{joining_trigger_ukr_wave_1_1}",
+        "condition_var": "",
+        "category": "Hope"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_1_2}.*",
+        "change": "{joining_trigger_ukr_wave_1_2}",
+        "condition_var": "",
+        "category": "Strength"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_1_3}.*",
+        "change": "{joining_trigger_ukr_wave_1_3}",
+        "condition_var": "",
+        "category": "Unity"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_1_4}.*",
+        "change": "{joining_trigger_ukr_wave_1_4}",
+        "condition_var": "",
+        "category": "Peace"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_2_1}.*",
+        "change": "{joining_trigger_ukr_wave_2_1}",
+        "condition_var": "",
+        "category": "Freedom"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_2_2}.*",
+        "change": "{joining_trigger_ukr_wave_2_2}",
+        "condition_var": "",
+        "category": "Glory"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_2_3}.*",
+        "change": "{joining_trigger_ukr_wave_2_3}",
+        "condition_var": "",
+        "category": "Together"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_2_4}.*",
+        "change": "{joining_trigger_ukr_wave_2_4}",
+        "condition_var": "",
+        "category": "Trust"
       }
     ],
     "joining_triggers_transl": [
@@ -643,28 +751,109 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{joining_trigger_group_a}.*",
+        "node_identifier": "Regex:.*{joining_trigger_ge_wave_1_1}.*",
         "change": "{joining_trigger}",
         "language": "ukr",
-        "replacement": "TEST_GROUP_A"
+        "replacement": "чат"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{joining_trigger_group_b}.*",
+        "node_identifier": "Regex:.*{joining_trigger_ge_wave_1_2}.*",
         "change": "{joining_trigger}",
         "language": "ukr",
-        "replacement": "TEST_GROUP_B"
+        "replacement": "турбота"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{joining_trigger_group_c}.*",
+        "node_identifier": "Regex:.*{joining_trigger_ge_wave_2_1}.*",
         "change": "{joining_trigger}",
         "language": "ukr",
-        "replacement": "TEST_GROUP_C"
+        "replacement": "Бот"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ge_wave_2_2}.*",
+        "change": "{joining_trigger}",
+        "language": "ukr",
+        "replacement": "Опора"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_1_1}.*",
+        "change": "{joining_trigger}",
+        "language": "ukr",
+        "replacement": "Надія"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_1_2}.*",
+        "change": "{joining_trigger}",
+        "language": "ukr",
+        "replacement": "Сила"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_1_3}.*",
+        "change": "{joining_trigger}",
+        "language": "ukr",
+        "replacement": "Єдність"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_1_4}.*",
+        "change": "{joining_trigger}",
+        "language": "ukr",
+        "replacement": "Мир"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_2_1}.*",
+        "change": "{joining_trigger}",
+        "language": "ukr",
+        "replacement": "Воля"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_2_2}.*",
+        "change": "{joining_trigger}",
+        "language": "ukr",
+        "replacement": "Слава"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_2_3}.*",
+        "change": "{joining_trigger}",
+        "language": "ukr",
+        "replacement": "Разом"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_2_4}.*",
+        "change": "{joining_trigger}",
+        "language": "ukr",
+        "replacement": "Довіра"
       }
     ],
     "parenttext_name_transl": [
@@ -695,7 +884,7 @@
         "node_identifier": "Regex:.*{prog_name}.*",
         "change": "{prog_name}",
         "condition_var": "",
-        "category": "Батьківська опора"
+        "category": "Batkivska Opora"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -704,7 +893,7 @@
         "node_identifier": "Regex:.*ParentText.*",
         "change": "ParentText",
         "condition_var": "",
-        "category": "Батьківська опора"
+        "category": "Batkivska Opora"
       }
     ]
   }
