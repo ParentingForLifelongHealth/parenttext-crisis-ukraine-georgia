@@ -18,7 +18,10 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u0432\u0438\u043a\u0440\u0430\u0434\u0430\u0442\u0438",
+                        "\u0432\u0438\u043a\u0440\u0430\u0434\u0435\u043d\u043d\u044f",
+                        "\u0432\u0438\u043a\u0440\u0430\u0434\u0430\u0447",
+                        "\u0432\u0438\u043a\u0440\u0430\u0434\u0435\u043d\u0438\u0439"
                     ],
                     "mispellings": []
                 }
@@ -39,7 +42,9 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u0441\u043c\u0435\u0440\u0442\u044c",
+                        "\u043c\u0435\u0440\u0442\u0432\u0438\u0439",
+                        "\u043f\u043e\u043c\u0438\u0440\u0430\u0454"
                     ],
                     "mispellings": []
                 }
@@ -59,7 +64,7 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u043d\u0435\u0437\u0430\u043a\u043e\u043d\u043d\u0438\u0439"
                     ],
                     "mispellings": []
                 }
@@ -83,7 +88,9 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u043e\u0442\u0440\u0443\u0442\u0430",
+                        "\u043e\u0442\u0440\u0443\u0454\u043d\u043d\u044f",
+                        "\u043e\u0442\u0440\u0443\u0454\u043d\u0438\u0439"
                     ],
                     "mispellings": []
                 }
@@ -103,7 +110,7 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u043a\u0440\u0438\u0437\u0430"
                     ],
                     "mispellings": []
                 }
@@ -126,7 +133,9 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u043f\u0440\u043e\u0431\u043b\u0435\u043c\u0430",
+                        "\u0442\u0440\u0438\u0432\u043e\u0436\u043d\u0438\u0439",
+                        "\u0441\u0442\u0443\u0440\u0431\u043e\u0432\u0430\u043d\u0438\u0439"
                     ],
                     "mispellings": []
                 }
@@ -147,7 +156,8 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u0436\u0435\u0440\u0442\u0432\u0430",
+                        "\u043f\u0435\u0440\u0435\u0441\u043b\u0456\u0434\u0443\u0432\u0430\u043d\u0438\u0439"
                     ],
                     "mispellings": []
                 }
@@ -169,7 +179,7 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u043d\u0430\u0434\u0437\u0432\u0438\u0447\u0430\u0439\u043d\u0430 \u0441\u0438\u0442\u0443\u0430\u0446\u0456\u044f"
                     ],
                     "mispellings": []
                 }
@@ -192,7 +202,9 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u043d\u0435\u0431\u0435\u0437\u043f\u0435\u043a\u0430",
+                        "\u043d\u0435\u0431\u0435\u0437\u043f\u0435\u0447\u043d\u0438\u0439",
+                        "\u0443 \u043d\u0435\u0431\u0435\u0437\u043f\u0435\u0446\u0456"
                     ],
                     "mispellings": []
                 }
@@ -216,7 +228,7 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u043f\u0435\u0440\u0435\u0441\u043b\u0456\u0434\u0443\u0432\u0430\u043d\u043d\u044f"
                     ],
                     "mispellings": []
                 }
@@ -239,7 +251,7 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u0441\u043b\u0456\u0434\u0443\u0432\u0430\u0442\u0438"
                     ],
                     "mispellings": []
                 }
@@ -262,7 +274,9 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u0441\u0442\u0440\u0430\u0436\u0434\u0430\u0442\u0438",
+                        "\u0441\u0442\u0440\u0430\u0436\u0434\u0430\u043d\u043d\u044f",
+                        "\u043f\u043e\u0441\u0442\u0440\u0430\u0436\u0434\u0430\u0432"
                     ],
                     "mispellings": []
                 }
@@ -284,7 +298,9 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u0445\u043e\u0432\u0430\u0442\u0438\u0441\u044f",
+                        "\u043f\u0435\u0440\u0435\u0445\u043e\u0432\u0443\u0432\u0430\u043d\u043d\u044f",
+                        "\u0441\u0445\u043e\u0432\u0430\u0432\u0441\u044f"
                     ],
                     "mispellings": []
                 }
@@ -308,11 +324,9 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u043d\u0443\u0434\u0438\u0442\u0438"
                     ],
-                    "mispellings": [
-                        "Add translation for common mispelling"
-                    ]
+                    "mispellings": []
                 }
             }
         },
@@ -332,11 +346,9 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u0431\u043b\u044e\u0432\u0430\u0442\u0438"
                     ],
-                    "mispellings": [
-                        "Add translation for common mispelling"
-                    ]
+                    "mispellings": []
                 }
             }
         },
@@ -356,11 +368,11 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u0445\u0432\u043e\u0440\u043e\u0431\u0430",
+                        "\u0417\u041f\u0421\u0428",
+                        "\u0445\u0432\u043e\u0440\u043e\u0431\u0438"
                     ],
-                    "mispellings": [
-                        "Add translation for common mispelling"
-                    ]
+                    "mispellings": []
                 }
             }
         },
@@ -380,11 +392,10 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u0445\u0432\u043e\u0440\u0438\u0439",
+                        "\u0445\u0432\u043e\u0440\u043e\u0431\u0430"
                     ],
-                    "mispellings": [
-                        "Add translation for common mispelling"
-                    ]
+                    "mispellings": []
                 }
             }
         },
@@ -404,11 +415,10 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u0445\u0432\u043e\u0440\u0438\u0439",
+                        "\u0445\u0432\u043e\u0440\u043e\u0431\u0430"
                     ],
-                    "mispellings": [
-                        "Add translation for common mispelling"
-                    ]
+                    "mispellings": []
                 }
             }
         },
@@ -427,11 +437,10 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u0437\u0434\u043e\u0440\u043e\u0432'\u044f",
+                        "\u0437\u0434\u043e\u0440\u043e\u0432\u0438\u0439"
                     ],
-                    "mispellings": [
-                        "Add translation for common mispelling"
-                    ]
+                    "mispellings": []
                 }
             }
         },
@@ -450,11 +459,10 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u043b\u0456\u043a\u0430\u0440\u043d\u044f",
+                        "\u043a\u043b\u0456\u043d\u0456\u043a\u0430"
                     ],
-                    "mispellings": [
-                        "Add translation for common mispelling"
-                    ]
+                    "mispellings": []
                 }
             }
         },
@@ -472,11 +480,10 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u0432\u0438\u043a\u0438\u0434\u0435\u043d\u044c",
+                        "\u0432\u0442\u0440\u0430\u0442\u0438\u0442\u0438 \u0434\u0438\u0442\u0438\u043d\u0443"
                     ],
-                    "mispellings": [
-                        "Add translation for common mispelling"
-                    ]
+                    "mispellings": []
                 }
             }
         },
@@ -496,11 +503,11 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u0432\u0430\u0433\u0456\u0442\u043d\u0430",
+                        "\u0432\u0430\u0433\u0456\u0442\u043d\u0456\u0441\u0442\u044c",
+                        "\u043e\u0447\u0456\u043a\u0443\u0454 \u0434\u0438\u0442\u0438\u043d\u0443"
                     ],
-                    "mispellings": [
-                        "Add translation for common mispelling"
-                    ]
+                    "mispellings": []
                 }
             }
         },
@@ -520,11 +527,10 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u0430\u0431\u043e\u0440\u0442",
+                        "\u043f\u0435\u0440\u0435\u0440\u0438\u0432\u0430\u0442\u0438 \u0432\u0430\u0433\u0456\u0442\u043d\u0456\u0441\u0442\u044c"
                     ],
-                    "mispellings": [
-                        "Add translation for common mispelling"
-                    ]
+                    "mispellings": []
                 }
             }
         },
@@ -539,7 +545,7 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u043a\u043e\u0432\u0456\u0434"
                     ],
                     "mispellings": []
                 }
@@ -563,7 +569,8 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u0442\u0440\u0438\u0432\u043e\u0433\u0430",
+                        "\u0442\u0440\u0438\u0432\u043e\u0436\u043d\u0438\u0439"
                     ],
                     "mispellings": []
                 }
@@ -585,7 +592,7 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u0434\u0435\u043f\u0440\u0435\u0441\u0456\u044f"
                     ],
                     "mispellings": []
                 }
@@ -606,7 +613,7 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u0440\u043e\u0437\u043b\u0430\u0434"
                     ],
                     "mispellings": []
                 }
@@ -626,7 +633,7 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u0442\u0435\u0440\u0430\u043f\u0456\u044f"
                     ],
                     "mispellings": []
                 }
@@ -645,7 +652,7 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u043f\u0441\u0438\u0445\u043e\u043b\u043e\u0433"
                     ],
                     "mispellings": []
                 }
@@ -666,7 +673,8 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u0441\u0430\u043c\u043e\u0433\u0443\u0431\u0441\u0442\u0432\u043e",
+                        "\u0441\u0443\u0456\u0446\u0438\u0434"
                     ],
                     "mispellings": []
                 }
@@ -688,7 +696,7 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u0441\u0442\u0440\u0435\u0441"
                     ],
                     "mispellings": []
                 }
@@ -710,7 +718,8 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u0431\u0456\u0434\u0430",
+                        "\u0432\u0438\u0441\u043d\u0430\u0436\u0435\u043d\u0438\u0439"
                     ],
                     "mispellings": []
                 }
@@ -731,7 +740,7 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u0441\u0443\u043c"
                     ],
                     "mispellings": []
                 }
@@ -751,7 +760,8 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u0441\u0442\u0440\u0430\u0445",
+                        "\u043d\u0430\u043b\u044f\u043a\u0430\u043d\u0438\u0439"
                     ],
                     "mispellings": []
                 }
@@ -769,7 +779,7 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u0431\u043e\u044e\u0441\u044c"
                     ],
                     "mispellings": []
                 }
@@ -787,7 +797,7 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u0445\u0432\u0438\u043b\u044e\u044e\u0441\u044c"
                     ],
                     "mispellings": []
                 }
@@ -807,7 +817,7 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u0441\u0442\u0440\u0430\u0445"
                     ],
                     "mispellings": []
                 }
@@ -829,7 +839,7 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u043f\u0430\u043d\u0456\u043a\u0430"
                     ],
                     "mispellings": []
                 }
@@ -848,7 +858,7 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u0437\u043b\u0456\u0441\u0442\u044c"
                     ],
                     "mispellings": []
                 }
@@ -867,7 +877,7 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u0433\u043e\u0440\u0435"
                     ],
                     "mispellings": []
                 }
@@ -1068,7 +1078,7 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u043c\u0435\u043d\u044e"
                     ],
                     "mispellings": []
                 }
@@ -1091,7 +1101,7 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0430"
                     ],
                     "mispellings": []
                 }
@@ -1113,7 +1123,7 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u043f\u0430\u0443\u0437\u0430"
                     ],
                     "mispellings": []
                 }
@@ -1135,7 +1145,7 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u0441\u0442\u043e\u043f"
                     ],
                     "mispellings": []
                 }
@@ -1398,7 +1408,7 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "Add translation"
+                        "\u0433\u0440\u0430\u0442\u0438"
                     ],
                     "mispellings": []
                 }

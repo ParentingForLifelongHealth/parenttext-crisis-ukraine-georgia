@@ -210,12 +210,6 @@
     "note": ""
   },
   {
-    "SourceText": "The tips you haven't finished are:",
-    "text": "Ще не отримані поради:",
-    "type": "text",
-    "note": ""
-  },
-  {
     "SourceText": "@(text_slice(results.message_options,3)).",
     "text": "@(text_slice(results.message_options,3)).",
     "type": "text",
@@ -264,12 +258,6 @@
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "@(word_count(fields.s_modules_compl) +1). Return to Main Menu",
-    "text": "@(word_count(fields.s_modules_compl) +1). Повернутися до Головного Меню",
-    "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated. @results.count is a number (counter for list)"
-  },
-  {
     "SourceText": "What would you like now?",
     "text": "Що б ви хотіли зробити зараз?",
     "type": "text",
@@ -314,12 +302,6 @@
   {
     "SourceText": "We’ll check in with you in a month to see how you’re doing. Your feedback helps us make sure these tips truly support families like yours 🙂",
     "text": "Через місяць ми знову зв’яжемося з вами, щоб дізнатися, як у вас справи. Ваші відгуки дуже важливі для нас — вони допомагають робити поради ще кращими.🙂",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Was {prog_name} helpful? If so, share it with a friend. Just send this link: {share link}",
-    "text": "Чи була {prog_name} корисною для вас?Якщо так, поділіться нею з другом. Просто надішліть це посилання: {share link}\n",
     "type": "text",
     "note": ""
   },
@@ -506,24 +488,6 @@
   {
     "SourceText": "What would you like change?",
     "text": "Що б ви хотіли змінити?",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Your current media setting is Text / Images.",
-    "text": "Ваш поточний режим відображення — текст і зображення.\n",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Your current media setting is Audio.",
-    "text": "Ваш поточний режим відображення — аудіо.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Your current media setting is",
-    "text": "Ваш поточний режим відображення",
     "type": "text",
     "note": ""
   },

@@ -111,21 +111,6 @@
       },
       {
         "type": "create_flow",
-        "sheet_name": "reset_onboarding",
-        "data_sheet": "",
-        "data_row_id": "",
-        "new_name": "",
-        "data_model": "",
-        "template_arguments": "",
-        "operation": "",
-        "status": "draft",
-        "group": "",
-        "tags.1": "onboarding",
-        "tags.2": "",
-        "tags.3": ""
-      },
-      {
-        "type": "create_flow",
         "sheet_name": "uncaught_message_flow",
         "data_sheet": "",
         "data_row_id": "",
@@ -170,19 +155,57 @@
         "tags.3": ""
       },
       {
-        "type": "create_flow",
-        "sheet_name": "lang_wrapper",
+        "type": "data_sheet",
+        "sheet_name": "lang_selection",
         "data_sheet": "",
         "data_row_id": "",
-        "new_name": "demo_ltp_activity_ukr",
-        "data_model": "",
-        "template_arguments": "ukr;demo_ltp_activity",
+        "new_name": "",
+        "data_model": "SurveyQuestionRowModel",
+        "template_arguments": "",
         "operation": "",
         "status": "",
         "group": "",
-        "tags.1": "ltp_activity",
+        "tags.1": "",
         "tags.2": "",
         "tags.3": ""
+      },
+      {
+        "type": "survey_question",
+        "sheet_name": "",
+        "data_sheet": "lang_selection",
+        "data_row_id": "lang",
+        "new_name": "demo",
+        "data_model": "",
+        "template_arguments": "survey_defaults",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "demo",
+        "tags.2": "",
+        "tags.3": ""
+      }
+    ],
+    "lang_selection": [
+      {
+        "ID": "lang",
+        "type": "multiple_choice",
+        "messages.1.text": "Please select your language:",
+        "choices.1.text": "English",
+        "choices.1.value": "eng",
+        "choices.1.show": "",
+        "choices.2.text": "Ukrainian",
+        "choices.2.value": "ukr",
+        "choices.2.show": "",
+        "postprocessing.flow": "set_contact_language",
+        "postprocessing.assignments.1.variable": "lang code",
+        "postprocessing.assignments.1.value": "@answer",
+        "postprocessing.assignments.2.variable": "completed language",
+        "postprocessing.assignments.2.value": "yes",
+        "postprocessing.assignments.3.variable": "attachment language",
+        "postprocessing.assignments.3.value": "ukr",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
+        "expiration.message": ""
       }
     ],
     "testing_triggers": [
@@ -226,6 +249,13 @@
         "keywords": "test_survey",
         "match_type": "O",
         "flow": "test_surveys",
+        "groups": ""
+      },
+      {
+        "type": "K",
+        "keywords": "lang",
+        "match_type": "O",
+        "flow": "survey - demo - question - lang",
         "groups": ""
       }
     ],
@@ -528,6 +558,42 @@
         "value": "CrisisUkraineGeorgia"
       }
     ],
-    "local_triggers": []
+    "local_triggers": [
+      {
+        "type": "K",
+        "keywords": "допомога",
+        "match_type": "O",
+        "flow": "uncaught_message_flow",
+        "groups": ""
+      },
+      {
+        "type": "K",
+        "keywords": "меню",
+        "match_type": "O",
+        "flow": "uncaught_message_flow",
+        "groups": ""
+      },
+      {
+        "type": "K",
+        "keywords": "грати",
+        "match_type": "O",
+        "flow": "uncaught_message_flow",
+        "groups": ""
+      },
+      {
+        "type": "K",
+        "keywords": "стоп",
+        "match_type": "O",
+        "flow": "uncaught_message_flow",
+        "groups": ""
+      },
+      {
+        "type": "K",
+        "keywords": "пауза",
+        "match_type": "O",
+        "flow": "uncaught_message_flow",
+        "groups": ""
+      }
+    ]
   }
 }
