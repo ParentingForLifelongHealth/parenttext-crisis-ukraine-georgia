@@ -2968,7 +2968,22 @@
         "options.1.stop_message": "",
         "options.2.text": "2",
         "options.2.proceed_result_value": "",
-        "options.2.stop_message": "That's okay.",
+        "options.2.stop_message": "That's okay. We'll check-in again with you tomorrow. ",
+        "wa_template_ID": "1month",
+        "wa_template_vars.1": "",
+        "wa_template_vars.2": ""
+      },
+      {
+        "ID": "1month_reminder",
+        "question": "Hello again! \nWe’d love to check in and see how you’re doing ❤️. It’ll take less than 5 minutes.\nWould you like to continue? 🙂\n\nPress a number on your keypad: \n1. Yes\n2. No",
+        "webhook_template_name": "",
+        "webhook_template_args": "",
+        "options.1.text": "1",
+        "options.1.proceed_result_value": "yes",
+        "options.1.stop_message": "",
+        "options.2.text": "2",
+        "options.2.proceed_result_value": "",
+        "options.2.stop_message": "Thank you for letting us know. ",
         "wa_template_ID": "1month",
         "wa_template_vars.1": "",
         "wa_template_vars.2": ""
