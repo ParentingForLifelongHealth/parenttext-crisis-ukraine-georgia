@@ -504,7 +504,7 @@
       },
       {
         "ID": "when_someone_dies",
-        "question": "🕊️ In war and other tough times, children notice more than we think. Today’s tips help you talk to your child about death so they can feel safer, less confused, and more supported. Would you like to receive the tips?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
+        "question": "🕊️ In tough times, children notice more than we think. Today’s tips help you talk to your child about death so they can feel safer, less confused, and more supported. Would you like to receive the tips?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
         "webhook_template_name": "",
         "webhook_template_args": "",
         "options.1.text": "1",

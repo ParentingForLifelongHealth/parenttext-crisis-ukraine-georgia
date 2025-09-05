@@ -150,8 +150,8 @@
     "note": ""
   },
   {
-    "SourceText": "It’ll take only 2 minutes ⏱️,  and your answers help make these tips better for you and other families 💛",
-    "text": "Це займе лише 2 хвилини ⏱️Ваші відповіді допоможуть зробити поради ще кориснішими  для вас та інших родин.",
+    "SourceText": "It’ll take only 2 minutes ⏱️, and your answers help make these tips better for you and other families 💛",
+    "text": "Це займе всього 2 хвилини ⏱️, а ваші відповіді допоможуть зробити ці поради ще кращими для вас і інших родин 💛",
     "type": "text",
     "note": ""
   },
@@ -182,12 +182,6 @@
   {
     "SourceText": "That’s encouraging to hear 💛 Hope is a powerful strength ☀️",
     "text": "Раді це чути 💛Надія — це внутрішня сила ☀️",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Prefer not to answer: That’s completely fine 💙 Thank you for taking a moment with this question 🙏",
-    "text": "Не хочете відповідати? Це абсолютно нормально 💙Дякуємо, що все ж приділили увагу цьому запитанню 🙏",
     "type": "text",
     "note": ""
   },
@@ -300,8 +294,8 @@
     "note": ""
   },
   {
-    "SourceText": "Thanks for your responses! You will help make ParentText better for families 🎉See you back for another tip soon.",
-    "text": "Дякуємо за ваші відповіді!\nВи допомагаєте зробити ParentText кращим для інших сімей 🎉\nДо зустрічі з новою порадою!",
+    "SourceText": "Thanks for your responses! You will help make ParentText better for families. 🎉 See you back for another tip soon.",
+    "text": "Дякуємо за ваші відповіді! Ви допомагаєте зробити ParentText кращим для сімей. 🎉 Скоро поділимося новою порадою.",
     "type": "text",
     "note": ""
   },
@@ -314,6 +308,12 @@
   {
     "SourceText": "Today you will receive your final tips. First, we have 3 questions to ask about how you and your children are doing. ❤️",
     "text": "Сьогодні ви отримаєте останні поради. Але спершу у нас є 3 запитання про те, як ви та ваші діти почуваєтеся ❤️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Finally, we’d like to ask 5 more questions before your final tip!",
+    "text": "Наостанок, ми хотіли б поставити ще 5 запитань перед тим, як надіслати вам останню пораду.",
     "type": "text",
     "note": ""
   },
