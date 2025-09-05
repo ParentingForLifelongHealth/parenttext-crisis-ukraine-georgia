@@ -7,7 +7,7 @@
   },
   {
     "SourceText": "In tough times like these, it's normal to feel overwhelmed. Remember, it is important to take a moment for yourself, no matter how small.",
-    "text": "В такі не прості часи цілком природно відчувати себе перевантаженим. Важливо знайти час для себе, навіть якщо це всього кілька хвилин.",
+    "text": "У непрості часи легко відчути втому чи пригніченість. Але навіть кілька хвилин для себе можуть мати значення. Не забувайте про це.",
     "type": "text",
     "note": ""
   },
@@ -91,7 +91,7 @@
   },
   {
     "SourceText": "Take a moment each day to listen to your breath as it goes in and out.",
-    "text": "Знайдіть хвильку щодня, щоб просто звернути увагу на своє дихання.",
+    "text": "Щодня робіть паузу, щоб відчути ритм свого дихання.",
     "type": "text",
     "note": ""
   },
@@ -240,8 +240,14 @@
     "note": ""
   },
   {
-    "SourceText": "Here are some regular activities you might want to try to do with your children:\\r\\rEat one meal together",
-    "text": "Ось кілька простих справ, які можна регулярно робити разом із дітьми:\\r\\rЇсти разом хоча б один раз на день",
+    "SourceText": "Here are some regular activities you might want to try to do with your children:",
+    "text": "Ось кілька простих справ, які можна регулярно робити разом із дітьми:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Eat one meal together",
+    "text": "Їсти разом хоча б один раз на день",
     "type": "text",
     "note": ""
   },
@@ -576,8 +582,8 @@
     "note": ""
   },
   {
-    "SourceText": "5️⃣ **RESPOND",
-    "text": "5️⃣ **РЕАГУЙТЕ",
+    "SourceText": "5️⃣ **RESPOND**",
+    "text": "5️⃣ **ВІДПОВІСТИ**",
     "type": "text",
     "note": ""
   },
@@ -648,20 +654,14 @@
     "note": ""
   },
   {
-    "SourceText": "3️⃣**RECOGNIZE**",
-    "text": "3️⃣**БУДЬТЕ ПИЛЬНИМИ**",
-    "type": "text",
-    "note": ""
-  },
-  {
     "SourceText": "It’s not always easy to see, but some signs may show a child has been hurt: ",
     "text": "Далеко не завжди легко помітити, але іноді можна побачити ознаки того, що дитина пережила щось болюче. Діти можуть: ",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "🔵Start doing things they used to do when they were younger, such as wetting the bed",
-    "text": "🔵Повертатися до звичок, характерних для молодшого віку, наприклад, почати мочитися в ліжко",
+    "SourceText": "🔵 Start doing things they used to do when they were younger, such as wetting the bed",
+    "text": "🔵 Починають робити те, що раніше робили в дитинстві, наприклад, мочитися в ліжко",
     "type": "text",
     "note": ""
   },
@@ -696,12 +696,6 @@
     "note": ""
   },
   {
-    "SourceText": "4️⃣**LISTEN**",
-    "text": "4️⃣**СЛУХАЙТЕ**",
-    "type": "text",
-    "note": ""
-  },
-  {
     "SourceText": "Take a deep breath so you can respond calmly.",
     "text": "Глибоко вдихніть та реагуйте спокійно.",
     "type": "text",
@@ -732,8 +726,8 @@
     "note": ""
   },
   {
-    "SourceText": "5️⃣**RESPOND**: What might help what is going on?**",
-    "text": "5️⃣**РЕАГУЙТЕ**: Подумайте, що могло б зараз допомогти вашій дитині?**",
+    "SourceText": "5️⃣ **RESPOND**: What might help what is going on?",
+    "text": "5️⃣**ВІДПОВІСТИ**: Що могло б допомогти у цій ситуації?",
     "type": "text",
     "note": ""
   },
@@ -1350,8 +1344,8 @@
     "note": ""
   },
   {
-    "SourceText": "Here are 5️⃣things you can do to help your child stay safe from harm:",
-    "text": "Ось 5️⃣порад, які допоможуть вашій дитині почуватись у безпеці:",
+    "SourceText": "Here are 5️⃣ things you can do to help your child stay safe from harm:",
+    "text": "Ось 5️⃣ порад, які допоможуть захистити вашу дитину від небезпеки:",
     "type": "text",
     "note": ""
   },
@@ -1428,8 +1422,14 @@
     "note": ""
   },
   {
-    "SourceText": "Children might not talk about bullying, but their body can show signs. Keep an eye out for:",
-    "text": "Діти можуть не розповідати про цькування, але їхнє тіло може показувати ознаки. Слідкуйте за такими симптомами:",
+    "SourceText": "Children might not talk about bullying, but their body can show signs. ",
+    "text": "Діти не завжди говорять про булінг, але за їхньою поведінкою чи станом можна помітити, що щось не так. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Keep an eye out for:",
+    "text": "Слідкуйте за такими симптомами:",
     "type": "text",
     "note": ""
   },
@@ -1460,6 +1460,12 @@
   {
     "SourceText": "🍽️ Eating much more or much less than usual",
     "text": "🍽️Зміни в апетиті - їдять набагато більше або менше, ніж зазвичай",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "4️⃣ **NOTICE EMOTIONAL CHANGES**",
+    "text": "4️⃣**ЗВЕРТАЙТЕ УВАГУ НА ЕМОЦІЙНІ ЗМІНИ**",
     "type": "text",
     "note": ""
   },
@@ -1506,8 +1512,8 @@
     "note": ""
   },
   {
-    "SourceText": "5️⃣**RESPOND WITH CARE** ",
-    "text": "5️⃣**РЕАГУЙТЕ З РОЗУМІННЯМ** ",
+    "SourceText": "5️⃣ **RESPOND WITH CARE** ",
+    "text": "5️⃣ **РЕАГУЙТЕ З РОЗУМІННЯМ** ",
     "type": "text",
     "note": ""
   },
@@ -1650,6 +1656,12 @@
     "note": ""
   },
   {
+    "SourceText": "2️⃣ **MAKE RULES TOGETHER**",
+    "text": "2️⃣ **ВСТАНОВЛЮЙТЕ ПРАВИЛА РАЗОМ**",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "💬Talk about how long they can use the phone and which apps are okay.",
     "text": "💬Поговоріть про те, скільки часу можна користуватися телефоном і які додатки дозволені.",
     "type": "text",
@@ -1658,6 +1670,12 @@
   {
     "SourceText": "❌Tell them not to share their name, school, or photos with strangers.",
     "text": "❌Поясніть, що не можна ділитися своїм ім’ям, школою чи фото з незнайомцями.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "3️⃣ **USE PRIVACY SETTINGS**",
+    "text": "3️⃣ **ВИКОРИСТОВУЙТЕ НАЛАШТУВАННЯ КОНФІДЕНЦІЙНОСТІ**",
     "type": "text",
     "note": ""
   },
@@ -1722,8 +1740,8 @@
     "note": ""
   },
   {
-    "SourceText": "5️⃣**KNOW THE SIGNS**",
-    "text": "5️⃣**ЗВЕРТАЙТЕ УВАГУ НА ОЗНАКИ**",
+    "SourceText": "5️⃣ **KNOW THE SIGNS**",
+    "text": "5️⃣ **ЗВЕРТАЙТЕ УВАГУ НА СИГНАЛИ**",
     "type": "text",
     "note": ""
   },
@@ -1770,8 +1788,8 @@
     "note": ""
   },
   {
-    "SourceText": "6️⃣**TAKE ACTION TOGETHER**",
-    "text": "6️⃣**ДІЙТЕ РАЗОМ**",
+    "SourceText": "6️⃣ **TAKE ACTION TOGETHER**",
+    "text": "6️⃣ **ДІЙТЕ СПІЛЬНО**",
     "type": "text",
     "note": ""
   },
@@ -1873,7 +1891,7 @@
   },
   {
     "SourceText": "Take a moment to reflect on your experience. ",
-    "text": "Зробіть невеличку паузу, щоб відчути свої емоції. ",
+    "text": "Зробіть невеличку паузу, щоб прислухатись до себе і своїх відчуттів. ",
     "type": "text",
     "note": ""
   },
@@ -1892,12 +1910,6 @@
   {
     "SourceText": "NEXT",
     "text": "NEXT",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "Sp",
-    "text": "Sp",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   }

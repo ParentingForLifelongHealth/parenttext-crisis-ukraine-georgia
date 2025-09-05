@@ -1130,6 +1130,29 @@
             }
         }
     ],
+    "play": [
+        {
+            "English": {
+                "keywords": [
+                    "PLAY"
+                ],
+                "mispellings": [
+                    "paly",
+                    "pla",
+                    "pley",
+                    "plaay"
+                ]
+            },
+            "Translation": {
+                "ukr": {
+                    "keywords": [
+                        "\u0433\u0440\u0430\u0442\u0438"
+                    ],
+                    "mispellings": []
+                }
+            }
+        }
+    ],
     "stop": [
         {
             "English": {
@@ -1386,29 +1409,6 @@
                     "keywords": [
                         "Trust",
                         "\u0414\u043e\u0432\u0456\u0440\u0430"
-                    ],
-                    "mispellings": []
-                }
-            }
-        }
-    ],
-    "play": [
-        {
-            "English": {
-                "keywords": [
-                    "PLAY"
-                ],
-                "mispellings": [
-                    "paly",
-                    "pla",
-                    "pley",
-                    "plaay"
-                ]
-            },
-            "Translation": {
-                "ukr": {
-                    "keywords": [
-                        "\u0433\u0440\u0430\u0442\u0438"
                     ],
                     "mispellings": []
                 }

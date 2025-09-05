@@ -1,7 +1,7 @@
 [
   {
-    "SourceText": "variables have been reset",
-    "text": "Налаштування було скинуто",
+    "SourceText": "Variables have been reset",
+    "text": "Зміни було скинути",
     "type": "text",
     "note": ""
   },
@@ -14,12 +14,6 @@
   {
     "SourceText": "Please select your language:",
     "text": "Будь ласка, оберіть мову:\nPlease select your language:",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "[Other language: please select your language]",
-    "text": "[Інша мова: оберіть мову]",
     "type": "text",
     "note": ""
   },
@@ -72,8 +66,8 @@
     "note": ""
   },
   {
-    "SourceText": "✅ To read our privacy policy, visit {consent}. If you are over 16 and consent to our privacy policy, select YES. Type \"EXIT\" if you do not want to participate.",
-    "text": "✅ Щоб ознайомитися з нашою політикою конфіденційності, натисніть {consent}. Якщо вам понад 16 років і ви погоджуєтесь з політикою, виберіть «ТАК». Якщо не хочете брати участь, надішліть «ВИХІД».",
+    "SourceText": "✅ To read our privacy policy, visit {consent}. If you are over 18 and consent to our privacy policy, select YES. Type \"EXIT\" if you do not want to participate.",
+    "text": "✅ Щоб ознайомитися з нашою політикою конфіденційності, перейдіть за посиланням: {consent}. Якщо вам понад 18 років і ви погоджуєтеся з політикою конфіденційності, оберіть «ТАК». Якщо не бажаєте брати участь, наберіть «ВИХІД».",
     "type": "text",
     "note": ""
   },
@@ -84,8 +78,14 @@
     "note": ""
   },
   {
-    "SourceText": "That's okay. If you decide you want these tips later, type {joining_trigger}.",
-    "text": "Гаразд. Якщо пізніше захочете отримувати ці поради, надішліть {joining_trigger}.",
+    "SourceText": "If you ever want to receive these tips in the future just type {joining_trigger}.",
+    "text": "Якщо колись захочете знову отримати ці поради — просто введіть {joining_trigger}.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We hope to see you again soon.",
+    "text": "Сподіваємося скоро знову вас побачити.",
     "type": "text",
     "note": ""
   },
@@ -150,14 +150,14 @@
     "note": ""
   },
   {
-    "SourceText": "Thank you for your time. If you decide you want these tips later, type {joining_trigger}.",
-    "text": "Дякуємо за ваш час. Якщо пізніше захочете отримувати ці поради, надішліть {joining_trigger}.",
+    "SourceText": "What is your current living situation?",
+    "text": "Де ви зараз проживаєте?",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "What is your current living situation?",
-    "text": "Де ви зараз проживаєте?",
+    "SourceText": "Where are you located?",
+    "text": "Де ви знаходитесь?",
     "type": "text",
     "note": ""
   },
@@ -210,8 +210,20 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "Female Name Placeholder",
-    "text": "Female Name Placeholder",
+    "SourceText": "NEXT",
+    "text": "ДАЛІ",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Maria",
+    "text": "Марія",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Mykola",
+    "text": "Микола",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -306,20 +318,26 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "Living in a camp or shelter",
-    "text": "Проживаю у тимчасовому таборі або притулку",
+    "SourceText": "Currently displaced",
+    "text": "У статусі внутрішньо переміщеної особи",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "Living in a house or apartment",
-    "text": "Живу в будинку або квартирі",
+    "SourceText": "Living at my permanent place of residence",
+    "text": "Проживаю за постійним місцем проживання",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "Moving around often",
-    "text": "Часто змінюю місце проживання",
+    "SourceText": "Batumi",
+    "text": "Батумі",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Tbilisi",
+    "text": "Тбілісі",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -338,12 +356,6 @@
   {
     "SourceText": "Text / Images",
     "text": "Текст / Зображення",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "NEXT",
-    "text": "ДАЛІ",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -384,8 +396,14 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "female name placeholder",
-    "text": "female name placeholder",
+    "SourceText": "maria",
+    "text": "марія",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "mykola",
+    "text": "микола",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
@@ -480,20 +498,26 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "living in a camp or shelter",
-    "text": "проживаю у тимчасовому таборі або притулку",
+    "SourceText": "currently displaced",
+    "text": "у статусі внутрішньо переміщеної особи",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "living in a house or apartment",
-    "text": "живу в будинку або квартирі",
+    "SourceText": "living at my permanent place of residence",
+    "text": "проживаю за постійним місцем проживання",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "moving around often",
-    "text": "часто змінюю місце проживання",
+    "SourceText": "batumi",
+    "text": "батумі",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "tbilisi",
+    "text": "тбілісі",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
