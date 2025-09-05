@@ -132,12 +132,6 @@
     "note": ""
   },
   {
-    "SourceText": "What is your current family situation?",
-    "text": "У якій сімейній ситуації ви зараз перебуваєте?",
-    "type": "text",
-    "note": ""
-  },
-  {
     "SourceText": "How many children do you take care of?",
     "text": "Скільки дітей ви зараз виховуєте?",
     "type": "text",
@@ -150,6 +144,12 @@
     "note": ""
   },
   {
+    "SourceText": "What is your current family situation?",
+    "text": "У якій сімейній ситуації ви зараз перебуваєте?",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "What is your current living situation?",
     "text": "Де ви зараз проживаєте?",
     "type": "text",
@@ -158,12 +158,6 @@
   {
     "SourceText": "Where are you located?",
     "text": "Де ви знаходитесь?",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "📲 How would you prefer to receive content — with audio guides, with video guides, or just text?",
-    "text": "📲 Як вам зручніше отримувати матеріали — у вигляді аудіо, відео чи просто текстом?",
     "type": "text",
     "note": ""
   },
@@ -264,24 +258,6 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "I’m the child’s parent, and I’m raising them with a partner",
-    "text": "Я батько (або мати) і виховую дитину разом із партнером.",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "I’m the child’s parent, and I’m raising them on my own",
-    "text": "Я мати (або батько) і виховую дитину сам(а)",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "I’m a grandparent, relative, or other caregiver, raising the child",
-    "text": "Я дідусь (або бабуся), родич або інша людина, яка піклується про дитину",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
     "SourceText": "Prefer not to say",
     "text": "Надаю перевагу не казати",
     "type": "quick_replies",
@@ -314,6 +290,24 @@
   {
     "SourceText": "I do not want the tips",
     "text": "Я не хочу отримувати поради",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "I’m the child’s parent, and I’m raising them with a partner",
+    "text": "Я батько (або мати) і виховую дитину разом із партнером.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "I’m the child’s parent, and I’m raising them on my own",
+    "text": "Я мати (або батько) і виховую дитину сам(а)",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "I’m a grandparent, relative, or other caregiver, raising the child",
+    "text": "Я дідусь (або бабуся), родич або інша людина, яка піклується про дитину",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -444,24 +438,6 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "i’m the child’s parent, and i’m raising them with a partner",
-    "text": "Я мати (або батько) і виховую дитину разом з партнером",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "i’m the child’s parent, and i’m raising them on my own",
-    "text": "я мати (або батько) і виховую дитину сам(а).",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "i’m a grandparent, relative, or other caregiver, raising the child",
-    "text": "я дідусь (або бабуся), родич або інша людина, яка піклується про дитину.",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
     "SourceText": "prefer not to say",
     "text": "надаю перевагу не казати",
     "type": "arguments",
@@ -494,6 +470,24 @@
   {
     "SourceText": "i do not want the tips",
     "text": "я не хочу отримувати поради",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "i’m the child’s parent, and i’m raising them with a partner",
+    "text": "Я мати (або батько) і виховую дитину разом з партнером",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "i’m the child’s parent, and i’m raising them on my own",
+    "text": "я мати (або батько) і виховую дитину сам(а).",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "i’m a grandparent, relative, or other caregiver, raising the child",
+    "text": "я дідусь (або бабуся), родич або інша людина, яка піклується про дитину.",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
