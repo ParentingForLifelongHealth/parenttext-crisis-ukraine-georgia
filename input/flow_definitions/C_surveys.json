@@ -2969,7 +2969,7 @@
         "options.2.text": "2",
         "options.2.proceed_result_value": "",
         "options.2.stop_message": "That's okay. We'll check-in again with you tomorrow. ",
-        "wa_template_ID": "1month",
+        "wa_template_ID": "",
         "wa_template_vars.1": "",
         "wa_template_vars.2": ""
       },
@@ -2984,7 +2984,7 @@
         "options.2.text": "2",
         "options.2.proceed_result_value": "",
         "options.2.stop_message": "Thank you for letting us know. ",
-        "wa_template_ID": "1month",
+        "wa_template_ID": "",
         "wa_template_vars.1": "",
         "wa_template_vars.2": ""
       }
