@@ -354,7 +354,7 @@
         "options.3.text": "",
         "options.3.proceed_result_value": "",
         "options.3.stop_message": "",
-        "wa_template_ID": "unfinished_onboarding",
+        "wa_template_ID": "",
         "wa_template_vars.1": "",
         "wa_template_vars.2": ""
       },
@@ -372,7 +372,7 @@
         "options.3.text": "",
         "options.3.proceed_result_value": "",
         "options.3.stop_message": "",
-        "wa_template_ID": "unfinished_baseline",
+        "wa_template_ID": "",
         "wa_template_vars.1": "",
         "wa_template_vars.2": ""
       },
@@ -390,7 +390,7 @@
         "options.3.text": "3",
         "options.3.proceed_result_value": "",
         "options.3.stop_message": "OK, see you tomorrow.",
-        "wa_template_ID": "complete_start_module",
+        "wa_template_ID": "",
         "wa_template_vars.1": "",
         "wa_template_vars.2": ""
       },
@@ -408,7 +408,7 @@
         "options.3.text": "3",
         "options.3.proceed_result_value": "stop",
         "options.3.stop_message": "",
-        "wa_template_ID": "start_started_mod_or_later_one",
+        "wa_template_ID": "",
         "wa_template_vars.1": "",
         "wa_template_vars.2": ""
       },
@@ -426,8 +426,8 @@
         "options.3.text": "3",
         "options.3.proceed_result_value": "stop",
         "options.3.stop_message": "",
-        "wa_template_ID": "start_started_mod_or_later_multiple",
-        "wa_template_vars.1": "@fields.c_n_mod_started",
+        "wa_template_ID": "",
+        "wa_template_vars.1": "",
         "wa_template_vars.2": ""
       },
       {
@@ -444,7 +444,7 @@
         "options.3.text": "",
         "options.3.proceed_result_value": "",
         "options.3.stop_message": "",
-        "wa_template_ID": "first_module_intro",
+        "wa_template_ID": "",
         "wa_template_vars.1": "",
         "wa_template_vars.2": ""
       },
@@ -462,7 +462,7 @@
         "options.3.text": "",
         "options.3.proceed_result_value": "",
         "options.3.stop_message": "",
-        "wa_template_ID": "daily_interaction",
+        "wa_template_ID": "",
         "wa_template_vars.1": "",
         "wa_template_vars.2": ""
       },
@@ -480,7 +480,7 @@
         "options.3.text": "",
         "options.3.proceed_result_value": "",
         "options.3.stop_message": "",
-        "wa_template_ID": "make_a_routine",
+        "wa_template_ID": "",
         "wa_template_vars.1": "",
         "wa_template_vars.2": ""
       },
@@ -498,7 +498,7 @@
         "options.3.text": "",
         "options.3.proceed_result_value": "",
         "options.3.stop_message": "",
-        "wa_template_ID": "help_children_cope",
+        "wa_template_ID": "",
         "wa_template_vars.1": "",
         "wa_template_vars.2": ""
       },
@@ -516,7 +516,7 @@
         "options.3.text": "",
         "options.3.proceed_result_value": "",
         "options.3.stop_message": "",
-        "wa_template_ID": "when_someone_dies",
+        "wa_template_ID": "",
         "wa_template_vars.1": "",
         "wa_template_vars.2": ""
       },
@@ -534,7 +534,7 @@
         "options.3.text": "",
         "options.3.proceed_result_value": "",
         "options.3.stop_message": "",
-        "wa_template_ID": "protect_sexual_violence",
+        "wa_template_ID": "",
         "wa_template_vars.1": "",
         "wa_template_vars.2": ""
       },
@@ -552,7 +552,7 @@
         "options.3.text": "",
         "options.3.proceed_result_value": "",
         "options.3.stop_message": "",
-        "wa_template_ID": "daily_interaction",
+        "wa_template_ID": "",
         "wa_template_vars.1": "",
         "wa_template_vars.2": ""
       },
@@ -570,7 +570,7 @@
         "options.3.text": "",
         "options.3.proceed_result_value": "",
         "options.3.stop_message": "",
-        "wa_template_ID": "travel_safely",
+        "wa_template_ID": "",
         "wa_template_vars.1": "",
         "wa_template_vars.2": ""
       },
@@ -588,7 +588,7 @@
         "options.3.text": "",
         "options.3.proceed_result_value": "",
         "options.3.stop_message": "",
-        "wa_template_ID": "daily_interaction",
+        "wa_template_ID": "",
         "wa_template_vars.1": "",
         "wa_template_vars.2": ""
       },
@@ -606,7 +606,7 @@
         "options.3.text": "",
         "options.3.proceed_result_value": "",
         "options.3.stop_message": "",
-        "wa_template_ID": "daily_interaction",
+        "wa_template_ID": "",
         "wa_template_vars.1": "",
         "wa_template_vars.2": ""
       },
@@ -624,7 +624,7 @@
         "options.3.text": "",
         "options.3.proceed_result_value": "",
         "options.3.stop_message": "",
-        "wa_template_ID": "daily_interaction",
+        "wa_template_ID": "",
         "wa_template_vars.1": "",
         "wa_template_vars.2": ""
       },
@@ -642,7 +642,7 @@
         "options.3.text": "",
         "options.3.proceed_result_value": "",
         "options.3.stop_message": "",
-        "wa_template_ID": "daily_interaction",
+        "wa_template_ID": "",
         "wa_template_vars.1": "",
         "wa_template_vars.2": ""
       }
