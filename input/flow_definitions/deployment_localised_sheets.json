@@ -470,6 +470,11 @@
         "ID": "deployment",
         "name": "deployment",
         "value": "CrisisUkraineGeorgia"
+      },
+      {
+        "ID": "attach_lang",
+        "name": "attachment language",
+        "value": "ukr"
       }
     ],
     "local_triggers": [
