@@ -162,6 +162,24 @@
     "note": ""
   },
   {
+    "SourceText": "{prog_name} is easiest to use when you receive content with video guides. Videos are fun and engaging, but we understand if you have limited mobile data. To save on data, you can choose to receive the same content with an audio guide or just text. ",
+    "text": "{prog_name} Найзручніше користуватися сервісом, коли ви отримуєте матеріали з відеоінструкціями. Відео — це цікаво й захопливо, але ми розуміємо, що мобільний інтернет може бути обмеженим. Щоб зекономити трафік, ви можете обрати той самий матеріал з аудіосупроводом або лише у текстовому форматі. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "📲 How would you prefer to receive content — with video guides, with audio guides, or just text?",
+    "text": "📲 Як вам зручніше отримувати матеріали — з відеоінструкціями, з аудіо чи просто в текстовому форматі?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Great! Thanks for letting us know your preference. 👌 Before we continue, here’s something important about the illustrations you’ll see in {prog_name}. They are AI adaptations of original work by Orli Setton created for Parenting for Lifelong Health, and shared under a CC BY-SA 4.0 International licence.",
+    "text": "Чудово! Дякуємо, що поділилися своїми вподобаннями.👌Перш ніж продовжити, ось важлива інформація про ілюстрації, які ви побачите в  {prog_name}. Це адаптації оригінальних робіт Орлі Сеттон, створених для ініціативи «Parenting for Lifelong Health» за допомогою штучного інтелекту. Ілюстрації поширюються на умовах міжнародної ліцензії CC BY-SA 4.0.",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "Thanks for answering our questions. We're ready to get started. 💚",
     "text": "Дякуємо, що відповіли на наші питання. Ми готові починати. 💚",
     "type": "text",
