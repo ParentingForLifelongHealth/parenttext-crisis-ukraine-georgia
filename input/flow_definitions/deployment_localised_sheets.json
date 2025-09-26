@@ -51,21 +51,6 @@
       },
       {
         "type": "data_sheet",
-        "sheet_name": "wa_templates",
-        "data_sheet": "",
-        "data_row_id": "",
-        "new_name": "",
-        "data_model": "WhatsappTemplateModel",
-        "template_arguments": "",
-        "operation": "",
-        "status": "",
-        "group": "",
-        "tags.1": "",
-        "tags.2": "",
-        "tags.3": ""
-      },
-      {
-        "type": "data_sheet",
         "sheet_name": "webhook_settings",
         "data_sheet": "",
         "data_row_id": "",
@@ -183,8 +168,24 @@
         "tags.1": "demo",
         "tags.2": "",
         "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "wa_templates",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "WhatsappTemplateModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
       }
     ],
+    "wa_templates": [],
     "lang_selection": [
       {
         "ID": "lang",
@@ -452,93 +453,6 @@
         "sheet": "ltp_activity_crisis_data"
       }
     ],
-    "wa_templates": [
-      {
-        "ID": "unfinished_onboarding",
-        "name": "unfinished_onboarding",
-        "uuid": "2831b64f-c9a9-47d9-9a50-f5fdf0939607"
-      },
-      {
-        "ID": "unfinished_baseline",
-        "name": "unfinished_baseline",
-        "uuid": "a05091c4-f68f-42fd-bb48-444db89694b9"
-      },
-      {
-        "ID": "complete_start_module",
-        "name": "complete_start_module",
-        "uuid": "61c277d5-a5c0-49df-8875-7f927a236a0c"
-      },
-      {
-        "ID": "start_started_mod_or_later_one",
-        "name": "start_started_mod_or_later_one",
-        "uuid": "c2c5d2d8-bc44-438b-8a28-67613a2b6757"
-      },
-      {
-        "ID": "start_started_mod_or_later_multiple",
-        "name": "start_started_mod_or_later_multiple",
-        "uuid": "b129e0f6-6697-444c-b1d1-652a56832d2d"
-      },
-      {
-        "ID": "first_module_intro",
-        "name": "first_module_intro",
-        "uuid": "41bc4999-915f-443c-854c-b17a90c82ce0"
-      },
-      {
-        "ID": "daily_interaction",
-        "name": "daily_interaction",
-        "uuid": "2a1c42a2-1469-4f8b-867c-707c9d3e4090"
-      },
-      {
-        "ID": "help_children_cope",
-        "name": "help_children_cope",
-        "uuid": "2831b64f-c9a9-47d9-9a50-f5fdf0939608"
-      },
-      {
-        "ID": "make_a_routine",
-        "name": "make_a_routine",
-        "uuid": "a05091c4-f68f-42fd-bb48-444db89694b4"
-      },
-      {
-        "ID": "calm_encourage",
-        "name": "calm_encourage",
-        "uuid": "61c277d5-a5c0-49df-8875-7f927a236a0d"
-      },
-      {
-        "ID": "prepare_to_travel",
-        "name": "prepare_to_travel",
-        "uuid": "c2c5d2d8-bc44-438b-8a28-67613a2b6752"
-      },
-      {
-        "ID": "travel_safely",
-        "name": "travel_safely",
-        "uuid": "aa16b81b-76ff-4463-af7d-8b30013e2e25"
-      },
-      {
-        "ID": "protect_sexual_violence",
-        "name": "protect_sexual_violence",
-        "uuid": "41bc4999-915f-443c-854c-b17a90c82ce7"
-      },
-      {
-        "ID": "when_someone_dies",
-        "name": "when_someone_dies",
-        "uuid": "2a1c42a2-1469-4f8b-867c-707c9d3e4094"
-      },
-      {
-        "ID": "building_strength",
-        "name": "building_strength",
-        "uuid": "2a1c42a2-1469-4f8b-867c-707c9d3e4091"
-      },
-      {
-        "ID": "no_response",
-        "name": "no_response",
-        "uuid": "2a1c42a2-1469-4f8b-867c-707c9d3e4092"
-      },
-      {
-        "ID": "1month",
-        "name": "1month",
-        "uuid": "2a1c42a2-1469-4f8b-867c-707c9d3e4095"
-      }
-    ],
     "webhook_settings": [
       {
         "ID": "content_delivery",
@@ -556,6 +470,11 @@
         "ID": "deployment",
         "name": "deployment",
         "value": "CrisisUkraineGeorgia"
+      },
+      {
+        "ID": "attach_lang",
+        "name": "attachment language",
+        "value": "ukr"
       }
     ],
     "local_triggers": [

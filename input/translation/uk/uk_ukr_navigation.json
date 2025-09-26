@@ -210,6 +210,12 @@
     "note": ""
   },
   {
+    "SourceText": "The tip you haven't finished is:",
+    "text": "Порада, яку ви ще не переглянули:",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "@(text_slice(results.message_options,3)).",
     "text": "@(text_slice(results.message_options,3)).",
     "type": "text",
@@ -256,6 +262,12 @@
     "text": "Ви пройшли @fields.n_s_modules_compl із @fields.n_s_modules порад. Яку з наступних порад ви хочете переглянути?",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "@(word_count(join(reverse(split(fields.s_modules_compl,\" \")), \" \")) +1). Return to Main Menu",
+    "text": "@(word_count(join(reverse(split(fields.s_modules_compl,\" \")), \" \")) +1). Повернутись до Основного Меню",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated. @results.count is a number (counter for list)"
   },
   {
     "SourceText": "What would you like now?",
@@ -432,8 +444,8 @@
     "note": ""
   },
   {
-    "SourceText": "🕊️ In war and other tough times, children notice more than we think. Today’s tips help you talk to your child about death so they can feel safer, less confused, and more supported. Would you like to receive the tips?",
-    "text": "🕊️ Під час війни та в інші непрості часи діти помічають більше, ніж ми думаємо. Сьогоднішні поради допоможуть вам поговорити з дитиною про смерть — щоб вона почувалася в більшій безпеці, краще розуміла ситуацію й відчувала підтримку.\nХочете отримати ці поради?",
+    "SourceText": "🕊️ In tough times, children notice more than we think. Today’s tips help you talk to your child about death so they can feel safer, less confused, and more supported. Would you like to receive the tips?",
+    "text": "🕊️ У важкі моменти діти відчувають більше, ніж ми думаємо. Ці поради допоможуть вам з розумінням поговорити з дитиною про смерть — щоб вона почувалася в безпеці, краще розуміла, що відбувається, і знала, що ви поруч. Хочете отримати ці поради?",
     "type": "text",
     "note": ""
   },
@@ -450,8 +462,44 @@
     "note": ""
   },
   {
+    "SourceText": "💛 Keeping kids safe can feel overwhelming, but a clear plan helps. Today's tip shows you simple ways to help your child feel safe and supported in uncertain times. ",
+    "text": "💛Дбати про безпеку дітей буває непросто, але чіткий план справді допомагає. Сьогоднішня порада — як простими кроками допомогти дитині відчувати себе в безпеці та знати, що вона не одна, навіть у непрості часи. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Would you like to continue now?",
+    "text": "Хочете продовжити зараз?",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "💛 In stressful moments, even simple actions can help keep your child safe and close. Today’s tips share how to stay connected and calm when traveling.",
     "text": "💛 У стресові моменти навіть прості дії можуть допомогти зберегти дитину в безпеці та поруч. Сьогоднішні поради розкажуть, як залишатися спокійними й зберігати зв’язок із дитиною під час подорожей.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💛 It can be frightening to think about traffickers, but talking with your child helps protect them. Today’s tip shows you simple ways to keep your child safe and aware.",
+    "text": "💛 Тема експлуатації може викликати тривогу, але відверта розмова з дитиною — важливий крок до її безпеки. Сьогоднішня порада — прості способи, як допомогти дитині бути уважною й почуватися захищеною.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💛 Sometimes families need to stay in a shelter during emergencies or unsafe times. Today’s tip shares simple ways to help your child feel safe and cared for there.",
+    "text": "💛 Іноді сім’ї змушені тимчасово перебувати в укритті через небезпеку. Сьогоднішня порада — прості способи, як допомогти дитині почуватися в безпеці та відчувати турботу навіть там.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🕊️ In times of crisis, some children may hurt others with words or actions because of fear or stress. Today’s tip shows you how to recognize bullying and protect your child. ",
+    "text": "🕊️ У складні часи деякі діти можуть ображати інших словами чи вчинками через страх або стрес. Сьогоднішня порада — як розпізнати булінг і захистити свою дитину. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💛 Children often turn to phones and the internet to learn, play, and connect, but sometimes they can also be bullied online. Today’s tip helps you notice the signs and keep your child safe and supported. ",
+    "text": "💛 Діти часто використовують інтернет, щоб навчатися, грати й спілкуватися, але іноді там вони можуть стикатися з онлайн-булінгом. Сьогоднішня порада допоможе помітити ознаки та підтримати дитину, щоб вона почувалася в безпеці. ",
     "type": "text",
     "note": ""
   },
@@ -488,6 +536,30 @@
   {
     "SourceText": "What would you like change?",
     "text": "Що б ви хотіли змінити?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You are receiving content with text and images.",
+    "text": "Ви отримуєте контент із текстом і зображеннями.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You are receiving content with audio guides.",
+    "text": "Ви отримуєте контент з аудіосупроводом.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You are receiving content with video guides.",
+    "text": "Ви отримуєте інформацію з відео.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You are receiving content with",
+    "text": "Ви отримуєте інформацію з",
     "type": "text",
     "note": ""
   },
@@ -558,8 +630,20 @@
     "note": ""
   },
   {
+    "SourceText": "You’ve completed the {prog_name} – well done! There are no new tips available, but you can always review any of the completed tips by selecting option 1 in the {MENU}",
+    "text": "Ви завершили {prog_name} — чудова робота!\nНових порад наразі немає, але ви завжди можете переглянути вже пройдені, обравши пункт 1 у меню {MENU}",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "Thanks for reaching out 🤍 It really shows how much you care about your children. Right now, the programme is full, but we’ve added you to the waiting list. As soon as a spot opens up, we’ll let you know.",
     "text": "Дякуємо, що звернулися 🤍 Це справді свідчить про вашу турботу про дітей. Наразі програма заповнена, але ми додали вас до списку очікування. Щойно з’явиться вільне місце, ми повідомимо вас.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Here is a video about {prog_name}.",
+    "text": "Переглянути відео про {prog_name}.",
     "type": "text",
     "note": ""
   },
@@ -794,6 +878,12 @@
   {
     "SourceText": "Get more help",
     "text": "Отримати більше допомоги",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Watch chatbot intro video",
+    "text": "Перегляньте коротке відео про чат-бот",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -1118,6 +1208,12 @@
   {
     "SourceText": "get more help",
     "text": "отримати більше допомоги",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "watch chatbot intro video",
+    "text": "перегляньте коротке відео про чат-бот",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
