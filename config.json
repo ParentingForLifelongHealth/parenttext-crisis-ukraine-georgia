@@ -18,7 +18,7 @@
 
         "deployment_localised_sheets" : "1ksMlDplXLu8aUz9vqatzN2ZjXMgFaoXiMmpYFV0TSD0",
         "transl_edits_sheet_ID": "1wRE03AY61LBeCawvtCgudYZ7KAvR9f-Wl46jE1_gdeI",
-        "ab_testing_sheet_ID": "1uwsgZAhcAXQL0EBj9o2Pzf3Avhj7LPnthlA8uiPydxI",
+        "local_edits_sheet_ID": "1uwsgZAhcAXQL0EBj9o2Pzf3Avhj7LPnthlA8uiPydxI",
         "N_joining_triggers": "1qAxQzPWstxG2JvTPwefwb6bsusaLT925VTbTKYc5MQs",
        
         "N_delivery_data_response": "1i3puoL9482g-kxsh6Lolx7MHofguED8I2MI-GkpefrA",
@@ -54,7 +54,10 @@
                 "base.edits_pretranslation"
             ],
             "format": "sheets",
-            "subformat": "google_sheets"
+            "subformat": "google_sheets",
+             "files_list": [
+                "local_edits_sheet_ID"
+            ]
         },
         "edits_posttranslation": {
             "parent_sources": [
