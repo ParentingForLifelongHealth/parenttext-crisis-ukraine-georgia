@@ -1195,7 +1195,10 @@
                     "\u0442\u0435\u0441\u0442_\u0443\u043a\u0440",
                     "\u0442\u0435\u0441\u0442_ge"
                 ],
-                "mispellings": []
+                "mispellings": [
+                    "test_online",
+                    "\u0442\u0435\u0441\u0442_\u041e\u043d\u043b\u0430\u0439\u043d"
+                ]
             },
             "Translation": {
                 "ukr": {
@@ -1205,7 +1208,10 @@
                         "\u0442\u0435\u0441\u0442_\u0443\u043a\u0440",
                         "\u0442\u0435\u0441\u0442_ge"
                     ],
-                    "mispellings": []
+                    "mispellings": [
+                        "test_online",
+                        "\u0442\u0435\u0441\u0442_\u041e\u043d\u043b\u0430\u0439\u043d"
+                    ]
                 }
             }
         },
@@ -1213,35 +1219,27 @@
             "English": {
                 "keywords": [
                     "Chat",
-                    "\u0447\u0430\u0442"
+                    "\u0447\u0430\u0442",
+                    "Care",
+                    "\u0442\u0443\u0440\u0431\u043e\u0442\u0430"
                 ],
-                "mispellings": []
+                "mispellings": [
+                    "Support",
+                    "\u041e\u043f\u043e\u0440\u0430"
+                ]
             },
             "Translation": {
                 "ukr": {
                     "keywords": [
                         "Chat",
-                        "\u0447\u0430\u0442"
-                    ],
-                    "mispellings": []
-                }
-            }
-        },
-        {
-            "English": {
-                "keywords": [
-                    "Care",
-                    "\u0442\u0443\u0440\u0431\u043e\u0442\u0430"
-                ],
-                "mispellings": []
-            },
-            "Translation": {
-                "ukr": {
-                    "keywords": [
+                        "\u0447\u0430\u0442",
                         "Care",
                         "\u0442\u0443\u0440\u0431\u043e\u0442\u0430"
                     ],
-                    "mispellings": []
+                    "mispellings": [
+                        "Support",
+                        "\u041e\u043f\u043e\u0440\u0430"
+                    ]
                 }
             }
         },
@@ -1249,7 +1247,9 @@
             "English": {
                 "keywords": [
                     "Bot",
-                    "\u0411\u043e\u0442"
+                    "\u0411\u043e\u0442",
+                    "Safeguarding",
+                    "\u0437\u0430\u0445\u0438\u0441\u0442"
                 ],
                 "mispellings": []
             },
@@ -1257,25 +1257,9 @@
                 "ukr": {
                     "keywords": [
                         "Bot",
-                        "\u0411\u043e\u0442"
-                    ],
-                    "mispellings": []
-                }
-            }
-        },
-        {
-            "English": {
-                "keywords": [
-                    "Support",
-                    "\u041e\u043f\u043e\u0440\u0430"
-                ],
-                "mispellings": []
-            },
-            "Translation": {
-                "ukr": {
-                    "keywords": [
-                        "Support",
-                        "\u041e\u043f\u043e\u0440\u0430"
+                        "\u0411\u043e\u0442",
+                        "Safeguarding",
+                        "\u0437\u0430\u0445\u0438\u0441\u0442"
                     ],
                     "mispellings": []
                 }
@@ -1420,6 +1404,132 @@
                     "keywords": [
                         "Trust",
                         "\u0414\u043e\u0432\u0456\u0440\u0430"
+                    ],
+                    "mispellings": []
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "Kind",
+                    "\u0414\u043e\u0431\u0440\u043e"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "ukr": {
+                    "keywords": [
+                        "Kind",
+                        "\u0414\u043e\u0431\u0440\u043e"
+                    ],
+                    "mispellings": []
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "Dream",
+                    "\u041c\u0440\u0456\u044f"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "ukr": {
+                    "keywords": [
+                        "Dream",
+                        "\u041c\u0440\u0456\u044f"
+                    ],
+                    "mispellings": []
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "Star",
+                    "\u0417\u0456\u0440\u043a\u0430"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "ukr": {
+                    "keywords": [
+                        "Star",
+                        "\u0417\u0456\u0440\u043a\u0430"
+                    ],
+                    "mispellings": []
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "Joy",
+                    "\u0420\u0430\u0434\u0456\u0441\u0442\u044c"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "ukr": {
+                    "keywords": [
+                        "Joy",
+                        "\u0420\u0430\u0434\u0456\u0441\u0442\u044c"
+                    ],
+                    "mispellings": []
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "Light",
+                    "\u0421\u0432\u0456\u0442\u043b\u043e"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "ukr": {
+                    "keywords": [
+                        "Light",
+                        "\u0421\u0432\u0456\u0442\u043b\u043e"
+                    ],
+                    "mispellings": []
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "Smile",
+                    "\u041f\u043e\u0441\u043c\u0456\u0448\u043a\u0430"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "ukr": {
+                    "keywords": [
+                        "Smile",
+                        "\u041f\u043e\u0441\u043c\u0456\u0448\u043a\u0430"
+                    ],
+                    "mispellings": []
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "Friend",
+                    "\u0414\u0440\u0443\u0433"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "ukr": {
+                    "keywords": [
+                        "Friend",
+                        "\u0414\u0440\u0443\u0433"
                     ],
                     "mispellings": []
                 }

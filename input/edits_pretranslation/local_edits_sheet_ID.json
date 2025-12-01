@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "version": "0.1.0"
+  },
+  "sheets": {
+    "==content==": [
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "localise_menu",
+        "status": "released",
+        "order": "0"
+      }
+    ],
+    "localise_menu": [
+      {
+        "type_of_edit": "replace_flow",
+        "flow_id": "menu - settings",
+        "original_row_id": "",
+        "node_identifier": "menu - settings_profile_ukr",
+        "change": "menu - settings_profile_ukr",
+        "condition_var": "@fields.country",
+        "category": "menu - settings_profile_ukr",
+        "category:Georgia": "menu - settings_profile_geo",
+        "condition:Georgia": "georgia",
+        "condition_type:Georgia": "has_only_phrase"
+      }
+    ]
+  }
+}

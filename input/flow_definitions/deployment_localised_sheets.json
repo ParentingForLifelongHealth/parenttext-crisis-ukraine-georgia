@@ -183,6 +183,36 @@
         "tags.1": "",
         "tags.2": "",
         "tags.3": ""
+      },
+      {
+        "type": "create_flow",
+        "sheet_name": "test_interactions",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "demo",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "create_campaign",
+        "sheet_name": "1month_campaign_event",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "consent to study",
+        "tags.1": "campaign",
+        "tags.2": "",
+        "tags.3": ""
       }
     ],
     "wa_templates": [],
@@ -258,6 +288,27 @@
         "match_type": "O",
         "flow": "survey - demo - question - lang",
         "groups": ""
+      },
+      {
+        "type": "K",
+        "keywords": "test_inactive",
+        "match_type": "O",
+        "flow": "hook_message",
+        "groups": ""
+      },
+      {
+        "type": "K",
+        "keywords": "1month",
+        "match_type": "O",
+        "flow": "1month_survey_pre_wrapper",
+        "groups": ""
+      },
+      {
+        "type": "K",
+        "keywords": "test_tg",
+        "match_type": "O",
+        "flow": "test_interactions",
+        "groups": ""
       }
     ],
     "goal_data": [
@@ -298,15 +349,6 @@
         "name.ukr": "Як допомогти дітям у складні часи"
       },
       {
-        "ID": "when_someone_dies",
-        "topic_ID": "when_someone_dies",
-        "priority_in_topic": "",
-        "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
-        "child_gender": "male|female",
-        "name.eng": "Help Children when Someone Dies",
-        "name.ukr": "Як допомогти дитині пережити втрату близької людини"
-      },
-      {
         "ID": "protect_sexual_violence",
         "topic_ID": "protect_sexual_violence",
         "priority_in_topic": "",
@@ -314,6 +356,15 @@
         "child_gender": "male|female",
         "name.eng": "Protect our Children from Sexual Violence",
         "name.ukr": "Як захистити дитину від сексуального насильства"
+      },
+      {
+        "ID": "when_someone_dies",
+        "topic_ID": "when_someone_dies",
+        "priority_in_topic": "",
+        "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
+        "child_gender": "male|female",
+        "name.eng": "Help Children when Someone Dies",
+        "name.ukr": "Як допомогти дитині пережити втрату близької людини"
       },
       {
         "ID": "keep_children_safe",
@@ -387,12 +438,12 @@
         "priority_in_goal_c": "03"
       },
       {
-        "ID": "when_someone_dies",
+        "ID": "protect_sexual_violence",
         "goal_id_c": "core",
         "priority_in_goal_c": "04"
       },
       {
-        "ID": "protect_sexual_violence",
+        "ID": "when_someone_dies",
         "goal_id_c": "core",
         "priority_in_goal_c": "05"
       },
@@ -512,6 +563,396 @@
         "match_type": "O",
         "flow": "uncaught_message_flow",
         "groups": ""
+      }
+    ],
+    "test_interactions": [
+      {
+        "row_id": "",
+        "type": "save_value",
+        "edges.1.from": "",
+        "edges.1.condition": "",
+        "message_text": "4",
+        "save_name": "c n mod started"
+      },
+      {
+        "row_id": "",
+        "type": "set_contact_language",
+        "edges.1.from": "",
+        "edges.1.condition": "",
+        "message_text": "ukr",
+        "save_name": ""
+      },
+      {
+        "row_id": "msg.Which_WA_templa",
+        "type": "send_message",
+        "edges.1.from": "",
+        "edges.1.condition": "",
+        "message_text": "Which interaction would you like to test?\n\n1. Unfinished Onboarding\n2. Unfinished Baseline\n3. Complete Start Module\n4. Start Started Module or Later (One)\n5. Start Started Module or Later (Multiple)\n6. First Module Intro\n7. Daily Interaction\n8. Interaction - Make a Routine\n9. Interaction - Help Children Cope\n10. Interaction - Protect from Sexual Violence\n11. Interaction - When Someone Dies\n12. Interaction - Keep Children Safe\n13. Interaction - Travel Safely\n14. Interaction - Protect from Traffickers\n15. Interaction - Care in a Shelter\n16. Interaction - Bullying\n17. Interaction - Cyberbullying\n18. 3 day inactivity\n19. 1 Month survey\n20. 1 Month survey Reminder\n\nType \"N\" to stop",
+        "save_name": ""
+      },
+      {
+        "row_id": "switch.Result_1",
+        "type": "wait_for_response",
+        "edges.1.from": "msg.Which_WA_templa",
+        "edges.1.condition": "",
+        "message_text": "",
+        "save_name": "Result 1"
+      },
+      {
+        "row_id": "flow.interaction_-_u",
+        "type": "start_new_flow",
+        "edges.1.from": "switch.Result_1",
+        "edges.1.condition": "value;1|variable;@input.text|type;has_any_word|name;1",
+        "message_text": "interaction - unfinished_onboarding",
+        "save_name": ""
+      },
+      {
+        "row_id": "goto.msg.Which_WA_templa",
+        "type": "go_to",
+        "edges.1.from": "flow.interaction_-_u",
+        "edges.1.condition": "value;completed|variable;@child.status|type;has_only_text|name;Complete",
+        "message_text": "msg.Which_WA_templa|",
+        "save_name": ""
+      },
+      {
+        "row_id": "flow.interaction_-_u.1",
+        "type": "start_new_flow",
+        "edges.1.from": "switch.Result_1",
+        "edges.1.condition": "value;2|variable;@input.text|type;has_any_word|name;2",
+        "message_text": "interaction - unfinished_baseline",
+        "save_name": ""
+      },
+      {
+        "row_id": "goto.msg.Which_WA_templa.1",
+        "type": "go_to",
+        "edges.1.from": "flow.interaction_-_u.1",
+        "edges.1.condition": "value;completed|variable;@child.status|type;has_only_text|name;Complete",
+        "message_text": "msg.Which_WA_templa|",
+        "save_name": ""
+      },
+      {
+        "row_id": "flow.interaction_-_c",
+        "type": "start_new_flow",
+        "edges.1.from": "switch.Result_1",
+        "edges.1.condition": "value;3|variable;@input.text|type;has_any_word|name;3",
+        "message_text": "interaction - complete_start_module",
+        "save_name": ""
+      },
+      {
+        "row_id": "goto.msg.Which_WA_templa.2",
+        "type": "go_to",
+        "edges.1.from": "flow.interaction_-_c",
+        "edges.1.condition": "value;completed|variable;@child.status|type;has_only_text|name;Complete",
+        "message_text": "msg.Which_WA_templa|",
+        "save_name": ""
+      },
+      {
+        "row_id": "flow.interaction_-_s",
+        "type": "start_new_flow",
+        "edges.1.from": "switch.Result_1",
+        "edges.1.condition": "value;4|variable;@input.text|type;has_any_word|name;4",
+        "message_text": "interaction - start_started_mod_or_later_one",
+        "save_name": ""
+      },
+      {
+        "row_id": "goto.msg.Which_WA_templa.3",
+        "type": "go_to",
+        "edges.1.from": "flow.interaction_-_s",
+        "edges.1.condition": "value;completed|variable;@child.status|type;has_only_text|name;Complete",
+        "message_text": "msg.Which_WA_templa|",
+        "save_name": ""
+      },
+      {
+        "row_id": "flow.interaction_-_s.1",
+        "type": "start_new_flow",
+        "edges.1.from": "switch.Result_1",
+        "edges.1.condition": "value;5|variable;@input.text|type;has_any_word|name;5",
+        "message_text": "interaction - start_started_mod_or_later_multiple",
+        "save_name": ""
+      },
+      {
+        "row_id": "goto.msg.Which_WA_templa.4",
+        "type": "go_to",
+        "edges.1.from": "flow.interaction_-_s.1",
+        "edges.1.condition": "value;completed|variable;@child.status|type;has_only_text|name;Complete",
+        "message_text": "msg.Which_WA_templa|",
+        "save_name": ""
+      },
+      {
+        "row_id": "flow.interaction_-_f",
+        "type": "start_new_flow",
+        "edges.1.from": "switch.Result_1",
+        "edges.1.condition": "value;6|variable;@input.text|type;has_any_word|name;6",
+        "message_text": "interaction - first_module_intro",
+        "save_name": ""
+      },
+      {
+        "row_id": "goto.msg.Which_WA_templa.5",
+        "type": "go_to",
+        "edges.1.from": "flow.interaction_-_f",
+        "edges.1.condition": "value;completed|variable;@child.status|type;has_only_text|name;Complete",
+        "message_text": "msg.Which_WA_templa|",
+        "save_name": ""
+      },
+      {
+        "row_id": "flow.interaction_-_d",
+        "type": "start_new_flow",
+        "edges.1.from": "switch.Result_1",
+        "edges.1.condition": "value;7|variable;@input.text|type;has_any_word|name;7",
+        "message_text": "interaction - daily_interaction",
+        "save_name": ""
+      },
+      {
+        "row_id": "goto.msg.Which_WA_templa.6",
+        "type": "go_to",
+        "edges.1.from": "flow.interaction_-_d",
+        "edges.1.condition": "value;completed|variable;@child.status|type;has_only_text|name;Complete",
+        "message_text": "msg.Which_WA_templa|",
+        "save_name": ""
+      },
+      {
+        "row_id": "flow.interaction_-_h",
+        "type": "start_new_flow",
+        "edges.1.from": "switch.Result_1",
+        "edges.1.condition": "value;8|variable;@input.text|type;has_any_word|name;8",
+        "message_text": "interaction - make_a_routine",
+        "save_name": ""
+      },
+      {
+        "row_id": "goto.msg.Which_WA_templa.7",
+        "type": "go_to",
+        "edges.1.from": "flow.interaction_-_h",
+        "edges.1.condition": "value;completed|variable;@child.status|type;has_only_text|name;Complete",
+        "message_text": "msg.Which_WA_templa|",
+        "save_name": ""
+      },
+      {
+        "row_id": "flow.interaction_-_m",
+        "type": "start_new_flow",
+        "edges.1.from": "switch.Result_1",
+        "edges.1.condition": "value;9|variable;@input.text|type;has_any_word|name;9",
+        "message_text": "interaction - help_children_cope",
+        "save_name": ""
+      },
+      {
+        "row_id": "goto.msg.Which_WA_templa.8",
+        "type": "go_to",
+        "edges.1.from": "flow.interaction_-_m",
+        "edges.1.condition": "value;completed|variable;@child.status|type;has_only_text|name;Complete",
+        "message_text": "msg.Which_WA_templa|",
+        "save_name": ""
+      },
+      {
+        "row_id": "flow.interaction_-_p",
+        "type": "start_new_flow",
+        "edges.1.from": "switch.Result_1",
+        "edges.1.condition": "value;10|variable;@input.text|type;has_any_word|name;10",
+        "message_text": "interaction - protect_sexual_violence",
+        "save_name": ""
+      },
+      {
+        "row_id": "goto.msg.Which_WA_templa.9",
+        "type": "go_to",
+        "edges.1.from": "flow.interaction_-_p",
+        "edges.1.condition": "value;completed|variable;@child.status|type;has_only_text|name;Complete",
+        "message_text": "msg.Which_WA_templa|",
+        "save_name": ""
+      },
+      {
+        "row_id": "flow.interaction_-_t",
+        "type": "start_new_flow",
+        "edges.1.from": "switch.Result_1",
+        "edges.1.condition": "value;11|variable;@input.text|type;has_any_word|name;11",
+        "message_text": "interaction - when_someone_dies",
+        "save_name": ""
+      },
+      {
+        "row_id": "goto.msg.Which_WA_templa.10",
+        "type": "go_to",
+        "edges.1.from": "flow.interaction_-_t",
+        "edges.1.condition": "value;completed|variable;@child.status|type;has_only_text|name;Complete",
+        "message_text": "msg.Which_WA_templa|",
+        "save_name": ""
+      },
+      {
+        "row_id": "flow.interaction_-_p.1",
+        "type": "start_new_flow",
+        "edges.1.from": "switch.Result_1",
+        "edges.1.condition": "value;12|variable;@input.text|type;has_any_word|name;12",
+        "message_text": "interaction - keep_children_safe",
+        "save_name": ""
+      },
+      {
+        "row_id": "goto.msg.Which_WA_templa.11",
+        "type": "go_to",
+        "edges.1.from": "flow.interaction_-_p.1",
+        "edges.1.condition": "value;completed|variable;@child.status|type;has_only_text|name;Complete",
+        "message_text": "msg.Which_WA_templa|",
+        "save_name": ""
+      },
+      {
+        "row_id": "flow.interaction_-_w",
+        "type": "start_new_flow",
+        "edges.1.from": "switch.Result_1",
+        "edges.1.condition": "value;13|variable;@input.text|type;has_any_word|name;13",
+        "message_text": "interaction - travel_safely",
+        "save_name": ""
+      },
+      {
+        "row_id": "goto.msg.Which_WA_templa.12",
+        "type": "go_to",
+        "edges.1.from": "flow.interaction_-_w",
+        "edges.1.condition": "value;completed|variable;@child.status|type;has_only_text|name;Complete",
+        "message_text": "msg.Which_WA_templa|",
+        "save_name": ""
+      },
+      {
+        "row_id": "flow.interaction_-_k",
+        "type": "start_new_flow",
+        "edges.1.from": "switch.Result_1",
+        "edges.1.condition": "value;14|variable;@input.text|type;has_any_word|name;14",
+        "message_text": "interaction - protect_from_traffickers",
+        "save_name": ""
+      },
+      {
+        "row_id": "goto.msg.Which_WA_templa.13",
+        "type": "go_to",
+        "edges.1.from": "flow.interaction_-_k",
+        "edges.1.condition": "value;completed|variable;@child.status|type;has_only_text|name;Complete",
+        "message_text": "msg.Which_WA_templa|",
+        "save_name": ""
+      },
+      {
+        "row_id": "flow.interaction_-_p.2",
+        "type": "start_new_flow",
+        "edges.1.from": "switch.Result_1",
+        "edges.1.condition": "value;15|variable;@input.text|type;has_any_word|name;15",
+        "message_text": "interaction - care_in_a_shelter",
+        "save_name": ""
+      },
+      {
+        "row_id": "goto.msg.Which_WA_templa.14",
+        "type": "go_to",
+        "edges.1.from": "flow.interaction_-_p.2",
+        "edges.1.condition": "value;completed|variable;@child.status|type;has_only_text|name;Complete",
+        "message_text": "msg.Which_WA_templa|",
+        "save_name": ""
+      },
+      {
+        "row_id": "flow.interaction_-_c.1",
+        "type": "start_new_flow",
+        "edges.1.from": "switch.Result_1",
+        "edges.1.condition": "value;16|variable;@input.text|type;has_any_word|name;16",
+        "message_text": "interaction - bullying",
+        "save_name": ""
+      },
+      {
+        "row_id": "goto.msg.Which_WA_templa.15",
+        "type": "go_to",
+        "edges.1.from": "flow.interaction_-_c.1",
+        "edges.1.condition": "value;completed|variable;@child.status|type;has_only_text|name;Complete",
+        "message_text": "msg.Which_WA_templa|",
+        "save_name": ""
+      },
+      {
+        "row_id": "flow.hook_message",
+        "type": "start_new_flow",
+        "edges.1.from": "switch.Result_1",
+        "edges.1.condition": "value;17|variable;@input.text|type;has_any_word|name;17",
+        "message_text": "interaction - cyberbullying",
+        "save_name": ""
+      },
+      {
+        "row_id": "goto.msg.Which_WA_templa.16",
+        "type": "go_to",
+        "edges.1.from": "flow.hook_message",
+        "edges.1.condition": "value;completed|variable;@child.status|type;has_only_text|name;Complete",
+        "message_text": "msg.Which_WA_templa|",
+        "save_name": ""
+      },
+      {
+        "row_id": "flow.interaction_-_1",
+        "type": "start_new_flow",
+        "edges.1.from": "switch.Result_1",
+        "edges.1.condition": "value;18|variable;@input.text|type;has_any_word|name;18",
+        "message_text": "hook_message",
+        "save_name": ""
+      },
+      {
+        "row_id": "goto.msg.Which_WA_templa.17",
+        "type": "go_to",
+        "edges.1.from": "flow.interaction_-_1",
+        "edges.1.condition": "value;completed|variable;@child.status|type;has_only_text|name;Complete",
+        "message_text": "msg.Which_WA_templa|",
+        "save_name": ""
+      },
+      {
+        "row_id": "flow.interaction_-_1.1",
+        "type": "start_new_flow",
+        "edges.1.from": "switch.Result_1",
+        "edges.1.condition": "value;19|variable;@input.text|type;has_any_word|name;19",
+        "message_text": "interaction - 1month",
+        "save_name": ""
+      },
+      {
+        "row_id": "goto.msg.Which_WA_templa.18",
+        "type": "go_to",
+        "edges.1.from": "flow.interaction_-_1.1",
+        "edges.1.condition": "value;completed|variable;@child.status|type;has_only_text|name;Complete",
+        "message_text": "msg.Which_WA_templa|",
+        "save_name": ""
+      },
+      {
+        "row_id": "flow.interaction_-_1.2",
+        "type": "start_new_flow",
+        "edges.1.from": "switch.Result_1",
+        "edges.1.condition": "value;20|variable;@input.text|type;has_any_word|name;20",
+        "message_text": "interaction - 1month_reminder",
+        "save_name": ""
+      },
+      {
+        "row_id": "goto.msg.Which_WA_templa.19",
+        "type": "go_to",
+        "edges.1.from": "flow.interaction_-_1.2",
+        "edges.1.condition": "value;completed|variable;@child.status|type;has_only_text|name;Complete",
+        "message_text": "msg.Which_WA_templa|",
+        "save_name": ""
+      },
+      {
+        "row_id": "msg.Bye_for_now",
+        "type": "send_message",
+        "edges.1.from": "switch.Result_1",
+        "edges.1.condition": "value;N|variable;@input.text|type;has_any_word|name;N",
+        "message_text": "Bye for now!",
+        "save_name": ""
+      },
+      {
+        "row_id": "msg.Sorry_I_dont_un",
+        "type": "send_message",
+        "edges.1.from": "switch.Result_1",
+        "edges.1.condition": "",
+        "message_text": "Sorry, I don't understand what you mean",
+        "save_name": ""
+      },
+      {
+        "row_id": "goto.msg.Which_WA_templa.20",
+        "type": "go_to",
+        "edges.1.from": "msg.Sorry_I_dont_un",
+        "edges.1.condition": "",
+        "message_text": "msg.Which_WA_templa|",
+        "save_name": ""
+      }
+    ],
+    "1month_campaign_event": [
+      {
+        "offset": "45",
+        "unit": "D",
+        "event_type": "F",
+        "delivery_hour": "",
+        "message": "",
+        "relative_to": "consent time",
+        "start_mode": "I",
+        "flow": "1month_survey_wrapper"
       }
     ]
   }

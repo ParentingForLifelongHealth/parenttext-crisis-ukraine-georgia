@@ -48,14 +48,32 @@
     "note": ""
   },
   {
-    "SourceText": "That's okay.",
-    "text": "Все гаразд.",
+    "SourceText": "That's okay. We'll check-in again with you tomorrow.",
+    "text": "Гаразд. Повернемося до чату завтра.",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "Sorry, I don't understand what you mean.",
     "text": "Вибачте, я не розумію, що ви маєте на увазі.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Hello again! ",
+    "text": "Привіт! ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Would you like to continue? 🙂",
+    "text": "Хотіли б продовжити?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for letting us know.",
+    "text": "Дякую, що поділилися.",
     "type": "text",
     "note": ""
   },
@@ -133,7 +151,7 @@
   },
   {
     "SourceText": "Thank you again for sharing with us 💛 Worry can be so difficult, and we hope ParentText can help.",
-    "text": "Щиро дякуємо, що поділилися 💛Тривога може дуже виснажувати, ми сподіваємось, що ця інформація стане вам у пригоді.",
+    "text": "Щиро дякуємо, що поділилися 💛Тривога може виснажувати. Ми сподіваємось, що ця інформація стане вам у пригоді.",
     "type": "text",
     "note": ""
   },
@@ -150,14 +168,26 @@
     "note": ""
   },
   {
-    "SourceText": "It’ll take only 2 minutes ⏱️, and your answers help make these tips better for you and other families 💛",
-    "text": "Це займе всього 2 хвилини ⏱️, а ваші відповіді допоможуть зробити ці поради ще кращими для вас і інших родин 💛",
+    "SourceText": "Some of the next questions are more personal, about mood and parenting. 💛",
+    "text": "Далі — кілька запитань про настрій і батьківство. 💛\n",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "Would you like to continue?",
-    "text": "Бажаєте продовжити?",
+    "SourceText": "Your answers are private and help make the programme better for families.",
+    "text": "Ваші відповіді конфіденційні та допомагають зробити програму кращою для сімей.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You can skip any question you don’t want to answer.",
+    "text": "Ви можете пропустити будь-яке запитання, на яке не хочете відповідати.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Do you agree to answer these questions?",
+    "text": "Ви бажаєте відповісти на ці запитання?",
     "type": "text",
     "note": ""
   },
@@ -169,13 +199,7 @@
   },
   {
     "SourceText": "It’s okay if those feelings were rare this week. Some weeks are heavier than others 🙏",
-    "text": "Все гаразд, якщо цього тижня надія з’являлася нечасто. Деколи бувають складніші періоди 🙏",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "That’s encouraging to hear 💛 Hope is a powerful ☀️",
-    "text": "Раді це чути 💛Надія — це велика сила ☀️",
+    "text": "Це нормально, якщо цього тижня надія з’являлася нечасто. Деколи бувають складні періоди 🙏",
     "type": "text",
     "note": ""
   },
@@ -265,7 +289,7 @@
   },
   {
     "SourceText": "Final question! We know parenting can be stressful, especially at times when children misbehave 🙏",
-    "text": "Ось і останнє запитання! Знаємо, що виховання буває нелегким, особливо у моменти, коли діти неслухняні 🙏",
+    "text": "Останнє запитання. Знаємо, що виховання буває нелегким, особливо у моменти, коли діти неслухняні 🙏",
     "type": "text",
     "note": ""
   },
@@ -355,7 +379,7 @@
   },
   {
     "SourceText": "NEXT",
-    "text": "NEXT",
+    "text": "ДАЛІ",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },

@@ -130,7 +130,7 @@
             "type": "create_flows",
             "models_module": "models.parenttext_models",
             "sources": ["flow_definitions"],
-            "tags": []
+            "tags": [1,"delivery"]
         },
         {
             "id": "update_expiration_times",

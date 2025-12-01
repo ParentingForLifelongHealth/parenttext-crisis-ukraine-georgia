@@ -139,7 +139,10 @@
         "condition_type:Ukraine": "has_only_phrase",
         "category:Georgia": "{natural_disasters_referrals georgia}",
         "condition:Georgia": "georgia",
-        "condition_type:Georgia": "has_only_phrase"
+        "condition_type:Georgia": "has_only_phrase",
+        "category:Outside Georgia & Ukraine": "{natural_disasters_referrals outside}",
+        "condition:Outside Georgia & Ukraine": "Outside Georgia & Ukraine",
+        "condition_type:Outside Georgia & Ukraine": "has_only_phrase"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -154,7 +157,10 @@
         "condition_type:Ukraine": "has_only_phrase",
         "category:Georgia": "{mental_health_referrals georgia}",
         "condition:Georgia": "georgia",
-        "condition_type:Georgia": "has_only_phrase"
+        "condition_type:Georgia": "has_only_phrase",
+        "category:Outside Georgia & Ukraine": "{mental_health_referrals outside}",
+        "condition:Outside Georgia & Ukraine": "Outside Georgia & Ukraine",
+        "condition_type:Outside Georgia & Ukraine": "has_only_phrase"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -169,7 +175,10 @@
         "condition_type:Ukraine": "has_only_phrase",
         "category:Georgia": "{health_referrals georgia}",
         "condition:Georgia": "georgia",
-        "condition_type:Georgia": "has_only_phrase"
+        "condition_type:Georgia": "has_only_phrase",
+        "category:Outside Georgia & Ukraine": "{health_referrals outside}",
+        "condition:Outside Georgia & Ukraine": "Outside Georgia & Ukraine",
+        "condition_type:Outside Georgia & Ukraine": "has_only_phrase"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -184,7 +193,10 @@
         "condition_type:Ukraine": "has_only_phrase",
         "category:Georgia": "{generic_referrals georgia}",
         "condition:Georgia": "georgia",
-        "condition_type:Georgia": "has_only_phrase"
+        "condition_type:Georgia": "has_only_phrase",
+        "category:Outside Georgia & Ukraine": "{generic_referrals outside}",
+        "condition:Outside Georgia & Ukraine": "Outside Georgia & Ukraine",
+        "condition_type:Outside Georgia & Ukraine": "has_only_phrase"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -199,7 +211,10 @@
         "condition_type:Ukraine": "has_only_phrase",
         "category:Georgia": "{family_referrals georgia}",
         "condition:Georgia": "georgia",
-        "condition_type:Georgia": "has_only_phrase"
+        "condition_type:Georgia": "has_only_phrase",
+        "category:Outside Georgia & Ukraine": "{family_referrals outside}",
+        "condition:Outside Georgia & Ukraine": "Outside Georgia & Ukraine",
+        "condition_type:Outside Georgia & Ukraine": "has_only_phrase"
       }
     ],
     "referrals_eng": [
@@ -292,6 +307,96 @@
         "change": "{family_referrals georgia}",
         "condition_var": "",
         "category": "If you’ve come to Georgia with your family, there is help available. From financial assistance and housing to language and educational programs, these services are here to support you as you rebuild your life:\n\n *State Financial Assistance for Ukrainian Refugees*  \nUnder Government Decree #1254 (extended until July 2025), financial support is available for Ukrainian refugees in Georgia.  \nSupport includes:  \n- 300 GEL per family + 45 GEL per person\n- 10 days of emergency accommodation for new arrivals after 15 July (and continued support if assessed as vulnerable)  \n- Families already receiving aid will continue to receive it until 1 July 2025 without reassessment  \n\n📞 *Hotline for emergency accommodation*: 1505 (Ministry of Health) \n🗂️ Register for financial aid at the nearest Social Services Agency office\n\n*Happy Space Tbilisi*  \n📍 111 Dimitri Uznadze St, Tbilisi\n📞 +995 577 25 90 16  \n\n*Happy Space Batumi*  \n📍 72 Takaishvili St, Batumi  \n📞 +995 577 65 73 02\n\n *Free Georgian Language and Civic Education Courses*  \nOffered by the Internally Displaced Persons, Ecomigrants and Livelihood Agency  \n- Free for asylum seekers, refugees, humanitarian status holders, and stateless persons  \n- Civic education classes to help with integration  \n- Ages 16+, register anytime  \n- Online and in-person classes available  \n📍 Face-to-face: 15a Mikheil Tamarashvili St, 0186, Tbilisi  \n📞 +995 555 000 119 / +995 511 142 384 / (032) 2 14 02 42  \n📧 info@idp.gov.ge\n\n*Funding for Sports, Arts, and Educational Courses (Under Age 18)*  \nIf you're under 18 and have refugee, humanitarian, or stateless status:  \n- You can apply for funding up to 1,500 GEL per year for courses  \n- Applies to sports, creative, and educational activities  \n- Monthly payments made directly to the institution  \n📍 Apply at the agency’s office or by post (forms available at www.idp.moh.gov.ge) \n📧 info@idp.gov.ge\n📞 +995 511 14 23 84\n\n*Agency Addresses:*  \n- Tbilisi: 15a M. Tamarashvili St.  \n- Gori: 1 Sameba St.  \n- Rustavi: 20 Kostava St.  \n- Kutaisi: 27 Ir. Abashidze Ave.  \n- Zugdidi: 106 D. Aghmashenebeli St.\n\n *Temporary Reception Centre for Asylum Seekers*  \nShelter for vulnerable asylum seekers provided by the Ministry of Internal Affairs.  \n- Located in Village Martkopi, near Tbilisi  \n- Separate blocks for families, women, and single men  \n- Facilities include a play area, football field, internet room, and Georgian language classes  \n📍 Apply via the Division of International Protection  \n📍 16 Mikheil Gakhokidze St, 0182, Tbilisi\n📞 +995 598 08 00 97  \n📧 dipi@mia.gov.ge"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{natural_disasters_referrals outside}.*",
+        "change": "{natural_disasters_referrals outside}",
+        "condition_var": "",
+        "category": "This part of the chatbot isn’t available just yet, but we’re working on it so we can support you even better in the future."
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{mental_health_referrals outside}.*",
+        "change": "{mental_health_referrals outside}",
+        "condition_var": "",
+        "category": "This part of the chatbot isn’t available just yet, but we’re working on it so we can support you even better in the future."
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{health_referrals outside}.*",
+        "change": "{health_referrals outside}",
+        "condition_var": "",
+        "category": "This part of the chatbot isn’t available just yet, but we’re working on it so we can support you even better in the future."
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{generic_referrals outside}.*",
+        "change": "{generic_referrals outside}",
+        "condition_var": "",
+        "category": "This part of the chatbot isn’t available just yet, but we’re working on it so we can support you even better in the future."
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{family_referrals outside}.*",
+        "change": "{family_referrals outside}",
+        "condition_var": "",
+        "category": "This part of the chatbot isn’t available just yet, but we’re working on it so we can support you even better in the future."
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{natural_disasters_referrals}.*",
+        "change": "{natural_disasters_referrals}",
+        "condition_var": "",
+        "category": "This part of the chatbot isn’t available just yet, but we’re working on it so we can support you even better in the future."
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{mental_health_referrals}.*",
+        "change": "{mental_health_referrals}",
+        "condition_var": "",
+        "category": "This part of the chatbot isn’t available just yet, but we’re working on it so we can support you even better in the future."
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{health_referrals}.*",
+        "change": "{health_referrals}",
+        "condition_var": "",
+        "category": "This part of the chatbot isn’t available just yet, but we’re working on it so we can support you even better in the future."
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{generic_referrals}.*",
+        "change": "{generic_referrals}",
+        "condition_var": "",
+        "category": "This part of the chatbot isn’t available just yet, but we’re working on it so we can support you even better in the future."
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{family_referrals}.*",
+        "change": "{family_referrals}",
+        "condition_var": "",
+        "category": "This part of the chatbot isn’t available just yet, but we’re working on it so we can support you even better in the future."
       }
     ],
     "referrals_transl": [
@@ -302,7 +407,7 @@
         "node_identifier": "Regex:.*{natural_disasters_referrals ukraine}.*",
         "original": "{natural_disasters_referrals}",
         "language": "ukr",
-        "replacement": "Для термінового реагування у кризових ситуаціях (пожежі, повені, бурі):\n Державна служба України з надзвичайних ситуацій (ДСНС)\n 📞 101\n WhatsApp +380 67 678 5917\n Оповіщення про надзвичайні ситуації та координація рятувальних робіт.\n \n Регіональні служби цивільного захисту (ОДА)\n Планування та підтримка на місцевому рівні — звертайтесь на сайт вашої обласної адміністрації. Всі сайти ОДА можна знайти за посиланням: (https://komsamovr.rada.gov.ua/news/korysn_resurs/79880.html)"
+        "replacement": "Для термінового реагування у кризових ситуаціях (пожежі, повені, бурі):\n Державна служба України з надзвичайних ситуацій (ДСНС)\n 📞 101\n WhatsApp +380 67 678 5917\n Оповіщення про надзвичайні ситуації та координація рятувальних робіт.\n \n Регіональні служби цивільного захисту (ОДА)\n Планування та підтримка на місцевому рівні — звертайтесь на сайт вашої обласної адміністрації. Всі сайти ОДА можна знайти за посиланням: (https://komsamovr.rada.gov.ua/news/korysn\\_resurs/79880.html)"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -329,7 +434,7 @@
         "node_identifier": "Regex:.*{generic_referrals ukraine}.*",
         "original": "{generic_referrals}",
         "language": "ukr",
-        "replacement": "Міністерство внутрішніх справ України (Міграційна служба)\n Головний державний орган з питань притулку та реєстрації.\n 📍 вул. Богомольця, 10, Київ\n 📞 +380 44 256 11 11\n Телеграм: t.me/mvs_ukraine\n Сайт: mvs.gov.ua/en\n 📧 pgmia@mvs.gov.ua\n \n Якщо ви шукаєте притулок або потрібна реєстрація біженців, звертайтеся сюди.\n \n Уповноважений Верховної Ради України з прав людини (Омбудсмен)\n Конституційна установа, яка захищає права людини, включно із захистом біженців. Якщо ви вважаєте, що ваші права порушені — телефонуйте.\n 📍 01008, Київ, вул. Інститутська, 21/8\n 📞 0800 50 17 20\n 📞 044 299 74 08\n Сайт: ombudsman.gov.ua/en\n 📧 hotline@ombudsman.gov.ua\n \n (Лише для електронних звернень та консультацій адвокатів)\n \n Право на захист (R2P)\n Українська громадська організація, партнер УВКБ ООН, що надає безкоштовну правову допомогу біженцям, шукачам притулку, внутрішньо переміщеним особам та особам без громадянства. Консультації, допомога з документами, представництво у судах.\n 📍 вул. Григорія Сковороди, 21/16, Київ\n 📞 +38 044 337 17 62\n WhatsApp/Viber: +38 093 038 95 62\n 📧 complaint@r2p.org.ua\n Сайт: r2p.org.ua/en/category/napriamy-diialnosti\n \n УВКБ ООН в Україні\n Основна агенція ООН, яка підтримує біженців і надає захист. Звертайтеся за порадами щодо притулку, захисту та перенаправлення.\n 📍 Eurasia BC, вул. Жилянська, 75, Київ, 01032\n Для внутрішньо переміщених осіб, постраждалих від війни та тих, хто повертається:\n 📞 Гаряча лінія: 0 800 307 711 (пн-пт, 9:00–18:00)\n 📧 UNHCRUkraine@DonbasSOS.org\n \n Через велику кількість звернень та ситуацію безпеки відповіді можуть затримуватися.\n Для біженців та шукачів притулку:\n 📞 Гаряча лінія УВКБ ООН: 0 800 307 711 (пн-пт, 9:00–18:00)\n 📧 ukrkiprt@unhcr.org\n Сайт: www.unhcr.org/ua/en\n \n МОМ Україна\n Міжнародна організація з міграції підтримує управління міграцією, добровільне повернення та ВПО. Звертайтеся для допомоги з переселенням, поверненням, міграційною та правовою підтримкою.\n 📍 вул. Михайлівська, 8, Київ, 01001\n 📞 0 800 215 015 (пн-пт, 9:00–17:00)\n 📞 (044) 568 50 15 | Факс: (044) 568 50 16\n 📧 SMUKRcfm@iom.int\n Сайт: ukraine.iom.int\n \n Національний комітет Червоного Хреста України\n Надає гуманітарну допомогу, першу допомогу, послуги пошуку, психосоціальну підтримку. Безкоштовні юридичні консультації, допомога з документами, судове представництво. Допомога у надзвичайних ситуаціях, пошук розлучених родичів, підтримка психічного здоров’я.\n 📍 01024, Київ, вул. Євгена Чикаленка, 30\n 📞 0 800 332 656\n 📧 national@redcross.org.ua\n Сайт: redcross.org.ua/en"
+        "replacement": "Міністерство внутрішніх справ України (Міграційна служба)\n Головний державний орган з питань притулку та реєстрації.\n 📍 вул. Богомольця, 10, Київ\n 📞 +380 44 256 11 11\n Телеграм: t.me/mvs\\_ukraine\n Сайт: mvs.gov.ua/en\n 📧 pgmia@mvs.gov.ua\n \n Якщо ви шукаєте притулок або потрібна реєстрація біженців, звертайтеся сюди.\n \n Уповноважений Верховної Ради України з прав людини (Омбудсмен)\n Конституційна установа, яка захищає права людини, включно із захистом біженців. Якщо ви вважаєте, що ваші права порушені — телефонуйте.\n 📍 01008, Київ, вул. Інститутська, 21/8\n 📞 0800 50 17 20\n 📞 044 299 74 08\n Сайт: ombudsman.gov.ua/en\n 📧 hotline@ombudsman.gov.ua\n \n (Лише для електронних звернень та консультацій адвокатів)\n \n Право на захист (R2P)\n Українська громадська організація, партнер УВКБ ООН, що надає безкоштовну правову допомогу біженцям, шукачам притулку, внутрішньо переміщеним особам та особам без громадянства. Консультації, допомога з документами, представництво у судах.\n 📍 вул. Григорія Сковороди, 21/16, Київ\n 📞 +38 044 337 17 62\n WhatsApp/Viber: +38 093 038 95 62\n 📧 complaint@r2p.org.ua\n Сайт: r2p.org.ua/en/category/napriamy-diialnosti\n \n УВКБ ООН в Україні\n Основна агенція ООН, яка підтримує біженців і надає захист. Звертайтеся за порадами щодо притулку, захисту та перенаправлення.\n 📍 Eurasia BC, вул. Жилянська, 75, Київ, 01032\n Для внутрішньо переміщених осіб, постраждалих від війни та тих, хто повертається:\n 📞 Гаряча лінія: 0 800 307 711 (пн-пт, 9:00–18:00)\n 📧 UNHCRUkraine@DonbasSOS.org\n \n Через велику кількість звернень та ситуацію безпеки відповіді можуть затримуватися.\n Для біженців та шукачів притулку:\n 📞 Гаряча лінія УВКБ ООН: 0 800 307 711 (пн-пт, 9:00–18:00)\n 📧 ukrkiprt@unhcr.org\n Сайт: www.unhcr.org/ua/en\n \n МОМ Україна\n Міжнародна організація з міграції підтримує управління міграцією, добровільне повернення та ВПО. Звертайтеся для допомоги з переселенням, поверненням, міграційною та правовою підтримкою.\n 📍 вул. Михайлівська, 8, Київ, 01001\n 📞 0 800 215 015 (пн-пт, 9:00–17:00)\n 📞 (044) 568 50 15 | Факс: (044) 568 50 16\n 📧 SMUKRcfm@iom.int\n Сайт: ukraine.iom.int\n \n Національний комітет Червоного Хреста України\n Надає гуманітарну допомогу, першу допомогу, послуги пошуку, психосоціальну підтримку. Безкоштовні юридичні консультації, допомога з документами, судове представництво. Допомога у надзвичайних ситуаціях, пошук розлучених родичів, підтримка психічного здоров’я.\n 📍 01024, Київ, вул. Євгена Чикаленка, 30\n 📞 0 800 332 656\n 📧 national@redcross.org.ua\n Сайт: redcross.org.ua/en"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -383,7 +488,97 @@
         "node_identifier": "Regex:.*{family_referrals georgia}.*",
         "original": "{family_referrals}",
         "language": "ukr",
-        "replacement": "Якщо ви приїхали до Грузії з родиною, вам доступна допомога. Від фінансової допомоги та житла до мовних та освітніх програм, ці служби допоможуть вам відбудувати своє життя:\n \n *Державна фінансова допомога українським біженцям*\n Відповідно до Урядової постанови №1254 (продовженої до липня 2025 року), фінансова підтримка доступна для українських біженців у Грузії.\n Підтримка включає:\n - *300 ларі на сім'ю + 45 ларі на особу*\n - 10 днів екстреного проживання для новоприбулих після 15 липня (та подальша підтримка, якщо їх буде оцінено як вразливих)\n - Сім'ї, які вже отримують допомогу, продовжуватимуть отримувати її до *1 липня 2025 року* без переоцінки\n \n 📞 *Гаряча лінія для екстреного проживання: 1505 (Міністерство охорони здоров'я)*\n 🗂️ *Зареєструйтесь для отримання фінансової допомоги в найближчому офісі Агентства соціальних служб*\n \n *Щасливий простір Тбілісі*\n 📍 вул. Димитрія Узнадзе, 111, Тбілісі\n 📞 +995 577 25 90 16\n \n *Щасливий простір Батумі*\n 📍 вул. Такаішвілі, 72, Батумі\n 📞 +995 577 65 73 02\n ;\n *Безкоштовні курси грузинської мови та громадянської освіти*\n Пропонуються Агентством у справах внутрішньо переміщених осіб, екомігрантів та засобів до існування\n - Безкоштовно для шукачів притулку, біженців, осіб з гуманітарним статусом та осіб без громадянства\n - Заняття з громадянської освіти для допомоги в інтеграції\n - Вік 16+, реєстрація будь-коли\n - Доступні онлайн та очні заняття\n 📍 Очна зустріч: вул. Михайла Тамарашвілі, 15a, 0186, Тбілісі\n 📞 +995 555 000 119 / +995 511 142 384 / (032) 2 14 02 42\n 📧 info@idp.gov.ge\n \n *Фінансування спортивних, мистецьких та освітніх курсів (до 18 років)*\n Якщо вам менше 18 років і ви маєте статус біженця, гуманітарної особи або особи без громадянства:\n - Ви можете подати заявку на фінансування курсів до *1500 ларі на рік*\n - Стосується спорту, творчі та освітні заходи\n - Щомісячні платежі безпосередньо до установи\n 📍 Подайте заявку в офісі агентства або поштою (форми доступні на сайті [www.idp.moh.gov.ge](http://www.idp.moh.gov.ge))\n 📧 info@idp.gov.ge*\n 📞 *+995 511 14 23 84*\n ;\n *Адреси агентства:*\n - Тбілісі: вул. М. Тамарашвілі, 15a\n - Горі: вул. Самеба, 1\n - Руставі: вул. Костава, 20\n - Кутаїсі: пр. Ір. Абашидзе, 27\n - Зугдіді: вул. Д. Агмашенебелі, 106\n \n *Тимчасовий приймальний центр для шукачів притулку*\n Притулок для вразливих шукачів притулку, що надається Міністерством внутрішніх справ.\n - Розташований у *селі Марткопі*, поблизу Тбілісі\n - Окремі блоки для сімей, жінок та самотніх чоловіків\n - До послуг гостей дитячий майданчик, футбольне поле, інтернет-кімната та курси грузинської мови\n 📍 Подайте заявку через Відділ міжнародного захисту\n 📍 вул. Михайла Гахокідзе, 16, 0182, Тбілісі\n 📞 +995 598 08 00 97\n 📧 dipi@mia.gov.ge"
+        "replacement": "Якщо ви приїхали до Грузії з родиною, вам доступна допомога. Від фінансової допомоги та житла до мовних та освітніх програм, ці служби допоможуть вам відбудувати своє життя:\n \n *Державна фінансова допомога українським біженцям*\n Відповідно до Урядової постанови №1254 (продовженої до липня 2025 року), фінансова підтримка доступна для українських біженців у Грузії.\n Підтримка включає:\n - *300 ларі на сім'ю + 45 ларі на особу*\n - 10 днів екстреного проживання для новоприбулих після 15 липня (та подальша підтримка, якщо їх буде оцінено як вразливих)\n - Сім'ї, які вже отримують допомогу, продовжуватимуть отримувати її до *1 липня 2025 року* без переоцінки\n \n 📞 *Гаряча лінія для екстреного проживання: 1505 (Міністерство охорони здоров'я)*\n 🗂️ *Зареєструйтесь для отримання фінансової допомоги в найближчому офісі Агентства соціальних служб*\n \n *Щасливий простір Тбілісі*\n 📍 вул. Димитрія Узнадзе, 111, Тбілісі\n 📞 +995 577 25 90 16\n \n *Щасливий простір Батумі*\n 📍 вул. Такаішвілі, 72, Батумі\n 📞 +995 577 65 73 02\n \n *Безкоштовні курси грузинської мови та громадянської освіти*\n Пропонуються Агентством у справах внутрішньо переміщених осіб, екомігрантів та засобів до існування\n - Безкоштовно для шукачів притулку, біженців, осіб з гуманітарним статусом та осіб без громадянства\n - Заняття з громадянської освіти для допомоги в інтеграції\n - Вік 16+, реєстрація будь-коли\n - Доступні онлайн та очні заняття\n 📍 Очна зустріч: вул. Михайла Тамарашвілі, 15a, 0186, Тбілісі\n 📞 +995 555 000 119 / +995 511 142 384 / (032) 2 14 02 42\n 📧 info@idp.gov.ge\n \n *Фінансування спортивних, мистецьких та освітніх курсів (до 18 років)*\n Якщо вам менше 18 років і ви маєте статус біженця, гуманітарної особи або особи без громадянства:\n - Ви можете подати заявку на фінансування курсів до *1500 ларі на рік*\n - Стосується спорту, творчі та освітні заходи\n - Щомісячні платежі безпосередньо до установи\n 📍 Подайте заявку в офісі агентства або поштою (форми доступні на сайті http://www.idp.moh.gov.ge)\n 📧 info@idp.gov.ge\n 📞 +995 511 14 23 84\n \n *Адреси агентства:*\n - Тбілісі: вул. М. Тамарашвілі, 15a\n - Горі: вул. Самеба, 1\n - Руставі: вул. Костава, 20\n - Кутаїсі: пр. Ір. Абашидзе, 27\n - Зугдіді: вул. Д. Агмашенебелі, 106\n \n *Тимчасовий приймальний центр для шукачів притулку*\n Притулок для вразливих шукачів притулку, що надається Міністерством внутрішніх справ.\n - Розташований у *селі Марткопі*, поблизу Тбілісі\n - Окремі блоки для сімей, жінок та самотніх чоловіків\n - До послуг гостей дитячий майданчик, футбольне поле, інтернет-кімната та курси грузинської мови\n 📍 Подайте заявку через Відділ міжнародного захисту\n 📍 вул. Михайла Гахокідзе, 16, 0182, Тбілісі\n 📞 +995 598 08 00 97\n 📧 dipi@mia.gov.ge"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{natural_disasters_referrals outside}.*",
+        "original": "{natural_disasters_referrals}",
+        "language": "ukr",
+        "replacement": "Ця частина чат-бота ще недоступна, але працюємо над цим, щоб підтримувати вас ще краще в майбутньому."
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{mental_health_referrals outside}.*",
+        "original": "{mental_health_referrals}",
+        "language": "ukr",
+        "replacement": "Ця частина чат-бота ще недоступна, але працюємо над цим, щоб підтримувати вас ще краще в майбутньому."
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{health_referrals outside}.*",
+        "original": "{health_referrals}",
+        "language": "ukr",
+        "replacement": "Ця частина чат-бота ще недоступна, але працюємо над цим, щоб підтримувати вас ще краще в майбутньому."
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{generic_referrals outside}.*",
+        "original": "{generic_referrals}",
+        "language": "ukr",
+        "replacement": "Ця частина чат-бота ще недоступна, але працюємо над цим, щоб підтримувати вас ще краще в майбутньому."
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{family_referrals outside}.*",
+        "original": "{family_referrals}",
+        "language": "ukr",
+        "replacement": "Ця частина чат-бота ще недоступна, але працюємо над цим, щоб підтримувати вас ще краще в майбутньому."
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{natural_disasters_referrals}.*",
+        "original": "{natural_disasters_referrals}",
+        "language": "ukr",
+        "replacement": "Ця частина чат-бота ще недоступна, але працюємо над цим, щоб підтримувати вас ще краще в майбутньому."
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{mental_health_referrals}.*",
+        "original": "{mental_health_referrals}",
+        "language": "ukr",
+        "replacement": "Ця частина чат-бота ще недоступна, але працюємо над цим, щоб підтримувати вас ще краще в майбутньому."
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{health_referrals}.*",
+        "original": "{health_referrals}",
+        "language": "ukr",
+        "replacement": "Ця частина чат-бота ще недоступна, але працюємо над цим, щоб підтримувати вас ще краще в майбутньому."
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{generic_referrals}.*",
+        "original": "{generic_referrals}",
+        "language": "ukr",
+        "replacement": "Ця частина чат-бота ще недоступна, але працюємо над цим, щоб підтримувати вас ще краще в майбутньому."
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{family_referrals}.*",
+        "original": "{family_referrals}",
+        "language": "ukr",
+        "replacement": "Ця частина чат-бота ще недоступна, але працюємо над цим, щоб підтримувати вас ще краще в майбутньому."
       }
     ],
     "triggers_eng": [
@@ -485,19 +680,28 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{share link}.*",
-        "change": "{share link}",
+        "node_identifier": "Regex:.*{consent}.*",
+        "change": "{consent}",
         "condition_var": "",
-        "category": "Add url"
+        "category": "https://bit.ly/ukraine-ptext-pp-consent"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{consent_link}.*",
-        "change": "{consent_link}",
+        "node_identifier": "Regex:.*{tnc_link}.*",
+        "change": "{tnc_link}",
         "condition_var": "",
-        "category": "Add url"
+        "category": "https://bit.ly/ukraine-ptext-tc"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{gdprcontact}.*",
+        "change": "{gdprcontact}",
+        "condition_var": "",
+        "category": "privacy@idems.international"
       }
     ],
     "urls_transl": [
@@ -505,19 +709,96 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{share link}.*",
-        "original": "{share link}",
+        "node_identifier": "Regex:.*{consent}.*",
+        "original": "{consent}",
         "language": "ukr",
-        "replacement": "add url"
+        "replacement": "https://bit.ly/ukraine-ptext-pp-consent"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{consent_link}.*",
-        "original": "{consent_link}",
+        "node_identifier": "Regex:.*{tnc_link}.*",
+        "original": "{tnc_link}",
         "language": "ukr",
-        "replacement": "add url"
+        "replacement": "https://bit.ly/ukraine-ptext-tc"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{gdprcontact}.*",
+        "original": "{gdprcontact}",
+        "language": "ukr",
+        "replacement": "privacy@idems.international"
+      }
+    ],
+    "MANUALjoining_triggers_add_group": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger}.*",
+        "change": "{joining_trigger}",
+        "condition_var": "@fields.joining_trigger_id",
+        "category": "{joining_trigger}",
+        "category:test_en_ukr": "{joining_trigger_test_en_ukr}",
+        "condition:test_en_ukr": "test_en_ukr",
+        "condition_type:test_en_ukr": "has_only_phrase",
+        "category:test_en_ge": "{joining_trigger_test_en_ge}",
+        "condition:test_en_ge": "test_en_ge",
+        "condition_type:test_en_ge": "has_only_phrase",
+        "category:test_ukr": "{joining_trigger_test_ukr}",
+        "condition:test_ukr": "test_ukr",
+        "condition_type:test_ukr": "has_only_phrase",
+        "category:test_ge": "{joining_trigger_test_ge}",
+        "condition:test_ge": "test_ge",
+        "condition_type:test_ge": "has_only_phrase",
+        "category:test_online": "{joining_trigger_test_online}",
+        "condition:test_online": "test_online",
+        "condition_type:test_online": "has_only_phrase",
+        "category:ge_wave_1_1": "{joining_trigger_ge_wave_1_1}",
+        "condition:ge_wave_1_1": "ge_wave_1_1",
+        "condition_type:ge_wave_1_1": "has_only_phrase",
+        "category:ge_wave_1_2": "{joining_trigger_ge_wave_1_2}",
+        "condition:ge_wave_1_2": "ge_wave_1_2",
+        "condition_type:ge_wave_1_2": "has_only_phrase",
+        "category:ge_wave_1_3": "{joining_trigger_ge_wave_1_3}",
+        "condition:ge_wave_1_3": "ge_wave_1_3",
+        "condition_type:ge_wave_1_3": "has_only_phrase",
+        "category:ge_wave_2_1": "{joining_trigger_ge_wave_2_1}",
+        "condition:ge_wave_2_1": "ge_wave_2_1",
+        "condition_type:ge_wave_2_1": "has_only_phrase",
+        "category:ge_wave_2_2": "{joining_trigger_ge_wave_2_2}",
+        "condition:ge_wave_2_2": "ge_wave_2_2",
+        "condition_type:ge_wave_2_2": "has_only_phrase",
+        "category:ge_wave_2_3": "{joining_trigger_ge_wave_2_3}",
+        "condition:ge_wave_2_3": "ge_wave_2_3",
+        "condition_type:ge_wave_2_3": "has_only_phrase",
+        "category:ukr_wave_1_1": "{joining_trigger_ukr_wave_1_1}",
+        "condition:ukr_wave_1_1": "ukr_wave_1_1",
+        "condition_type:ukr_wave_1_1": "has_only_phrase",
+        "category:ukr_wave_1_2": "{joining_trigger_ukr_wave_1_2}",
+        "condition:ukr_wave_1_2": "ukr_wave_1_2",
+        "condition_type:ukr_wave_1_2": "has_only_phrase",
+        "category:ukr_wave_1_3": "{joining_trigger_ukr_wave_1_3}",
+        "condition:ukr_wave_1_3": "ukr_wave_1_3",
+        "condition_type:ukr_wave_1_3": "has_only_phrase",
+        "category:ukr_wave_1_4": "{joining_trigger_ukr_wave_1_4}",
+        "condition:ukr_wave_1_4": "ukr_wave_1_4",
+        "condition_type:ukr_wave_1_4": "has_only_phrase",
+        "category:ukr_wave_2_1": "{joining_trigger_ukr_wave_2_1}",
+        "condition:ukr_wave_2_1": "ukr_wave_2_1",
+        "condition_type:ukr_wave_2_1": "has_only_phrase",
+        "category:ukr_wave_2_2": "{joining_trigger_ukr_wave_2_2}",
+        "condition:ukr_wave_2_2": "ukr_wave_2_2",
+        "condition_type:ukr_wave_2_2": "has_only_phrase",
+        "category:ukr_wave_2_3": "{joining_trigger_ukr_wave_2_3}",
+        "condition:ukr_wave_2_3": "ukr_wave_2_3",
+        "condition_type:ukr_wave_2_3": "has_only_phrase",
+        "category:ukr_wave_2_4": "{joining_trigger_ukr_wave_2_4}",
+        "condition:ukr_wave_2_4": "ukr_wave_2_4",
+        "condition_type:ukr_wave_2_4": "has_only_phrase"
       }
     ],
     "joining_triggers_add_group": [
@@ -541,42 +822,149 @@
         "category:test_ge": "{joining_trigger_test_ge}",
         "condition:test_ge": "test_ge",
         "condition_type:test_ge": "has_only_phrase",
+        "category:test_online": "{joining_trigger_test_online}",
+        "condition:test_online": "test_online",
+        "condition_type:test_online": "has_only_phrase",
         "category:ge_wave_1_1": "{joining_trigger_ge_wave_1_1}",
-        "condition:ge_wave_1_1": "Chat",
+        "condition:ge_wave_1_1": "ge_wave_1_1",
         "condition_type:ge_wave_1_1": "has_only_phrase",
         "category:ge_wave_1_2": "{joining_trigger_ge_wave_1_2}",
-        "condition:ge_wave_1_2": "Care",
+        "condition:ge_wave_1_2": "ge_wave_1_2",
         "condition_type:ge_wave_1_2": "has_only_phrase",
+        "category:ge_wave_1_3": "{joining_trigger_ge_wave_1_3}",
+        "condition:ge_wave_1_3": "ge_wave_1_3",
+        "condition_type:ge_wave_1_3": "has_only_phrase",
         "category:ge_wave_2_1": "{joining_trigger_ge_wave_2_1}",
-        "condition:ge_wave_2_1": "Bot",
+        "condition:ge_wave_2_1": "ge_wave_2_1",
         "condition_type:ge_wave_2_1": "has_only_phrase",
         "category:ge_wave_2_2": "{joining_trigger_ge_wave_2_2}",
-        "condition:ge_wave_2_2": "Support",
+        "condition:ge_wave_2_2": "ge_wave_2_2",
         "condition_type:ge_wave_2_2": "has_only_phrase",
+        "category:ge_wave_2_3": "{joining_trigger_ge_wave_2_3}",
+        "condition:ge_wave_2_3": "ge_wave_2_3",
+        "condition_type:ge_wave_2_3": "has_only_phrase",
         "category:ukr_wave_1_1": "{joining_trigger_ukr_wave_1_1}",
-        "condition:ukr_wave_1_1": "Hope",
+        "condition:ukr_wave_1_1": "ukr_wave_1_1",
         "condition_type:ukr_wave_1_1": "has_only_phrase",
         "category:ukr_wave_1_2": "{joining_trigger_ukr_wave_1_2}",
-        "condition:ukr_wave_1_2": "Strength",
+        "condition:ukr_wave_1_2": "ukr_wave_1_2",
         "condition_type:ukr_wave_1_2": "has_only_phrase",
         "category:ukr_wave_1_3": "{joining_trigger_ukr_wave_1_3}",
-        "condition:ukr_wave_1_3": "Unity",
+        "condition:ukr_wave_1_3": "ukr_wave_1_3",
         "condition_type:ukr_wave_1_3": "has_only_phrase",
         "category:ukr_wave_1_4": "{joining_trigger_ukr_wave_1_4}",
-        "condition:ukr_wave_1_4": "Peace",
+        "condition:ukr_wave_1_4": "ukr_wave_1_4",
         "condition_type:ukr_wave_1_4": "has_only_phrase",
+        "category:ukr_wave_1_5": "{joining_trigger_ukr_wave_1_5}",
+        "condition:ukr_wave_1_5": "ukr_wave_1_5",
+        "condition_type:ukr_wave_1_5": "has_only_phrase",
+        "category:ukr_wave_1_6": "{joining_trigger_ukr_wave_1_6}",
+        "condition:ukr_wave_1_6": "ukr_wave_1_6",
+        "condition_type:ukr_wave_1_6": "has_only_phrase",
+        "category:ukr_wave_1_7": "{joining_trigger_ukr_wave_1_7}",
+        "condition:ukr_wave_1_7": "ukr_wave_1_7",
+        "condition_type:ukr_wave_1_7": "has_only_phrase",
+        "category:ukr_wave_1_8": "{joining_trigger_ukr_wave_1_8}",
+        "condition:ukr_wave_1_8": "ukr_wave_1_8",
+        "condition_type:ukr_wave_1_8": "has_only_phrase",
         "category:ukr_wave_2_1": "{joining_trigger_ukr_wave_2_1}",
-        "condition:ukr_wave_2_1": "Freedom",
+        "condition:ukr_wave_2_1": "ukr_wave_2_1",
         "condition_type:ukr_wave_2_1": "has_only_phrase",
         "category:ukr_wave_2_2": "{joining_trigger_ukr_wave_2_2}",
-        "condition:ukr_wave_2_2": "Glory",
+        "condition:ukr_wave_2_2": "ukr_wave_2_2",
         "condition_type:ukr_wave_2_2": "has_only_phrase",
         "category:ukr_wave_2_3": "{joining_trigger_ukr_wave_2_3}",
-        "condition:ukr_wave_2_3": "Together",
+        "condition:ukr_wave_2_3": "ukr_wave_2_3",
         "condition_type:ukr_wave_2_3": "has_only_phrase",
         "category:ukr_wave_2_4": "{joining_trigger_ukr_wave_2_4}",
-        "condition:ukr_wave_2_4": "Trust",
-        "condition_type:ukr_wave_2_4": "has_only_phrase"
+        "condition:ukr_wave_2_4": "ukr_wave_2_4",
+        "condition_type:ukr_wave_2_4": "has_only_phrase",
+        "category:ukr_wave_2_5": "{joining_trigger_ukr_wave_2_5}",
+        "condition:ukr_wave_2_5": "ukr_wave_2_5",
+        "condition_type:ukr_wave_2_5": "has_only_phrase",
+        "category:ukr_wave_2_6": "{joining_trigger_ukr_wave_2_6}",
+        "condition:ukr_wave_2_6": "ukr_wave_2_6",
+        "condition_type:ukr_wave_2_6": "has_only_phrase",
+        "category:ukr_wave_2_7": "{joining_trigger_ukr_wave_2_7}",
+        "condition:ukr_wave_2_7": "ukr_wave_2_7",
+        "condition_type:ukr_wave_2_7": "has_only_phrase"
+      }
+    ],
+    "joining_triggers_ids": [
+      {
+        "test_en_ukr": "test_en_ge"
+      },
+      {
+        "test_en_ukr": "test_ukr"
+      },
+      {
+        "test_en_ukr": "test_ge"
+      },
+      {
+        "test_en_ukr": "test_online"
+      },
+      {
+        "test_en_ukr": "ge_wave_1_1"
+      },
+      {
+        "test_en_ukr": "ge_wave_1_2"
+      },
+      {
+        "test_en_ukr": "ge_wave_1_3"
+      },
+      {
+        "test_en_ukr": "ge_wave_2_1"
+      },
+      {
+        "test_en_ukr": "ge_wave_2_2"
+      },
+      {
+        "test_en_ukr": "ge_wave_2_3"
+      },
+      {
+        "test_en_ukr": "ukr_wave_1_1"
+      },
+      {
+        "test_en_ukr": "ukr_wave_1_2"
+      },
+      {
+        "test_en_ukr": "ukr_wave_1_3"
+      },
+      {
+        "test_en_ukr": "ukr_wave_1_4"
+      },
+      {
+        "test_en_ukr": "ukr_wave_1_5"
+      },
+      {
+        "test_en_ukr": "ukr_wave_1_6"
+      },
+      {
+        "test_en_ukr": "ukr_wave_1_7"
+      },
+      {
+        "test_en_ukr": "ukr_wave_1_8"
+      },
+      {
+        "test_en_ukr": "ukr_wave_2_1"
+      },
+      {
+        "test_en_ukr": "ukr_wave_2_2"
+      },
+      {
+        "test_en_ukr": "ukr_wave_2_3"
+      },
+      {
+        "test_en_ukr": "ukr_wave_2_4"
+      },
+      {
+        "test_en_ukr": "ukr_wave_2_5"
+      },
+      {
+        "test_en_ukr": "ukr_wave_2_6"
+      },
+      {
+        "test_en_ukr": "ukr_wave_2_7"
       }
     ],
     "joining_triggers_eng": [
@@ -620,6 +1008,15 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_test_online}.*",
+        "change": "{joining_trigger_test_online}",
+        "condition_var": "",
+        "category": "test\\_online"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
         "node_identifier": "Regex:.*{joining_trigger_ge_wave_1_1}.*",
         "change": "{joining_trigger_ge_wave_1_1}",
         "condition_var": "",
@@ -638,6 +1035,15 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ge_wave_1_3}.*",
+        "change": "{joining_trigger_ge_wave_1_3}",
+        "condition_var": "",
+        "category": "Support"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
         "node_identifier": "Regex:.*{joining_trigger_ge_wave_2_1}.*",
         "change": "{joining_trigger_ge_wave_2_1}",
         "condition_var": "",
@@ -650,7 +1056,16 @@
         "node_identifier": "Regex:.*{joining_trigger_ge_wave_2_2}.*",
         "change": "{joining_trigger_ge_wave_2_2}",
         "condition_var": "",
-        "category": "Support"
+        "category": "Safeguarding"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ge_wave_2_3}.*",
+        "change": "{joining_trigger_ge_wave_2_3}",
+        "condition_var": "",
+        "category": "Online"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -692,10 +1107,46 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_1_5}.*",
+        "change": "{joining_trigger_ukr_wave_1_5}",
+        "condition_var": "",
+        "category": "Freedom"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_1_6}.*",
+        "change": "{joining_trigger_ukr_wave_1_6}",
+        "condition_var": "",
+        "category": "Glory"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_1_7}.*",
+        "change": "{joining_trigger_ukr_wave_1_7}",
+        "condition_var": "",
+        "category": "Together"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_1_8}.*",
+        "change": "{joining_trigger_ukr_wave_1_8}",
+        "condition_var": "",
+        "category": "Trust"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
         "node_identifier": "Regex:.*{joining_trigger_ukr_wave_2_1}.*",
         "change": "{joining_trigger_ukr_wave_2_1}",
         "condition_var": "",
-        "category": "Freedom"
+        "category": "Kind"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -704,7 +1155,7 @@
         "node_identifier": "Regex:.*{joining_trigger_ukr_wave_2_2}.*",
         "change": "{joining_trigger_ukr_wave_2_2}",
         "condition_var": "",
-        "category": "Glory"
+        "category": "Dream"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -713,7 +1164,7 @@
         "node_identifier": "Regex:.*{joining_trigger_ukr_wave_2_3}.*",
         "change": "{joining_trigger_ukr_wave_2_3}",
         "condition_var": "",
-        "category": "Together"
+        "category": "Star"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -722,7 +1173,34 @@
         "node_identifier": "Regex:.*{joining_trigger_ukr_wave_2_4}.*",
         "change": "{joining_trigger_ukr_wave_2_4}",
         "condition_var": "",
-        "category": "Trust"
+        "category": "Joy"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_2_5}.*",
+        "change": "{joining_trigger_ukr_wave_2_5}",
+        "condition_var": "",
+        "category": "Light"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_2_6}.*",
+        "change": "{joining_trigger_ukr_wave_2_6}",
+        "condition_var": "",
+        "category": "Smile"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_2_7}.*",
+        "change": "{joining_trigger_ukr_wave_2_7}",
+        "condition_var": "",
+        "category": "Friend"
       }
     ],
     "joining_triggers_transl": [
@@ -766,6 +1244,15 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_test_online}.*",
+        "original": "{joining_trigger}",
+        "language": "ukr",
+        "replacement": "test\\_online"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
         "node_identifier": "Regex:.*{joining_trigger_ge_wave_1_1}.*",
         "original": "{joining_trigger}",
         "language": "ukr",
@@ -784,6 +1271,15 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ge_wave_1_3}.*",
+        "original": "{joining_trigger}",
+        "language": "ukr",
+        "replacement": "Опора"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
         "node_identifier": "Regex:.*{joining_trigger_ge_wave_2_1}.*",
         "original": "{joining_trigger}",
         "language": "ukr",
@@ -796,7 +1292,16 @@
         "node_identifier": "Regex:.*{joining_trigger_ge_wave_2_2}.*",
         "original": "{joining_trigger}",
         "language": "ukr",
-        "replacement": "Опора"
+        "replacement": "захист"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ge_wave_2_3}.*",
+        "original": "{joining_trigger}",
+        "language": "ukr",
+        "replacement": "Онлайн"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -838,7 +1343,7 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_2_1}.*",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_1_5}.*",
         "original": "{joining_trigger}",
         "language": "ukr",
         "replacement": "Воля"
@@ -847,7 +1352,7 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_2_2}.*",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_1_6}.*",
         "original": "{joining_trigger}",
         "language": "ukr",
         "replacement": "Слава"
@@ -856,7 +1361,7 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_2_3}.*",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_1_7}.*",
         "original": "{joining_trigger}",
         "language": "ukr",
         "replacement": "Разом"
@@ -865,10 +1370,73 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_2_4}.*",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_1_8}.*",
         "original": "{joining_trigger}",
         "language": "ukr",
         "replacement": "Довіра"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_2_1}.*",
+        "original": "{joining_trigger}",
+        "language": "ukr",
+        "replacement": "Добро"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_2_2}.*",
+        "original": "{joining_trigger}",
+        "language": "ukr",
+        "replacement": "Мрія"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_2_3}.*",
+        "original": "{joining_trigger}",
+        "language": "ukr",
+        "replacement": "Зірка"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_2_4}.*",
+        "original": "{joining_trigger}",
+        "language": "ukr",
+        "replacement": "Радість"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_2_5}.*",
+        "original": "{joining_trigger}",
+        "language": "ukr",
+        "replacement": "Світло"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_2_6}.*",
+        "original": "{joining_trigger}",
+        "language": "ukr",
+        "replacement": "Посмішка"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wave_2_7}.*",
+        "original": "{joining_trigger}",
+        "language": "ukr",
+        "replacement": "Друг"
       }
     ],
     "parenttext_name_transl": [

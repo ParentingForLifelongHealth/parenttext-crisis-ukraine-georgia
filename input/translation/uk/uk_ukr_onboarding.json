@@ -1,7 +1,13 @@
 [
   {
     "SourceText": "Variables have been reset",
-    "text": "Зміни було скинути",
+    "text": "Зміни було скинуто",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Press NEXT to continue",
+    "text": "Натисніть ДАЛІ, щоб продовжити",
     "type": "text",
     "note": ""
   },
@@ -36,6 +42,24 @@
     "note": ""
   },
   {
+    "SourceText": "Before we begin, {prog_name} is only for people 18 years and older. Are you 18 years or above?",
+    "text": "Перед тим, як почати, {prog_name} призначений лише для осіб від 18 років. Вам 18 років або більше?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Do you confirm that you are under the age of 18?",
+    "text": "Чи підтверджуєте ви, що вам менше 18 років?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for being honest 💛 {prog_name} is only for people 18+. Please talk to a trusted adult who can support you. If they’d like to join, they can type {joining_trigger}.  🌸",
+    "text": "Дякуємо за чесність 💛 {prog_name} призначений лише для людей від 18 років. Будь ласка, поговоріть з дорослим, якому ви довіряєте і хто може вас підтримати. Якщо вони хочуть приєднатися, нехай надішлють слово {joining_trigger}. 🌸",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "🧡 You are a great parent. Thank you for joining us. ",
     "text": "🧡 Ви — турботливі батьки. Дякуємо, що ви з нами. ",
     "type": "text",
@@ -54,20 +78,32 @@
     "note": ""
   },
   {
-    "SourceText": "✅Your anonymous information may also be shared with others working to help families like yours build strength and hope in tough times. All your information will be private and can’t be linked back to you.",
-    "text": "✅ Вашу анонімну інформацію можуть використати, щоб допомогти іншим сім’ям у складні часи. Вона залишиться приватною і не буде пов’язана з вами.",
-    "type": "text",
-    "note": ""
-  },
-  {
     "SourceText": "❌You can stop when you want. Just type {STOP}",
     "text": "❌ Ви можете зупинитися в будь-який момент. Просто надішліть {STOP}",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "✅ To read our privacy policy, visit {consent}. If you are over 18 and consent to our privacy policy, select YES. Type \"EXIT\" if you do not want to participate.",
-    "text": "✅ Щоб ознайомитися з нашою політикою конфіденційності, перейдіть за посиланням: {consent}. Якщо вам понад 18 років і ви погоджуєтеся з політикою конфіденційності, оберіть «ТАК». Якщо не бажаєте брати участь, наберіть «ВИХІД».",
+    "SourceText": "Before we start, we need to share some important information.",
+    "text": "Перш ніж почати, нам потрібно поділитися важливою інформацією.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "📘 Please read our Terms & Conditions here: {tnc_link}.",
+    "text": "📘Будь ласка, ознайомтеся з Умовами та положеннями тут: {tnc_link}.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "If you have read and accept the Terms & Conditions, please select YES.",
+    "text": "Якщо ви ознайомилися з Умовами та Положеннями та погоджуєтеся з ними, оберіть «Так».",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "If you do not accept, type \"EXIT\" to stop now.",
+    "text": "Якщо ви не погоджуєтесь, введіть «ВИЙТИ», щоб завершити зараз.",
     "type": "text",
     "note": ""
   },
@@ -90,6 +126,54 @@
     "note": ""
   },
   {
+    "SourceText": "Now a quick note about your privacy.",
+    "text": "Ознайомтесь з інформацією про вашу конфіденційність.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅ Your personal information is safe and private. ",
+    "text": "✅ Ваші дані залишаються конфіденційними та захищеними. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅ Your name and information will not be public, but your responses will be used by researchers to learn how to support families like yours. ",
+    "text": "✅ Ваше ім’я та особисті дані залишаються приватними, але ваші відповіді використовуватимуться дослідниками, щоб дізнатися, як краще підтримувати родини. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅ The information you share may also be combined with other families’ experiences so that we can understand how these programmes work across the world.",
+    "text": "✅ Інформація, яку ви надаєте, може бути об’єднана з даними інших сімей, щоб ми могли зрозуміти, як ця програма (чат) працює у різних країнах.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🤐 If there are any questions that you feel uncomfortable answering, you do not have to answer them.",
+    "text": "🤐 Ви можете пропустити будь-які питання, на які не хочете відповідати.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Please read this information carefully: {consent}",
+    "text": "Будь ласка, уважно ознайомтеся з цією інформацією: {consent}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "If you have read it and agree, please select YES.",
+    "text": "Якщо ви ознайомилися з інформацією та погоджуєтеся, оберіть «Так».",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "If you do not want to participate, type \"EXIT\" to stop now.",
+    "text": "Якщо ви не хочете користуватись чатом, введіть «ВИХІД», щоб завершити зараз.",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "Thank you! To complete this programme, you won’t be alone. You’ll have a parenting guide by your side. There are two supportive parenting experts you can choose from:",
     "text": "Дякуємо! Під час проходження програми ви не будете самі — поруч буде ваш помічник з батьківства. Ви можете обрати одного з двох досвідчених спеціалістів, які підтримуватимуть вас:",
     "type": "text",
@@ -97,13 +181,13 @@
   },
   {
     "SourceText": "Maria is a 45-year-old mother and experienced psychological support worker. Her calm voice and wise advice makes parents feel seen, heard, and supported.",
-    "text": "Марія — 45-річна мама та досвідчена фахівчиня з психологічної підтримки. Її спокійний голос та мудрі поради допомагають батькам відчувати справжню підтримку, розуміння й увагу.",
+    "text": "Марія — 45-річна мама та досвідчена фахівчиня з психологічної підтримки, яка має багаторічний досвід роботи з сім'ями, надаючи професійну допомогу з питань виховання та емоційного благополуччя.",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "Mykola is a 52-year-old dad and mental health counsellor. He helps parents manage stress and reconnect with their children using tools that helped him too.",
-    "text": "Микола — 52-річний тато та консультант з психічного здоров’я. Він допомагає батькам справлятися зі стресом і налагоджувати зв’язок з дітьми, використовуючи методи, які допомогли йому самому.",
+    "text": "Микола — 52-річний батько та консультант з психічного здоров’я, який має значний досвід роботи з батьками та дітьми. Він надає фахові рекомендації щодо подолання стресу та побудови ефективної взаємодії у родині. ",
     "type": "text",
     "note": ""
   },
@@ -163,7 +247,7 @@
   },
   {
     "SourceText": "{prog_name} is easiest to use when you receive content with video guides. Videos are fun and engaging, but we understand if you have limited mobile data. To save on data, you can choose to receive the same content with an audio guide or just text. ",
-    "text": "{prog_name} Найзручніше користуватися сервісом, коли ви отримуєте матеріали з відеоінструкціями. Відео — це цікаво й захопливо, але ми розуміємо, що мобільний інтернет може бути обмеженим. Щоб зекономити трафік, ви можете обрати той самий матеріал з аудіосупроводом або лише у текстовому форматі. ",
+    "text": "Найзручніше користуватися {prog_name}, коли ви отримуєте матеріали з відеоінструкціями. Відео — це цікаво й захопливо, але ми розуміємо, що мобільний інтернет може бути обмеженим. Щоб зекономити трафік, ви можете обрати той самий матеріал з аудіосупроводом або лише у текстовому форматі. ",
     "type": "text",
     "note": ""
   },
@@ -192,6 +276,12 @@
     "note": ""
   },
   {
+    "SourceText": "NEXT",
+    "text": "ДАЛІ",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
     "SourceText": "English",
     "text": "English",
     "type": "quick_replies",
@@ -200,6 +290,30 @@
   {
     "SourceText": "Ukrainian",
     "text": "Українська",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Yes, I am 18 years old or older",
+    "text": "Так, мені 18 років або більше",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "No, I am under 18",
+    "text": "Ні, мені менше 18 років",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Yes, I am under 18",
+    "text": "Так, мені менше 18 років",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "No, take me back to the question",
+    "text": "Ні, повернутись до питання",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -218,12 +332,6 @@
   {
     "SourceText": "BACK",
     "text": "НАЗАД",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "NEXT",
-    "text": "ДАЛІ",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -258,8 +366,20 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
+    "SourceText": "45-54 years old",
+    "text": "45-54 років",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
     "SourceText": "Over 55 years old",
     "text": "Більше 55 років",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Prefer not to say",
+    "text": "Надаю перевагу не казати",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -272,12 +392,6 @@
   {
     "SourceText": "Man",
     "text": "Чоловік",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "Prefer not to say",
-    "text": "Надаю перевагу не казати",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -312,20 +426,20 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "I’m the child’s parent, and I’m raising them with a partner",
-    "text": "Я батько (або мати) і виховую дитину разом із партнером.",
+    "SourceText": "I am a parent with a partner",
+    "text": "Я є матір’ю/батьком і маю партнера/партнерку.",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "I’m the child’s parent, and I’m raising them on my own",
-    "text": "Я мати (або батько) і виховую дитину сам(а)",
+    "SourceText": "I am a single parent",
+    "text": "Я - один з батьків, який виховує дитину самостійно.",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "I’m a grandparent, relative, or other caregiver, raising the child",
-    "text": "Я дідусь (або бабуся), родич або інша людина, яка піклується про дитину",
+    "SourceText": "I am a grandparent, relative, or other caregiver",
+    "text": "Я є дідусем, бабусею, родичем або іншим опікуном.",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -384,6 +498,30 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
+    "SourceText": "yes, i am 18 years old or older",
+    "text": "так, мені 18 років або більше",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "no, i am under 18",
+    "text": "ні, мені менше 18-ти років",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "no, take me back to the question",
+    "text": "ні, повернутись до питання",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes, i am under 18",
+    "text": "так, мені більше 18 років",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
     "SourceText": "yes",
     "text": "так",
     "type": "arguments",
@@ -438,8 +576,20 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
+    "SourceText": "45-54 years old",
+    "text": "45-55 років",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
     "SourceText": "over 55 years old",
     "text": "понад 55 років",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "prefer not to say",
+    "text": "надаю перевагу не казати",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
@@ -452,12 +602,6 @@
   {
     "SourceText": "man",
     "text": "чоловік",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "prefer not to say",
-    "text": "надаю перевагу не казати",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
@@ -492,20 +636,20 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "i’m the child’s parent, and i’m raising them with a partner",
-    "text": "Я мати (або батько) і виховую дитину разом з партнером",
+    "SourceText": "i am a parent with a partner",
+    "text": "я є матір’ю/батьком і маю партнера/партнерку",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "i’m the child’s parent, and i’m raising them on my own",
-    "text": "я мати (або батько) і виховую дитину сам(а).",
+    "SourceText": "i am a single parent",
+    "text": " я - один з батьків, який виховує дитину самостійно.",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "i’m a grandparent, relative, or other caregiver, raising the child",
-    "text": "я дідусь (або бабуся), родич або інша людина, яка піклується про дитину.",
+    "SourceText": "i am a grandparent, relative, or other caregiver",
+    "text": " я є дідусем, бабусею, родичем або іншим опікуном.",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },

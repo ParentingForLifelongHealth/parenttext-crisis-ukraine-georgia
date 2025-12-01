@@ -132,38 +132,62 @@
     "note": ""
   },
   {
-    "SourceText": "Are you sure you want to stop receiving tips?",
-    "text": "Ви впевнені, що хочете припинити отримувати поради?",
+    "SourceText": "It looks like you don't want to recieve messages from {prog_name} anymore.",
+    "text": "Схоже, ви більше не хочете отримувати повідомлення від {prog_name}.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "If you do not want to receive any more messages, please type \"EXIT\".",
-    "text": "Якщо ви більше не хочете отримувати повідомлення, будь ласка, введіть «ВИХІД».",
+    "SourceText": "Are you sure you want to STOP receiving daily tips?",
+    "text": "Ви впевнені, що хочете ПРИПИНИТИ отримувати щоденні поради?",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "If you made a mistake, please type \"BACK\".",
-    "text": "Якщо ви помилилися, будь ласка, введіть «НАЗАД».",
+    "SourceText": "Great! We’re happy you’re staying with {prog_name}! We will resume tomorrow.",
+    "text": "Чудово. Ми раді, що ви залишаєтеся з {prog_name}! Ми продовжимо вже завтра.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "Thank you for participating. If you want to return to continue receiving tips, type HELLO. ",
-    "text": "Дякуємо за участь! Якщо ви хочете повернутися й знову отримувати поради, введіть «ПРИВІТ». ",
+    "SourceText": "Thank you for joining {prog_name}.",
+    "text": "Дякуємо, що приєдналися до {prog_name}.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Do you also want us to delete all your info?",
+    "text": "Також видалити всю вашу інформацію?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "👉 This means we remove your contact and messages from our side.",
+    "text": "👉 Це означає, що ми видалимо ваші контактні дані та повідомлення.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "👉 You will still see the old messages you sent.",
+    "text": "👉Ви й надалі бачитимете повідомлення, які ви надсилали.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "👉 If you join again, you will need to start from the beginning.",
+    "text": "👉Після повторного приєднання - ви розпочнете з початку.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you! If you want to return to receiving daily tips, just type HELLO.",
+    "text": "Дякуємо! Якщо хочете знову отримувати щоденні поради, просто надішліть слово ПРИВІТ.",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "We hope to see you again soon.",
     "text": "Сподіваємося скоро знову вас побачити.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "We are so glad you want to stick around! We will resume your progress tomorrow.",
-    "text": "Раді, що ви вирішили залишитися з нами! Продовжимо завтра.",
     "type": "text",
     "note": ""
   },
@@ -187,7 +211,7 @@
   },
   {
     "SourceText": "In this program, you will receive @fields.c_n_mod tips. Your first tip is \"@results.name\".",
-    "text": "У цій програмі ви отримаєте @fields.c_n_mod поради. Ваша перша порада — \"@results.name\".",
+    "text": "У цій програмі ви отримаєте @fields.c_n_mod порад. Ваша перша порада — \"@results.name\".",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
@@ -296,24 +320,6 @@
   {
     "SourceText": "Great, see you tomorrow!",
     "text": "Чудово, до зустрічі завтра!",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "You’ve completed the programme – well done!",
-    "text": "Ви завершили програму — вітаємо!",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Remember, you can always return to {prog_name} to review any of the tips. Just type {MENU}.",
-    "text": "Пам’ятайте, ви завжди можете повернутися до {prog_name}, щоб переглянути будь-які поради. Просто наберіть {MENU}.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "We’ll check in with you in a month to see how you’re doing. Your feedback helps us make sure these tips truly support families like yours 🙂",
-    "text": "Через місяць ми знову зв’яжемося з вами, щоб дізнатися, як у вас справи. Ваші відгуки дуже важливі для нас — вони допомагають робити поради ще кращими.🙂",
     "type": "text",
     "note": ""
   },
@@ -540,6 +546,12 @@
     "note": ""
   },
   {
+    "SourceText": "Are you sure you want to DELETE all your info? ",
+    "text": "Ви впевнені, що хочете ВИДАЛИТИ всю вашу інформацію? ",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "You are receiving content with text and images.",
     "text": "Ви отримуєте контент із текстом і зображеннями.",
     "type": "text",
@@ -564,14 +576,14 @@
     "note": ""
   },
   {
-    "SourceText": "You didn't provide this info.",
-    "text": "Ви не надали цю інформацію.",
+    "SourceText": "Would you like to change it?",
+    "text": "Бажаєте це змінити?",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "Would you like to change it?",
-    "text": "Бажаєте це змінити?",
+    "SourceText": "Great! Your media settings are now updated 🎉",
+    "text": "Чудово! Ваші налаштування медіа тепер оновлено 🎉",
     "type": "text",
     "note": ""
   },
@@ -606,6 +618,198 @@
     "note": ""
   },
   {
+    "SourceText": "Done! Your gender is now updated.",
+    "text": "Готово! Інформація про стать оновлена.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Your guide is Mykola.",
+    "text": "Ваш порадник у цьому чаті — Микола.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Your guide is Maria.",
+    "text": "Ваша порадниця у цьому чаті — Марія.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Your guide is",
+    "text": "Ваш порадник",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Would you like to change your guide?",
+    "text": "Бажаєте змінити порадника?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Great! Your media guide is now updated 🎉",
+    "text": "Чудово! Медіа оновлено 🎉",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You didn't provide this info.",
+    "text": "Ви не надали цю інформацію.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are 18-24 years old.",
+    "text": "Ви вказали, що вам від 18 до 24 років.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are 25-34 years old.",
+    "text": "Ви вказали, що вам від 25 до 34 років.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are 35-44 years old.",
+    "text": "Ви вказали, що вам від 35 до 44 років.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are 45-54 years old.",
+    "text": "Ви вказали, що вам від 45 до 54 років.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are Over 55 years old.",
+    "text": "Ви вказали, що вам понад 55 років.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are",
+    "text": "Ви вказали, що вам",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Done! Your age is now updated.",
+    "text": "Інформацію про ваш вік оновлено.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you take care of no children.",
+    "text": "Ви вказали, що не маєте дітей.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you take care of one to three children.",
+    "text": "Ви вказали, що піклуєтесь про одного-трьох дітей.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you take care of more than four children.",
+    "text": "Ви вказали, що піклуєтесь про більше чотирьох дітей.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you take care of .",
+    "text": "Ви вказали, що піклуєтесь про .",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you take care of",
+    "text": "Ви вказали, що піклуєтесь про",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Done! The number of children you take care of is now updated.",
+    "text": "Ми оновили інформацію про кількість дітей, про яких ви піклуєтеся.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that your current family situation is that you are a parent with a partner.",
+    "text": "Ви вказали, що ви є батьком або матір'ю, і у вас є партнер.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that your current family situation is that you are a single parent.",
+    "text": "Ви вказали, що зараз ви — один з батьків, який виховує дитину самостійно.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that your current family situation is that you are a grandparent, relative, or other caregiver.",
+    "text": "Ви вказали, що ви є дідусем, бабусею, родичем або іншим опікуном.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that your current family situation is that",
+    "text": "Ви сказали, що ваша сімейна ситуація зараз така:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Done! Your family situation is now updated.",
+    "text": "Інформацію про сімейну ситуацію оновлено.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are currently displaced.",
+    "text": "Ви сказали, що зараз ви вимушено переміщена особа.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are living at your permanent place of residence.",
+    "text": "Ви сказали, що живете за своїм постійним місцем проживання.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Done! Your living situation is now updated.",
+    "text": "Інформацію оновлено.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are located in Batumi.",
+    "text": "Ви вказали, що перебуваєте в Батумі.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are located in Tbilisi.",
+    "text": "Ви вказали, що перебуваєте в Тбілісі.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are located in",
+    "text": "Ви вказали, що перебуваєте в",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Done! Your location is now updated.",
+    "text": "Ваше місце знаходження тепер оновлено.",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "*DAY @fields.curr_demo_day*",
     "text": "*DAY @fields.curr_demo_day*",
     "type": "text",
@@ -619,7 +823,7 @@
   },
   {
     "SourceText": "There are @(fields.c_n_mod - fields.c_n_mod_compl) more tips.",
-    "text": "Тут @(fields.c_n_mod - fields.c_n_mod_compl) більше порад.",
+    "text": "Тут є ще @(fields.c_n_mod - fields.c_n_mod_compl) порад.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
@@ -644,6 +848,48 @@
   {
     "SourceText": "Here is a video about {prog_name}.",
     "text": "Переглянути відео про {prog_name}.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for participating. Your contact and all messages associated with your account will be deleted within 30 days from now.",
+    "text": "Дякуємо за участь. Ваш контакт та всі повідомлення, пов’язані з вашим акаунтом, будуть видалені протягом 30 днів.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Please contact {gdprcontact} to request a copy of all of your data we have. Please make sure to specify your user ID:",
+    "text": "Будь ласка, зв'яжіться з {gdprcontact}, щоб отримати копію всіх ваших даних, які ми зберігаємо. Обов’язково вкажіть свій ідентифікатор користувача:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "@contact.id",
+    "text": "@contact.id",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Please contact {gdprcontact} to request to update any data we have. Please make sure to specify your user ID:",
+    "text": "Будь ласка, зв'яжіться з {gdprcontact}, щоб запросити оновлення будь-яких ваших даних, які ми маємо. Обов’язково вкажіть свій ідентифікатор користувача:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You’ve completed the programme – well done!",
+    "text": "Ви завершили програму — вітаємо!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Remember, you can always return to {prog_name} to review any of the tips. Just type {MENU}.",
+    "text": "Пам’ятайте, ви завжди можете повернутися до {prog_name}, щоб переглянути будь-які поради. Просто наберіть {MENU}.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We’ll check in with you in a month to see how you’re doing. Your feedback helps us make sure these tips truly support families like yours 🙂",
+    "text": "Через місяць ми знову зв’яжемося з вами, щоб дізнатися, як у вас справи. Ваші відгуки дуже важливі для нас — вони допомагають робити поради ще кращими.🙂",
     "type": "text",
     "note": ""
   },
@@ -750,8 +996,26 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "BACK",
-    "text": "НАЗАД",
+    "SourceText": "No, I want to continue",
+    "text": "Ні, я хочу продовжити",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Yes, stop sending me tips",
+    "text": "Так, не надсилайте мені поради",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "YES, delete my account and progress",
+    "text": "ТАК, видаліть мій акаунт і всі дані",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "NO, I may use the chatbot again later",
+    "text": "НІ, можливо, я повернуся до чат-бота пізніше",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -805,19 +1069,19 @@
   },
   {
     "SourceText": "Something Quick",
-    "text": "Щось швидке",
+    "text": "Коротка активність",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
     "SourceText": "Something Active",
-    "text": "Щось Активне",
+    "text": "Рухлива активність",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
     "SourceText": "Something Calm",
-    "text": "Щось спокійне",
+    "text": "Спокійна активність",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -912,6 +1176,24 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
+    "SourceText": "Delete my account",
+    "text": "Видалити мій акаунт",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Get a copy of my data",
+    "text": "Отримати копію моїх даних",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Request Account Data Rectification",
+    "text": "Запит на коригування даних облікового запису",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
     "SourceText": "Return to Main Menu",
     "text": "Повернутися до Меню",
     "type": "quick_replies",
@@ -924,16 +1206,58 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
+    "SourceText": "Change my guide",
+    "text": "Змінити помічника",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
     "SourceText": "Change my gender",
     "text": "Змінити стать",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "@fields.c_n_mod_started",
-    "text": "@fields.c_n_mod_started",
-    "type": "variables",
-    "note": ""
+    "SourceText": "Change my age",
+    "text": "Змінити інформацію про мій вік",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Change the number of children I take care of",
+    "text": "Змінити інформацію про кількість дітей, про яких я піклуюсь",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Change my family status",
+    "text": "Змінити інформацію про сімейну ситуацію",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Change my living situation",
+    "text": "Оновити відомості про моє проживання",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Change my location",
+    "text": "Змінити інформацію про місце знаходження",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "NO - I want to keep using this chatbot",
+    "text": "так, видалити мій акаунт й всі дані",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "YES - Delete my account",
+    "text": "ТАК — видалити мій акаунт",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
     "SourceText": "generic",
@@ -1068,14 +1392,26 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "exit",
-    "text": "вихід",
+    "SourceText": "no, i want to continue",
+    "text": "ні, я хочу продовжити",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "back",
-    "text": "назад",
+    "SourceText": "yes, stop sending me tips",
+    "text": "так, не надсилайте мені поради",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "no, i may use the chatbot again later",
+    "text": "ні, можливо, я повернуся до чат-бота пізніше",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes, delete my account and progress",
+    "text": "так, видалити мій акаунт й всі дані",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
@@ -1135,19 +1471,19 @@
   },
   {
     "SourceText": "something quick",
-    "text": "щось швидке",
+    "text": "коротка активність",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
     "SourceText": "something active",
-    "text": "щось активне",
+    "text": "рухлива активність",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
     "SourceText": "something calm",
-    "text": "щось спокійне",
+    "text": "спокійна активність",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
@@ -1213,7 +1549,7 @@
   },
   {
     "SourceText": "watch chatbot intro video",
-    "text": "перегляньте коротке відео про чат-бот",
+    "text": "переглянути коротке відео про чат-бот",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
@@ -1242,6 +1578,24 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
+    "SourceText": "delete my account",
+    "text": "видалити мій акаунт",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "get a copy of my data",
+    "text": "отримати копію моїх даних",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "request account data rectification",
+    "text": "запит на коригування даних облікового запису",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
     "SourceText": "return to main menu",
     "text": "повернутись до головного меню",
     "type": "arguments",
@@ -1254,8 +1608,56 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
+    "SourceText": "change my guide",
+    "text": "змінити помічника",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
     "SourceText": "change my gender",
     "text": "змінити стать",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "change my age",
+    "text": "змінити інформацію про мій вік",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "change the number of children i take care of",
+    "text": "змінити інформацію про кількість дітей, про яких я піклуюсь",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "change my family status",
+    "text": "змінити інформацію про сімейну ситуацію",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "change my living situation",
+    "text": "оновити відомості про моє проживання",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "change my location",
+    "text": "змінити інформацію про місце знаходження",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "no - i want to keep using this chatbot",
+    "text": "ні - я хочу далі користуватися цим чат-ботом",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes - delete my account",
+    "text": "так - видалити мій акаунт",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   }
