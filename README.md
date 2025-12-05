@@ -1,4 +1,4 @@
-# ParentText for children in crisis
+# ParentText for children in crisis - Ukraine & Georgia
 
 This project builds RapidPro flows for the ParentText Crisis chatbot. It takes input from specific Google Sheets spreadsheets and produces RapidPro flow JSON files that are ready to upload to any RapidPro server.
 
