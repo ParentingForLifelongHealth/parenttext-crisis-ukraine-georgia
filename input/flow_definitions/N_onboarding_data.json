@@ -577,7 +577,7 @@
       {
         "ID": "avatar_woman",
         "type": "intro",
-        "messages.1.text": "Maria is a 45-year-old mother and experienced psychological support worker. Her calm voice and wise advice makes parents feel seen, heard, and supported. ",
+        "messages.1.text": "Maria - an experienced psychological support worker. Her calm voice and wise advice makes parents feel seen, heard, and supported. ",
         "messages.1.image": "",
         "messages.1.video": "",
         "skipoption.text": "",
@@ -653,7 +653,7 @@
       {
         "ID": "avatar_man",
         "type": "intro",
-        "messages.1.text": "Mykola is a 52-year-old dad and mental health counsellor. He helps parents manage stress and reconnect with their children using tools that helped him too. ",
+        "messages.1.text": "Mykola - a mental health counsellor. He helps parents manage stress and reconnect with their children using tools that helped him too. ",
         "messages.1.image": "",
         "messages.1.video": "",
         "skipoption.text": "",
