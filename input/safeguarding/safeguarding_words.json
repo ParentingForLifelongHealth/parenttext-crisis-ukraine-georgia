@@ -1089,7 +1089,8 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "\u043c\u0435\u043d\u044e"
+                        "\u043c\u0435\u043d\u044e",
+                        "MENU"
                     ],
                     "mispellings": []
                 }
