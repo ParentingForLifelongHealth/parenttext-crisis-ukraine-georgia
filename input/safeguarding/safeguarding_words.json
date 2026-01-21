@@ -1113,7 +1113,8 @@
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "\u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0430"
+                        "\u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0430",
+                        "HELP"
                     ],
                     "mispellings": []
                 }
@@ -1146,19 +1147,16 @@
         {
             "English": {
                 "keywords": [
-                    "PLAY"
+                    "PLAY",
+                    "pley"
                 ],
-                "mispellings": [
-                    "paly",
-                    "pla",
-                    "pley",
-                    "plaay"
-                ]
+                "mispellings": []
             },
             "Translation": {
                 "ukr": {
                     "keywords": [
-                        "\u0433\u0440\u0430\u0442\u0438"
+                        "\u0433\u0440\u0430\u0442\u0438",
+                        "PLAY"
                     ],
                     "mispellings": []
                 }
