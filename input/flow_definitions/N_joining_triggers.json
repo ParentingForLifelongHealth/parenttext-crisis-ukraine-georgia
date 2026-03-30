@@ -76,7 +76,7 @@
         "Cap Users At": "",
         "Location": "Ukraine",
         "Link (en)": "",
-        "Link (lan)": "",
+        "Link (lan)": "https://t.me/parenttext_ukraine_bot?text=test_ukr",
         "link": ""
       },
       {
@@ -92,7 +92,7 @@
         "Cap Users At": "",
         "Location": "Georgia",
         "Link (en)": "",
-        "Link (lan)": "",
+        "Link (lan)": "https://t.me/parenttext_ukraine_bot?text=test_ge",
         "link": ""
       },
       {
@@ -462,6 +462,38 @@
         "Link (en)": "",
         "Link (lan)": "",
         "link": ""
+      },
+      {
+        "ID": "ukr_wvo_1",
+        "Description": "Joining trigger for parents in Ukraine post pilot",
+        "Trigger (en)": "Guide",
+        "Trigger (lan)": "порадник",
+        "Experience (user group)": "Hybrid",
+        "Recruitment (user group)": "Wave 3",
+        "Additional (user group)": "",
+        "Included in Reach? ": "Reach",
+        "Country": "Ukraine",
+        "Cap Users At": "500",
+        "Location": "Ukraine",
+        "Link (en)": "",
+        "Link (lan)": "https://t.me/parenttext_ukraine_bot?text=порадник",
+        "link": ""
+      },
+      {
+        "ID": "ukr_wvo_2",
+        "Description": "Joining trigger for parents in Ukraine post pilot",
+        "Trigger (en)": "Tips",
+        "Trigger (lan)": "порада",
+        "Experience (user group)": "Hybrid",
+        "Recruitment (user group)": "Wave 3",
+        "Additional (user group)": "",
+        "Included in Reach? ": "Reach",
+        "Country": "Ukraine",
+        "Cap Users At": "500",
+        "Location": "Ukraine",
+        "Link (en)": "",
+        "Link (lan)": "https://t.me/parenttext_ukraine_bot?text=порада",
+        "link": ""
       }
     ],
     "content_index": [
@@ -821,6 +853,32 @@
         "variables.2.value": "Ukraine",
         "variables.3.name": "location",
         "variables.3.value": "Kryvyi Rih"
+      },
+      {
+        "ID": "ukr_wvo_1",
+        "triggers": "Guide;порадник",
+        "groups": "Hybrid;Wave 3;Reach;Ukraine",
+        "location": "Ukraine",
+        "cap": "500",
+        "variables.1.name": "",
+        "variables.1.value": "",
+        "variables.2.name": "country",
+        "variables.2.value": "Ukraine",
+        "variables.3.name": "location",
+        "variables.3.value": "Ukraine"
+      },
+      {
+        "ID": "ukr_wvo_2",
+        "triggers": "Tips;порада",
+        "groups": "Hybrid;Wave 3;Reach;Ukraine",
+        "location": "Ukraine",
+        "cap": "500",
+        "variables.1.name": "",
+        "variables.1.value": "",
+        "variables.2.name": "country",
+        "variables.2.value": "Ukraine",
+        "variables.3.name": "location",
+        "variables.3.value": "Ukraine"
       }
     ],
     "cap_data": [
@@ -948,6 +1006,16 @@
         "ID": "ukr_wave_2_7",
         "var_key": "n_ukr_wave_2_7",
         "var_value": "20"
+      },
+      {
+        "ID": "ukr_wvo_1",
+        "var_key": "n_ukr_wvo_1",
+        "var_value": "500"
+      },
+      {
+        "ID": "ukr_wvo_2",
+        "var_key": "n_ukr_wvo_2",
+        "var_value": "500"
       }
     ]
   }

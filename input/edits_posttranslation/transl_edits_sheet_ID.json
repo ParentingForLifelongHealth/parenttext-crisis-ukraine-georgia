@@ -887,7 +887,13 @@
         "condition_type:ukr_wave_2_6": "has_only_phrase",
         "category:ukr_wave_2_7": "{joining_trigger_ukr_wave_2_7}",
         "condition:ukr_wave_2_7": "ukr_wave_2_7",
-        "condition_type:ukr_wave_2_7": "has_only_phrase"
+        "condition_type:ukr_wave_2_7": "has_only_phrase",
+        "category:ukr_wvo_1": "{joining_trigger_ukr_wvo_1}",
+        "condition:ukr_wvo_1": "ukr_wvo_1",
+        "condition_type:ukr_wvo_1": "has_only_phrase",
+        "category:ukr_wvo_2": "{joining_trigger_ukr_wvo_2}",
+        "condition:ukr_wvo_2": "ukr_wvo_2",
+        "condition_type:ukr_wvo_2": "has_only_phrase"
       }
     ],
     "joining_triggers_ids": [
@@ -965,6 +971,12 @@
       },
       {
         "test_en_ukr": "ukr_wave_2_7"
+      },
+      {
+        "test_en_ukr": "ukr_wvo_1"
+      },
+      {
+        "test_en_ukr": "ukr_wvo_2"
       }
     ],
     "joining_triggers_eng": [
@@ -1201,6 +1213,24 @@
         "change": "{joining_trigger_ukr_wave_2_7}",
         "condition_var": "",
         "category": "Friend"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wvo_1}.*",
+        "change": "{joining_trigger_ukr_wvo_1}",
+        "condition_var": "",
+        "category": "Guide"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wvo_2}.*",
+        "change": "{joining_trigger_ukr_wvo_2}",
+        "condition_var": "",
+        "category": "Tips"
       }
     ],
     "joining_triggers_transl": [
@@ -1437,6 +1467,24 @@
         "original": "{joining_trigger}",
         "language": "ukr",
         "replacement": "Друг"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wvo_1}.*",
+        "original": "{joining_trigger}",
+        "language": "ukr",
+        "replacement": "порадник"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ukr_wvo_2}.*",
+        "original": "{joining_trigger}",
+        "language": "ukr",
+        "replacement": "порада"
       }
     ],
     "parenttext_name_transl": [
